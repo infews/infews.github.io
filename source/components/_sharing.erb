@@ -1,0 +1,13 @@
+<% title = current_article.title %>
+<% url = URI.join(config[:site_url], current_page.url) %>
+<div class="sharing">
+  <a href="https://twitter.com/share?text=<%= title %>&url=<%= url %>&via=<%= config[:twitter_username] %>">
+    <i class="icon-twitter-squared"></i>
+  </a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=<%= url %>">
+    <i class="icon-facebook-squared"></i>
+  </a>
+  <a href="mailto:?subject=<%= title %>&body=<%= url %>">
+    <i class="icon-mail-squared"></i>
+  </a>
+</div>

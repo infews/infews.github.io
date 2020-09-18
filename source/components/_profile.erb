@@ -1,0 +1,19 @@
+<header class="profile">
+  <img class="avatar" src="<%= url_for '/images/avatar.png' %>" srcset="<%= url_for '/images/avatar@2x.png' %> 2x" alt="Avatar">
+  <h1><%= config[:site_title] %></h1>
+  <h2><%= config[:site_subtitle] %></h2>
+</header>
+<hr>
+<p><%= config[:profile_text] %></p>
+
+<div class="social">
+  <div class="social-left">
+    <a class="social-link" href="https://twitter.com/<%= config[:twitter_username] %>"><span class="icon-twitter"></span> Twitter</a>
+  </div>
+  <div class="social-center">
+    <a class="social-link" href="https://www.linkedin.com/in/<%= config[:linkedin_username] %>"><span class="icon-linkedin"></span> LinkedIn</a>
+  </div>
+  <div class="social-right">
+    <a class="social-link" href="https://github.com/<%= config[:github_username] %>"><span class="icon-github"></span> GitHub</a>
+  </div>
+</div>
