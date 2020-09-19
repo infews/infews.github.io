@@ -7,8 +7,8 @@
     <section id="post-body">
       <%= yield %>
     </section>
+    <%= component 'tags' %>
   </article>
-
   <footer id="post-meta">
     <a href="/">
       <img class="avatar" src="<%= url_for "/images/dwf.png" %>" alt="Avatar">

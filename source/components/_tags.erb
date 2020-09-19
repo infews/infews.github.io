@@ -1,0 +1,7 @@
+<% tags = tags_for current_article %>
+<% if tags %>
+  <section id="tags">
+    <hr/>
+    This article tagged with <%= tags.join(', ')%>.
+  </section>
+<% end %>
