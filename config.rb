@@ -37,6 +37,7 @@ activate :blog do |blog|
   blog.sources = 'articles/{year}-{month}-{day}-{title}.html'
   blog.layout = 'article'
   blog.default_extension = '.md'
+  blog.filter = Proc.new { |article| tags = article.tags.first.split(" "); ! tags.include?('private') }
 end
 
 # Markdown and syntax highlighting
