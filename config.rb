@@ -25,10 +25,17 @@ helpers do
       config[:site_title]
     end
   end
+
   # Renders component partials
   def component(path, locals={})
     partial "components/#{path}", locals
   end
+
+  # fix for getting an array of tags from front matter
+  def tags_for(article)
+    article.tags.first.split(" ")
+  end
+
 end
 
 activate :blog do |blog|
@@ -105,17 +112,3 @@ configure :build do
   # Improve cacheability by using asset hashes in filenames
   activate :asset_hash
 end
-
-class ArticleTagHelper < Middleman::Extension
-  def initialize(app, options_hash={}, &block)
-    super
-  end
-
-  helpers do
-    def tags_for(article)
-      article.tags.first.split(" ")
-    end
-  end
-end
-::Middleman::Extensions.register(:article_tag_helper, ArticleTagHelper)
-activate :article_tag_helper
