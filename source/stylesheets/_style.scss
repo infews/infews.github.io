@@ -13,7 +13,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 html, body { height: 100%; }
 
 body {
-  font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px/1 "Open Sans", Helvetica, Arial, sans-serif;
   color: #666;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -44,6 +44,7 @@ img.avatar {
 
 .profile h2 {
   color: #bbb;
+  font-style: italic;
 }
 
 nav.main-nav {
@@ -111,11 +112,11 @@ em, i { font-style: italic; }
 }
 
 h1 {
-  font: 300 32px/1.4em "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font: 800 32px/1.4em "Oswald",Helvetica,Arial,sans-serif;
 }
 
 h2 {
-  font: 300 24px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font: 600 24px/1.5 "Oswald",Helvetica,Arial,sans-serif;
 }
 
 h1, h2, h3, h4, h5 { color: #666; }
@@ -241,11 +242,11 @@ img {
 #post-list a {
   color: #666;
   display: block;
-  font: 500 19px/1.7 "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font: 500 19px/1.7 "Open Sans",Helvetica,Arial,sans-serif;
 }
 
 .date {
-  font: normal 13px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font: normal 13px/1.5em "Open Sans",Helvetica,Arial,sans-serif;
   color: #bbb;
   font-size: 13px;
   text-transform: uppercase;

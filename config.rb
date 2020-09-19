@@ -50,19 +50,34 @@ activate :vcs_time
 ###
 # Site settings
 ###
+
+profile_tweet = %q(
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Davis: 10/10 All day<br>David (if your name is David): 9/10 You’ll get it<br>David (1st time): 5/10 Likely a typo; (&gt;2nd time): 2/10 <br>Frank: 0/10 There is no comma in my name<br>Dave: 6/10 But it’s never stuck<br>D: 2/10 Do I know you?<br>DWF (rhymes with “woof”): 12/10 💪 I have cooked for you <a href="https://t.co/sCHIEY0VCt">https://t.co/sCHIEY0VCt</a></p>&mdash; Thank You for being a VOTER (@dwfrank) <a href="https://twitter.com/dwfrank/status/1306699548471959552?ref_src=twsrc%5Etfw">September 17, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+)
+
+profile_text = %q(
+Davis: 10/10 All day<br/>
+David (if your name is David): 9/10 You’ll get it<br/>
+David (1st time): 5/10 Likely a typo; (>2nd time): 2/10<br/>
+Frank: 0/10 There is no comma in my name<br/>
+Dave: 6/10 But it’s never stuck<br/>
+D: 2/10 Do I know you?<br/>
+DWF (rhymes with “woof”): 12/10 💪 I have cooked for you<br/>
+)
+
 set :site_url, 'http://example.com/'
-set :site_title, 'Site title'
-set :site_subtitle, 'This is the site subtitle'
-set :profile_text, %q(Pitchfork kogi forage, gluten-free pour-over drinking vinegar Etsy narwhal next level shabby chic bicycle rights tofu mustache scenester. Intelligentsia Brooklyn mumblecore, church-key meggings cardigan quinoa gluten-free banjo. Polaroid beard 8-bit, lumbersexual photo booth forage bitters mustache drinking vinegar biodiesel cardigan. Four loko raw denim polaroid selfies, mixtape skateboard lumbersexual. Odd Future Blue Bottle bicycle rights Etsy. Etsy Odd Future normcore, deep v Shoreditch seitan sustainable yr heirloom Brooklyn try-hard stumptown Bushwick cornhole. Portland chillwave pug Tumblr deep v readymade.)
-set :site_author, 'Joe Bloggs'
+set :site_title, "DWF's Journal"
+set :site_subtitle, '"A computer is just a BIG. PENCIL!"'
+set :profile_text, profile_text
+set :site_author, 'Davis W. Frank'
 # Generate your own by running `rake id`
-set :site_id, 'urn:uuid:b8261ce6-4d49-4afa-9d16-643631ab5afc'
+set :site_id, 'urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957'
 
 # Usernames
 set :github_username, 'infews'
 #set :keybase_username, 'example'ß
 set :twitter_username, 'dwfrank'
-set :linkedin_username, 'davisfrank'
+set :linkedin_username, 'daviswfrank'
 #set :lastfm_username, 'example'
 #set :spotify_username, 'example'
 
