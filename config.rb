@@ -67,7 +67,7 @@ DWF (rhymes with “woof”): 12/10 💪 I have cooked for you<br/>
 
 set :site_url, 'http://example.com/'
 set :site_title, "DWF's Journal"
-set :site_subtitle, '"A computer is just a BIG. PENCIL!"'
+set :site_subtitle, 'A computer is just a BIG. PENCIL!'
 set :profile_text, profile_text
 set :site_author, 'Davis W. Frank'
 # Generate your own by running `rake id`

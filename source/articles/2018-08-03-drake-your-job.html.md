@@ -8,7 +8,8 @@ tags: career
 [video]: https://www.harrisonmetal.com/library/drake-s-equation
 [blog]: https://medium.com/@mcgd/drakes-equation-e967535a76ac 
 
-_I originally published this on [Medium][medium] in 2018. I've made a few copy edits, but the content and intent is the same. --dwf_
+_I originally published this on [Medium][medium] in 2018. I've made a few copy edits, but the content and intent is the same. 
+<br/><br/>--dwf_
 
 --- 
 
