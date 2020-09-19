@@ -33,7 +33,7 @@ helpers do
 
   # fix for getting an array of tags from front matter
   def tags_for(article)
-    article.tags.first.split(" ")
+    article.tags
   end
 
 end
@@ -44,7 +44,14 @@ activate :blog do |blog|
   blog.sources = 'articles/{year}-{month}-{day}-{title}.html'
   blog.layout = 'article'
   blog.default_extension = '.md'
-  blog.filter = Proc.new { |article| tags = article.tags.first.split(" "); ! tags.include?('private') }
+  blog.filter = Proc.new { |article| ! article.tags.include?('private') }
+
+  blog.custom_collections = {
+    tag: {
+      link: '/tags/{tag}.html',
+      template: '/tag.html'
+    }
+  }
 end
 
 # Markdown and syntax highlighting
