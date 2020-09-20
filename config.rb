@@ -33,7 +33,7 @@ helpers do
 
   def tag_links_for(tags)
     tags.map do |tag|
-      "<a href=\"/tags/#{tag}.html\">#{tag}</a>"
+      "<a href=\"/tags/#{tag}/\">#{tag}</a>"
     end.join(", ")
   end
 end
