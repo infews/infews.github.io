@@ -1,22 +1,15 @@
-# Middleman Cactus
 
-A port of the default theme from [Cactus](http://cactusformac.com/) for the [Middleman](https://middlemanapp.com/) static site generator. Based on [nickbalestra/kactus](https://github.com/nickbalestra/kactus), a port of the same theme for Jekyll.
+[mm]: https://middlemanapp.com/
+[blog]: https://middlemanapp.com/basics/blogging/
+[cactus]: https://github.com/dtcristo/middleman-cactus
 
-![Home](https://raw.github.com/dtcristo/middleman-cactus/master/images/home.png)
+My personal blog.
 
-![Article](https://raw.github.com/dtcristo/middleman-cactus/master/images/article.png)
+Built with [Middleman][mm], a Ruby static site generator. Uses the [blogging extension][blog] and the [Middleman Cactus][cactus] theme.
 
-## Installation
+Why this theme? It's clean and respsonsive.
 
-Install Middleman:
-
-    $ gem install middleman
-
-Create a new site from the project template:
-
-    $ mkdir my-site
-    $ cd my-site
-    $ middleman init -T dtcristo/middleman-cactus
+# Middleman Cactus Settings
 
 Update the following site configuration settings in `config.rb`:
 
@@ -46,12 +39,17 @@ set :disqus_shortname, nil
 set :google_analytics, nil
 ```
 
-Start the Middleman server:
+# Additions
 
-    $ middleman server
+- Ported (most) templates to HAML, because HAML
+- Removed Disqus template
+- Activated pretty URLs
+- Added pages for tags
+- Wrote a tag helper to link all tags to their pages on each article page
+- Excludes `private` posts from all list pages, but still publishes them
 
-Site should be live at [http://localhost:4567/](http://localhost:4567/).
+## Coming Soon
 
-When adding blog articles, you must include `id` frontmatter. Generate an ID by running `rake id`.
+- Other static pages
+- Available tags on home page (how? TBD)
 
-For more information read the [middleman-blog](https://middlemanapp.com/basics/blogging/) documentation.
