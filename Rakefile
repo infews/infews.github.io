@@ -8,4 +8,5 @@ task :build do
   sh "rm -rf build"
   sh "bundle exec middleman build clean"
   sh "mv build docs"
+  sh "echo 'Built with Middleman' > docs/.nojekyll"
 end
