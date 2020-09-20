@@ -112,6 +112,7 @@ PLATFORMS
 
 DEPENDENCIES
   builder (~> 3.0)
+  haml
   middleman (~> 4.1)
   middleman-blog (~> 4.0)
   middleman-minify-html (~> 3.4, >= 3.4.1)

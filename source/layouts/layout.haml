@@ -1,0 +1,24 @@
+!!!
+%html{lang: "en"}
+  %head
+    %meta{charset: "utf-8"}
+    %meta{name: "viewport", content: "width=device-width, initial-scale=1"}
+    %title= page_title
+    %link{rel: "alternate", href: "/feed.xml", type: "application/atom+xml", title: "Atom Feed"}
+    %link{rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans"}
+    %link{rel: "stylesheet", href: "#{url_for '/stylesheets/all.css'}"}
+  %body
+    - unless current_page.data.hide_nav
+      %nav{class: "main-nav"}
+        %a{href: "/"}
+          %span.arrow ←
+          Home
+    %section{:id => "wrapper", :class => ("home" unless current_article)}
+      = yield
+      %footer#footer
+        %p.small
+          ©
+          = config[:site_author]
+          = Time.now.year
+    - if config[:google_analytics]
+      = component 'google_analytics'

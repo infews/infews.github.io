@@ -1,0 +1,16 @@
+- wrap_layout :layout do
+  %article.post
+    %header
+      %h1
+        = current_article.title
+      %h2.date
+        = current_article.date.strftime('%e %B %Y')
+    %section#post-body= yield
+    = component 'tags_for_this_article', {tags: current_article.tags}
+  %footer#post-meta
+    %a{href:"/"}
+      %img.avatar{ :src => url_for("/images/dwf.png"), :alt => "Avatar" }
+      .details
+        .dark= config[:site_author]
+        .light= config[:site_subtitle]
+    = component 'sharing'

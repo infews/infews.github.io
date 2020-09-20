@@ -1,0 +1,46 @@
+%header.profile
+  %img.avatar{src: url_for('/images/dwf.png'), srcset: "#{url_for '/images/dwf@2x.png'} 2x", alt:"Avatar"}
+  %h1= config[:site_title]
+  %h2= config[:site_subtitle]
+%hr
+%p
+  %strong Davis:
+  10/10 All day
+  %br
+  %strong
+    David (if
+    %em your
+    name is David):
+  9/10 You’ll get it
+  %br
+  %strong David (1st time):
+  5/10 Likely a typo
+  %br
+  %strong David (>2nd time):
+  2/10
+  %br
+  %strong Frank:
+  0/10 There is no comma in my name
+  %br
+  %strong Dave:
+  6/10 But it’s never stuck
+  %br
+  %strong D:
+  2/10 Do I know you?
+  %br/
+  %strong DWF (rhymes with “woof”):
+  12/10 💪 I have cooked for you
+  %br
+.social
+  .social-left
+    %a.social-link{href: "https://twitter.com/#{config[:twitter_username]}"}
+      %span.icon-twitter
+      Twitter
+  .social-center
+    %a.social-link{href: "https://www.linkedin.com/in/#{config[:linkedin_username]}"}
+      %span.icon-linkedin
+      LinkedIn
+  .social-right
+    %a.social-link{href: "https://github.com/#{config[:github_username]}"}
+      %span.icon-github"
+      GitHub

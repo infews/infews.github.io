@@ -1,0 +1,9 @@
+- title = current_article.title
+- url = URI.join(config[:site_url], current_page.url)
+.sharing
+  %a{href: "https://twitter.com/share?text=#{title}&url=#{url}&via=#{config[:twitter_username]}"}
+    %i.icon-twitter-squared
+  %a{href: "https://www.facebook.com/sharer/sharer.php?u=#{url}"}
+    %i.icon-facebook-squared
+  %a{href: "mailto:?subject=<%= title %>&body=#{url}"}
+    %i.icon-mail-squared

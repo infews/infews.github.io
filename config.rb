@@ -48,6 +48,8 @@ activate :blog do |blog|
   blog.filter = Proc.new { |article| ! article.tags.include?('private') }
 end
 
+set :haml, { :format => :html5 }
+
 # Markdown and syntax highlighting
 activate :syntax
 set :markdown_engine, :redcarpet

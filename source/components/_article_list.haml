@@ -1,0 +1,9 @@
+- if articles.any?
+  %ul#post-list
+    - articles.each do |article|
+      %li
+        %a{href: article.url}
+          %div= article.title
+          .date= article.date.strftime('%e %B %Y')
+- else
+  %hr
