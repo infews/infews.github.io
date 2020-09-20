@@ -90,6 +90,11 @@ set :linkedin_username, 'daviswfrank'
 #set :lastfm_username, 'example'
 #set :spotify_username, 'example'
 
+# For GitHub Pages
+activate :relative_assets
+set :relative_links, true
+
+
 # Replace 'nil' with your Disqus shortname, eg. 'example'
 #set :disqus_shortname, nil
 # Replace 'nil' with your Google Analytics key, eg. 'XX-XXXXXXXX-X'
