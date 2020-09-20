@@ -28,14 +28,14 @@ helpers do
 
   # Renders component partials
   def component(path, locals={})
-    partial "components/#{path}", locals
+    partial "components/#{path}", locals: locals
   end
 
-  # fix for getting an array of tags from front matter
-  def tags_for(article)
-    article.tags
+  def tag_links_for(tags)
+    tags.map do |tag|
+      "<a href=\"/tags/#{tag}.html\">#{tag}</a>"
+    end.join(", ")
   end
-
 end
 
 activate :blog do |blog|

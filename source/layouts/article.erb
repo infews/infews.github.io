@@ -7,7 +7,7 @@
     <section id="post-body">
       <%= yield %>
     </section>
-    <%= component 'tags' %>
+    <%= component 'tags_for_this_article', {tags: current_article.tags} %>
   </article>
   <footer id="post-meta">
     <a href="/">

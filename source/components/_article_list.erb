@@ -1,6 +1,6 @@
-<% if blog.articles.any? %>
+<% if articles.any? %>
   <ul id="post-list">
-    <% blog.articles.each do |article| %>
+    <% articles.each do |article| %>
       <li>
         <a href="<%= article.url %>">
           <div><%= article.title %></div>
