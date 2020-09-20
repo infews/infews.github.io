@@ -12,7 +12,7 @@
   <rights>© Davis W. Frank 2020</rights>
   <entry>
     <title>Foo Fighters 1995</title>
-    <link href="http://example.com/foo-fighters-1995" rel="alternate"/>
+    <link href="http://example.com/foo-fighters-1995/" rel="alternate"/>
     <id/>
     <published>2020-09-14T17:00:00-07:00</published>
     <updated>2020-09-19T16:32:14-07:00</updated>
@@ -43,7 +43,7 @@
   </entry>
   <entry>
     <title>Drake Your Job</title>
-    <link href="http://example.com/drake-your-job" rel="alternate"/>
+    <link href="http://example.com/drake-your-job/" rel="alternate"/>
     <id/>
     <published>2018-08-02T17:00:00-07:00</published>
     <updated>2020-09-19T14:58:16-07:00</updated>
@@ -141,7 +141,7 @@
   </entry>
   <entry>
     <title>How One Funny Email Almost Changed My Career</title>
-    <link href="http://example.com/how-one-funny-email-almost-changed-my-career" rel="alternate"/>
+    <link href="http://example.com/how-one-funny-email-almost-changed-my-career/" rel="alternate"/>
     <id/>
     <published>2016-10-05T17:00:00-07:00</published>
     <updated>2020-09-19T14:58:57-07:00</updated>
@@ -189,7 +189,7 @@ When you think yourself a fun and funny co-worker, you want that email to be &lt
   </entry>
   <entry>
     <title>How We XP: Develop &amp; Deploy</title>
-    <link href="http://example.com/how-we-xp" rel="alternate"/>
+    <link href="http://example.com/how-we-xp/" rel="alternate"/>
     <id/>
     <published>2015-10-31T17:00:00-07:00</published>
     <updated>2020-09-19T16:32:14-07:00</updated>

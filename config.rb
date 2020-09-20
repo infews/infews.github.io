@@ -74,6 +74,9 @@ D: 2/10 Do I know you?<br/>
 DWF (rhymes with “woof”): 12/10 💪 I have cooked for you<br/>
 )
 
+
+activate :directory_indexes
+
 set :site_url, 'http://example.com/'
 set :site_title, "DWF\u2019s Journal"
 set :site_subtitle, 'A computer is just a BIG. PENCIL.'
@@ -89,11 +92,6 @@ set :twitter_username, 'dwfrank'
 set :linkedin_username, 'daviswfrank'
 #set :lastfm_username, 'example'
 #set :spotify_username, 'example'
-
-# For GitHub Pages
-activate :relative_assets
-set :relative_links, true
-
 
 # Replace 'nil' with your Disqus shortname, eg. 'example'
 #set :disqus_shortname, nil
