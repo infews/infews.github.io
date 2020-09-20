@@ -73,6 +73,8 @@ GEM
       servolux
       tilt (~> 2.0)
       uglifier (~> 3.0)
+    middleman-gh-pages (0.4.1)
+      rake (> 0.9.3)
     middleman-minify-html (3.4.1)
       htmlcompressor (~> 0.2.0)
       middleman-core (>= 3.2)
@@ -114,6 +116,7 @@ DEPENDENCIES
   builder (~> 3.0)
   middleman (~> 4.1)
   middleman-blog (~> 4.0)
+  middleman-gh-pages
   middleman-minify-html (~> 3.4, >= 3.4.1)
   middleman-syntax (~> 2.1)
   middleman-vcs-time (~> 0.0.4)
