@@ -2,7 +2,7 @@
 pageable: true
 ---
 
-<h1>Articles tagged with "<%= tagname %>"</h1>
+<h1>Articles tagged with <span class="tag"><%= tagname %></span></h1>
 
 <% public_articles = page_articles.reject {|a| a.tags.include?('private')} %>
 <%= component 'article_list', {articles: public_articles} %>

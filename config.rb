@@ -60,27 +60,12 @@ activate :vcs_time
 # Site settings
 ###
 
-profile_tweet = %q(
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Davis: 10/10 All day<br>David (if your name is David): 9/10 You’ll get it<br>David (1st time): 5/10 Likely a typo; (&gt;2nd time): 2/10 <br>Frank: 0/10 There is no comma in my name<br>Dave: 6/10 But it’s never stuck<br>D: 2/10 Do I know you?<br>DWF (rhymes with “woof”): 12/10 💪 I have cooked for you <a href="https://t.co/sCHIEY0VCt">https://t.co/sCHIEY0VCt</a></p>&mdash; Thank You for being a VOTER (@dwfrank) <a href="https://twitter.com/dwfrank/status/1306699548471959552?ref_src=twsrc%5Etfw">September 17, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-)
-
-profile_text = %q(
-Davis: 10/10 All day<br/>
-David (if your name is David): 9/10 You’ll get it<br/>
-David (1st time): 5/10 Likely a typo; (>2nd time): 2/10<br/>
-Frank: 0/10 There is no comma in my name<br/>
-Dave: 6/10 But it’s never stuck<br/>
-D: 2/10 Do I know you?<br/>
-DWF (rhymes with “woof”): 12/10 💪 I have cooked for you<br/>
-)
-
-
 activate :directory_indexes
 
 set :site_url, 'http://example.com/'
 set :site_title, "DWF\u2019s Journal"
 set :site_subtitle, 'A computer is just a BIG. PENCIL.'
-set :profile_text, profile_text
+# set :profile_text,
 set :site_author, 'Davis W. Frank'
 # Generate your own by running `rake id`
 set :site_id, 'urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957'

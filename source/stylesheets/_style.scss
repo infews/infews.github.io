@@ -90,7 +90,7 @@ ul { padding-left: 2em; }
 /* Line Height */
 #post-body, p { line-height:1.7; }
 
-b, strong { font-weight: 500;}
+b, strong { font-weight: 700;}
 
 em, i { font-style: italic; }
 
@@ -113,6 +113,11 @@ em, i { font-style: italic; }
 
 h1 {
   font: 600 32px/1.4em "Oswald",Helvetica,Arial,sans-serif;
+}
+
+h1 .tag {
+  font: 400 32px/1.4em "Oswald",Helvetica,Arial,sans-serif;
+  font-style: italic;
 }
 
 h2 {
