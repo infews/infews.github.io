@@ -5,11 +5,124 @@
   <link href="http://example.com/feed.xml" rel="self"/>
   <link href="http://example.com/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2020-09-21T07:44:50-07:00</updated>
+  <updated>2020-09-22T13:23:47-07:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
   <rights>© Davis W. Frank 2020</rights>
+  <entry>
+    <title>Improving Standups</title>
+    <link href="http://example.com/improving-standups/" rel="alternate"/>
+    <id/>
+    <published>2020-09-21T17:00:00-07:00</published>
+    <updated>2020-09-22T13:23:47-07:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;p&gt;Your software development team has a daily standup meeting. How’s that going?&lt;/p&gt;
+
+&lt;p&gt;Teams at Pivotal had a fairly common agenda for standup. We reviewed Helps (“I need help with…”), Interestings (“Yesterday I learned that…), and Events (“What are we doing besides coding today?”). We rarely got into the details of specific work unless there were team-wide concerns or if someone had a specific question.&lt;/p&gt;
+
+&lt;p&gt;Keeping to this agenda daily and keeping the ritual alive over time takes effort. We wrote a &lt;a href="https://github.com/pivotal-legacy/whiteboard"&gt;Rails app&lt;/a&gt; to help. Over time we realized that there are additional, some emergent, problems that cropped up during our meetings. &lt;/p&gt;
+
+&lt;h2&gt;Standup Problems&lt;/h2&gt;
+
+&lt;p&gt;I have seen many problems in common across several teams. Some are just informational: &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What is the agenda for today’s standup?&lt;/li&gt;
+&lt;li&gt;When I find an item to discuss at standup tomorrow, how do I not forget to bring it up?&lt;/li&gt;
+&lt;li&gt;Which events are coming up in the next week?&lt;/li&gt;
+&lt;li&gt;Who’s on vacation and when?&lt;/li&gt;
+&lt;li&gt;What stories (or epics, or tracks) is the team working on? Which pairs are working on them?&lt;/li&gt;
+&lt;li&gt;What are today’s pair assignments?&lt;/li&gt;
+&lt;li&gt;What are the active action items I have from team retrospectives?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Others problems are more structural:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;There is enough structure to make the meeting productive, but not so much to be a burden.&lt;/li&gt;
+&lt;li&gt;The ritual is lightweight enough to allow for iteration, but solid enough to perpetuate.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Having some sort of physical board present in a team’s area can work well. Put this information in one place, use it to drive the daily ritual, and it lives the rest of the day as an information radiator for the team and the rest of the office. Some Cloud Foundry teams even had &lt;a href="https://www.amazon.com/s?k=fuji+instax&amp;amp;crid=30RYK9F4OJF9A&amp;amp;sprefix=fuji+insta%2Caps%2C203&amp;amp;ref=nb_sb_ss_i_6_10"&gt;Fuji Instax&lt;/a&gt; photos of each team member and moved them around to identify pairings and which stories they were implementing.&lt;/p&gt;
+
+&lt;p&gt;The physical board breaks down as soon as the team has one remote team member. Given how COVID-19 has made so many teams fully remote, what can we do? &lt;/p&gt;
+
+&lt;p&gt;We move the board online. &lt;/p&gt;
+
+&lt;p&gt;(Credit to the Cloud Foundry CAPI team - a semi-remote team even in 2018 - where I first saw this solution.)&lt;/p&gt;
+
+&lt;h2&gt;Setup&lt;/h2&gt;
+
+&lt;p&gt;What you need:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;An online kanban board&lt;/li&gt;
+&lt;li&gt;Digital avatar photos of each team member&lt;/li&gt;
+&lt;li&gt;A standup agenda.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’m going to use &lt;a href="https://trello.com"&gt;Trello&lt;/a&gt; in this example, but things like &lt;a href="https://miro.com"&gt;Miro&lt;/a&gt; or even a &lt;a href="https://drive.google.com"&gt;Google Spreadsheet&lt;/a&gt; can work. For the agenda, I’m going to use Helps/Interesting/Events/Pairing Assignment.&lt;/p&gt;
+
+&lt;p&gt;Then you should set it up like this:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The Left Column is “Standup”; it holds divider cards for each agenda item.&lt;/li&gt;
+&lt;li&gt;The next Columns are just labeled “Track”; we’ll have 2 tracks in this example&lt;/li&gt;
+&lt;li&gt;The next column is the “Pairing Parking Lot”&lt;/li&gt;
+&lt;li&gt;Lastly, a column for the “Retro Action Items”&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br/&gt;
+Now you can add one card for each team member to the Pairing Parking Lot. Your board should look something like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/standup/early-63201996.jpg" alt="Early Setup" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Everyone on the team should have access to this board so they can add cards as needed during the day. Peer teams can have read or read/write access, depending on your organization’s norms.&lt;/p&gt;
+
+&lt;p&gt;Great! How do we use it?&lt;/p&gt;
+
+&lt;h2&gt;Standup&lt;/h2&gt;
+
+&lt;p&gt;Standup is probably in a video call with everyone present. The emcee can now share their screen, reviewing cards in the lefthand column, top-to-bottom. Trello allows for a single keystroke to archive cards as you finish them.&lt;/p&gt;
+
+&lt;h2&gt;Pair Assignments&lt;/h2&gt;
+
+&lt;p&gt;After the lefthand column is complete the team can discuss the day’s work. This means shuffling and assigning pairs to the available tracks of work. Whatever your pair rotation strategy - daily splits, track anchoring, etc. - your decisions should be reflected by moving the cards around.&lt;/p&gt;
+
+&lt;p&gt;The “Pairing Lot” is a place to put people’s cards when they are away from the team. Or while you decide assignments for the day (hence the example’s dividers for available/unavailable).&lt;/p&gt;
+
+&lt;h2&gt;Retrospective Action Items&lt;/h2&gt;
+
+&lt;p&gt;This board can also be a place to track and remind team members about their action items from retrospectives. Even if you use software to run your retros, this board can surface them daily. Action items that stay top-of-mind are more likely to be completed.&lt;/p&gt;
+
+&lt;h2&gt;As Things Change&lt;/h2&gt;
+
+&lt;p&gt;In full use, the board will look more like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/standup/full_setup-7e21b62b.jpg" alt="Full Standup" /&gt;&lt;/p&gt;
+
+&lt;p&gt;(or play with the &lt;a href="https://trello.com/b/qcJ1Ba56/standup-example#"&gt;live example&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;After standup, changes that affect the team should lead to updating the board.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Vacation on the horizon? Or team rotation about to happen? Add a card to Events.&lt;/li&gt;
+&lt;li&gt;Find a help or interesting during the day? Add a card.&lt;/li&gt;
+&lt;li&gt;New team member? Add their card. On their first day, use the exercise of adding their photo to verify they have access and then explain the ritual.&lt;/li&gt;
+&lt;li&gt;Starting a new story or track? Rename the Track column. Or even better? Add a card.&lt;/li&gt;
+&lt;li&gt;Another team member action item pops up? Add a card.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Iteration&lt;/h2&gt;
+
+&lt;p&gt;A developer may look at this and see opportunities for automation. Or maybe frustration that software isn’t choosing pairings, or tracking frequency of certain pairs…&lt;/p&gt;
+
+&lt;p&gt;This is just a starting point. It is ripe for innovation and iteration. Knock yourself out. But be careful of the yaks you choose to shave - it’s just for five minutes out of your team’s day. Do what works.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Foo Fighters 1995</title>
     <link href="http://example.com/foo-fighters-1995/" rel="alternate"/>
