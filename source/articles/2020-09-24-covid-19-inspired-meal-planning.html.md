@@ -5,13 +5,13 @@ tags: personal
 ---
 
 [tweets]: https://twitter.com/dwfrank/status/1297643495897706496  
+[gt]: https://tables.area120.google.com/u/0/home
+[airtable]: https://www.airtable.com
 
-_Originally published as a [tweetstorm][tweets], I've expanding this one a little to make it more blog-worthy.
+_Originally published as a [tweetstorm][tweets], I expanded this one a little to make it more blog-worthy.
 <br/><br/>&mdash;dwf_
 
 ---
-
-[airtable]: https://www.airtable.com
 
 We cook a lot at our house. We see cooking as a life skill and family activity. Being at home full time means we have a little bit more time to cook things well. Excellent!
 
@@ -94,7 +94,7 @@ We decided to embrace Taco Tuesday! Every Tuesday we have Taco Night, which mean
 
 We added a Taco? yes/no "choice" field to recipes. And we added a Taco-specific view for when we wanted to pick this week's taco proteins. And since we'd learned about Unicode support, Taco recipe names are always prepended with 🌮, based on the field.
 
-## A Restaurant Closed
+## A Restaurant Closed?!
 
 Oops. COVID-19 claimed a business. We added a “Closed/Avoid” selection field that allows us to filter the closed places out of the Choice view. And we can use this if we have a lousy experience at a restaurant.
 
@@ -102,5 +102,5 @@ Oops. COVID-19 claimed a business. We added a “Closed/Avoid” selection field
 
 Planning is now a simple pass over the Choice Views, looking at what we like but have not done recently. Pick 4-5, iterate. Option anxiety reduced. It's also easy to answer, "DIDN'T WE JUST HAVE THAT?" 
 
-I will now take questions. 🤪
+What did I learn? A spreadsheet is a great place to start with any new app that is data-related. There's a threshold you cross where project's complexity begs for multiple tabs, conditional logic, and *gasp* queries. When you see that threshold, taking a look at [Airtable][airtable], or maybe the newly announced [Google Tables][gt], is a good investment.
 
