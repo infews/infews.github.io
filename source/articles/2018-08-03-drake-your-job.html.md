@@ -47,9 +47,15 @@ Combining my terms, I got this formula:
 
 ```
   Value.job = 
-    Comp * 
-    Q.org * Q.mgr * Q.peers * Q.commute * Q.location * 
-    M.product * M.work * Freq.learning
+    Comp × 
+    Q.org × 
+    Q.mgr × 
+    Q.peers × 
+    Q.commute × 
+    Q.location × 
+    M.product ×
+    M.work × 
+    Freq.learning
 ```
 
 C is compensation. Start with cash salary. Add any bonuses. Add the net gain from any stock options, RSU’s, or an employee stock program. And don’t forget any other benefits — health insurance, discount on public transit, gym memberships, etc. Add those in. If you don’t have exact amounts for any of your compensation numbers — for example, your company isn’t public yet so you can only guess about stock options — just make a reasonable estimate.
