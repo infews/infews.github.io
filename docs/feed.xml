@@ -5,7 +5,7 @@
   <link href="http://example.com/feed.xml" rel="self"/>
   <link href="http://example.com/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2020-09-24T15:44:30-07:00</updated>
+  <updated>2020-11-04T12:44:11-08:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
@@ -15,7 +15,7 @@
     <link href="http://example.com/covid-19-inspired-meal-planning/" rel="alternate"/>
     <id/>
     <published>2020-09-23T17:00:00-07:00</published>
-    <updated>2020-09-24T15:44:30-07:00</updated>
+    <updated>2020-09-24T15:45:23-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -271,7 +271,7 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
     <link href="http://example.com/drake-your-job/" rel="alternate"/>
     <id/>
     <published>2018-08-02T17:00:00-07:00</published>
-    <updated>2020-09-19T14:58:16-07:00</updated>
+    <updated>2020-11-04T12:44:11-08:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -313,12 +313,17 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
 &lt;p&gt;Now that you have a list of potential terms, you need to combine them into a Drake equation. Let’s assume that the compensation is the base of your score. The other terms should increase or decrease that to get a final value. The bigger the score, the better the job is likely to be. A lower score should be a catalyst to do some deeper thinking.&lt;/p&gt;
 
 &lt;p&gt;Combining my terms, I got this formula:&lt;/p&gt;
-&lt;pre class="highlight plaintext"&gt;&lt;code&gt;  Value.job = 
-    Comp * 
-    Q.org * Q.mgr * Q.peers * Q.commute * Q.location * 
-    M.product * M.work * Freq.learning
-&lt;/code&gt;&lt;/pre&gt;
-
+&lt;div class="highlight"&gt;&lt;pre class="highlight plaintext"&gt;&lt;code&gt;  Value.job = 
+    Comp × 
+    Q.org × 
+    Q.mgr × 
+    Q.peers × 
+    Q.commute × 
+    Q.location × 
+    M.product ×
+    M.work × 
+    Freq.learning
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;C is compensation. Start with cash salary. Add any bonuses. Add the net gain from any stock options, RSU’s, or an employee stock program. And don’t forget any other benefits — health insurance, discount on public transit, gym memberships, etc. Add those in. If you don’t have exact amounts for any of your compensation numbers — for example, your company isn’t public yet so you can only guess about stock options — just make a reasonable estimate.&lt;/p&gt;
 
 &lt;p&gt;The next group of other terms is for “quality” terms. Each of these terms needs a range of values that reduces or amplifies the score based on each term’s impact. I recommend a range of 0.1 to 2. A value of 0.1 maps to “poor quality” or “this part of my job sucks.” This low term should be pulling down the overall job score. Why 0.1? Because we need to talk about zeroes.&lt;/p&gt;
