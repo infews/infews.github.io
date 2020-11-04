@@ -83,7 +83,7 @@ set :linkedin_username, 'daviswfrank'
 # Replace 'nil' with your Disqus shortname, eg. 'example'
 #set :disqus_shortname, nil
 # Replace 'nil' with your Google Analytics key, eg. 'XX-XXXXXXXX-X'
-set :google_analytics, true
+set :google_analytics, "G-SNXCW3490N"
 
 ###
 # Environment settings
