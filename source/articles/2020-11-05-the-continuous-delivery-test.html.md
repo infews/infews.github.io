@@ -2,7 +2,7 @@
 
 title: The Continuous Delivery Test
 date: 2020-11-05 00:00 UTC
-tags: agile, career
+tags: ["agile", "CD Test"]
 
 ---
 [slootman]: https://www.linkedin.com/pulse/amp-up-frank-slootman/
@@ -11,7 +11,7 @@ tags: agile, career
 [cd]:https://continuousdelivery.com/
 [joel]: https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/
 [toaster]: https://www.danielsen.com/jokes/objecttoaster.txt
-[explore_it]: https://www.amazon.com/Explore-Increase-Confidence-Exploratory-Testing/dp/1937785025/ref=sr_1_1?dchild=1&keywords=explore+it&qid=1603138458&sr=8-1
+[explore_it]: https://amzn.to/2HdUWrs
 [retros]: https://www.agilealliance.org/glossary/heartbeatretro/#q=~(infinite~true~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video~'aa_podcast)~tags~(~'retrospective))~searchTerm~'~sort~false~sortDirection~'asc~page~1)
 
 _The spice must flow…_
