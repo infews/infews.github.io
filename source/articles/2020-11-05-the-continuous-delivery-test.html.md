@@ -1,8 +1,10 @@
 ---
 
-title: The Continuous Delivery Test
+title: Introducing The Continuous Delivery Test
 date: 2020-11-05 00:00 UTC
-tags: ["agile", "CD Test"]
+tags: ["agile"]
+series: "The CD Test"
+series_slug: "cd_test"
 
 ---
 [slootman]: https://www.linkedin.com/pulse/amp-up-frank-slootman/
@@ -12,23 +14,23 @@ tags: ["agile", "CD Test"]
 [joel]: https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/
 [toaster]: https://www.danielsen.com/jokes/objecttoaster.txt
 [explore_it]: https://amzn.to/2HdUWrs
-[retros]: https://www.agilealliance.org/glossary/heartbeatretro/#q=~(infinite~true~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video~'aa_podcast)~tags~(~'retrospective))~searchTerm~'~sort~false~sortDirection~'asc~page~1)
+[retros]: https://www.agilealliance.org/glossary/heartbeatretro/
 
 _The spice must flow…_
 
-Frank Slootman’s _[Amp It Up][slootman]_ advocates removing “slack” (the concept, not the app) from a team to get greatest productivity. There’s pushback that this approach is toxic and/or it leads to colossal burnout. I agree. Low slack is not the same as high productivity. [Farhan Thawar][farhan_profile] shared [a list of characteristics or practices][farhan_list] that lead to productive teams . I like this list a lot. 
+Frank Slootman’s _[Amp It Up][slootman]_ advocates removing “slack” (the concept, not the app) from a team to get greatest productivity. There’s pushback that this approach is toxic and/or it leads to colossal burnout. I agree. Low slack is not the same as high productivity. [Farhan Thawar][farhan_profile] shared [a list of characteristics or practices][farhan_list] that lead to productive teams. I like this list a lot. 
 
-I like his list no doubt because Farhan and I both used to work at Pivotal Labs. But I’d like to take different approach to talking about software team productivity.
+I like his list no doubt because Farhan and I both used to work at Pivotal Labs. But I’d like to take a different approach to talking about software team productivity.
 
-Instead of focusing on removing slack from a team, the best way make a team productive is [Continuous Delivery][cd]. That is, setting the team up such that new work is flowing from concept to development to production smoothly and often. There is continuous delivery of value to customers. When work ships, it works as expected, it’s reliable, and there is little re-work. The team, by default, is always looking forward to the next new value they can be delivering. There is a low amount of waste during development. When there is waste, the team adapts to remove it.
+Instead of focusing on removing slack from a team, the best way to make a team productive is [Continuous Delivery][cd]. That is, setting the team up such that new work is flowing from concept to development to production smoothly and often. There is continuous delivery of value to customers. When work ships, it works as expected, it’s reliable, and there is little re-work. The team, by default, is always looking forward to the next new value they can be delivering. There is a low amount of waste during development. When there is waste, the team adapts to remove it.
 
-A Continuous Delivery team looks much like a modern physical goods manufacturing line. From the outside it looks like requirements go in and work - features and fixes - come out the other side. Inside there are conscientious workers, well-maintained machines, and low inventory. People are improving their workflows for higher efficiency. When there are problems, Andon cords get pulled, and the team stops to fix them. A high functioning CD team has high productivity with low stress. And they are improving themselves all the time.
+A Continuous Delivery team looks much like a modern physical goods manufacturing line. From the outside it looks like requirements go in and work - features and fixes - come of out the other side. Inside there are conscientious workers, well-maintained machines, and low inventory. People are improving their workflows for higher efficiency. When there are problems, Andon cords get pulled, and the team stops to fix them. A high functioning CD team has high productivity with low stress. And they are improving themselves all the time.
 
 How close is your team to this ideal?
 
-Joel Spolksy gave us the [Joel Test][joel] for evaluating software teams 20 years ago. It is still relevant, but this test is of a time of shrink-wrapped, desktop software. Bug databases and source control have become defaults. Much software is web-deployed applications and services.
+Joel Spolksy gave us the [Joel Test][joel] for evaluating software teams 20 years ago. It is still relevant, but this test is of a time of shrink-wrapped, desktop software. Bug databases and source control have become defaults. Most software is web-deployed applications and services.
 
-With apologies and inspiration, I give you _The CD Test_ &mdash; a list of simple yes/no questions to check your team. The score is the sum of yes answers. A high score doesn’t mean your team is perfect at Continuous Delivery. But if you review your “no” answers I’m sure you’ll find discussion points for improving your team. Here goes…
+With apologies to and inspiration from Joel, I give you _The CD Test_ &mdash; a list of simple yes/no questions to check your team. The score is the sum of yes answers. A high score doesn’t mean your team is perfect at Continuous Delivery. But if you review your “no” answers I’m sure you’ll find discussion points for improving your team. Here goes…
 
 ---
 
@@ -69,7 +71,7 @@ Each story should include use cases, acceptance criteria, estimates, design arti
 
 ## Does the team have weekly planning meetings to review the backlog?
 
-The world around your product is changing all the time. The Product Owner needs to share these changes and how they affect the upcoming work. The rest of the team needs to digest and contribute their views to team understanding. The team needs to review designs and estimate implementation. This helps the team have a shared understanding of the product. And it helps the Product Owner change priorities. Having this meeting weekly allows everyone to make small corrections and stay productive.
+The world around your product is changing all the time. The Product Owner needs to share these changes and how they affect the upcoming work. The rest of the team needs to digest and contribute their views to team understanding. The team needs to review designs and estimate implementation. This helps the team increase their shared understanding of the product. And it helps the Product Owner change priorities. Having this meeting weekly allows everyone to make small corrections and stay productive.
 
 ## Are stories completed in a day or two?
 
@@ -109,7 +111,7 @@ It does not matter where the green build deploys. Regular deployment shows that 
 
 ## Does the Product Owner accept work by exercising it in the product and with low latency?
 
-A test suite that tells everyone the current status of the product. CI will catch integration problems, broken features, or bug regressions. But what about that status new work?
+A test suite tells everyone the current status of the product. CI will catch integration problems, broken features, or bug regressions. But what about that status of new work?
 
 New work should only ship to production when the Product Manager approves it. A staging deployment that has the latest green build of the product enables them to review new work. This is the opportunity to tell developers, “Great work! Let’s get it in front of users,” or, “Oops. This doesn’t work as we discussed. Let’s try again.” 
 
@@ -119,13 +121,13 @@ If the Product Owner is reviewing work early and often, it keeps the feedback lo
 
 Getting new work to users is one of the most important things a product team can do. It is often one of the most fragile processes: too flaky, too manual, and resulting in extra hours worked.
 
-Instead, teams should treat deployment like a feature of the product. The Product Owner puts deployement stories in the backlog. Development implements them. The product ships to staging and production often. Changes in deployment, like changes in infrastructure or a database upgrade, suggest new stories in the backlog. Deployment is then simple, reliable, automated, and predictable. Customers get their new features consistently. And the team can go home on time.
+Instead, teams should treat deployment like a feature of the product. The Product Owner puts deployment stories in the backlog. Development implements them. The product ships to staging and production often. Changes in deployment, like changes in infrastructure or a database upgrade, suggest new stories in the backlog. Deployment is then simple, reliable, automated, and predictable. Customers get their new features consistently. And the team can go home on time.
 
 ## Do features make it to production frequently (> 1x every 3 mo)? 
 
 Shipping work to customers is important. It should happen often. Completed work that is not yet in production is potential waste. Without feedback from users you don’t know if the work was valuable. Any time that features “sit on the shelf” is time that a competitor could be using to take your customers. 
 
-As soon as a feature, or set of features, is practical for users to exercise it should get deployed to production. CD teams aim for deploying to production about once a week. This keeps feedback loop short and tight adds value to customers sooner. It also makes it easier for your developers to make changes when there is a bug.
+As soon as a feature, or set of features, is practical for users to exercise it should get deployed to production. CD teams aim for deploying to production about once a week. This keeps feedback loops short and tight, delivering value to customers sooner. It also makes it easier for your developers to make changes when there is a bug.
 
 For some products this is hard or seemingly impossible. Teams should drive to the highest frequency possible for their situation.
 
@@ -173,15 +175,15 @@ Fixing this behavior is then new work for Product Manager to consider for the ba
 
 ## Does the team meet weekly for Retrospectives to discuss team issues, leading to new work that improves team progress?
 
-Problems, issues, and inefficiencies occur naturally on all teams. Things that worked when the team was small start to fail as the team grows. Technology choices don't pan out. Experiments in process change fail. And there are countless scenarios. 
+Problems, issues, and inefficiencies occur naturally on all teams. Things that worked when the team was small start to fail as the team grows. Technology choices don't pan out. Experiments in process change fail. And there are countless other scenarios. 
 
-Some process, techniques, and behaviors are the opposite. They work very well, solving problems and making the team stronger.
+Some process, techniques, and behaviors are the opposite. They work very well, solving problems and making the team stronger. They should be recognized and further promoted.
 
 A weekly [retrospective][retros] helps a team identify both problems and successes. 
 
 Teams should celebrate every win. This makes team members feel good about their work. It cements good patterns for potential reuse.
 
-Discussing problems also has many good affects on the team. Everyone gets on the same page. It vents frustration and surfaces anxiety. They can discussion potential solutions, building consensus on which ones to attempt. And they can track action items to implement them.
+Discussing problems also has many good effects on the team. Everyone gets on the same page. It vents frustration and surfaces anxiety. They can discussion potential solutions, building consensus on which ones to attempt. And they can track action items to implement them.
 
 ## Does the team complete their action items from Retrospectives?
 
