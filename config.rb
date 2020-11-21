@@ -46,6 +46,12 @@ activate :blog do |blog|
   blog.default_extension = '.md'
   blog.tag_template = "tag.html"
   blog.filter = Proc.new { |article| ! article.tags.include?('private') }
+  blog.custom_collections = {
+    series: {
+      link: "series/{series}.html",
+      template: "/articles/series/index.html"
+    }
+  }
 end
 
 set :haml, { :format => :html5 }
@@ -64,25 +70,24 @@ activate :vcs_time
 
 activate :directory_indexes
 
-set :site_url, 'http://example.com/'
+set :site_url, 'https://dwf.bigpencil.net/'
 set :site_title, "DWF\u2019s Journal"
 set :site_subtitle, 'A computer is just a BIG. PENCIL.'
 # set :profile_text,
 set :site_author, 'Davis W. Frank'
-# Generate your own by running `rake id`
 set :site_id, 'urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957'
 
 # Usernames
 set :github_username, 'infews'
-#set :keybase_username, 'example'ß
 set :twitter_username, 'dwfrank'
 set :linkedin_username, 'daviswfrank'
+
+#set :keybase_username, 'example'
 #set :lastfm_username, 'example'
 #set :spotify_username, 'example'
 
 # Replace 'nil' with your Disqus shortname, eg. 'example'
 #set :disqus_shortname, nil
-# Replace 'nil' with your Google Analytics key, eg. 'XX-XXXXXXXX-X'
 configure :build do
   set :google_analytics, "G-SNXCW3490N"
 end
