@@ -2,38 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>DWF’s Journal</title>
   <subtitle>A computer is just a BIG. PENCIL.</subtitle>
-  <link href="http://example.com/feed.xml" rel="self"/>
-  <link href="http://example.com/"/>
+  <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
+  <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2020-11-05T13:46:13-08:00</updated>
+  <updated>2020-11-21T15:27:01-08:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
   <rights>© Davis W. Frank 2020</rights>
   <entry>
-    <title>The Continuous Delivery Test</title>
-    <link href="http://example.com/the-continuous-delivery-test/" rel="alternate"/>
+    <title>Introducing The Continuous Delivery Test</title>
+    <link href="https://dwf.bigpencil.net/the-continuous-delivery-test/" rel="alternate"/>
     <id/>
     <published>2020-11-04T16:00:00-08:00</published>
-    <updated>2020-11-05T13:46:13-08:00</updated>
+    <updated>2020-11-21T15:27:01-08:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
     <content type="html">&lt;p&gt;&lt;em&gt;The spice must flow…&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Frank Slootman’s &lt;em&gt;&lt;a href="https://www.linkedin.com/pulse/amp-up-frank-slootman/"&gt;Amp It Up&lt;/a&gt;&lt;/em&gt; advocates removing “slack” (the concept, not the app) from a team to get greatest productivity. There’s pushback that this approach is toxic and/or it leads to colossal burnout. I agree. Low slack is not the same as high productivity. &lt;a href="https://twitter.com/fnthawar/"&gt;Farhan Thawar&lt;/a&gt; shared &lt;a href="https://twitter.com/fnthawar/status/1314902602509938688"&gt;a list of characteristics or practices&lt;/a&gt; that lead to productive teams . I like this list a lot. &lt;/p&gt;
+&lt;p&gt;Frank Slootman’s &lt;em&gt;&lt;a href="https://www.linkedin.com/pulse/amp-up-frank-slootman/"&gt;Amp It Up&lt;/a&gt;&lt;/em&gt; advocates removing “slack” (the concept, not the app) from a team to get greatest productivity. There’s pushback that this approach is toxic and/or it leads to colossal burnout. I agree. Low slack is not the same as high productivity. &lt;a href="https://twitter.com/fnthawar/"&gt;Farhan Thawar&lt;/a&gt; shared &lt;a href="https://twitter.com/fnthawar/status/1314902602509938688"&gt;a list of characteristics or practices&lt;/a&gt; that lead to productive teams. I like this list a lot. &lt;/p&gt;
 
-&lt;p&gt;I like his list no doubt because Farhan and I both used to work at Pivotal Labs. But I’d like to take different approach to talking about software team productivity.&lt;/p&gt;
+&lt;p&gt;I like his list no doubt because Farhan and I both used to work at Pivotal Labs. But I’d like to take a different approach to talking about software team productivity.&lt;/p&gt;
 
-&lt;p&gt;Instead of focusing on removing slack from a team, the best way make a team productive is &lt;a href="https://continuousdelivery.com/"&gt;Continuous Delivery&lt;/a&gt;. That is, setting the team up such that new work is flowing from concept to development to production smoothly and often. There is continuous delivery of value to customers. When work ships, it works as expected, it’s reliable, and there is little re-work. The team, by default, is always looking forward to the next new value they can be delivering. There is a low amount of waste during development. When there is waste, the team adapts to remove it.&lt;/p&gt;
+&lt;p&gt;Instead of focusing on removing slack from a team, the best way to make a team productive is &lt;a href="https://continuousdelivery.com/"&gt;Continuous Delivery&lt;/a&gt;. That is, setting the team up such that new work is flowing from concept to development to production smoothly and often. There is continuous delivery of value to customers. When work ships, it works as expected, it’s reliable, and there is little re-work. The team, by default, is always looking forward to the next new value they can be delivering. There is a low amount of waste during development. When there is waste, the team adapts to remove it.&lt;/p&gt;
 
-&lt;p&gt;A Continuous Delivery team looks much like a modern physical goods manufacturing line. From the outside it looks like requirements go in and work - features and fixes - come out the other side. Inside there are conscientious workers, well-maintained machines, and low inventory. People are improving their workflows for higher efficiency. When there are problems, Andon cords get pulled, and the team stops to fix them. A high functioning CD team has high productivity with low stress. And they are improving themselves all the time.&lt;/p&gt;
+&lt;p&gt;A Continuous Delivery team looks much like a modern physical goods manufacturing line. From the outside it looks like requirements go in and work - features and fixes - come of out the other side. Inside there are conscientious workers, well-maintained machines, and low inventory. People are improving their workflows for higher efficiency. When there are problems, Andon cords get pulled, and the team stops to fix them. A high functioning CD team has high productivity with low stress. And they are improving themselves all the time.&lt;/p&gt;
 
 &lt;p&gt;How close is your team to this ideal?&lt;/p&gt;
 
-&lt;p&gt;Joel Spolksy gave us the &lt;a href="https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/"&gt;Joel Test&lt;/a&gt; for evaluating software teams 20 years ago. It is still relevant, but this test is of a time of shrink-wrapped, desktop software. Bug databases and source control have become defaults. Much software is web-deployed applications and services.&lt;/p&gt;
+&lt;p&gt;Joel Spolksy gave us the &lt;a href="https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/"&gt;Joel Test&lt;/a&gt; for evaluating software teams 20 years ago. It is still relevant, but this test is of a time of shrink-wrapped, desktop software. Bug databases and source control have become defaults. Most software is web-deployed applications and services.&lt;/p&gt;
 
-&lt;p&gt;With apologies and inspiration, I give you &lt;em&gt;The CD Test&lt;/em&gt; &amp;mdash; a list of simple yes/no questions to check your team. The score is the sum of yes answers. A high score doesn’t mean your team is perfect at Continuous Delivery. But if you review your “no” answers I’m sure you’ll find discussion points for improving your team. Here goes…&lt;/p&gt;
+&lt;p&gt;With apologies to and inspiration from Joel, I give you &lt;em&gt;The CD Test&lt;/em&gt; &amp;mdash; a list of simple yes/no questions to check your team. The score is the sum of yes answers. A high score doesn’t mean your team is perfect at Continuous Delivery. But if you review your “no” answers I’m sure you’ll find discussion points for improving your team. Here goes…&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -76,7 +76,7 @@
 
 &lt;h2&gt;Does the team have weekly planning meetings to review the backlog?&lt;/h2&gt;
 
-&lt;p&gt;The world around your product is changing all the time. The Product Owner needs to share these changes and how they affect the upcoming work. The rest of the team needs to digest and contribute their views to team understanding. The team needs to review designs and estimate implementation. This helps the team have a shared understanding of the product. And it helps the Product Owner change priorities. Having this meeting weekly allows everyone to make small corrections and stay productive.&lt;/p&gt;
+&lt;p&gt;The world around your product is changing all the time. The Product Owner needs to share these changes and how they affect the upcoming work. The rest of the team needs to digest and contribute their views to team understanding. The team needs to review designs and estimate implementation. This helps the team increase their shared understanding of the product. And it helps the Product Owner change priorities. Having this meeting weekly allows everyone to make small corrections and stay productive.&lt;/p&gt;
 
 &lt;h2&gt;Are stories completed in a day or two?&lt;/h2&gt;
 
@@ -116,7 +116,7 @@
 
 &lt;h2&gt;Does the Product Owner accept work by exercising it in the product and with low latency?&lt;/h2&gt;
 
-&lt;p&gt;A test suite that tells everyone the current status of the product. CI will catch integration problems, broken features, or bug regressions. But what about that status new work?&lt;/p&gt;
+&lt;p&gt;A test suite tells everyone the current status of the product. CI will catch integration problems, broken features, or bug regressions. But what about that status of new work?&lt;/p&gt;
 
 &lt;p&gt;New work should only ship to production when the Product Manager approves it. A staging deployment that has the latest green build of the product enables them to review new work. This is the opportunity to tell developers, “Great work! Let’s get it in front of users,” or, “Oops. This doesn’t work as we discussed. Let’s try again.” &lt;/p&gt;
 
@@ -126,13 +126,13 @@
 
 &lt;p&gt;Getting new work to users is one of the most important things a product team can do. It is often one of the most fragile processes: too flaky, too manual, and resulting in extra hours worked.&lt;/p&gt;
 
-&lt;p&gt;Instead, teams should treat deployment like a feature of the product. The Product Owner puts deployement stories in the backlog. Development implements them. The product ships to staging and production often. Changes in deployment, like changes in infrastructure or a database upgrade, suggest new stories in the backlog. Deployment is then simple, reliable, automated, and predictable. Customers get their new features consistently. And the team can go home on time.&lt;/p&gt;
+&lt;p&gt;Instead, teams should treat deployment like a feature of the product. The Product Owner puts deployment stories in the backlog. Development implements them. The product ships to staging and production often. Changes in deployment, like changes in infrastructure or a database upgrade, suggest new stories in the backlog. Deployment is then simple, reliable, automated, and predictable. Customers get their new features consistently. And the team can go home on time.&lt;/p&gt;
 
 &lt;h2&gt;Do features make it to production frequently (&amp;gt; 1x every 3 mo)? &lt;/h2&gt;
 
 &lt;p&gt;Shipping work to customers is important. It should happen often. Completed work that is not yet in production is potential waste. Without feedback from users you don’t know if the work was valuable. Any time that features “sit on the shelf” is time that a competitor could be using to take your customers. &lt;/p&gt;
 
-&lt;p&gt;As soon as a feature, or set of features, is practical for users to exercise it should get deployed to production. CD teams aim for deploying to production about once a week. This keeps feedback loop short and tight adds value to customers sooner. It also makes it easier for your developers to make changes when there is a bug.&lt;/p&gt;
+&lt;p&gt;As soon as a feature, or set of features, is practical for users to exercise it should get deployed to production. CD teams aim for deploying to production about once a week. This keeps feedback loops short and tight, delivering value to customers sooner. It also makes it easier for your developers to make changes when there is a bug.&lt;/p&gt;
 
 &lt;p&gt;For some products this is hard or seemingly impossible. Teams should drive to the highest frequency possible for their situation.&lt;/p&gt;
 
@@ -174,21 +174,21 @@
 
 &lt;p&gt;Moving the testing &amp;ldquo;left,&amp;rdquo; closer to your developers, makes it cheaper to find and fix bugs. A good test suite tells you all you need to know about the functionality of the product. The Product Owner should be able to use the product to decide that work is ready.&lt;/p&gt;
 
-&lt;p&gt;&amp;ldquo;But what about bugs?&amp;rdquo; Instead of worrying about bugs, think about Exploratory QA. Have people who use the product and find behavior that the team did not expect or test for. Sometimes these are bugs where the product is broken. Sometimes these are new use cases the team missed. Learn more by reading Elisabeth Hendrickson&amp;rsquo;s &lt;a href="https://www.amazon.com/Explore-Increase-Confidence-Exploratory-Testing/dp/1937785025/ref=sr_1_1?dchild=1&amp;amp;keywords=explore+it&amp;amp;qid=1603138458&amp;amp;sr=8-1"&gt;Explore It!&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;But what about bugs?&amp;rdquo; Instead of worrying about bugs, think about Exploratory QA. Have people who use the product and find behavior that the team did not expect or test for. Sometimes these are bugs where the product is broken. Sometimes these are new use cases the team missed. Learn more by reading Elisabeth Hendrickson&amp;rsquo;s &lt;a href="https://amzn.to/2HdUWrs"&gt;Explore It!&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Fixing this behavior is then new work for Product Manager to consider for the backlog. And like any story in the backlog, it starts with a test. And that test ensures a fix or feature that should never regress.&lt;/p&gt;
 
 &lt;h2&gt;Does the team meet weekly for Retrospectives to discuss team issues, leading to new work that improves team progress?&lt;/h2&gt;
 
-&lt;p&gt;Problems, issues, and inefficiencies occur naturally on all teams. Things that worked when the team was small start to fail as the team grows. Technology choices don&amp;rsquo;t pan out. Experiments in process change fail. And there are countless scenarios. &lt;/p&gt;
+&lt;p&gt;Problems, issues, and inefficiencies occur naturally on all teams. Things that worked when the team was small start to fail as the team grows. Technology choices don&amp;rsquo;t pan out. Experiments in process change fail. And there are countless other scenarios. &lt;/p&gt;
 
-&lt;p&gt;Some process, techniques, and behaviors are the opposite. They work very well, solving problems and making the team stronger.&lt;/p&gt;
+&lt;p&gt;Some process, techniques, and behaviors are the opposite. They work very well, solving problems and making the team stronger. They should be recognized and further promoted.&lt;/p&gt;
 
-&lt;p&gt;A weekly &lt;a href="https://www.agilealliance.org/glossary/heartbeatretro/#q=~(infinite~true~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video~'aa_podcast)~tags~(~'retrospective))~searchTerm~'~sort~false~sortDirection~'asc~page~1)"&gt;retrospective&lt;/a&gt; helps a team identify both problems and successes. &lt;/p&gt;
+&lt;p&gt;A weekly &lt;a href="https://www.agilealliance.org/glossary/heartbeatretro/"&gt;retrospective&lt;/a&gt; helps a team identify both problems and successes. &lt;/p&gt;
 
 &lt;p&gt;Teams should celebrate every win. This makes team members feel good about their work. It cements good patterns for potential reuse.&lt;/p&gt;
 
-&lt;p&gt;Discussing problems also has many good affects on the team. Everyone gets on the same page. It vents frustration and surfaces anxiety. They can discussion potential solutions, building consensus on which ones to attempt. And they can track action items to implement them.&lt;/p&gt;
+&lt;p&gt;Discussing problems also has many good effects on the team. Everyone gets on the same page. It vents frustration and surfaces anxiety. They can discussion potential solutions, building consensus on which ones to attempt. And they can track action items to implement them.&lt;/p&gt;
 
 &lt;h2&gt;Does the team complete their action items from Retrospectives?&lt;/h2&gt;
 
@@ -199,7 +199,7 @@
   </entry>
   <entry>
     <title>COVID-19-Inspired Meal Planning</title>
-    <link href="http://example.com/covid-19-inspired-meal-planning/" rel="alternate"/>
+    <link href="https://dwf.bigpencil.net/covid-19-inspired-meal-planning/" rel="alternate"/>
     <id/>
     <published>2020-09-23T17:00:00-07:00</published>
     <updated>2020-09-24T15:45:23-07:00</updated>
@@ -311,7 +311,7 @@
   </entry>
   <entry>
     <title>Improving Standups</title>
-    <link href="http://example.com/improving-standups/" rel="alternate"/>
+    <link href="https://dwf.bigpencil.net/improving-standups/" rel="alternate"/>
     <id/>
     <published>2020-09-21T17:00:00-07:00</published>
     <updated>2020-09-22T13:23:47-07:00</updated>
@@ -424,7 +424,7 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
   </entry>
   <entry>
     <title>Foo Fighters 1995</title>
-    <link href="http://example.com/foo-fighters-1995/" rel="alternate"/>
+    <link href="https://dwf.bigpencil.net/foo-fighters-1995/" rel="alternate"/>
     <id/>
     <published>2020-09-14T17:00:00-07:00</published>
     <updated>2020-09-19T16:32:14-07:00</updated>
@@ -455,7 +455,7 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
   </entry>
   <entry>
     <title>Drake Your Job</title>
-    <link href="http://example.com/drake-your-job/" rel="alternate"/>
+    <link href="https://dwf.bigpencil.net/drake-your-job/" rel="alternate"/>
     <id/>
     <published>2018-08-02T17:00:00-07:00</published>
     <updated>2020-11-04T12:44:11-08:00</updated>
@@ -558,7 +558,7 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
   </entry>
   <entry>
     <title>Goodbye Chris Cornell</title>
-    <link href="http://example.com/goodbye-chris-cornell/" rel="alternate"/>
+    <link href="https://dwf.bigpencil.net/goodbye-chris-cornell/" rel="alternate"/>
     <id/>
     <published>2017-05-17T17:00:00-07:00</published>
     <updated>2020-09-20T12:46:59-07:00</updated>
@@ -597,7 +597,7 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
   </entry>
   <entry>
     <title>Goodbye Jonathan Demme</title>
-    <link href="http://example.com/goodbye-jonathan-demme/" rel="alternate"/>
+    <link href="https://dwf.bigpencil.net/goodbye-jonathan-demme/" rel="alternate"/>
     <id/>
     <published>2017-04-25T17:00:00-07:00</published>
     <updated>2020-09-19T21:11:52-07:00</updated>
@@ -624,7 +624,7 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
   </entry>
   <entry>
     <title>How One Funny Email Almost Changed My Career</title>
-    <link href="http://example.com/how-one-funny-email-almost-changed-my-career/" rel="alternate"/>
+    <link href="https://dwf.bigpencil.net/how-one-funny-email-almost-changed-my-career/" rel="alternate"/>
     <id/>
     <published>2016-10-05T17:00:00-07:00</published>
     <updated>2020-09-19T14:58:57-07:00</updated>
@@ -672,7 +672,7 @@ When you think yourself a fun and funny co-worker, you want that email to be &lt
   </entry>
   <entry>
     <title>How We XP: Develop &amp; Deploy</title>
-    <link href="http://example.com/how-we-xp/" rel="alternate"/>
+    <link href="https://dwf.bigpencil.net/how-we-xp/" rel="alternate"/>
     <id/>
     <published>2015-10-31T17:00:00-07:00</published>
     <updated>2020-09-19T16:32:14-07:00</updated>
@@ -803,7 +803,7 @@ When you think yourself a fun and funny co-worker, you want that email to be &lt
   </entry>
   <entry>
     <title>Bose Customer Service</title>
-    <link href="http://example.com/bose-customer-service/" rel="alternate"/>
+    <link href="https://dwf.bigpencil.net/bose-customer-service/" rel="alternate"/>
     <id/>
     <published>2011-04-20T17:00:00-07:00</published>
     <updated>2020-09-20T16:47:43-07:00</updated>
@@ -845,7 +845,7 @@ When you think yourself a fun and funny co-worker, you want that email to be &lt
   </entry>
   <entry>
     <title>Kids &amp; Teachable Moments</title>
-    <link href="http://example.com/kids-teachable-moments/" rel="alternate"/>
+    <link href="https://dwf.bigpencil.net/kids-teachable-moments/" rel="alternate"/>
     <id/>
     <published>2011-03-23T17:00:00-07:00</published>
     <updated>2020-09-21T07:44:50-07:00</updated>

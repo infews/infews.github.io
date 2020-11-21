@@ -1,2 +1,2 @@
 User-Agent: *
-Sitemap: http://example.com/sitemap.xml
+Sitemap: https://dwf.bigpencil.net/sitemap.xml
