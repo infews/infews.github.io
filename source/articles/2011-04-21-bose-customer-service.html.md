@@ -1,7 +1,7 @@
 ---
 title: Bose Customer Service
 date: 2011-04-21 00:00 UTC
-tags: personal
+tags: ["personal"]
 ---
 
 I have a set of Bose QC2 noise-canceling headphones that I use every day. I bought them in late 2007. They don't make my BART commute quiet, but they make it tolerable enough that I can listen to music and podcasts.

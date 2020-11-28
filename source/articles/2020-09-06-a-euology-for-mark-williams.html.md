@@ -1,7 +1,7 @@
 ---
 title: A Euology for Mark Williams
 date: 2020-09-06 00:00 UTC
-tags: personal, private
+tags: ["personal", "private"]
 ---
 
 [dick]: https://imgur.com/gallery/v4RZRwF

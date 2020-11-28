@@ -1,4 +1,7 @@
-- if tags
-  %section.tags
-    %hr
-    = "This article is tagged with #{tag_links_for tags}."
+- series_slug = current_page.data.series.downcase.gsub(" ", "_")
+%section.tags<
+  %hr
+  Part of the series
+  %a{href: "/series/#{series_slug}"}
+    = series
+  = "."

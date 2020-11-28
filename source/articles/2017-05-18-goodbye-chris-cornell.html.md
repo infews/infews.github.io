@@ -1,7 +1,7 @@
 ---
 title: Goodbye Chris Cornell
 date: 2017-05-18 00:00 UTC
-tags: personal, rock
+tags: ["personal", "rock"]
 ---
 
 [tweets]: https://twitter.com/dwfrank/status/865661929800335360

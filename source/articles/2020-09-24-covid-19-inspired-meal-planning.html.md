@@ -1,7 +1,7 @@
 ---
 title: COVID-19-Inspired Meal Planning
 date: 2020-09-24 00:00 UTC
-tags: personal
+tags: ["personal"]
 ---
 
 [tweets]: https://twitter.com/dwfrank/status/1297643495897706496  

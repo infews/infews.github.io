@@ -1,7 +1,7 @@
 ---
 title: Kids & Teachable Moments
 date: 2011-03-24 00:00 UTC
-tags: personal
+tags: ["personal"]
 ---
 
 [btw]: http://5by5.tv/b2w/8

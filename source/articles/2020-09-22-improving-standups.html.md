@@ -1,7 +1,7 @@
 ---
 title: Improving Standups
 date: 2020-09-22 00:00 UTC
-tags: work, agile
+tags: ["agile"]
 ---
 
 [wb]: https://github.com/pivotal-legacy/whiteboard

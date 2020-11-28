@@ -4,7 +4,7 @@ title: Introducing The Continuous Delivery Test
 date: 2020-11-05 00:00 UTC
 tags: ["agile"]
 series: "The CD Test"
-series_slug: "cd_test"
+#series_slug: "cd_test"
 
 ---
 [slootman]: https://www.linkedin.com/pulse/amp-up-frank-slootman/
