@@ -5,17 +5,45 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2020-11-21T15:27:01-08:00</updated>
+  <updated>2020-11-27T16:03:02-08:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
   <rights>© Davis W. Frank 2020</rights>
   <entry>
+    <title>The Name Game</title>
+    <link href="https://dwf.bigpencil.net/the-name-game/" rel="alternate"/>
+    <id/>
+    <published>2020-11-21T16:20:00-08:00</published>
+    <updated>2020-11-27T16:03:02-08:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;em&gt;From the &amp;ldquo;Can you pronounce my name&amp;rdquo; game/meme from Twitter early fall, 2020. I love this one.&lt;/em&gt; &amp;mdash;dwf &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Davis:&lt;/strong&gt; 10/10 All day&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;David (if &lt;em&gt;your&lt;/em&gt; name is David):&lt;/strong&gt;  9/10 You’ll get it&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;David (1st time):&lt;/strong&gt; 5/10 Likely a typo&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;David (&amp;gt;2nd time):&lt;/strong&gt; 2/10&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Frank:&lt;/strong&gt; 0/10 There is no comma in my name&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dave:&lt;/strong&gt; 6/10 But it’s never stuck&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;D:&lt;/strong&gt;  2/10 Do I know you?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;(rhymes with “woof”):&lt;/strong&gt; 12/10 💪 I have cooked for you&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Introducing The Continuous Delivery Test</title>
     <link href="https://dwf.bigpencil.net/the-continuous-delivery-test/" rel="alternate"/>
     <id/>
     <published>2020-11-04T16:00:00-08:00</published>
-    <updated>2020-11-21T15:27:01-08:00</updated>
+    <updated>2020-11-27T16:03:02-08:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -202,7 +230,7 @@
     <link href="https://dwf.bigpencil.net/covid-19-inspired-meal-planning/" rel="alternate"/>
     <id/>
     <published>2020-09-23T17:00:00-07:00</published>
-    <updated>2020-09-24T15:45:23-07:00</updated>
+    <updated>2020-11-27T16:03:02-08:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -314,7 +342,7 @@
     <link href="https://dwf.bigpencil.net/improving-standups/" rel="alternate"/>
     <id/>
     <published>2020-09-21T17:00:00-07:00</published>
-    <updated>2020-09-22T13:23:47-07:00</updated>
+    <updated>2020-11-27T16:03:02-08:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -427,7 +455,7 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
     <link href="https://dwf.bigpencil.net/foo-fighters-1995/" rel="alternate"/>
     <id/>
     <published>2020-09-14T17:00:00-07:00</published>
-    <updated>2020-09-19T16:32:14-07:00</updated>
+    <updated>2020-11-27T16:03:02-08:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -458,7 +486,7 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
     <link href="https://dwf.bigpencil.net/drake-your-job/" rel="alternate"/>
     <id/>
     <published>2018-08-02T17:00:00-07:00</published>
-    <updated>2020-11-04T12:44:11-08:00</updated>
+    <updated>2020-11-27T16:03:02-08:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -561,7 +589,7 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
     <link href="https://dwf.bigpencil.net/goodbye-chris-cornell/" rel="alternate"/>
     <id/>
     <published>2017-05-17T17:00:00-07:00</published>
-    <updated>2020-09-20T12:46:59-07:00</updated>
+    <updated>2020-11-27T16:03:02-08:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -600,7 +628,7 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
     <link href="https://dwf.bigpencil.net/goodbye-jonathan-demme/" rel="alternate"/>
     <id/>
     <published>2017-04-25T17:00:00-07:00</published>
-    <updated>2020-09-19T21:11:52-07:00</updated>
+    <updated>2020-11-27T16:03:02-08:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -627,7 +655,7 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
     <link href="https://dwf.bigpencil.net/how-one-funny-email-almost-changed-my-career/" rel="alternate"/>
     <id/>
     <published>2016-10-05T17:00:00-07:00</published>
-    <updated>2020-09-19T14:58:57-07:00</updated>
+    <updated>2020-11-27T16:03:02-08:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -675,7 +703,7 @@ When you think yourself a fun and funny co-worker, you want that email to be &lt
     <link href="https://dwf.bigpencil.net/how-we-xp/" rel="alternate"/>
     <id/>
     <published>2015-10-31T17:00:00-07:00</published>
-    <updated>2020-09-19T16:32:14-07:00</updated>
+    <updated>2020-11-27T16:03:02-08:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -806,7 +834,7 @@ When you think yourself a fun and funny co-worker, you want that email to be &lt
     <link href="https://dwf.bigpencil.net/bose-customer-service/" rel="alternate"/>
     <id/>
     <published>2011-04-20T17:00:00-07:00</published>
-    <updated>2020-09-20T16:47:43-07:00</updated>
+    <updated>2020-11-27T16:03:02-08:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -848,7 +876,7 @@ When you think yourself a fun and funny co-worker, you want that email to be &lt
     <link href="https://dwf.bigpencil.net/kids-teachable-moments/" rel="alternate"/>
     <id/>
     <published>2011-03-23T17:00:00-07:00</published>
-    <updated>2020-09-21T07:44:50-07:00</updated>
+    <updated>2020-11-27T16:03:02-08:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>

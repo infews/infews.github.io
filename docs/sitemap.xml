@@ -1,182 +1,188 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dwf.bigpencil.net/series/the-cd-test/</loc>
-    <lastmod>2020-11-21T15:29:29-08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://dwf.bigpencil.net/foo-fighters-1995/</loc>
-    <lastmod>2020-11-21T15:29:29-08:00</lastmod>
+    <lastmod>2020-11-27T16:03:14-08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/goodbye-chris-cornell/</loc>
-    <lastmod>2020-11-21T15:29:29-08:00</lastmod>
+    <lastmod>2020-11-27T16:03:14-08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/drake-your-job/</loc>
-    <lastmod>2020-11-21T15:29:29-08:00</lastmod>
+    <lastmod>2020-11-27T16:03:14-08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/bose-customer-service/</loc>
-    <lastmod>2020-11-21T15:29:29-08:00</lastmod>
+    <lastmod>2020-11-27T16:03:14-08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/how-we-xp/</loc>
-    <lastmod>2020-11-21T15:29:29-08:00</lastmod>
+    <lastmod>2020-11-27T16:03:14-08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/covid-19-inspired-meal-planning/</loc>
-    <lastmod>2020-11-21T15:29:29-08:00</lastmod>
+    <lastmod>2020-11-27T16:03:14-08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/the-continuous-delivery-test/</loc>
-    <lastmod>2020-11-21T15:29:29-08:00</lastmod>
+    <lastmod>2020-11-27T16:03:14-08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/the-name-game/</loc>
+    <lastmod>2020-11-27T16:03:14-08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/how-one-funny-email-almost-changed-my-career/</loc>
-    <lastmod>2020-11-21T15:29:29-08:00</lastmod>
+    <lastmod>2020-11-27T16:03:14-08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/improving-standups/</loc>
-    <lastmod>2020-11-21T15:29:29-08:00</lastmod>
+    <lastmod>2020-11-27T16:03:14-08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/a-euology-for-mark-williams/</loc>
-    <lastmod>2020-11-21T15:29:29-08:00</lastmod>
+    <lastmod>2020-11-27T16:03:14-08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/goodbye-jonathan-demme/</loc>
-    <lastmod>2020-11-21T15:29:29-08:00</lastmod>
+    <lastmod>2020-11-27T16:03:14-08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/kids-teachable-moments/</loc>
-    <lastmod>2020-11-21T15:29:29-08:00</lastmod>
+    <lastmod>2020-11-27T16:03:14-08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/</loc>
-    <lastmod>2020-11-21T15:29:29-08:00</lastmod>
+    <lastmod>2020-11-27T16:03:14-08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/tags/career/</loc>
-    <lastmod>2020-11-21T15:29:29-08:00</lastmod>
+    <lastmod>2020-11-27T16:03:14-08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dwf.bigpencil.net/tags/agile/</loc>
-    <lastmod>2020-11-21T15:29:29-08:00</lastmod>
+    <loc>https://dwf.bigpencil.net/series/the-cd-test/</loc>
+    <lastmod>2020-11-27T16:03:14-08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/tags/personal/</loc>
-    <lastmod>2020-11-21T15:29:29-08:00</lastmod>
+    <lastmod>2020-11-27T16:03:14-08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dwf.bigpencil.net/tags/work/</loc>
-    <lastmod>2020-11-21T15:29:29-08:00</lastmod>
+    <loc>https://dwf.bigpencil.net/tags/agile/</loc>
+    <lastmod>2020-11-27T16:03:14-08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/tags/rock/</loc>
-    <lastmod>2020-11-21T15:29:29-08:00</lastmod>
+    <lastmod>2020-11-27T16:03:14-08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://dwf.bigpencil.net/the-name-game/</loc>
+    <lastmod>2020-11-27T16:03:02-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://dwf.bigpencil.net/the-continuous-delivery-test/</loc>
-    <lastmod>2020-11-21T15:27:01-08:00</lastmod>
+    <lastmod>2020-11-27T16:03:02-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/covid-19-inspired-meal-planning/</loc>
-    <lastmod>2020-09-24T15:45:23-07:00</lastmod>
+    <lastmod>2020-11-27T16:03:02-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/improving-standups/</loc>
-    <lastmod>2020-09-22T13:23:47-07:00</lastmod>
+    <lastmod>2020-11-27T16:03:02-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/foo-fighters-1995/</loc>
-    <lastmod>2020-09-19T16:32:14-07:00</lastmod>
+    <lastmod>2020-11-27T16:03:02-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/drake-your-job/</loc>
-    <lastmod>2020-11-04T12:44:11-08:00</lastmod>
+    <lastmod>2020-11-27T16:03:02-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/goodbye-chris-cornell/</loc>
-    <lastmod>2020-09-20T12:46:59-07:00</lastmod>
+    <lastmod>2020-11-27T16:03:02-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/goodbye-jonathan-demme/</loc>
-    <lastmod>2020-09-19T21:11:52-07:00</lastmod>
+    <lastmod>2020-11-27T16:03:02-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/how-one-funny-email-almost-changed-my-career/</loc>
-    <lastmod>2020-09-19T14:58:57-07:00</lastmod>
+    <lastmod>2020-11-27T16:03:02-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/how-we-xp/</loc>
-    <lastmod>2020-09-19T16:32:14-07:00</lastmod>
+    <lastmod>2020-11-27T16:03:02-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/bose-customer-service/</loc>
-    <lastmod>2020-09-20T16:47:43-07:00</lastmod>
+    <lastmod>2020-11-27T16:03:02-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/kids-teachable-moments/</loc>
-    <lastmod>2020-09-21T07:44:50-07:00</lastmod>
+    <lastmod>2020-11-27T16:03:02-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
