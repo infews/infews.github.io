@@ -5,6 +5,14 @@ task :id do
   puts "uri:uuid:#{SecureRandom.uuid}"
 end
 
+desc "Generate a new article; usage rake [ARTICLE TITLE]"
+task :article do
+  sh "middleman article \"#{ARGV[1]}\""
+  exit
+end
+
+
+
 desc "Generate the site for GitHub pages"
 task :build => :clean do
   # generate the site
