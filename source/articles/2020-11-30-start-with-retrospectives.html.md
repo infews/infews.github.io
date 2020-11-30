@@ -1,6 +1,6 @@
 ---
 title: Start with Retrospectives
-date: 2020-11-30 23:33 UTC
+date: 2020-11-30
 tags:
   - agile
 keywords:
