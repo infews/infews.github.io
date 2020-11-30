@@ -2,8 +2,12 @@
 title: Goodbye Jonathan Demme
 date: 2017-04-26 00:00 UTC
 tags:
- - personal
- - rock
+  - personal
+  - rock
+keywords:
+  - rock
+  - Jonathan Demme
+  - Stop Making Sense   
 ---
 
 [tweets]: https://twitter.com/dwfrank/status/857378526428667904

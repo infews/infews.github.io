@@ -57,14 +57,12 @@ module SiteHelpers
   end
 
   def series_json_ld_for(series, articles)
-    most_recent_article_date = File.mtime(Dir.glob("docs/series/#{series_slug_for(series)}/index*")[0]).strftime("%Y-%m-%d")
-
     json_ld.merge({
       "url": "https://dwf.bigpencil.net/series/#{series_slug_for(series)}",
       "headline": series,
       "datePublished": earliest_published_date_in(articles),
       "dateCreated": earliest_published_date_in(articles),
-      "dateModified": most_recent_article_date
+      "dateModified": articles.first.date.strftime("%Y-%m-%d")
     })
   end
 

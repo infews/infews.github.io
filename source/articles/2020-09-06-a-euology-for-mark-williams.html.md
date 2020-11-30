@@ -4,6 +4,9 @@ date: 2020-09-06 00:00 UTC
 tags:
   - personal
   - private
+keywords:
+  - Mark Williams
+  - eulogy  
 ---
 
 [dick]: https://imgur.com/gallery/v4RZRwF
