@@ -1,7 +1,13 @@
 ---
 title: Improving Standups
 date: 2020-09-22 00:00 UTC
-tags: ["agile"]
+tags:
+  - agile
+keywords:
+  - agile
+  - xp
+  - standups
+  - trello  
 ---
 
 [wb]: https://github.com/pivotal-legacy/whiteboard

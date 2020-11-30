@@ -2,7 +2,11 @@
 
 title: The Name Game
 date: 2020-11-22 00:20 UTC
-tags: ["personal"]
+tags:
+  - personal
+keywords:
+  - personal
+  - names  
 
 ---
 

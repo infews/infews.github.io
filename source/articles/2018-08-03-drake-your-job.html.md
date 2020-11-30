@@ -1,7 +1,11 @@
 ---
 title: Drake Your Job
 date: 2018-08-03 00:00 UTC
-tags: ["career"]
+tags:
+  - career
+keywords:
+  - career
+  - Drake's Equations  
 ---
 
 [medium]: https://blog.usejournal.com/drake-your-job-5c55b706bb18

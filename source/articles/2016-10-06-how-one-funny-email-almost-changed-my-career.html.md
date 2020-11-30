@@ -1,7 +1,14 @@
 ---
 title: How One Funny Email Almost Changed My Career
 date: 2016-10-06 00:00 UTC
-tags: ["career", "personal"]
+tags:
+  - career
+  - personal
+keywords: 
+  - career
+  - personal
+  - goodbye email
+  
 ---
 
 [goj]: https://medium.com/@dwfrank/how-one-funny-email-almost-changed-my-career-80b20ee7c5ff

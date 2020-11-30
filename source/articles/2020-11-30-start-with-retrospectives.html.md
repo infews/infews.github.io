@@ -1,7 +1,14 @@
 ---
 title: Start with Retrospectives
 date: 2020-11-30 23:33 UTC
-tags: ["agile"]
+tags:
+  - agile
+keywords:
+  - retrospectives
+  - software development
+  - agile
+  - continuous delivery
+  - the cd test
 series: "The CD Test"
 ---
 [cdtest]: https://dwf.bigpencil.net/series/the-cd-test/
