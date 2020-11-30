@@ -3,14 +3,14 @@ pageable: true
 ---
 
 - series_articles = page_articles.reverse
-- series_slug = series.downcase.gsub(" ", "_")
+- series_filename = series.downcase.gsub(" ", "_")
 
 %h1
   Blog Series:
   %em= series
 
 %hr
-= component "series/#{series_slug}_intro.md"
+= component "series/#{series_filename}_intro.md"
 = component 'article_list', {articles: [series_articles.first]}
-= component "series/#{series_slug}_continues.md"
+= component "series/#{series_filename}_continues.md"
 = component 'article_list', {articles: series_articles[1..-1]}

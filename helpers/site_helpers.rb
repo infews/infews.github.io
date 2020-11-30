@@ -1,6 +1,10 @@
 require 'json'
 
-module JsonldHelpers
+module SiteHelpers
+
+  def series_slug_for(series)
+    series.downcase.gsub(" ", "-")
+  end
 
   def json_ld_component_name_for(page_classes)
     classes = page_classes.split
@@ -19,6 +23,8 @@ module JsonldHelpers
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "genre": "software development",
+      "headline": "DWF's Journal Home",
+      "keywords": "software development, agile, career, personal",
       "author": {
         "@type": "Person",
         "name": "Davis W. Frank",
@@ -45,13 +51,11 @@ module JsonldHelpers
   end
 
   def series_json_ld_for(series)
-    date = File.mtime(Dir.glob("source/articles/series/index*")[0]).strftime("%Y-%m-%d")
-    series_slug = series.downcase.gsub(" ", "_")
+    date = File.mtime(Dir.glob("docs/series/#{series_slug_for(series)}/index*")[0]).strftime("%Y-%m-%d")
 
     json_ld.merge({
-      "headline": "DWF's Journal Home",
-      "keywords": "software development, ",
-      "url": "https://dwf.bigpencil.net/series/#{series_slug}",
+      "url": "https://dwf.bigpencil.net/series/#{series_slug_for(series)}",
+      "headline": series,
       "datePublished": date,
       "dateCreated": date,
       "dateModified": date
@@ -61,8 +65,6 @@ module JsonldHelpers
   def index_json_ld
     modified_date = File.mtime(Dir.glob("source/index.html.haml")[0]).strftime("%Y-%m-%d")
     json_ld.merge({
-      "headline": "DWF's Journal Home",
-      "keywords": "software development, agile, personal",
       "url": "https://dwf.bigpencil.net/",
       "datePublished": "2020-11-01",
       "dateCreated": "2020-11-01",
