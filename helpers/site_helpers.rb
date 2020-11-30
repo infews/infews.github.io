@@ -13,6 +13,8 @@ module SiteHelpers
       "index_json_ld"
     when "series"
       "series_json_ld"
+    when "tags"
+      "index_json_ld"
     else
       "article_json_ld"
     end

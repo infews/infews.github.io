@@ -7,7 +7,7 @@
     %link{rel: "alternate", href: "/feed.xml", type: "application/atom+xml", title: "Atom Feed"}
     %link{rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans"}
     %link{rel: "stylesheet", href: "#{url_for '/stylesheets/all.css'}"}
-    = component json_ld_component_name_for(page_classes), {articles: articles}
+    = component json_ld_component_name_for(page_classes), {articles: blog.articles}
   %body
     - unless current_page.data.hide_nav
       %nav{class: "main-nav"}
