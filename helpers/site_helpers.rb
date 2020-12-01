@@ -2,8 +2,8 @@ require 'json'
 
 module SiteHelpers
 
-  def series_slug_for(series)
-    series.downcase.gsub(" ", "-")
+  def series_slug_for(series_name)
+    series_name.downcase.gsub(" ", "-")
   end
 
   def json_ld_component_name_for(page_classes)
@@ -36,33 +36,32 @@ module SiteHelpers
   end
 
   def article_json_ld_for(article)
-    date = article.date.strftime("%Y-%m-%d")
-    article_source_path = "#{date}-#{article.slug}"
-    modified_date = File.mtime(Dir.glob("source/articles/#{article_source_path}*")[0]).strftime("%Y-%m-%d")
+    original_date = article.date.strftime("%Y-%m-%d")
+    modified_date = File.mtime(Dir.glob("source/articles/#{original_date}-#{article.slug}*")[0]).strftime("%Y-%m-%d")
+    body_without_tags = article.body.gsub(/<\/?[^>]*>/, "")
 
     json_ld.merge({
       "headline": article.data.title,
       "keywords": article.data.keywords.join(","),
       "url": "https://dwf.bigpencil.net/#{article.slug}",
-      "datePublished": date,
-      "dateCreated": date,
+      "datePublished": original_date,
+      "dateCreated": original_date,
       "dateModified": modified_date,
       "description": article.data.description,
-      "articleBody": article.body.gsub(/<\/?[^>]*>/, "")
+      "articleBody": body_without_tags
     })
   end
 
-  def earliest_published_date_in(articles)
-    articles.last.date.strftime("%Y-%m-%d")
-  end
+  def series_json_ld_for(series_name, articles)
+    most_recent_article = articles.first
+    earliest_article = articles.last
 
-  def series_json_ld_for(series, articles)
     json_ld.merge({
-      "url": "https://dwf.bigpencil.net/series/#{series_slug_for(series)}",
-      "headline": series,
-      "datePublished": earliest_published_date_in(articles),
-      "dateCreated": earliest_published_date_in(articles),
-      "dateModified": articles.first.date.strftime("%Y-%m-%d")
+      "url": "https://dwf.bigpencil.net/series/#{series_slug_for(series_name)}",
+      "headline": series_name,
+      "datePublished": earliest_article.date.strftime("%Y-%m-%d"),
+      "dateCreated": earliest_article.date.strftime("%Y-%m-%d"),
+      "dateModified": most_recent_article.date.strftime("%Y-%m-%d"),
     })
   end
 
