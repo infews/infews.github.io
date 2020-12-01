@@ -14,7 +14,7 @@
         %a{href: "/"}
           %span.arrow ←
           Home
-    %section{:id => "wrapper", :class => ("home" unless current_article)}
+    %section{:id => "wrapper", :class => (current_page.data.wrapper_class)}
       = yield
       %footer#footer
         %p.small
