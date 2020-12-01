@@ -17,7 +17,7 @@ series: "The CD Test"
 [xpeteam]: http://www.agile-process.org/team.html
 [psafe]: https://hbr.org/2017/08/high-performing-teams-need-psychological-safety-heres-how-to-create-it
 [retrosheet]: https://docs.google.com/spreadsheets/d/1t8L7uO6emxpMJ3i-JhJ-7QYzXXI5J0aIaOs18v5DWE0/edit?usp=sharing
-[Nicole]: https://tanzu.vmware.com/content/blog/how-to-run-a-really-good-retrospective
+[Nicola]: https://tanzu.vmware.com/content/blog/how-to-run-a-really-good-retrospective
 [fun]: https://www.funretrospectives.com/
 [catapult]: https://www.funretrospectives.com/the-catapult/
 [agileretros]: https://amzn.to/38TKWiq
@@ -40,7 +40,7 @@ How can you align your team around the need for change, build a culture of proce
 
 First, a quick intro to (or refresher about) [retrospectives][retros]. A retro is a meeting where the team reflects on their team’s “story so far.” It is a time to talk about what is working and find ways to amplify that strength. Or it's a time to talk about what is _not_ working, rank the problems' importance, and suggest fixes.
 
-If your team does not have regular retrospectives, [Nicole Rushton's quick start guide][Nicole] is a great introduction. The book [Agile Retrospectives][agileretros] is full of more advanced retro topics. It has good discussions on how to set the team's expectations for the meetings, how to facilitate well, and how to process the outcomes. There are also mini-discussions of different retro types and their preparation activities. 
+If your team does not have regular retrospectives, [Nicola Rushton's quick start guide][Nicola] is a great introduction. The book [Agile Retrospectives][agileretros] is full of more advanced retro topics. It has good discussions on how to set the team's expectations for the meetings, how to facilitate well, and how to process the outcomes. There are also mini-discussions of different retro types and their preparation activities. 
 
 As the team builds a set of good retro habits, there will be challenges. Not everyone will want to share their feelings. People avoid talking about hard problems. You may get surprised when a retro uncovers a problem you didn't realize you had. And there are often initial retros when nobody wants to say anything out of fear or discomfort.
 

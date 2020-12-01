@@ -5,7 +5,7 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2020-11-30T09:22:42-08:00</updated>
+  <updated>2020-11-30T16:36:52-08:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
@@ -15,7 +15,7 @@
     <link href="https://dwf.bigpencil.net/start-with-retrospectives/" rel="alternate"/>
     <id/>
     <published>2020-11-29T16:00:00-08:00</published>
-    <updated>2020-11-30T09:22:42-08:00</updated>
+    <updated>2020-11-30T16:36:52-08:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -29,7 +29,7 @@
 
 &lt;p&gt;First, a quick intro to (or refresher about) &lt;a href="https://www.agilealliance.org/glossary/heartbeatretro/"&gt;retrospectives&lt;/a&gt;. A retro is a meeting where the team reflects on their team’s “story so far.” It is a time to talk about what is working and find ways to amplify that strength. Or it&amp;rsquo;s a time to talk about what is &lt;em&gt;not&lt;/em&gt; working, rank the problems&amp;rsquo; importance, and suggest fixes.&lt;/p&gt;
 
-&lt;p&gt;If your team does not have regular retrospectives, &lt;a href="https://tanzu.vmware.com/content/blog/how-to-run-a-really-good-retrospective"&gt;Nicole Rushton&amp;rsquo;s quick start guide&lt;/a&gt; is a great introduction. The book &lt;a href="https://amzn.to/38TKWiq"&gt;Agile Retrospectives&lt;/a&gt; is full of more advanced retro topics. It has good discussions on how to set the team&amp;rsquo;s expectations for the meetings, how to facilitate well, and how to process the outcomes. There are also mini-discussions of different retro types and their preparation activities. &lt;/p&gt;
+&lt;p&gt;If your team does not have regular retrospectives, &lt;a href="https://tanzu.vmware.com/content/blog/how-to-run-a-really-good-retrospective"&gt;Nicola Rushton&amp;rsquo;s quick start guide&lt;/a&gt; is a great introduction. The book &lt;a href="https://amzn.to/38TKWiq"&gt;Agile Retrospectives&lt;/a&gt; is full of more advanced retro topics. It has good discussions on how to set the team&amp;rsquo;s expectations for the meetings, how to facilitate well, and how to process the outcomes. There are also mini-discussions of different retro types and their preparation activities. &lt;/p&gt;
 
 &lt;p&gt;As the team builds a set of good retro habits, there will be challenges. Not everyone will want to share their feelings. People avoid talking about hard problems. You may get surprised when a retro uncovers a problem you didn&amp;rsquo;t realize you had. And there are often initial retros when nobody wants to say anything out of fear or discomfort.&lt;/p&gt;
 
