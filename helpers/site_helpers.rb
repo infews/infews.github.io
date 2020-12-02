@@ -1,77 +1,101 @@
 require 'json'
 
 module SiteHelpers
+  module LinkingData
+    def base_data
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "genre": "software development",
+        "headline": "DWF's Journal Home",
+        "keywords": "software development, agile, career, personal",
+        "author": {
+          "@type": "Person",
+          "name": "Davis W. Frank",
+          "email": "dwfrank@gmail.com"
+        }
+      }
+    end
 
-  def series_slug_for(series_name)
-    series_name.downcase.gsub(" ", "-")
-  end
-
-  def json_ld_component_name_for(page_classes)
-    classes = page_classes.split
-    case classes.first
-    when "index"
-      "index_json_ld"
-    when "series"
-      "series_json_ld"
-    when "tags"
-      "index_json_ld"
-    else
-      "article_json_ld"
+    def strip_tags_from(body)
+      body.gsub(/<\/?[^>]*>/, "")
     end
   end
 
-  def json_ld
-    {
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "genre": "software development",
-      "headline": "DWF's Journal Home",
-      "keywords": "software development, agile, career, personal",
-      "author": {
-        "@type": "Person",
-        "name": "Davis W. Frank",
-        "email": "dwfrank@gmail.com"
-      }
-    }
+  class Article
+    include LinkingData
+
+    def initialize(page_locals)
+      @article = page_locals[:article]
+    end
+
+    def data
+      original_date = @article.date.strftime("%Y-%m-%d")
+      modified_date = File.mtime(Dir.glob("source/articles/#{original_date}-#{@article.slug}*")[0]).strftime("%Y-%m-%d")
+
+      base_data.merge({
+        "headline": @article.data.title,
+        "keywords": @article.data.keywords.join(","),
+        "url": "https://dwf.bigpencil.net/#{@article.slug}",
+        "datePublished": original_date,
+        "dateCreated": original_date,
+        "dateModified": modified_date,
+        "description": @article.data.description,
+        "articleBody": strip_tags_from(@article.body)
+      })
+    end
   end
 
-  def article_json_ld_for(article)
-    original_date = article.date.strftime("%Y-%m-%d")
-    modified_date = File.mtime(Dir.glob("source/articles/#{original_date}-#{article.slug}*")[0]).strftime("%Y-%m-%d")
-    body_without_tags = article.body.gsub(/<\/?[^>]*>/, "")
+  class Series
+    include LinkingData
 
-    json_ld.merge({
-      "headline": article.data.title,
-      "keywords": article.data.keywords.join(","),
-      "url": "https://dwf.bigpencil.net/#{article.slug}",
-      "datePublished": original_date,
-      "dateCreated": original_date,
-      "dateModified": modified_date,
-      "description": article.data.description,
-      "articleBody": body_without_tags
-    })
+    def initialize(page_locals)
+      @name = page_locals[:series]
+      @slug = @name.downcase.gsub(" ", "-")
+
+      @articles = page_locals[:articles]
+    end
+
+    def data
+      most_recent_article = @articles.first
+      earliest_article = @articles.last
+
+      base_data.merge({
+        "url": "https://dwf.bigpencil.net/series/#{@slug}",
+        "headline": @name,
+        "datePublished": earliest_article.date.strftime("%Y-%m-%d"),
+        "dateCreated": earliest_article.date.strftime("%Y-%m-%d"),
+        "dateModified": most_recent_article.date.strftime("%Y-%m-%d"),
+        "articleBody": @articles.collect { |a| a.title }.join(", ")
+      })
+    end
   end
 
-  def series_json_ld_for(series_name, articles)
-    most_recent_article = articles.first
-    earliest_article = articles.last
+  class Page
+    include LinkingData
 
-    json_ld.merge({
-      "url": "https://dwf.bigpencil.net/series/#{series_slug_for(series_name)}",
-      "headline": series_name,
-      "datePublished": earliest_article.date.strftime("%Y-%m-%d"),
-      "dateCreated": earliest_article.date.strftime("%Y-%m-%d"),
-      "dateModified": most_recent_article.date.strftime("%Y-%m-%d"),
-    })
+    def initialize(page_locals) end
+
+    def data
+      modified_date = File.mtime(Dir.glob("source/index.html.haml")[0]).strftime("%Y-%m-%d")
+
+      base_data.merge({
+        "url": "https://dwf.bigpencil.net/",
+        "datePublished": "2020-11-01",
+        "dateCreated": "2020-11-01",
+        "dateModified": modified_date
+      })
+    end
   end
 
-  def index_json_ld
-    modified_date = File.mtime(Dir.glob("source/index.html.haml")[0]).strftime("%Y-%m-%d")
-    json_ld.merge({
-      "url": "https://dwf.bigpencil.net/",
-      "datePublished": "2020-11-01",
-      "dateCreated": "2020-11-01",
-      "dateModified": modified_date
-    })
+  def linking_data(page_locals)
+    klass = if page_locals[:article]
+              Article
+            elsif page_locals[:series]
+              Series
+            else
+              Page
+            end
+    klass.new(page_locals)
   end
 end

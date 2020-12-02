@@ -1,3 +1,9 @@
+- # "hack" to get key view locals into one object for use in json-ld helpers
+- page_locals = {}
+- page_locals[:series] = locals[:series]
+- page_locals[:article] = current_article
+- page_locals[:articles] = page_articles
+
 !!!
 %html{lang: "en"}
   %head
@@ -7,7 +13,8 @@
     %link{rel: "alternate", href: "/feed.xml", type: "application/atom+xml", title: "Atom Feed"}
     %link{rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans"}
     %link{rel: "stylesheet", href: "#{url_for '/stylesheets/all.css'}"}
-    = component json_ld_component_name_for(page_classes), {articles: blog.articles}
+    %script{type: "application/ld+json"}
+      = linking_data(page_locals).data.to_json
   %body
     - unless current_page.data.hide_nav
       %nav{class: "main-nav"}

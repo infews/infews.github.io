@@ -1,6 +1,6 @@
 %section.tags<
   %hr
   Part of the series
-  %a{href: "/series/#{series_slug_for(series)}"}
+  %a{href: "/series/#{series.downcase.gsub(" ", "-")}"}
     = series
   = "."
