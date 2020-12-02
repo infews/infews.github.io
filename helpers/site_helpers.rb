@@ -1,13 +1,17 @@
 require 'json'
 
 module SiteHelpers
-  module LinkingData
-    def base_data
-      {
+  class LinkingData
+
+    def initialize(page)
+      @path = page[:path]
+
+      @data = {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "genre": "software development",
         "headline": "DWF's Journal Home",
+        "url": "https://dwf.bigpencil.net/#{@path.sub("index.html", "")}",
         "keywords": "software development, agile, career, personal",
         "author": {
           "@type": "Person",
@@ -17,31 +21,27 @@ module SiteHelpers
       }
     end
 
-    def to_json
-      data.to_json
-    end
-
     def strip_tags_from(body)
       body.gsub(/<\/?[^>]*>/, "")
     end
+
+    def to_json
+      @data.to_json
+    end
   end
 
-  class Article
-    include LinkingData
+  class Article < LinkingData
 
     def initialize(page)
-      @path = page[:path]
-      @article = page[:article]
-    end
+      super
 
-    def data
+      @article = page[:article]
       original_date = @article.date.strftime("%Y-%m-%d")
       modified_date = File.mtime(Dir.glob("source/articles/#{original_date}-#{@article.slug}*")[0]).strftime("%Y-%m-%d")
 
-      base_data.merge({
+      @data.merge!({
         "headline": @article.data.title,
         "keywords": @article.data.keywords.join(","),
-        "url": "https://dwf.bigpencil.net/#{@path}",
         "datePublished": original_date,
         "dateCreated": original_date,
         "dateModified": modified_date,
@@ -51,23 +51,19 @@ module SiteHelpers
     end
   end
 
-  class Series
-    include LinkingData
+  class Series < LinkingData
 
     def initialize(page)
-      @path = page[:path]
+      super
       @name = page[:series]
       @slug = @name.downcase.gsub(" ", "-")
 
       @articles = page[:articles]
-    end
 
-    def data
       most_recent_article = @articles.first
       earliest_article = @articles.last
 
-      base_data.merge({
-        "url": "https://dwf.bigpencil.net/#{@path}",
+      @data.merge!({
         "headline": @name,
         "datePublished": earliest_article.date.strftime("%Y-%m-%d"),
         "dateCreated": earliest_article.date.strftime("%Y-%m-%d"),
@@ -77,21 +73,18 @@ module SiteHelpers
     end
   end
 
-  class Tag
-    include LinkingData
+  class Tag < LinkingData
 
     def initialize(page)
-      @path = page[:path]
+      super
+
       @tag = page[:tag]
       @articles = page[:articles]
-    end
 
-    def data
       most_recent_article = @articles.first
       earliest_article = @articles.last
 
-      base_data.merge({
-        "url": "https://dwf.bigpencil.net/#{@path}",
+      @data.merge!({
         "headline": @name,
         "datePublished": earliest_article.date.strftime("%Y-%m-%d"),
         "dateCreated": earliest_article.date.strftime("%Y-%m-%d"),
@@ -102,18 +95,14 @@ module SiteHelpers
   end
 
 
-  class Page
-    include LinkingData
+  class Page < LinkingData
 
     def initialize(page)
-      @path = page[:path]
-    end
+      super
 
-    def data
       modified_date = File.mtime(Dir.glob("source/index.html.haml")[0]).strftime("%Y-%m-%d")
 
-      base_data.merge({
-        "url": "https://dwf.bigpencil.net/#{@path}",
+      @data.merge!({
         "datePublished": "2020-11-01",
         "dateCreated": "2020-11-01",
         "dateModified": modified_date
