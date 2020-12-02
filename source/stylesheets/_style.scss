@@ -47,7 +47,7 @@ img.avatar {
   font-style: italic;
 }
 
-nav.main-nav {
+nav.home-nav {
   padding: 20px 20px 0;
   background: #fff;
   background: rgba(255,255,255,.90);
@@ -56,12 +56,16 @@ nav.main-nav {
   z-index: 100;
 }
 
-nav.main-nav a {
+nav.home-nav.hidden {
+  display: none;
+}
+
+nav.home-nav a {
   padding: 8px 12px;
   border-radius: 3px;
 }
 
-nav.main-nav a.cta {
+nav.home-nav a.cta {
   background: #59a6ed;
   color: #fff;
   margin-left: 12px;

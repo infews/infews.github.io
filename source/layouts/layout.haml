@@ -16,11 +16,10 @@
     %script{type: "application/ld+json"}
       = linking_data(page_locals).data.to_json
   %body
-    - unless current_page.data.hide_nav
-      %nav{class: "main-nav"}
-        %a{href: "/"}
-          %span.arrow ←
-          Home
+    %nav{class: "home-nav #{current_page.data.hide_nav}"}
+      %a{href: "/"}
+        %span.arrow ←
+        Home
     %section{:id => "wrapper", :class => (current_page.data.wrapper_class)}
       = yield
       %footer#footer
