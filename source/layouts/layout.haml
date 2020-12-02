@@ -1,9 +1,3 @@
-- # "hack" to get key view locals into one object for use in json-ld helpers
-- page_locals = {}
-- page_locals[:series] = locals[:series]
-- page_locals[:article] = current_article
-- page_locals[:articles] = page_articles
-
 !!!
 %html{lang: "en"}
   %head
@@ -14,7 +8,7 @@
     %link{rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans"}
     %link{rel: "stylesheet", href: "#{url_for '/stylesheets/all.css'}"}
     %script{type: "application/ld+json"}
-      = linking_data(page_locals).data.to_json
+      = linking_data_for(locals, current_article, page_articles).data.to_json
   %body
     %nav{class: "home-nav #{current_page.data.hide_nav}"}
       %a{href: "/"}

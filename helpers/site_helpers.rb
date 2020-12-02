@@ -88,14 +88,19 @@ module SiteHelpers
     end
   end
 
-  def linking_data(page_locals)
-    klass = if page_locals[:article]
-              Article
-            elsif page_locals[:series]
-              Series
-            else
-              Page
-            end
-    klass.new(page_locals)
+  def linking_data_for(locals, article, articles)
+    page = {}
+    klass = Page
+
+    if article
+      page[:article] = article
+      klass = Article
+    elsif locals[:series]
+      page[:series] = locals[:series]
+      page[:articles] = articles
+      klass = Series
+    end
+
+    klass.new(page)
   end
 end
