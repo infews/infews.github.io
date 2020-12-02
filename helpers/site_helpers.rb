@@ -25,8 +25,8 @@ module SiteHelpers
   class Article
     include LinkingData
 
-    def initialize(page_locals)
-      @article = page_locals[:article]
+    def initialize(page)
+      @article = page[:article]
     end
 
     def data
@@ -49,11 +49,11 @@ module SiteHelpers
   class Series
     include LinkingData
 
-    def initialize(page_locals)
-      @name = page_locals[:series]
+    def initialize(page)
+      @name = page[:series]
       @slug = @name.downcase.gsub(" ", "-")
 
-      @articles = page_locals[:articles]
+      @articles = page[:articles]
     end
 
     def data
@@ -70,11 +70,35 @@ module SiteHelpers
       })
     end
   end
+  
+  class Tag
+    include LinkingData
+
+    def initialize(page)
+      @tag = page[:tag]
+      @articles = page[:articles]
+    end
+
+    def data
+      most_recent_article = @articles.first
+      earliest_article = @articles.last
+
+      base_data.merge({
+        "url": "https://dwf.bigpencil.net/tags/#{@tag}",
+        "headline": @name,
+        "datePublished": earliest_article.date.strftime("%Y-%m-%d"),
+        "dateCreated": earliest_article.date.strftime("%Y-%m-%d"),
+        "dateModified": most_recent_article.date.strftime("%Y-%m-%d"),
+        "articleBody": @articles.collect { |a| a.title }.join(", ")
+      })
+    end
+  end
+  
 
   class Page
     include LinkingData
 
-    def initialize(page_locals) end
+    def initialize(page) end
 
     def data
       modified_date = File.mtime(Dir.glob("source/index.html.haml")[0]).strftime("%Y-%m-%d")
@@ -99,6 +123,10 @@ module SiteHelpers
       page[:series] = locals[:series]
       page[:articles] = articles
       klass = Series
+    elsif locals[:current_path] =~ /^tags/
+      page[:tag] = locals[:current_path].split('/')[1]
+      page[:articles] = articles
+      klass = Tag
     end
 
     klass.new(page)
