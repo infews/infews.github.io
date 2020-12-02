@@ -17,6 +17,10 @@ module SiteHelpers
       }
     end
 
+    def to_json
+      data.to_json
+    end
+
     def strip_tags_from(body)
       body.gsub(/<\/?[^>]*>/, "")
     end
@@ -70,7 +74,7 @@ module SiteHelpers
       })
     end
   end
-  
+
   class Tag
     include LinkingData
 
@@ -93,7 +97,7 @@ module SiteHelpers
       })
     end
   end
-  
+
 
   class Page
     include LinkingData
