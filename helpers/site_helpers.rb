@@ -30,6 +30,7 @@ module SiteHelpers
     include LinkingData
 
     def initialize(page)
+      @path = page[:path]
       @article = page[:article]
     end
 
@@ -40,7 +41,7 @@ module SiteHelpers
       base_data.merge({
         "headline": @article.data.title,
         "keywords": @article.data.keywords.join(","),
-        "url": "https://dwf.bigpencil.net/#{@article.slug}",
+        "url": "https://dwf.bigpencil.net/#{@path}",
         "datePublished": original_date,
         "dateCreated": original_date,
         "dateModified": modified_date,
@@ -54,6 +55,7 @@ module SiteHelpers
     include LinkingData
 
     def initialize(page)
+      @path = page[:path]
       @name = page[:series]
       @slug = @name.downcase.gsub(" ", "-")
 
@@ -65,7 +67,7 @@ module SiteHelpers
       earliest_article = @articles.last
 
       base_data.merge({
-        "url": "https://dwf.bigpencil.net/series/#{@slug}",
+        "url": "https://dwf.bigpencil.net/#{@path}",
         "headline": @name,
         "datePublished": earliest_article.date.strftime("%Y-%m-%d"),
         "dateCreated": earliest_article.date.strftime("%Y-%m-%d"),
@@ -79,6 +81,7 @@ module SiteHelpers
     include LinkingData
 
     def initialize(page)
+      @path = page[:path]
       @tag = page[:tag]
       @articles = page[:articles]
     end
@@ -88,7 +91,7 @@ module SiteHelpers
       earliest_article = @articles.last
 
       base_data.merge({
-        "url": "https://dwf.bigpencil.net/tags/#{@tag}",
+        "url": "https://dwf.bigpencil.net/#{@path}",
         "headline": @name,
         "datePublished": earliest_article.date.strftime("%Y-%m-%d"),
         "dateCreated": earliest_article.date.strftime("%Y-%m-%d"),
@@ -102,13 +105,15 @@ module SiteHelpers
   class Page
     include LinkingData
 
-    def initialize(page) end
+    def initialize(page)
+      @path = page[:path]
+    end
 
     def data
       modified_date = File.mtime(Dir.glob("source/index.html.haml")[0]).strftime("%Y-%m-%d")
 
       base_data.merge({
-        "url": "https://dwf.bigpencil.net/",
+        "url": "https://dwf.bigpencil.net/#{@path}",
         "datePublished": "2020-11-01",
         "dateCreated": "2020-11-01",
         "dateModified": modified_date
@@ -118,6 +123,8 @@ module SiteHelpers
 
   def linking_data_for(locals, article, articles)
     page = {}
+    page[:path] = locals[:current_path]
+
     klass = Page
 
     if article
