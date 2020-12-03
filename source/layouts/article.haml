@@ -6,10 +6,7 @@
       %h2.date
         = current_article.date.strftime('%e %B %Y')
     %section#post-body= yield
-    - if current_article.tags
-      = component 'tags_for_this_article', {tags: current_article.tags}
-    - if current_article.data.series
-      = component 'series_footer_link', {series: current_article.data.series}
+    = component 'article_footer', {tags: current_article.tags, series: current_article.data.series}
   %footer#post-meta
     %a{href:"/"}
       %img.avatar{ :src => url_for("/images/dwf.png"), :alt => "Avatar" }
