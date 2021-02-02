@@ -47,6 +47,7 @@ set :google_analytics, nil
 - Added pages for tags
 - Wrote a tag helper to link all tags to their pages on each article page
 - Excludes `private` posts from all list pages, but still publishes them
+- Turned on Markdown footnotes (expanded syntax, supported by RedCarpet), including style changes
 
 ## Coming Soon
 
