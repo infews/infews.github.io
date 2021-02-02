@@ -5,17 +5,98 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2020-11-30T16:36:52-08:00</updated>
+  <updated>2021-02-02T14:41:43-08:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
-  <rights>© Davis W. Frank 2020</rights>
+  <rights>© Davis W. Frank 2021</rights>
+  <entry>
+    <title>Driven to Tests</title>
+    <link href="https://dwf.bigpencil.net/driven-to-tests/" rel="alternate"/>
+    <id/>
+    <published>2021-02-02T13:53:00-08:00</published>
+    <updated>2021-02-02T14:41:43-08:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;hr&gt;
+
+&lt;p&gt;What are the signs that your software product team has experienced a big issue during development? Team velocity on new features has slowed down compared to earlier iterations. Tech debt is taking a long time to pay down. There&amp;rsquo;s a bug in production - or worse, some sort of production outage. How does your team adapt to the situation?&lt;/p&gt;
+
+&lt;p&gt;No matter the cause, there is hard coding work ahead. You&amp;rsquo;re worried about the speed and effectiveness of the team as they work. And you want to finish the task with no risk to the rest of the product.&lt;/p&gt;
+
+&lt;p&gt;Are your tests helpful in these stressful situations? Are they just a quality check before shipping? Or are they more integrated into your workflow? How can you increase velocity of new effort, bug fixing, and production fixes? And how can your test suite increase your confidence that recent work is correct while not exposing the rest of the product to risk? How can your test suite factor into Continuous Delivery?&lt;/p&gt;
+
+&lt;p&gt;If these questions sound interesting, can I interest you in test-driven development?&lt;/p&gt;
+
+&lt;h2&gt;Why Test First?&lt;/h2&gt;
+
+&lt;p&gt;If you&amp;rsquo;ve never heard or seen test-driven development (TDD), it&amp;rsquo;s exactly what it sounds like. Developers write a test, run it to watch it fail, then write the implementation code to get the test to pass. Repeat.&lt;sup id="fnref1"&gt;&lt;a href="#fn1"&gt;1&lt;/a&gt;&lt;/sup&gt; Over time, these tests build into to a robust suite that provides your product with several benefits.&lt;/p&gt;
+
+&lt;p&gt;First is the impact on the amount of implementation code. By writing only the code to make tests pass, you have &amp;ldquo;just enough implementation&amp;rdquo; - less code and less complicated code. The codebase will not have unused code paths cuttering developers&amp;rsquo; editors and brains. Smaller, simpler code is easier to change in the future.&lt;/p&gt;
+
+&lt;p&gt;Yes, there will be a lot of code written in &lt;em&gt;tests&lt;/em&gt;. Likely more than what you may have seen in a traditional automated test suite. But a passing TDD&amp;rsquo;d suite provides a higher sense of confidence than a typical test suite that the product will work as described. That confidence says that when the suite is passing, the team can ship that version of the product.&lt;/p&gt;
+
+&lt;p&gt;The tests also allow for change in the future while maintaining that confidence. If tests are passing &amp;ldquo;near&amp;rdquo; the work a developer is doing, but failing elsewhere, that is very useful information. You know not to ship until the entire test suite is green. You know about a less obvious code depencency. This is handy when writing new code or fixing bugs. It is amazing when refactoring.&lt;/p&gt;
+
+&lt;p&gt;Another benefit is useful documentation. Code documentation is often a separate effort, written after code is complete and shipped. Thus they tend to be, and stay, out of date. In a TDD project, the test suites have descriptive test names and clear implementation that tell the reader exactly how the code works. So the suite serves as documentation that is complete before any code is checked into version control. Test-suites-as-documentation are useful to teams immediately and they stay that way over time.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s also possible to build a test suite that does even more. The &lt;a href="https://jasmine.github.io/tutorials/your_first_suite"&gt;Jasmine tutorial&lt;/a&gt; is end-user documentation that is also a test suite.&lt;sup id="fnref2"&gt;&lt;a href="#fn2"&gt;2&lt;/a&gt;&lt;/sup&gt; This executable documentation has been part of Jasmine&amp;rsquo;s continuous integration process for years. Jasmine doesn&amp;rsquo;t ship without knowing that version works for anyone trying the tutorial.&lt;/p&gt;
+
+&lt;h2&gt;What About Continuous Delivery?&lt;/h2&gt;
+
+&lt;p&gt;That all sounds great. How does TDD relate to CD?&lt;/p&gt;
+
+&lt;p&gt;If we go back to the metaphor of software development as manufacturing line (from &lt;a href="https://dwf.bigpencil.net/the-continuous-delivery-test/"&gt;The CD Test&lt;/a&gt;), then how does a test-driven suite help eliminate wasted effort and keep new software leaving the factory?&lt;/p&gt;
+
+&lt;p&gt;New tests reduce effort by forcing you to express how code should work before you&amp;rsquo;ve written it. This is often easier than imagining the code that will accomplish the given task. It&amp;rsquo;s like a well-prepared grocery run. You leave home with a shopping list of ingredients grouped by the shops you need to visit to find them. Overall it is faster to do the work at hand.&lt;/p&gt;
+
+&lt;p&gt;This is also true for production issues. Once you know how to reproduce a bug, and you express that bug in a new test, it becomes straightforward to solve. The bug may still be complex to fix, but you will know where to start and when you&amp;rsquo;re done. That test then stays in the suite as long as necessary, preventing regression.&lt;/p&gt;
+
+&lt;p&gt;Existing tests do even more to keep team momentum high. Revisiting old code, whether to fix bugs, refactor, or add new functionality, often has a high start-up cost. Reading old code to understand how it works, and why, takes more time the longer its been since you visited that code. But with a test-driven suite, that effort is lower. The how and why is documented right there. If your team is growing, new developers can get oriented just by reading the tests and following the implementation as needed, building concrete understanding of the system. The test suite becomes a knowlege refresher and accelerator for anyone on the team.&lt;/p&gt;
+
+&lt;p&gt;Going back to the CD analogy of the manufacturing line, a failing test is like an &lt;a href="https://en.wikipedia.org/wiki/Andon_(manufacturing)"&gt;Andon cord&lt;/a&gt;. If there is a failing test in your suite, the product should not ship. The team needs to write code to get all the tests passing again. And once all the tests are green, the manufacturing line can continue. A test suite that is passing and stays passing by default increases the overall confidence in the product.&lt;/p&gt;
+
+&lt;p&gt;A test-driven suite removes waste and inefficiencies from the software development process.  That leads to getting the team into a regular cadence of releases. And that gives you the benefits you want of Continuous Delivery.&lt;/p&gt;
+
+&lt;h2&gt;Start by Starting&lt;/h2&gt;
+
+&lt;p&gt;Getting started is easy. It is as simple as writing code in the &amp;ldquo;test, fail, implement, pass&amp;rdquo; pattern. And playing with some refactoring along the way. &lt;em&gt;Where&lt;/em&gt; to start is harder.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re a book person, Kent Beck&amp;rsquo;s &lt;a href="https://amzn.to/3sYihAu"&gt;TDD By Example&lt;/a&gt; is great. If you&amp;rsquo;re a tutorial type, take a look at James Shore&amp;rsquo;s &lt;a href="http://www.jamesshore.com/v2/projects/lets-play-tdd"&gt;Let&amp;rsquo;s Play&lt;/a&gt; casts. If you&amp;rsquo;re a doc-crawler, try Test Double&amp;rsquo;s &lt;a href="https://github.com/testdouble/contributing-tests/wiki"&gt;TDD wiki&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If it feels too daunting to start with your product code base, try smaller, isolated problems. There are plenty of TDD exercizes out there (including the Test Double wiki above). Or you can pick up something like &lt;a href="https://adventofcode.com/"&gt;Advent of Code&lt;/a&gt;, which has fun problems with test data and test answers. When comfortable with your new habits, take them back to your product development.&lt;/p&gt;
+
+&lt;p&gt;Justin says in his post &lt;a href="https://blog.testdouble.com/posts/2014-01-25-the-failures-of-intro-to-tdd/"&gt;The Failures of &amp;ldquo;Intro to TDD&amp;rdquo;&lt;/a&gt;, early experience will teach you the mechanics. But like any new craft you need lots of practice to get smooth and maximize the benefits. With time, experience, and research you will see TDD as more of a &lt;a href="https://threadreaderapp.com/thread/1335623514959777795.html"&gt;design technique&lt;/a&gt; (ps: follow &lt;a href="https://twitter.com/geepawhill"&gt;@GeePawHill&lt;/a&gt;). Your tests and code will get even better.&lt;/p&gt;
+
+&lt;h2&gt;Isn&amp;rsquo;t this Expensive?&lt;/h2&gt;
+
+&lt;p&gt;In the &lt;a href="https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/"&gt;Joel Test&lt;/a&gt;, he talks about having dedicated testers for a software team (he expands on this in a &lt;a href="https://www.joelonsoftware.com/2000/04/30/top-five-wrong-reasons-you-dont-have-testers/"&gt;later post&lt;/a&gt;). He points out that not having testers in 2000 was a false economy. Finding issues, bugs, and feature gaps earlier in the development process was, and is still, less expensive than letting users find them for you.&lt;/p&gt;
+
+&lt;p&gt;Twenty years on, more and more testing is done with code. These tests are repeatable and essential to your product. Moving to test-driven development provides even more benefits. It is an investment in your product that results in lower costs in code design, higher team productivity, and fewer bugs for your customers. When it comes to Continuous Delivery, it can increase the momentum of the team, making it easier to ship early and often.&lt;/p&gt;
+
+&lt;div class="footnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+
+&lt;li id="fn1"&gt;
+&lt;p&gt;If this is hard to imagine, &lt;a href="https://medium.com/@dagmaraszkurat"&gt;Dagmara Szkurłat&amp;rsquo;s&lt;/a&gt; wrote a fun &lt;a href="https://medium.com/@dagmaraszkurat/how-i-explained-tdd-to-a-non-developer-friend-and-got-a-job-offer-over-tacos-b881895182c5"&gt;real-world analogy&lt;/a&gt; that is a good next stop.&amp;nbsp;&lt;a href="#fnref1"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li id="fn2"&gt;
+&lt;p&gt;Thanks to &lt;a href="https://twitter.com/mjackson"&gt;Michael Jackson&lt;/a&gt; who suggested this at the speakers&amp;rsquo; summit prior to the first Fluent Conf in 2012.&amp;nbsp;&lt;a href="#fnref2"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;/ol&gt;
+&lt;/div&gt;
+</content>
+  </entry>
   <entry>
     <title>Start with Retrospectives</title>
     <link href="https://dwf.bigpencil.net/start-with-retrospectives/" rel="alternate"/>
     <id/>
     <published>2020-11-29T16:00:00-08:00</published>
-    <updated>2020-11-30T16:36:52-08:00</updated>
+    <updated>2020-11-30T16:37:28-08:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
