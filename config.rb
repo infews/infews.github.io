@@ -59,7 +59,7 @@ set :haml, { :format => :html5 }
 # Markdown and syntax highlighting
 activate :syntax
 set :markdown_engine, :redcarpet
-set :markdown, fenced_code_blocks: true, smartypants: true
+set :markdown, fenced_code_blocks: true, smartypants: true, footnotes: true
 
 # Use commit time from git for sitemap.xml and feed.xml
 activate :vcs_time
