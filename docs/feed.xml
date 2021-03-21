@@ -5,17 +5,279 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2021-02-02T14:41:43-08:00</updated>
+  <updated>2021-03-21T09:58:17-07:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
   <rights>© Davis W. Frank 2021</rights>
   <entry>
+    <title>Community Plugin: Calendar</title>
+    <link href="https://dwf.bigpencil.net/community-plugin-calendar/" rel="alternate"/>
+    <id/>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2021-03-21T09:58:17-07:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;p&gt;This plug-in works with the Daily Notes plug-in. It adds a new tab in the right pane that gives a single-month view. Each date links to that day&amp;rsquo;s daily note, with a cute dot notation for the length of that note. You can also browse back and forth between months.&lt;/p&gt;
+
+&lt;p&gt;I find this is faster for zeroing in on historical notes. And sometimes you just need another calendar right in front of you during the day.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Thoughts on Vaults</title>
+    <link href="https://dwf.bigpencil.net/thoughts-on-vaults/" rel="alternate"/>
+    <id/>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2021-03-21T09:56:00-07:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;p&gt;I keep nearly all of my notes in one Obsidian vault. I&amp;rsquo;ve found that cross-linking and my daily journaling have benefited the most from keeping everything in one directory and thus vault.&lt;/p&gt;
+
+&lt;p&gt;I do have separate vaults for dedicated topics of longer form writing. I have an ongoing blog series that has its own vault. And I have another for a topic that may turn into a book.&lt;/p&gt;
+
+&lt;p&gt;This series started as one note in the main vault.&lt;/p&gt;
+
+&lt;p&gt;I keep the all of my vaults as subdirectories in one directory that lives online for ease of access from different computers and mobile devices. At the moment this is on Dropbox.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Don't Sleep on the Command Palette</title>
+    <link href="https://dwf.bigpencil.net/love-the-command-palette/" rel="alternate"/>
+    <id/>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2021-03-21T09:56:00-07:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;p&gt;While I&amp;rsquo;m still learning how to use Obsidian, I find the Command Palette amazing. &lt;code&gt;Ctrl+P/Cmd+P&lt;/code&gt; brings up a searchable list of commands. I find new actions here all the time. And it&amp;rsquo;s the fastest way to put an &lt;a href="/series/obsidian/obsidian-links"&gt;Obsidian URL&lt;/a&gt; on your clipboard.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Note Taking in 1-1's</title>
+    <link href="https://dwf.bigpencil.net/one-on-one-notes/" rel="alternate"/>
+    <id/>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2021-03-21T09:56:00-07:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;p&gt;I have several regular meetings with a handful of people. These meetings are often peer-to-peer or manager-to-person type meetings. Here is how I use Obsidian to take notes during these meetings.&lt;/p&gt;
+
+&lt;h2&gt;Create the Person&amp;rsquo;s Note&lt;/h2&gt;
+
+&lt;p&gt;Before the first meeting, I make a note with the person&amp;rsquo;s name. Naturally, I use a &lt;a href="/series/obsidian/core-plugin-templates"&gt;template&lt;/a&gt; for this text.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight markdown"&gt;&lt;code&gt;&lt;span class="gh"&gt;# {{title}} Background&lt;/span&gt;
+
+&lt;span class="gh"&gt;# Topics&lt;/span&gt;
+&lt;span class="p"&gt;
+-&lt;/span&gt; [ ]
+
+&lt;span class="gh"&gt;# Action Items&lt;/span&gt;
+
+&lt;span class="gu"&gt;## Me&lt;/span&gt;
+&lt;span class="p"&gt;
+-&lt;/span&gt; [ ]
+
+&lt;span class="gu"&gt;## {{title}}&lt;/span&gt;
+&lt;span class="p"&gt;
+-&lt;/span&gt; [ ]
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Over time, I fill this template in like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight markdown"&gt;&lt;code&gt;
+&lt;span class="gh"&gt;# Andy Nelson Background&lt;/span&gt;
+&lt;span class="p"&gt;
+-&lt;/span&gt; University of Bedford
+&lt;span class="p"&gt;-&lt;/span&gt; Likes jazz drumming
+&lt;span class="p"&gt;-&lt;/span&gt; Partner is Wendy Lam
+
+&lt;span class="gh"&gt;# Topics&lt;/span&gt;
+&lt;span class="p"&gt;
+-&lt;/span&gt; [x] Next semester's classes
+&lt;span class="p"&gt;-&lt;/span&gt; [x] LinkedIn Tutorial
+&lt;span class="p"&gt;-&lt;/span&gt; [ ] Career goals review
+&lt;span class="p"&gt;-&lt;/span&gt; [ ] Miles Davis album list
+
+&lt;span class="gh"&gt;# Action Items&lt;/span&gt;
+
+&lt;span class="gu"&gt;## Me&lt;/span&gt;
+&lt;span class="p"&gt;
+-&lt;/span&gt; [ ] Send goals template
+
+&lt;span class="gu"&gt;## Andy&lt;/span&gt;
+&lt;span class="p"&gt;
+-&lt;/span&gt; [ ] Write Career Goals
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Background&lt;/strong&gt; is for the anything interesting about them. I usually pull most of this from our first meeting, but I&amp;rsquo;ve been known to add to it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics&lt;/strong&gt; is for anything I want to make sure to mention at our next meeting. I use checklists for these.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Action Items&lt;/strong&gt; gets any tasks we assign to each other during the meeting. Again checklists for these.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Meeting Day&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Before the Meeting
+
+&lt;ul&gt;
+&lt;li&gt;List the meeting in the Calendar section of the today&amp;rsquo;s note, with the time and a link to this file&lt;/li&gt;
+&lt;li&gt;Copy the open Topics from this note to today&amp;rsquo;s note as an agenda&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;During the meeting
+
+&lt;ul&gt;
+&lt;li&gt;Take notes as needed in today&amp;rsquo;s note&lt;/li&gt;
+&lt;li&gt;Mark discussed Topics and Action Items complete&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;After the meeting
+
+&lt;ul&gt;
+&lt;li&gt;Brain dump any notes that didn&amp;rsquo;t make it to the Daily Note&lt;/li&gt;
+&lt;li&gt;Mark discussed Topics and Action Items complete in this file, too&lt;/li&gt;
+&lt;li&gt;Add any new Topics, Action Items, other background items, or expand this file&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Between Meetings&lt;/h2&gt;
+
+&lt;p&gt;I will add new Topics to the Person&amp;rsquo;s note as they come up. The Linked Mentions tab becomes a great historical list of our 1-1 meetings.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Obsidian URLs</title>
+    <link href="https://dwf.bigpencil.net/obsidian-links/" rel="alternate"/>
+    <id/>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2021-03-21T09:56:00-07:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;p&gt;Obsidian&amp;rsquo;s URL scheme is fabulous. A link of this form:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;obsidian://open?vault=&amp;lt;vault_name&amp;gt;&amp;amp;file=&amp;lt;note_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;..will open Obsidian with that vault and that note selected.&lt;/p&gt;
+
+&lt;p&gt;I use this a lot with my task manager, linking back from projects and tasks to longer thoughts on the topic. I also link to notes &lt;a href="/series/obsidian/thoughts-on-vaults"&gt;other vaults&lt;/a&gt; as needed.&lt;/p&gt;
+
+&lt;p&gt;With any note open, &amp;ldquo;Copy Obsidian URL&amp;rdquo; is available via the Command Palette and the note menu.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Using Links</title>
+    <link href="https://dwf.bigpencil.net/using-links/" rel="alternate"/>
+    <id/>
+    <published>2021-03-21T09:13:00-07:00</published>
+    <updated>2021-03-21T09:57:13-07:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;p&gt;For internal links, I use the &lt;code&gt;[[wiki links]]&lt;/code&gt; style. This is the default option and I find it&amp;rsquo;s just faster when I&amp;rsquo;m typing and am pretty sure there&amp;rsquo;s a note I want to link to. And if I&amp;rsquo;m wrong, it&amp;rsquo;s one click to make that note.&lt;/p&gt;
+
+&lt;p&gt;For external links, I have a strong preference for &lt;a href="&amp;quot;https://www.markdownguide.org/basic-syntax/#reference-style-links&amp;quot;"&gt;reference-style links&lt;/a&gt; in my notes. Given that I spend so much time in Edit Mode, I find this keeps the notes more readable.&lt;/p&gt;
+
+&lt;p&gt;I use named references, usually only one word, and stay away from numbers. Why? Because I&amp;rsquo;m always re-ordering them.&lt;/p&gt;
+
+&lt;p&gt;Obsidian renders the references in smaller text, making them easy to ignore most of the time. But when you need them, they are easy to find.&lt;/p&gt;
+
+&lt;p&gt;I also like putting them at the bottom of the current note, below a Horizontal Rule, where they are out of the way. I have experimented with putting all of the references at the top of the file, but for now, I keep them at the bottom.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Using Tags</title>
+    <link href="https://dwf.bigpencil.net/using-tags/" rel="alternate"/>
+    <id/>
+    <published>2021-03-21T09:13:00-07:00</published>
+    <updated>2021-03-21T09:56:00-07:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;p&gt;I am not a huge tag user. I find the search very good and the Linked/Unlinked mentions tab enlightening.&lt;/p&gt;
+
+&lt;p&gt;However, I do have a few categories of notes I want called out. So I will drop a hashtag at the bottom of the file, below a Horizontal Rule, where it is out of the way. I&amp;rsquo;ve found I like this better than using YAML front matter.&lt;/p&gt;
+
+&lt;p&gt;As I type this, I realize that all of the tags I care about are types of notes and thus have templates associated with them. So each template includes the tag. I barely even think about them except when searching.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Core Plugin: Templates</title>
+    <link href="https://dwf.bigpencil.net/core-plugin-templates/" rel="alternate"/>
+    <id/>
+    <published>2021-03-21T09:12:00-07:00</published>
+    <updated>2021-03-21T09:58:17-07:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;p&gt;I enabled the Core plugin for Templates. This allows you to specify a directory of templates - just Markdown files - for when you create new notes.&lt;/p&gt;
+
+&lt;p&gt;You get a new button on the left gutter called Insert Template for inserting templated text.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Create a new file&lt;/li&gt;
+&lt;li&gt;Optionally name it&lt;/li&gt;
+&lt;li&gt;Click the &lt;strong&gt;Insert Template&lt;/strong&gt; button&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When you click this button, Obsidian asks you which template to insert, shows you a searchable list of all of your template files. Pick one and it&amp;rsquo;s inserted.&lt;/p&gt;
+
+&lt;p&gt;The main option is a directory to hold your template text notes. I have named my template directory &lt;code&gt;_templates_&lt;/code&gt; so the folder pops to the top of my Notes tab. I keep it closed so I barely think about it. I&amp;rsquo;ve named each template &lt;code&gt;_Template&amp;lt;topic&amp;gt;&lt;/code&gt; so they are differentiated in any file list.&lt;/p&gt;
+
+&lt;p&gt;There are a few variables it will evaluate, including inserting the title, date, and time, for customization.&lt;/p&gt;
+
+&lt;p&gt;And yes, the Daily Journal plugin is fine with the daily template living in this directory.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Core Plugin: Daily Journal</title>
+    <link href="https://dwf.bigpencil.net/core-plugin-daily-journal/" rel="alternate"/>
+    <id/>
+    <published>2021-03-20T17:27:00-07:00</published>
+    <updated>2021-03-21T09:56:00-07:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;p&gt;I use the Core Daily Journal plugin every day.&lt;/p&gt;
+
+&lt;p&gt;This gives you a new button in the left gutter. Click on it and you get a blank, optionally templated, file named with today&amp;rsquo;s date, for taking notes for well, today. No matter what file you&amp;rsquo;re in, clicking that button will take you back to this file.&lt;/p&gt;
+
+&lt;p&gt;The plugin allows for an optional template, stored in a file as a note. I find this invaluable for jump starting my day.&lt;/p&gt;
+
+&lt;p&gt;I use the date format of &lt;code&gt;YYYY.MM.DD&lt;/code&gt;, which helps with sorting when looking for a day&amp;rsquo;s note outside of Obsidian - say, on mobile or via the file system.&lt;/p&gt;
+
+&lt;p&gt;As of this writing, my template looks like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight markdown"&gt;&lt;code&gt;&lt;span class="gh"&gt;# Exercise&lt;/span&gt;
+
+&lt;span class="gh"&gt;# Calendar&lt;/span&gt;
+
+&lt;span class="gh"&gt;# Work&lt;/span&gt;
+&lt;span class="p"&gt;
+---&lt;/span&gt;
+&lt;span class="gh"&gt;#dailynotes&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;I like logging my daily exercise. So that&amp;rsquo;s obvious. I tend to exercise first thing in the morning, so when I open this note, I log the workouts right away.&lt;/p&gt;
+
+&lt;p&gt;The &amp;ldquo;Work&amp;rdquo; section is for stuff I did today that needs some context - beyond, say, what&amp;rsquo;s in my personal task manager. I often will have items here like &amp;ldquo;wrote some for the blog&amp;rdquo; or &amp;ldquo;talked to neighbor about the fence&amp;rdquo; just to tickle my brain when I come back to this file.&lt;/p&gt;
+
+&lt;p&gt;The &amp;ldquo;Calendar&amp;rdquo; section is full of entries of the meetings I know I&amp;rsquo;m going to have, or if spontaneous ones happen, I add them, too. They look like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight markdown"&gt;&lt;code&gt;&lt;span class="gh"&gt;# Calendar&lt;/span&gt;
+
+&lt;span class="gu"&gt;## 1100a Talk with [[Andy Nelson]]&lt;/span&gt;
+
+&lt;span class="gu"&gt;## 0230p 1-1 with [[Kyle]]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;I will take bulleted list notes in these sections during the meeting if possible. And anything that I need to dump out of my brain after the meeting, I&amp;rsquo;ll flesh out the section.&lt;/p&gt;
+
+&lt;p&gt;I talk about linking to people in &lt;a href="/series/obsidian/one-on-one-notes"&gt;Obsidian 1-1&amp;rsquo;s&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Driven to Tests</title>
     <link href="https://dwf.bigpencil.net/driven-to-tests/" rel="alternate"/>
     <id/>
     <published>2021-02-02T13:53:00-08:00</published>
-    <updated>2021-02-02T14:41:43-08:00</updated>
+    <updated>2021-03-21T09:56:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>

@@ -1,5 +1,4 @@
 ---
-
 title: "Core Plugin: Templates"
 date: 2021-03-21 16:12 UTC
 tags:
