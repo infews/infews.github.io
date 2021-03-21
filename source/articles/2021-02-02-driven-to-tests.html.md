@@ -4,12 +4,12 @@ date: 2021-02-02 21:53 UTC
 tags:
   - agile 
 keywords:
-    - test driven development
-    - tdd
-    - software development
-    - agile
-    - continuous delivery
-    - the cd test
+  - test driven development
+  - tdd
+  - software development
+  - agile
+  - continuous delivery
+  - the cd test
 series: "The CD Test"
 ---
 
