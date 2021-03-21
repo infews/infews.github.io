@@ -5,17 +5,49 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2021-03-21T09:58:17-07:00</updated>
+  <updated>2021-03-21T12:07:45-07:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
   <rights>© Davis W. Frank 2021</rights>
   <entry>
+    <title>History of The Big Pencil</title>
+    <link href="https://dwf.bigpencil.net/big-pencil/" rel="alternate"/>
+    <id/>
+    <published>2021-03-21T11:22:00-07:00</published>
+    <updated>2021-03-21T12:07:45-07:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;p&gt;Whenever someone asks me about the bigpencil.net domain, I get to tell this story.&lt;/p&gt;
+
+&lt;p&gt;In 1965, my dad was a business major, finishing up his senior year at &lt;a href="https://uga.edu"&gt;The University of Georgia&lt;/a&gt; (ɢᴏ ᴅᴀᴡɢs).&lt;/p&gt;
+
+&lt;p&gt;Things were going well for Dad. He had just accepted a job with IBM in Atlanta. He was excited and wanted to share this success with his advisor. So he headed to North Campus and the professor&amp;rsquo;s office.&lt;/p&gt;
+
+&lt;p&gt;Dad was not prepared for the reaction.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;You&amp;rsquo;re doing &lt;em&gt;what??&lt;/em&gt; &amp;rdquo; exclaimed the advisor, eyes squinted and brow furrowed.&lt;/p&gt;
+
+&lt;p&gt;My dad replied, earnestly, &amp;ldquo;I&amp;rsquo;m going to be working at IBM. Computers really feel like they&amp;rsquo;re going to be a big deal.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;The advisor continued to stare at my dad. The silence was far from comfortable. &lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Really? Do you know what a computer is?&amp;rdquo; He scribbled on a notepad, ripped off the top sheet, and slid it across the desk, and declared:&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;A &lt;em&gt;computer&lt;/em&gt; is nothing. But a &lt;strong&gt;BIG&lt;/strong&gt;. &lt;strong&gt;PENCIL&lt;/strong&gt;.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/pencil-52180e40.jpg" alt="The Big Pencil" /&gt;&lt;/p&gt;
+
+&lt;p&gt;That note has been in this frame ever since.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Community Plugin: Calendar</title>
     <link href="https://dwf.bigpencil.net/community-plugin-calendar/" rel="alternate"/>
     <id/>
     <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2021-03-21T09:58:17-07:00</updated>
+    <updated>2021-03-21T09:58:45-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -170,7 +202,7 @@
     <link href="https://dwf.bigpencil.net/using-links/" rel="alternate"/>
     <id/>
     <published>2021-03-21T09:13:00-07:00</published>
-    <updated>2021-03-21T09:57:13-07:00</updated>
+    <updated>2021-03-21T09:58:45-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -206,7 +238,7 @@
     <link href="https://dwf.bigpencil.net/core-plugin-templates/" rel="alternate"/>
     <id/>
     <published>2021-03-21T09:12:00-07:00</published>
-    <updated>2021-03-21T09:58:17-07:00</updated>
+    <updated>2021-03-21T09:58:45-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
