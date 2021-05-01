@@ -5,17 +5,97 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2021-03-21T12:07:45-07:00</updated>
+  <updated>2021-04-30T17:13:53-07:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
   <rights>© Davis W. Frank 2021</rights>
   <entry>
+    <title>My Obsidian for a Job Search</title>
+    <link href="https://dwf.bigpencil.net/my-obsidian-for-a-job-search/" rel="alternate"/>
+    <id/>
+    <published>2021-04-30T17:03:00-07:00</published>
+    <updated>2021-04-30T17:13:53-07:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;p&gt;My friends have been great about asking me how my current job search is going. Twice in the last month, people have asked a follow-up, &amp;ldquo;How are you tackling the problem?&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/obsidian/glad-de1f1aa5.jpg" alt="I'M GLAD YOU ASKED" /&gt;&lt;/p&gt;
+
+&lt;p&gt;The answer this time is some new habits, a couple of apps, and Obsidian (duh).&lt;/p&gt;
+
+&lt;h2&gt;The Short Version&lt;/h2&gt;
+
+&lt;p&gt;I have a daily routine that looks roughly like this:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Search for Jobs&lt;/li&gt;
+&lt;li&gt;For each interesting job, write up research notes&lt;/li&gt;
+&lt;li&gt;Track the status of the job application on a Kanban board (I use &lt;a href="https://todoist.com"&gt;Todoist&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;For each application, customize a generic resume and cover letter (Google Docs)&lt;/li&gt;
+&lt;li&gt;Take notes on each discussion and interview&lt;/li&gt;
+&lt;li&gt;Keep some common interview questions and answers in a note&lt;/li&gt;
+&lt;li&gt;Keep the Kanban updated as applications happen and change status&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Naturally, I take all the notes in Obsidian.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s hard to write this up linearlly. This summary wasn&amp;rsquo;t feeling helpful. If only there were some way to deliver a folder of notes, including some templates, with some linking.&lt;/p&gt;
+
+&lt;p&gt;Oh, wait.&lt;/p&gt;
+
+&lt;h2&gt;But Why Not an Obsidian Vault?&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/infews/job_search_in_obsidian"&gt;Here it is&lt;/a&gt; - a folder of Markdown files that walks you my current job search process. It handles all of the steps above. It allows for lots of personalization. And if you open these files in Obsidian - as their own Vault, or just copy them to your main Vault - then you get even more power out of your second brain.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s also a GitHub repo. So issues welcome. Though I will be picky about PR&amp;rsquo;s. Make this your own.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Cmd-O is My New and Old Friend</title>
+    <link href="https://dwf.bigpencil.net/cmd-o-is-my-new-and-old-friend/" rel="alternate"/>
+    <id/>
+    <published>2021-04-30T17:00:00-07:00</published>
+    <updated>2021-04-30T17:05:12-07:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;p&gt;When I was a big &lt;a href="https://brettterpstra.com/projects/nvalt/"&gt;nvALT&lt;/a&gt; user, I got very used to a specific set of actions whenever I needed to take notes on something I would&amp;hellip;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;Cmd-Tab&lt;/code&gt; over to nvALT&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Cmd-L&lt;/code&gt; to get to the search bar&lt;/li&gt;
+&lt;li&gt;Type the thing on my mind&lt;/li&gt;
+&lt;li&gt;Scan the search results&lt;/li&gt;
+&lt;li&gt;Choose a note Edit/Append to the note as needed&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Hit &lt;code&gt;Enter&lt;/code&gt; to make a new file to empty my brain into&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This was deep, &lt;em&gt;deep&lt;/em&gt; muscle memory for me. &amp;ldquo;This feels familiar. Did I ever write anything up about&amp;hellip;&amp;rdquo; then &lt;code&gt;Cmd-Tab&lt;/code&gt;, &lt;code&gt;Cmd-L&lt;/code&gt;, type-ity-type-ity, and continue on. This was very smooth.&lt;/p&gt;
+
+&lt;p&gt;As much as I&amp;rsquo;ve raved about Obsidian in this series, I was missing this feature.&lt;/p&gt;
+
+&lt;p&gt;But it turns out that &lt;code&gt;Cmd-O&lt;/code&gt; is &lt;em&gt;all you had to say&lt;/em&gt;. It&amp;rsquo;s nearly the same functionality. The search happens in a modal dialog and gives you the option of navigating down to the note you want or just creating a new note with the search contents as the title.&lt;/p&gt;
+
+&lt;p&gt;And yes, Windows &amp;amp; Linux users, &lt;code&gt;Ctrl-O&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;I now keep my left pane collapsed by default and only use the search tab for looking for tags.&lt;/p&gt;
+
+&lt;p&gt;Just glorious.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>History of The Big Pencil</title>
     <link href="https://dwf.bigpencil.net/big-pencil/" rel="alternate"/>
     <id/>
     <published>2021-03-21T11:22:00-07:00</published>
-    <updated>2021-03-21T12:07:45-07:00</updated>
+    <updated>2021-03-21T12:13:16-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -75,15 +155,23 @@
 </content>
   </entry>
   <entry>
-    <title>Don't Sleep on the Command Palette</title>
-    <link href="https://dwf.bigpencil.net/love-the-command-palette/" rel="alternate"/>
+    <title>Obsidian URLs</title>
+    <link href="https://dwf.bigpencil.net/obsidian-links/" rel="alternate"/>
     <id/>
     <published>2021-03-21T09:14:00-07:00</published>
     <updated>2021-03-21T09:56:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
-    <content type="html">&lt;p&gt;While I&amp;rsquo;m still learning how to use Obsidian, I find the Command Palette amazing. &lt;code&gt;Ctrl+P/Cmd+P&lt;/code&gt; brings up a searchable list of commands. I find new actions here all the time. And it&amp;rsquo;s the fastest way to put an &lt;a href="/series/obsidian/obsidian-links"&gt;Obsidian URL&lt;/a&gt; on your clipboard.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Obsidian&amp;rsquo;s URL scheme is fabulous. A link of this form:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;obsidian://open?vault=&amp;lt;vault_name&amp;gt;&amp;amp;file=&amp;lt;note_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;..will open Obsidian with that vault and that note selected.&lt;/p&gt;
+
+&lt;p&gt;I use this a lot with my task manager, linking back from projects and tasks to longer thoughts on the topic. I also link to notes &lt;a href="/series/obsidian/thoughts-on-vaults"&gt;other vaults&lt;/a&gt; as needed.&lt;/p&gt;
+
+&lt;p&gt;With any note open, &amp;ldquo;Copy Obsidian URL&amp;rdquo; is available via the Command Palette and the note menu.&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -178,23 +266,31 @@
 </content>
   </entry>
   <entry>
-    <title>Obsidian URLs</title>
-    <link href="https://dwf.bigpencil.net/obsidian-links/" rel="alternate"/>
+    <title>Don't Sleep on the Command Palette</title>
+    <link href="https://dwf.bigpencil.net/love-the-command-palette/" rel="alternate"/>
     <id/>
     <published>2021-03-21T09:14:00-07:00</published>
     <updated>2021-03-21T09:56:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
-    <content type="html">&lt;p&gt;Obsidian&amp;rsquo;s URL scheme is fabulous. A link of this form:&lt;/p&gt;
+    <content type="html">&lt;p&gt;While I&amp;rsquo;m still learning how to use Obsidian, I find the Command Palette amazing. &lt;code&gt;Ctrl+P/Cmd+P&lt;/code&gt; brings up a searchable list of commands. I find new actions here all the time. And it&amp;rsquo;s the fastest way to put an &lt;a href="/series/obsidian/obsidian-links"&gt;Obsidian URL&lt;/a&gt; on your clipboard.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Using Tags</title>
+    <link href="https://dwf.bigpencil.net/using-tags/" rel="alternate"/>
+    <id/>
+    <published>2021-03-21T09:13:00-07:00</published>
+    <updated>2021-03-21T09:56:00-07:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;p&gt;I am not a huge tag user. I find the search very good and the Linked/Unlinked mentions tab enlightening.&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;obsidian://open?vault=&amp;lt;vault_name&amp;gt;&amp;amp;file=&amp;lt;note_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;However, I do have a few categories of notes I want called out. So I will drop a hashtag at the bottom of the file, below a Horizontal Rule, where it is out of the way. I&amp;rsquo;ve found I like this better than using YAML front matter.&lt;/p&gt;
 
-&lt;p&gt;..will open Obsidian with that vault and that note selected.&lt;/p&gt;
-
-&lt;p&gt;I use this a lot with my task manager, linking back from projects and tasks to longer thoughts on the topic. I also link to notes &lt;a href="/series/obsidian/thoughts-on-vaults"&gt;other vaults&lt;/a&gt; as needed.&lt;/p&gt;
-
-&lt;p&gt;With any note open, &amp;ldquo;Copy Obsidian URL&amp;rdquo; is available via the Command Palette and the note menu.&lt;/p&gt;
+&lt;p&gt;As I type this, I realize that all of the tags I care about are types of notes and thus have templates associated with them. So each template includes the tag. I barely even think about them except when searching.&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -215,22 +311,6 @@
 &lt;p&gt;Obsidian renders the references in smaller text, making them easy to ignore most of the time. But when you need them, they are easy to find.&lt;/p&gt;
 
 &lt;p&gt;I also like putting them at the bottom of the current note, below a Horizontal Rule, where they are out of the way. I have experimented with putting all of the references at the top of the file, but for now, I keep them at the bottom.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Using Tags</title>
-    <link href="https://dwf.bigpencil.net/using-tags/" rel="alternate"/>
-    <id/>
-    <published>2021-03-21T09:13:00-07:00</published>
-    <updated>2021-03-21T09:56:00-07:00</updated>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <content type="html">&lt;p&gt;I am not a huge tag user. I find the search very good and the Linked/Unlinked mentions tab enlightening.&lt;/p&gt;
-
-&lt;p&gt;However, I do have a few categories of notes I want called out. So I will drop a hashtag at the bottom of the file, below a Horizontal Rule, where it is out of the way. I&amp;rsquo;ve found I like this better than using YAML front matter.&lt;/p&gt;
-
-&lt;p&gt;As I type this, I realize that all of the tags I care about are types of notes and thus have templates associated with them. So each template includes the tag. I barely even think about them except when searching.&lt;/p&gt;
 </content>
   </entry>
   <entry>
