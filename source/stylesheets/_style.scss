@@ -13,7 +13,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 html, body { height: 100%; }
 
 body {
-  font: 16px/1 "Open Sans", Helvetica, Arial, sans-serif;
+  font: 16px/1 "Merriweather Sans", Helvetica, Arial, sans-serif;
   color: #666;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -116,20 +116,20 @@ em, i { font-style: italic; }
 }
 
 h1 {
-  font: 600 32px/1.4em "Oswald",Helvetica,Arial,sans-serif;
+  font: 800 36px/1.4em "Raleway",Helvetica,Arial,sans-serif;
 }
 
 h1 .tag {
-  font: 400 32px/1.4em "Oswald",Helvetica,Arial,sans-serif;
+  font: 800 36px/1.4em "Raleway",Helvetica,Arial,sans-serif;
   font-style: italic;
 }
 
 h2 {
-  font: 600 24px/1.5 "Oswald",Helvetica,Arial,sans-serif;
+  font: 800 24px/1.5 "Raleway",Helvetica,Arial,sans-serif;
 }
 
 h3 {
-  font: 400 18px/1.5 "Oswald",Helvetica,Arial,sans-serif;
+  font: 800 18px/1.5 "Raleway",Helvetica,Arial,sans-serif;
 }
 
 h1, h2, h3, h4, h5 { color: #666; }
@@ -255,11 +255,11 @@ img {
 #post-list a {
   color: #666;
   display: block;
-  font: 500 19px/1.7 "Open Sans",Helvetica,Arial,sans-serif;
+  font: 500 19px/1.7 "Merriweather Sans",Helvetica,Arial,sans-serif;
 }
 
 .date {
-  font: normal 13px/1.5em "Open Sans",Helvetica,Arial,sans-serif;
+  font: normal 13px/1.5em "Merriweather Sans",Helvetica,Arial,sans-serif;
   color: #bbb;
   font-size: 13px;
   text-transform: uppercase;
