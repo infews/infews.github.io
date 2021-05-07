@@ -1,7 +1,7 @@
 require 'json'
 
-module SiteHelpers
-  class LinkingData
+module LinkingDataHelpers
+  class BaseData
 
     def initialize(page)
       @path = page[:path]
@@ -30,7 +30,7 @@ module SiteHelpers
     end
   end
 
-  class Article < LinkingData
+  class Article < BaseData
 
     def initialize(page)
       super
@@ -51,7 +51,7 @@ module SiteHelpers
     end
   end
 
-  class Series < LinkingData
+  class Series < BaseData
 
     def initialize(page)
       super
@@ -73,7 +73,7 @@ module SiteHelpers
     end
   end
 
-  class Tag < LinkingData
+  class Tag < BaseData
 
     def initialize(page)
       super
@@ -95,7 +95,7 @@ module SiteHelpers
   end
 
 
-  class Page < LinkingData
+  class Page < BaseData
 
     def initialize(page)
       super
@@ -129,10 +129,6 @@ module SiteHelpers
       klass = Tag
     end
 
-    klass.new(page)
-  end
-
-  def series_link_for(series_name)
-    "<a href=\"/series/#{series_name.downcase.gsub(" ", "-")}\">#{series_name}</a>"
+    klass.new(page).to_json
   end
 end

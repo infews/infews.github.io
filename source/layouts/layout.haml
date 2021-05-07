@@ -8,7 +8,7 @@
     %link{rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Raleway:wght@600;800&family=Merriweather+Sans"}
     %link{rel: "stylesheet", href: "#{url_for '/stylesheets/all.css'}"}
     %script{type: "application/ld+json"}
-      = linking_data_for(locals, current_article, page_articles).to_json
+      = linking_data_for(locals, current_article, page_articles)
   %body
     %nav{class: "home-nav #{current_page.data.hide_nav}"}
       %a{href: "/"}

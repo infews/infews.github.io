@@ -36,6 +36,10 @@ helpers do
       "<a href=\"/tags/#{tag}/\">#{tag}</a>"
     end.join(", ")
   end
+
+  def series_link_for(series_name)
+    "<a href=\"/series/#{series_name.downcase.gsub(" ", "-")}\">#{series_name}</a>"
+  end
 end
 
 activate :blog do |blog|
