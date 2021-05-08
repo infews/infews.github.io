@@ -1,17 +1,17 @@
 require 'json'
 
 module LinkingDataHelpers
-  class BaseData
+  class LinkingData
 
-    def initialize(page)
-      @path = page[:path]
+    def initialize(options)
+      path = options[:path].sub("index.html", "")
 
       @data = {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "genre": "software development",
-        "headline": "DWF's Journal Home",
-        "url": "https://dwf.bigpencil.net/#{@path.sub("index.html", "")}",
+        "headline": headline("Home"),
+        "url": "https://dwf.bigpencil.net/#{path}",
         "keywords": "software development, agile, career, personal",
         "author": {
           "@type": "Person",
@@ -21,6 +21,10 @@ module LinkingDataHelpers
       }
     end
 
+    def headline(text)
+      "DWF's Journal - #{text}"
+    end
+
     def strip_tags_from(body)
       body.gsub(/<\/?[^>]*>/, "")
     end
@@ -28,79 +32,89 @@ module LinkingDataHelpers
     def to_json
       @data.to_json
     end
+
+    def self.class_for(options)
+      if options[:article]
+        Article
+      elsif options[:series]
+        Series
+      elsif options[:path] =~ /^tags/
+        Tag
+      else
+        Page
+      end
+    end
   end
 
-  class Article < BaseData
+  class Article < LinkingData
 
-    def initialize(page)
+    def initialize(options)
       super
+      article = options[:article]
 
-      @article = page[:article]
-      original_date = @article.date.strftime("%Y-%m-%d")
-      modified_date = File.mtime(Dir.glob("source/articles/#{original_date}-#{@article.slug}*")[0]).strftime("%Y-%m-%d")
+      original_date = article.date.strftime("%Y-%m-%d")
+      source_file = Dir.glob("source/articles/#{original_date}-#{article.slug}*").first
+      modified_date = File.mtime(source_file).strftime("%Y-%m-%d")
 
       @data.merge!({
-        "headline": @article.data.title,
-        "keywords": @article.data.keywords.join(","),
+        "headline": headline(article.data.title),
+        "keywords": article.data.keywords.join(","),
         "datePublished": original_date,
         "dateCreated": original_date,
         "dateModified": modified_date,
-        "description": @article.data.description,
-        "articleBody": strip_tags_from(@article.body)
+        "description": article.data.description,
+        "articleBody": strip_tags_from(article.body)
       })
     end
   end
 
-  class Series < BaseData
+  class Series < LinkingData
 
-    def initialize(page)
+    def initialize(options)
       super
-      @name = page[:series]
-      @slug = @name.downcase.gsub(" ", "-")
 
-      @articles = page[:articles]
+      articles = options[:articles]
 
-      most_recent_article = @articles.first
-      earliest_article = @articles.last
+      most_recent_article = articles.first
+      earliest_article = articles.last
 
       @data.merge!({
-        "headline": @name,
+        "headline": headline(options[:series]),
         "datePublished": earliest_article.date.strftime("%Y-%m-%d"),
         "dateCreated": earliest_article.date.strftime("%Y-%m-%d"),
         "dateModified": most_recent_article.date.strftime("%Y-%m-%d"),
-        "articleBody": @articles.collect { |a| a.title }.join(", ")
+        "articleBody": articles.collect { |a| a.title }.join(", ")
       })
     end
   end
 
-  class Tag < BaseData
+  class Tag < LinkingData
 
-    def initialize(page)
+    def initialize(options)
       super
 
-      @tag = page[:tag]
-      @articles = page[:articles]
-
-      most_recent_article = @articles.first
-      earliest_article = @articles.last
+      tag = options[:path].split('/')[1]
+      articles = options[:articles]
+      most_recent_article = articles.first
+      earliest_article = articles.last
 
       @data.merge!({
-        "headline": @name,
+        "headline": headline("#{tag}"),
         "datePublished": earliest_article.date.strftime("%Y-%m-%d"),
         "dateCreated": earliest_article.date.strftime("%Y-%m-%d"),
         "dateModified": most_recent_article.date.strftime("%Y-%m-%d"),
-        "articleBody": @articles.collect { |a| a.title }.join(", ")
+        "articleBody": articles.collect { |a| a.title }.join(", ")
       })
     end
   end
 
+  class Page < LinkingData
 
-  class Page < BaseData
-
-    def initialize(page)
+    def initialize(options)
       super
 
-      modified_date = File.mtime(Dir.glob("source/index.html.haml")[0]).strftime("%Y-%m-%d")
+      source_file = Dir.glob("source/index.html.haml").first
+      modified_date = File.mtime(source_file).strftime("%Y-%m-%d")
 
       @data.merge!({
         "datePublished": "2020-11-01",
@@ -111,24 +125,13 @@ module LinkingDataHelpers
   end
 
   def linking_data_for(locals, article, articles)
-    page = {}
-    page[:path] = locals[:current_path]
-
-    klass = Page
-
-    if article
-      page[:article] = article
-      klass = Article
-    elsif locals[:series]
-      page[:series] = locals[:series]
-      page[:articles] = articles
-      klass = Series
-    elsif locals[:current_path] =~ /^tags/
-      page[:tag] = locals[:current_path].split('/')[1]
-      page[:articles] = articles
-      klass = Tag
-    end
-
-    klass.new(page).to_json
+    options = {
+      article: article,
+      articles: articles,
+      series: locals[:series],
+      path: locals[:current_path]
+    }
+    klass = LinkingData.class_for(options)
+    klass.new(options).to_json
   end
 end

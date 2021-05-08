@@ -5,6 +5,8 @@
         = current_article.title
       %h2.date
         = current_article.date.strftime('%e %B %Y')
+        &#8212;
+        = reading_time_for current_article.body
     %section#post-body= yield
     = component 'article_footer', {tags: current_article.tags, series: current_article.data.series}
   %footer#post-meta
