@@ -30,16 +30,6 @@ helpers do
   def component(path, locals={})
     partial "components/#{path}", locals: locals
   end
-
-  def tag_links_for(tags)
-    tags.map do |tag|
-      "<a href=\"/tags/#{tag}/\">#{tag}</a>"
-    end.join(", ")
-  end
-
-  def series_link_for(series_name)
-    "<a href=\"/series/#{series_name.downcase.gsub(" ", "-")}\">#{series_name}</a>"
-  end
 end
 
 activate :blog do |blog|

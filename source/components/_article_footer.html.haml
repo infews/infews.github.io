@@ -1,7 +1,4 @@
 %footer#article
   - if tags
     %hr
-    = "This article is tagged with #{tag_links_for tags}."
-  - if series
-    %hr
-    = "Part of the series #{series_link_for series}."
+    = article_footer_for(tags, series)
