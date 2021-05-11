@@ -1,0 +1,7 @@
+%footer#post-meta
+  %a{href:"/"}
+    %img.avatar{ :src => url_for("/images/dwf.png"), :alt => "Avatar" }
+    .details
+      .dark= config[:site_author]
+      .light= config[:site_subtitle]
+  = component 'sharing', { title: title, url: url }

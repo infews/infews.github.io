@@ -11,6 +11,7 @@ pageable: true
 
 %hr
 = component "series/#{series_filename}_intro.md"
-= component 'article_list', {articles: [series_articles.first]}
+= component "article_list", {articles: [series_articles.first]}
 = component "series/#{series_filename}_continues.md"
-= component 'article_list', {articles: series_articles[1..-1]}
+= component "article_list", {articles: series_articles[1..-1]}
+= component "personal_footer", { title: "DWF's Journal: #{series}", url: URI.join(config[:site_url], current_page.url) }

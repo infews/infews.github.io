@@ -8,11 +8,7 @@
         &#8212;
         = reading_time_for current_article.body
     %section#post-body= yield
-    = component 'article_footer', {tags: current_article.tags, series: current_article.data.series}
-  %footer#post-meta
-    %a{href:"/"}
-      %img.avatar{ :src => url_for("/images/dwf.png"), :alt => "Avatar" }
-      .details
-        .dark= config[:site_author]
-        .light= config[:site_subtitle]
-    = component 'sharing'
+    - if current_article.tags || current_article.data.series
+      = component 'article_footer', {tags: current_article.tags, series: current_article.data.series}
+  = component "personal_footer", { title: current_article.title, url: URI.join(config[:site_url], current_page.url)}
+

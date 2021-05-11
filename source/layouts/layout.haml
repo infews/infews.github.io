@@ -14,9 +14,9 @@
       %a{href: "/"}
         %span.arrow ←
         Home
-    %section{:id => "wrapper", :class => (current_page.data.wrapper_class)}
+    %main{:id => "wrapper", :class => (current_page.data.wrapper_class)}
       = yield
-      %footer#footer
+      %footer.site
         %p.small
           ©
           = config[:site_author]

@@ -94,6 +94,8 @@ ol, ul { padding-left: 2em; }
 /* Line Height */
 #post-body, p { line-height:1.7; }
 
+li { line-height: 1.4; }
+
 b, strong { font-weight: 700;}
 
 em, i { font-style: italic; }
@@ -233,9 +235,8 @@ img {
 
 #post-list {
   border-top: 1px solid #eee;
-  margin: 40px 0 40px 0;
+  margin: 20px 0 20px 0;
   padding: 20px 0 20px 0;
-  border-bottom: 1px solid #eee;
 }
 
 #post-list li {
@@ -270,10 +271,14 @@ img {
 footer#article {
   font-style: italic;
   line-height: 1.4;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
 }
 
-#footer {
-  margin-top: 40px;
+footer.site {
+  padding-top: 20px;
+  border-top: 1px solid #eee;
 }
 
 .post {
@@ -284,10 +289,7 @@ footer#article {
   font-size: 16px;
   line-height: 1.4;
   padding: 40px 20px 40px 20px;
-  margin-top: 40px;
-  margin-bottom: 40px;
   border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
   display: flex;
   align-items: center;
 }
