@@ -337,8 +337,8 @@ footer.site {
 }
 
 .social {
-  margin: 40px 40px -20px 40px;
-  font-size: 20px;
+  margin: 20px 20px 20px 20px;
+  font-size: 18px;
   display: flex;
   justify-content: space-between;
 }
@@ -370,9 +370,6 @@ footer.site {
 }
 
 @media screen and (max-width: 500px) {
-  .social {
-    flex-direction: column;
-  }
   .social-left, .social-center, .social-right {
     display: flex;
     justify-content: space-between;
