@@ -49,6 +49,7 @@ activate :blog do |blog|
 end
 
 set :haml, { :format => :html5 }
+Haml::TempleEngine.disable_option_validator!
 
 # Markdown and syntax highlighting
 activate :syntax
