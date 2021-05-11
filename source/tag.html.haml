@@ -8,3 +8,4 @@ pageable: true
 
 - public_articles = page_articles.reject {|a| a.tags.include?('private')}
 = component 'article_list', {articles: public_articles}
+= component "personal_footer", { title: "DWF's Journal: #{tagname}", url: URI.join(config[:site_url], current_page.url) }
