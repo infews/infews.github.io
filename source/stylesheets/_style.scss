@@ -47,20 +47,19 @@ img.avatar {
   font-style: italic;
 }
 
-nav.home-nav {
+nav {
   padding: 20px 20px 0;
   background: #fff;
   background: rgba(255,255,255,.90);
   margin: 0 auto;
   text-align: left;
   z-index: 100;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
 }
 
-nav.home-nav.hidden {
-  display: none;
-}
-
-nav.home-nav a {
+nav a {
   padding: 8px 12px;
   border-radius: 3px;
 }
@@ -127,7 +126,7 @@ h1 .tag {
 }
 
 h2 {
-  font: 800 24px/1.5 "Raleway",Helvetica,Arial,sans-serif;
+  font: 800 30px/1.5 "Raleway",Helvetica,Arial,sans-serif;
 }
 
 h3 {
@@ -376,7 +375,7 @@ footer.site {
 }
 
 @media screen and (max-width: 500px) {
-  .social-left, .social-center, .social-right {
+  .social-sub {
     display: flex;
     justify-content: space-between;
   }
@@ -384,6 +383,12 @@ footer.site {
     flex: 0 0 auto;
   }
 }
+
+// MID
+// justify-content: space-around;
+// SMALL
+// flex-direction: column
+
 
 @media screen and (max-width: 460px) {
   #wrapper { padding: 20px 20px 20px 20px; }

@@ -1,0 +1,5 @@
+%h2 Categories
+
+%ul
+  - blog.tags.each do |tag, articles|
+    %li= tag_link(tag) + " (#{articles.length})"

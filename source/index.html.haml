@@ -6,5 +6,15 @@ wrapper_class: home
 
 = component 'profile'
 
-%h2 All Posts
-= component 'article_list', {articles: blog.articles}
+%h2 Article Series
+
+%ul
+  %li
+    %a{href: "/series/the-cd-test/"} The Continuous Delivery Test
+  %li
+    %a{href: "/series/obsidian/"} How I Obsidian
+
+%h2 Recent Posts
+
+= component 'article_list', {articles: blog.articles[0..4]}
+= component 'categories'

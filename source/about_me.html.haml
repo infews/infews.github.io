@@ -1,0 +1,33 @@
+---
+sitemap_priority: 1.0
+---
+
+= component 'profile'
+
+.social
+  .social-sub
+    %a.social-link{href: "https://twitter.com/#{config[:twitter_username]}"}
+      %span.icon-twitter
+      Twitter
+  .social-sub
+    %a.social-link{href: "https://github.com/#{config[:github_username]}"}
+      %span.icon-github
+      GitHub
+  .social-sub
+    %a.social-link{href: "https://www.linkedin.com/in/#{config[:linkedin_username]}"}
+      %span.icon-linkedin
+      LinkedIn
+  -#.social-sub
+  -#  %a.social-link{href: ""}
+  -#    %span.icon-linkedin
+  -#    Resume
+
+
+:markdown
+  You may know me from my time at Pivotal and Pivotal Labs, where I helped our clients build Ruby on Rails or mobile JavaScript apps. Or maybe from co-writing [Jasmine](https://jasmine.github.io), a JavaScript testing framework. Or maybe you saw me speak at RailsConf. Or some local meetup.
+
+  It's good to see you again!
+
+  I can talk and write endlessly about Ruby, JavaScript, Web Applications, Test-Driven Development, and Agile Software Methodologies. I can also talk about bourbon, barbecue, or just tell you a fun story.
+
+= component 'categories'
