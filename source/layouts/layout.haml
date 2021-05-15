@@ -13,7 +13,7 @@
     %nav
       %a{href: "/"} Home
       %a{href: "/about_me"} About Me
-      /%a{href: "/posts"} All Posts
+      %a{href: "/posts"} All Posts
 
     %main{:id => "wrapper", :class => (current_page.data.wrapper_class)}
       = yield
