@@ -11,6 +11,7 @@ keywords:
   - productivity
   - shorcuts
 series: "Obsidian"
+teaser: "It turns out you can search before creating a new Obsidian Note very easily!"    
 ---
 
 [nva]: https://brettterpstra.com/projects/nvalt/

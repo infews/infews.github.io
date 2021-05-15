@@ -17,6 +17,7 @@ gem 'middleman-vcs-time', "0.0.6"
 gem 'middleman-minify-html', '~> 3.4', '>= 3.4.1'
 
 gem 'haml'
+gem 'nokogiri'
 
 # For feed.xml.builder/sitemap.xml.builder
 gem 'builder', '~> 3.0'

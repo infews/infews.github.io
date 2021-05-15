@@ -256,16 +256,22 @@ img {
 #post-list a {
   color: #666;
   display: block;
-  font: 500 19px/1.7 "Merriweather Sans",Helvetica,Arial,sans-serif;
+  font: 800 19px/1.7 "Raleway",Helvetica,Arial,sans-serif;
+}
+
+#post-list .teaser {
+  font: normal 1em "Merriweather Sans",Helvetica,Arial,sans-serif;
+  padding: 10px;
 }
 
 .date {
-  font: normal 13px/1.5em "Merriweather Sans",Helvetica,Arial,sans-serif;
+  font: normal 0.75em "Merriweather Sans",Helvetica,Arial,sans-serif;
   color: #bbb;
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 2px;
   display: inline-block;
+  padding-left: 10px;
 }
 
 footer#article {

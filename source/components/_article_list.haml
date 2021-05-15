@@ -4,6 +4,8 @@
       %li
         %a{href: article.url}
           %div= article.title
-          .date= article.date.strftime('%e %B %Y')
+        - if article.data.teaser
+          .teaser= teaser_for(article)
+        .date= article.date.strftime('%e %B %Y')
 - else
   %hr

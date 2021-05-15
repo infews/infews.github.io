@@ -7,6 +7,7 @@ keywords:
   - personal
   - AirTable
   - Meal Planning  
+teaser: "How I experimented to make weekly meal planning work well for our family."
 ---
 
 [tweets]: https://twitter.com/dwfrank/status/1297643495897706496  

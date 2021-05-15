@@ -6,6 +6,7 @@ tags:
   - parenting
 keywords:
   - parenting
+teaser: "In which my son learns about lost luggage."
 ---
 
 [btw]: http://5by5.tv/b2w/8

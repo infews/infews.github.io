@@ -8,7 +8,7 @@ keywords:
   - career
   - personal
   - goodbye email
-  
+teaser: "How to write a goodbye email that people remember for years."  
 ---
 
 [goj]: https://medium.com/@dwfrank/how-one-funny-email-almost-changed-my-career-80b20ee7c5ff

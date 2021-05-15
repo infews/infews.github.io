@@ -12,6 +12,7 @@ keywords:
   - productivity
   - "job search"
 series: "Obsidian"
+teaser: "How I built an Obsidian vault that tracks all of the research, interview notes, and status during a job search."    
 ---
 
 [todo]: https://todoist.com

@@ -6,6 +6,7 @@ tags:
 keywords:
   - career
   - Drake's Equations  
+teaser: "In which I use math to evaluate if I should switch jobs and which job I should accept."
 ---
 
 [medium]: https://blog.usejournal.com/drake-your-job-5c55b706bb18

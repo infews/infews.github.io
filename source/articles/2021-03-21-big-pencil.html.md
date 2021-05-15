@@ -7,6 +7,8 @@ tags:
   - history
 keywords:
   - history   
+teaser: "Whenever someone asks me about the bigpencil.net domain, I get to tell this story."
+    
 ---
 
 [uga]: https://uga.edu

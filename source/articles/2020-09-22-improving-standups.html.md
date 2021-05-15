@@ -7,7 +7,8 @@ keywords:
   - agile
   - xp
   - standups
-  - trello  
+  - trello   
+teaser: "One simple technique to tame your suddenly unwiedly daily standup meeting."
 ---
 
 [wb]: https://github.com/pivotal-legacy/whiteboard
