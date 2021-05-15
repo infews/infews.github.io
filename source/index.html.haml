@@ -4,17 +4,11 @@ hide_nav: hidden
 wrapper_class: home
 ---
 
-= component 'profile'
-
-%h2 Article Series
-
-%ul
-  %li
-    %a{href: "/series/the-cd-test/"} The Continuous Delivery Test
-  %li
-    %a{href: "/series/obsidian/"} How I Obsidian
+= component "profile"
 
 %h2 Recent Posts
+= component "article_list", {articles: blog.articles[0..4]}
 
-= component 'article_list', {articles: blog.articles[0..4]}
-= component 'categories'
+= component "series_list"
+
+= component "categories"

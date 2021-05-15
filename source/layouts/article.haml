@@ -9,6 +9,5 @@
         = reading_time_for current_article.body
     %section#post-body= yield
     - if current_article.tags || current_article.data.series
-      = component 'article_footer', {tags: current_article.tags, series: current_article.data.series}
+      %footer#article= article_footer_for(current_article.tags, current_article.data.series)
   = component "personal_footer", { title: current_article.title, url: URI.join(config[:site_url], current_page.url)}
-
