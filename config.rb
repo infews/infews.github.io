@@ -32,6 +32,8 @@ helpers do
   end
 end
 
+page "/daviswfrank_resume.html", layout: "resume"
+
 activate :blog do |blog|
   blog.permalink = '{title}'
   # Matcher for blog source files
