@@ -2,10 +2,9 @@
   %ul#post-list
     - articles.each do |article|
       %li
-        %a{href: article.url}
-          %div= article.title
+        %a{href: article.url}= article.title
         - if article.data.teaser
-          .teaser= teaser_for(article)
-        .date= article.date.strftime('%e %B %Y')
+          %p.teaser= teaser_for(article)
+        %p.date= article.date.strftime('%e %B %Y')
 - else
   %hr

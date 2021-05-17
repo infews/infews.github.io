@@ -1,7 +1,10 @@
 /* Reset */
+$font-display: "Raleway", Helvetica, Arial, sans-serif;
+$font-body: "Open Sans", Helvetica, Arial, sans-serif;
+$font-mono: Menlo, 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Consolas, 'Liberation Mono', monospace;
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   border: 0;
-  font-size: 100%;
   font: inherit;
   vertical-align: baseline;
   margin: 0;
@@ -13,7 +16,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 body {
-  line-height: 1
+  line-height: 1;
+  font-size: 16px;
 }
 
 blockquote, q {
@@ -50,11 +54,13 @@ html, body {
 }
 
 body {
-  font: 16px/1 "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: $font-body;
   color: #666;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
+
+// Profile section
 
 .profile {
   max-width: 360px;
@@ -82,6 +88,7 @@ img.avatar {
 .profile h2 {
   color: #bbb;
   font-style: italic;
+  font-size: 1.6rem;
 }
 
 nav {
@@ -133,11 +140,11 @@ ol, ul {
 
 /* Line Height */
 #post-body, p {
-  line-height: 1.7;
+  line-height: 1.5;
 }
 
 li {
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 b, strong {
@@ -165,44 +172,52 @@ em, i {
   margin-bottom: 40px;
 }
 
-h1 {
-  font: 800 36px/1.4em "Raleway", Helvetica, Arial, sans-serif;
-}
-
-h1 .tag {
-  font: 800 36px/1.4em "Raleway", Helvetica, Arial, sans-serif;
-  font-style: italic;
-}
-
-h2 {
-  font: 800 30px/1.5 "Raleway", Helvetica, Arial, sans-serif;
-}
-
-h3 {
-  font: 800 18px/1.5 "Raleway", Helvetica, Arial, sans-serif;
-}
+// Headings
 
 h1, h2, h3, h4, h5 {
   color: #666;
 }
 
+h1 {
+  font-size: 2.2rem;
+  font-family: $font-display;
+  font-weight: 800;
+}
+
+h1 .tag {
+  font-size: 2.2rem;
+  font-family: $font-display;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 2.0rem;
+  font-family: $font-display;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
 h3 {
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 1.8rem;
+  font-family: $font-display;
+  font-weight: 800;
+  line-height: 1.2;
 }
 
 h4 {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: bold;
+  line-height: 1.2;
 }
 
 h5 {
-  font-size: 15px;
+  font-size: 1.4rem;
   font-weight: bold;
+  line-height: 1.2;
 }
 
 h6 {
-  font-size: 13px;
+  font-size: 1.3rem;
   font-weight: bold;
   color: #666;
   margin-bottom: 6px;
@@ -210,12 +225,12 @@ h6 {
 
 p.small {
   color: #bbb;
-  font-size: 14px;
+  font-size: 1rem;
   display: block;
 }
 
 blockquote {
-  padding-left: 15px;
+  padding-left: 1.5rem;
   border-left: 3px solid #eee;
 }
 
@@ -228,20 +243,18 @@ hr {
 }
 
 :not(pre) > code {
-  font-family: Menlo, 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Consolas, 'Liberation Mono', monospace;
-  /*border: 1px solid #ddd;*/
+  font-family: $font-mono;
   padding: 3px;
   background-color: #fdfdfd;
-  font-size: 14px;
+  font-size: 1.4rem;
   border-radius: 3px;
 }
 
 pre {
-  font-family: Menlo, 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Consolas, 'Liberation Mono', monospace;
-  /*border: 1px solid #ddd; */
+  font-family: $font-mono;
   padding: 20px;
   background-color: #fdfdfd;
-  font-size: 14px;
+  font-size: 1.4rem;
   border-radius: 3px;
   white-space: pre-wrap;
   overflow: auto;
@@ -251,8 +264,8 @@ table {
   width: 100%;
   margin: 40px 0;
   border-collapse: collapse;
-  font-size: 13px;
-  line-height: 1.5em;
+  font-size: 1.3rem;
+  line-height: 1.5;
 }
 
 th, td {
@@ -262,7 +275,7 @@ th, td {
 }
 
 table td, td {
-  border-spacing: none;
+  border-spacing: 0;
   border-style: solid;
   padding: 10px 15px;
   border-width: 1px 0 0 0;
@@ -280,7 +293,7 @@ thead th, th {
   text-align: left;
   padding: 10px 15px;
   height: 20px;
-  font-size: 13px;
+  font-size: 1.3rem;
   font-weight: bold;
   color: #444;
   border-bottom: 1px solid #eee;
@@ -317,22 +330,30 @@ img {
 #post-list a {
   color: #666;
   display: block;
-  font: 800 19px/1.7 "Raleway", Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+  font-family: $font-display;
+  font-weight: 800;
+
 }
 
 #post-list .teaser {
-  font: normal 1em "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: $font-body;
   padding: 10px;
+  margin-bottom: 0;
 }
 
 .date {
-  font: normal 0.75em "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-family: $font-body;
   color: #bbb;
-  font-size: 13px;
+  font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 2px;
   display: inline-block;
-  padding-left: 10px;
+  padding-left: 0;
+  margin-bottom: 0;
 }
 
 footer#article {
@@ -353,7 +374,8 @@ footer.site {
 }
 
 #post-meta {
-  font-size: 16px;
+  font-size: 1rem;
+  font-weight: bold;
   line-height: 1.4;
   padding: 40px 20px 40px 20px;
   border-top: 1px solid #eee;
@@ -376,7 +398,7 @@ footer.site {
   margin-right: 20px;
 }
 
-#post-meta div.details {
+#post-meta .details {
   flex: 1;
 }
 
@@ -405,16 +427,16 @@ footer.site {
 
 .social {
   margin: 20px 20px 20px 20px;
-  font-size: 18px;
+  font-size: 1.8rem;
   display: flex;
   justify-content: space-between;
 }
 
 .social-link {
-  display: block;
   width: 120px;
   margin-bottom: 20px;
   color: #666;
+  font-size: 1.4rem;
 }
 
 .social-link:hover {
@@ -430,6 +452,7 @@ footer.site {
 .resume {
   padding-left: 20px;
   padding-right: 20px;
+  font-size: 1rem;
 
   h2, h3, h4 {
     margin-top: 20px;
@@ -438,10 +461,16 @@ footer.site {
 
   h2 {
     border-bottom: #dfdfdf 1px solid;
+    font-size: 1.5rem;
   }
 
   h3 {
     border-bottom: #dfdfdf 1px solid;
+    font-size: 1.2rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
   }
 
   h3, h4, dl {
@@ -463,7 +492,14 @@ footer.site {
 
   .company, .multi-role {
     display: flex;
-    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    > span {
+      white-space: nowrap;
+    }
+    .name {
+      flex-grow: 1;
+    }
   }
 
   p {
@@ -484,7 +520,8 @@ footer.site {
     align-content: center;
 
     li {
-      font: 14px "Open Sans", Helvetica, Arial, sans-serif;
+      font-size: 0.9rem;
+      font-family: $font-body;
     }
   }
 
