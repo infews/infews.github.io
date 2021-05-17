@@ -30,9 +30,18 @@ helpers do
   def component(path, locals={})
     partial "components/#{path}", locals: locals
   end
+
+  def wrapper_classes_for(page_data)
+    if page_data.wrapper_class == "resume"
+      return "resume"
+    end
+    classes = ["wrapper"]
+    classes << page_data.wrapper_class if page_data.wrapper_class
+    classes.join(" ")
+  end
 end
 
-page "/daviswfrank_resume.html", layout: "resume"
+# page "/daviswfrank_resume.html", layout: "resume"
 
 activate :blog do |blog|
   blog.permalink = '{title}'
