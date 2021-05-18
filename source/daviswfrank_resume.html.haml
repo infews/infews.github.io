@@ -23,6 +23,10 @@ wrapper_class: resume
     %a{href: "/"}
       %span.fab.fa-html5
       dwf.bigpencil.net
+  %li.noprint
+    %a{href: "/daviswfrank_resume/"}
+      %span.fas.fa-file-alt
+      Latest version lives at https://dwf.bigpencil.net/daviswfrank_resume/
   %li
     %span.fas.fa-map-marked-alt
     San Francisco Bay Area
@@ -32,20 +36,24 @@ wrapper_class: resume
 %h2 Technology Skills
 
 %dl
-  %dt Test-driven development
-  %dd I start new code from an empty editor window and write tests, first, to design, develop, and document software. Thus I can safely refactor or fix a lingering bug in many days, weeks, or months in the future with a short ramp up time.
+  %dt Test-driven Development
+  %dd I write tests first so that design, implementation, refactoring, and bug fixing are easier. I enjoy encouraging teams to do the same because it makes teams, business owners, and customers happy.
 
   %dt Pair Programming
-  %dd Sitting next to another person and test-driving code together is one of the more fun and fast ways to code. I can not only pair on code, I can teach others pairing skills to help an entire team.
+  %dd I can pair on code with another developer. It is fun, fast, and encourages information sharing. I also like coaching others to be better pairs. And that helps teams get smoother and faster.
 
   %dt Ruby
-  %dd I returned to coding afer a few years by learning Ruby. Its syntax and style brought me right back to the software engineering mindset. It is fun to write code in Ruby. And it led me to working with other languages as well.
+  %dd I returned to coding after a few years by learning Ruby. Its syntax and style brought me right back to the software engineering mindset. Ruby makes me happy to code.
 
   %dt JavaScript
-  %dd I was part of the movement to treat JavaScript as a first class language. This lead to co-authoring Jasmine, consulting on applications for Palm's webOS, and several single-page web apps. I still like the idea of passing functions as parameters and can keep up with asynchronicity most of the time.
+  %dd
+    I was part of the movement to treat JavaScript as a first class language. This lead to co-authoring
+    = succeed "," do
+      = link_to "Jasmine", "https://jasmine.github.io"
+    so that we could test drive our code, consulting on applications for Palm's webOS, and several single-page web apps. I still like the idea of passing functions as parameters and can asynchronicity most of the time with keep up.
 
   %dt Web Application & SaaS Development
-  %dd I have had years as a consultant and running teams developing dozens of applications, APIs, and other services for the web. While this is primarily with Ruby on Rails, I have also managed teams using Go, BASH, C/C++, Java/Spring, and Kotlin/Spring.
+  %dd As both consultant, tech lead, and manager, I have developed dozens of applications, APIs, and other services for the web. While this is primarily with Ruby on Rails, I have also managed teams using Go, BASH, C/C++, Java/Spring, and Kotlin/Spring.
 
   %dt Cloud Infrastructure
   %dd
@@ -54,10 +62,24 @@ wrapper_class: resume
       = link_to "BOSH", "https://bosh.io/docs/"
 
   %dt Continuous Delivery & Iterative Development
-  %dd I have coached and managed dozens of projects on how to build sustainable momentum using techniques from the Continuous Delivery toolbox. In addition to the skills listed above, I have introduced Weekly Planning, Continuous Integration, and Retrospectives.
+  %dd
+    I have coached and managed projects on how to build sustainable momentum using techniques from the
+    = link_to "Continuous Delivery", "https://dwf.bigpencil.net/series/the-cd-test/"
+    toolbox. In addition to the skills listed above, I have introduced Weekly Planning, Continuous Integration, and Retrospectives, among other techniques.
 
   %dt Continuous Integration & Release Engineering
-  %dd I have set up CI systems for web and mobile projects using Jenkins, TravisCI, CircleCI, and Concourse. I have scaled these systems to enable packaging, robust configuration testing, and release.
+  %dd
+    I have set up CI systems for web and mobile projects using cloud services like
+    = link_to "TravisCI", "https://www.travis-ci.com/"
+    and
+    = succeed "," do
+      = link_to "CircleCI", "https://circleci.com/"
+    and deployed self-managed systems like
+    = link_to "Jenkins", "https://www.jenkins.io/"
+    and
+    = succeed "." do
+      = link_to "Concourse", "https://concourse-ci.org/"
+    I have used CI to implement Release Engineering tasks like packaging, variable configuration, and scenario testing. CI is a team's best friend.
 
   %dt Bottleneck Analysis & Remediation
   %dd I love making code and teams run more smoothly. This can mean instrumenting an application to figure out why code is slow. It can mean pointing out to teams that they can do something a different way. I find that fixing these problems is very satisfying. And it makes people happy.
@@ -93,21 +115,31 @@ wrapper_class: resume
   %span.name Personal Sabbatical
   %span From 2020 January
 
-%p I recharged while writing about my career experience, advising some peers' startups, optimizing our home meal planning, and improving our household operations to accommodate working and schooling from home.
+%p I recharged while writing about my career experience, advising some peers' startups, optimizing our home meal planning, and improving our household operations to accommodate four people who were working and schooling from home.
 
 %h3.company
   %span.name Pivotal - PKS
   %span 2018 October - 2020 January
 
-%p PKS is a jointly-developed Kubernetes distribution from Pivotal & VMware. Pivotal was acquired by VMware in 2019.
+%p
+  PKS (now known as
+  = succeed ")" do
+    = link_to "TKGI", "https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid-Integrated-Edition/"
+  is a jointly-developed Kubernetes distribution from Pivotal & VMware that was a service for Pivotal Cloud Foundry (now known as
+  = succeed ")." do
+    = link_to "Tanzu Application Service", "https://tanzu.vmware.com/application-service"
+  Pivotal was acquired by VMware in 2019.
 
 %h4 Senior Engineering Manager, Engineering Lead
 
 %p I was the Engineering Lead on the PKS Release Engineering team. I wrote the stories and prioritized the work for this team of 10 developers from Pivotal and VMware. We optimized the configuration, build, and CI runs for hundreds of pipelines, doubling the number of concurrently supported releases to four.
 
-%p As manager and member of the leadership team &mdash; three managers reporting to our VP of Engineering &mdash; we restaffed the Pivotal team from Ireland to Palo Alto, dealt with regular joint-venture management style clashes, and managed our freshly-hired staff through the ambiguity of acquisition. I continued to run the summer intern roundtable, incorporating the Palo Alto interns.
+%p
+  As manager and member of the leadership team &mdash; three managers reporting to our VP of Engineering &mdash; we restaffed the Pivotal team from Ireland to Palo Alto, dealt with regular joint-venture management style clashes, and managed our freshly-hired staff through the ambiguity of acquisition. I continued to run the summer intern roundtable, incorporating the Palo Alto interns from the PKS and
+  = link_to "Greenplum", "https://tanzu.vmware.com/greenplum"
+  teams.
 
-%p.learned Learned how to navigate seemingly conflicting management styles to a common goal, how to manage an entire team transition across 8 time zones, how to DRY up hundreds of YAML files with shared
+%p.learned Learned how to navigate seemingly conflicting management styles to a common goal, how to manage an entire team transition across 8 time zones, how to DRY up hundreds of YAML files with shared components.
 
 %h3.company
   %span.name Pivotal - Cloud Foundry
@@ -115,12 +147,14 @@ wrapper_class: resume
 
 %p
   Pivotal was the primary sponsor of the
-  %a{href: "https://cloudfoundry.org"} Cloud Foundry
-  project, a multi-cloud Platform-as-a-Service for deployment of web apps and services. Pivotal also sold its own version of Cloud Foundry.
+  = link_to "Cloud Foundry", "https://cloudfoundry.org"
+  project, a multi-cloud Platform-as-a-Service for deployment of web apps and services. Pivotal sold its own version of CF, now known as
+  = succeed "." do
+    = link_to "Tanzu Application Service", "https://tanzu.vmware.com/application-service"
 
 %h4 Senior Engineering Manager
 
-%p I was an engineer on the CF Cloud API team and managed 4 engineers on other teams. I facilitated working sessions to boost managers' skills across the San Francisco office. During the summer, I started  a weekly "intern roundtable," where Pivotal leaders from around the company came for an AMA-style chat with our interns.
+%p I was an engineer on the Open Source CF Cloud API team and managed 4 engineers on other teams. I facilitated working sessions to boost managers' skills across the San Francisco office. During the summer, I started  a weekly "intern roundtable," where Pivotal leaders from around the company came for an AMA-style chat with our developer, product manager, and designer interns.
 
 %p.learned I refreshed my Ruby and Rails skills, and learned how to build a meaningful internship program.
 

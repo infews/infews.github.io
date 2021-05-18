@@ -15,9 +15,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   line-height: 1;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 blockquote, q {
@@ -439,7 +443,6 @@ footer.site {
 .resume {
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 1rem;
 
   h1, h2, h3, h4 {
     margin-top: 20px;
@@ -471,8 +474,8 @@ footer.site {
   }
 
   dd {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 10px;
     line-height: 1.4;
   }
@@ -503,17 +506,26 @@ footer.site {
   ul.me-links {
     list-style-type: none;
     padding: 0;
+    margin-top: 20px;
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
     align-content: center;
+    a {
+      color: #666;
+    }
+    a:hover {
+      color: #59a6ed;
+    }
 
     li {
       font-size: 0.9rem;
       font-family: $font-body;
     }
+    .noprint {
+      display: none;
+    }
   }
-
 }
 
 /* Media Queries */
@@ -559,5 +571,35 @@ footer.site {
     justify-content: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
+  }
+}
+
+@media print {
+  html {
+    font-size: 12px;
+  }
+  .resume {
+    padding: 0;
+    h1, h2, h3, h4, h5 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    ul.me-links {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      .noprint {
+        display: flex;
+      }
+      a {
+        color: black;
+      }
+    }
+  }
+  h1, h2, h3, h4, h5, body {
+    color: black;
+    break-after: avoid-page;
+  }
+  dl {
+    break-before: avoid-page;
   }
 }
