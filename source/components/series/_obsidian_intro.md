@@ -1,5 +1,3 @@
-# How I Use Obsidian
-
 I switch note taking systems every few years it seems. I've gone all digital, all paper (thanks, [Bullet Journal](https://bulletjournal.com/)), and various mixes of the two.
 
 The biggest leap forward for me with computer-based note taking was switching to [nvALT](https://brettterpstra.com/projects/nvalt/), which is Brett Terpstra's fork of [Notational Velocity](https://notational.net/). The key insight and feature was keeping each note as a Markdown file, living in a directory of all of my notes. NV has a "search or create" mentality that is empowering.

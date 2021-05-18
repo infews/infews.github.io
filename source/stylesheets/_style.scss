@@ -1,7 +1,7 @@
 /* Reset */
 $font-display: "Raleway", Helvetica, Arial, sans-serif;
 $font-body: "Open Sans", Helvetica, Arial, sans-serif;
-$font-mono: Menlo, 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Consolas, 'Liberation Mono', monospace;
+$font-mono: "Fira Mono", monospace;
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   border: 0;
@@ -191,21 +191,21 @@ h1 .tag {
 }
 
 h2 {
-  font-size: 2.0rem;
+  font-size: 1.9rem;
   font-family: $font-display;
   font-weight: 800;
   line-height: 1.2;
 }
 
 h3 {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   font-family: $font-display;
   font-weight: 800;
   line-height: 1.2;
 }
 
 h4 {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: bold;
   line-height: 1.2;
 }
@@ -246,7 +246,6 @@ hr {
   font-family: $font-mono;
   padding: 3px;
   background-color: #fdfdfd;
-  font-size: 1.4rem;
   border-radius: 3px;
 }
 
@@ -254,7 +253,7 @@ pre {
   font-family: $font-mono;
   padding: 20px;
   background-color: #fdfdfd;
-  font-size: 1.4rem;
+  font-size: 1rem;
   border-radius: 3px;
   white-space: pre-wrap;
   overflow: auto;
@@ -369,10 +368,6 @@ footer.site {
   border-top: 1px solid #eee;
 }
 
-.post {
-  margin-top: 60px;
-}
-
 #post-meta {
   font-size: 1rem;
   font-weight: bold;
@@ -380,26 +375,23 @@ footer.site {
   padding: 40px 20px 40px 20px;
   border-top: 1px solid #eee;
   display: flex;
-  align-items: center;
+  justify-content: space-evenly;
 }
 
 #post-meta > a {
-  flex: 1;
   display: flex;
-  align-items: center;
-  margin-right: 20px;
 }
 
 #post-meta img.avatar {
   height: 48px;
   width: 48px;
-  flex: 0 0 auto;
   margin-left: 5px;
   margin-right: 20px;
 }
 
 #post-meta .details {
   flex: 1;
+  font-family: $font-display;
 }
 
 #post-meta .dark {
@@ -409,15 +401,11 @@ footer.site {
 
 #post-meta .light {
   color: #bbb;
-}
-
-.sharing {
-  flex: 0 0 auto;
-  width: auto;
+  font-weight: 600;
 }
 
 .sharing a {
-  font-size: 32px;
+  font-size: 2rem;
   color: #bbb;
 }
 
@@ -426,8 +414,7 @@ footer.site {
 }
 
 .social {
-  margin: 20px 20px 20px 20px;
-  font-size: 1.8rem;
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -436,7 +423,7 @@ footer.site {
   width: 120px;
   margin-bottom: 20px;
   color: #666;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .social-link:hover {
@@ -454,7 +441,7 @@ footer.site {
   padding-right: 20px;
   font-size: 1rem;
 
-  h2, h3, h4 {
+  h1, h2, h3, h4 {
     margin-top: 20px;
     font-weight: 800;
   }
@@ -494,9 +481,11 @@ footer.site {
     display: flex;
     align-items: flex-end;
     flex-wrap: wrap;
+
     > span {
       white-space: nowrap;
     }
+
     .name {
       flex-grow: 1;
     }
@@ -528,64 +517,47 @@ footer.site {
 }
 
 /* Media Queries */
-@media screen and (max-width: 560px) {
-  #post-meta {
-    padding-left: 10px;
-    padding-right: 10px;
+
+@media screen and (max-device-width: 479px) {
+  .social {
+    margin: 0 0 20px 0;
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
   }
-  #post-meta > a {
-    margin-right: 0;
+
+  #post-meta {
+    padding: 20px 0 10px 0;
+    display: block;
+    .sharing {
+      display: flex;
+      justify-content: space-evenly;
+    }
   }
-  .sharing {
-    margin-top: 20px;
+  .resume ul.me-links {
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .resume {
+    dl {
+      margin: 10px 0 0 0;
+    }
+    h4, dt {
+      font-family: $font-display;
+    }
+    dd {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
   }
 }
 
-@media screen and (max-width: 500px) {
-  .social-sub {
-    display: flex;
-    justify-content: space-between;
-  }
-  .social-link {
-    flex: 0 0 auto;
-  }
-}
-
-// MID
-// justify-content: space-around;
-// SMALL
-// flex-direction: column
-
-
-@media screen and (max-width: 460px) {
-  .wrapper {
-    padding: 20px 20px 20px 20px;
-  }
-  .profile {
-    max-width: 320px;
-  }
-  .profile img.avatar {
-    width: 80px;
-    height: 80px;
-  }
-  .post {
-    margin-top: 40px;
-  }
-  h1 {
-    font-size: 26px;
-  }
-  .post h1 {
-    font-size: 24px;
-  }
-  h2 {
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 380px) {
-  .social {
-    margin-left: 20px;
-    margin-right: 20px;
+@media screen and (min-device-width: 720px) and (max-device-width: 920px){
+  .resume ul.me-links {
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 }

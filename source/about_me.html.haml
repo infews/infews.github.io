@@ -4,6 +4,15 @@ sitemap_priority: 1.0
 
 = component 'profile'
 
+%p
+  You may know me from my time at Pivotal and Pivotal Labs, where I helped our clients build Ruby on Rails or mobile JavaScript apps. Or maybe from co-writing
+  = link_to "Jasmine","https://jasmine.github.io"
+  , a JavaScript testing framework. Or maybe you saw me speak at RailsConf. Or some local meetup.
+
+%p It's good to see you again!
+
+%p I can talk and write endlessly about Ruby, JavaScript, Web Applications, Test-Driven Development, and Agile Software Methodologies. I can also talk about bourbon, barbecue, or just tell you a fun story.
+
 .social
   .social-sub
     %a.social-link{href: "https://twitter.com/#{config[:twitter_username]}"}
@@ -17,17 +26,9 @@ sitemap_priority: 1.0
     %a.social-link{href: "https://www.linkedin.com/in/#{config[:linkedin_username]}"}
       %span.fab.fa-linkedin-in
       %span LinkedIn
-  -#.social-sub
-  -#  %a.social-link{href: ""}
-  -#    %span.icon-linkedin
-  -#    Resume
-
-
-:markdown
-  You may know me from my time at Pivotal and Pivotal Labs, where I helped our clients build Ruby on Rails or mobile JavaScript apps. Or maybe from co-writing [Jasmine](https://jasmine.github.io), a JavaScript testing framework. Or maybe you saw me speak at RailsConf. Or some local meetup.
-
-  It's good to see you again!
-
-  I can talk and write endlessly about Ruby, JavaScript, Web Applications, Test-Driven Development, and Agile Software Methodologies. I can also talk about bourbon, barbecue, or just tell you a fun story.
+  .social-sub
+    %a.social-link{href: "/daviswfrank_resume/"}
+      %span.fas.fa-file-alt
+      Resume
 
 = component 'categories'
