@@ -31,6 +31,7 @@ module ArticleFooterHelpers
   end
 
   def tag_link(tag)
-    "<a href=\"/tags/#{tag}/\">#{tag}</a>"
+    t = tag.gsub(" ", "-")
+    "<a href=\"/tags/#{t}/\">#{tag}</a>"
   end
 end
