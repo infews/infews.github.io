@@ -49,7 +49,7 @@ table {
 
 /* Spacing */
 .post h1, h2, h3, h4, h5, p, ul, pre {
-  margin-bottom: 20px;
+  margin-top: 1.2rem;
 }
 
 /* Base */
@@ -68,7 +68,7 @@ body {
 
 .profile {
   max-width: 360px;
-  margin: 40px auto 40px auto;
+  margin: 40px auto 10px auto;
   text-align: center;
   position: relative;
 }
@@ -82,18 +82,20 @@ img.avatar {
   display: inline-block;
   width: 100px;
   height: 100px;
-  margin-bottom: 20px;
 }
 
 .profile h1 {
-  margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 .profile h2 {
   color: #bbb;
   font-style: italic;
   font-size: 1.6rem;
+  margin-top: 10px;
 }
+
+// Nav "bar"
 
 nav {
   padding: 20px 20px 0;
@@ -128,7 +130,7 @@ nav.home-nav a.cta {
 /*Accent color*/
 a,
 #title,
-#post-list a:hover,
+.post-list a:hover,
 #title:hover {
   text-decoration: none;
   color: #59a6ed;
@@ -139,10 +141,12 @@ p a {
 }
 
 ol, ul {
-  padding-left: 2em;
+  padding-left: 2rem;
 }
 
-/* Line Height */
+#post-body {
+  margin-top: 2rem;
+}
 #post-body, p {
   line-height: 1.5;
 }
@@ -173,7 +177,6 @@ em, i {
   max-width: 580px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 40px;
 }
 
 // Headings
@@ -310,41 +313,53 @@ img {
   border-radius: 3px;
 }
 
-#post-list {
+.post-list {
   border-top: 1px solid #eee;
-  margin: 20px 0 20px 0;
-  padding: 20px 0 20px 0;
+  margin: 1rem 0 0 0;
+  padding: 1rem 0 0 0;
 }
 
-#post-list li {
+.post-list li {
   list-style-type: none;
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
 }
 
-#post-list li:last-child {
+.post-list li:last-child {
   margin-bottom: 0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
 }
 
-#post-list li + li {
-  padding-top: 20px;
+.continues .post-list li:last-child {
+  border-bottom: none;
+}
+
+
+  .post-list li + li {
+  padding-top: 1rem;
   border-top: 1px solid #eee;
 }
 
-#post-list a {
+.post-list a {
   color: #666;
   display: block;
   font-size: 1.4rem;
   font-family: $font-display;
   font-weight: 800;
-
 }
 
-#post-list .teaser {
+.post-list .teaser {
   font-size: 1rem;
   font-weight: normal;
   font-family: $font-body;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-bottom: 0;
+  margin-top: 0.5rem;
+}
+
+.post-list .date {
+  margin-top: 0.5rem;
 }
 
 .date {
@@ -362,13 +377,14 @@ img {
 footer#article {
   font-style: italic;
   line-height: 1.4;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  margin-top: 1rem;
   border-top: 1px solid #eee;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 footer.site {
-  padding-top: 20px;
+  margin-top: 20px;
   border-top: 1px solid #eee;
 }
 
@@ -376,7 +392,8 @@ footer.site {
   font-size: 1rem;
   font-weight: bold;
   line-height: 1.4;
-  padding: 40px 20px 40px 20px;
+  margin-top: 1rem;
+  padding: 2rem 1rem;
   border-top: 1px solid #eee;
   display: flex;
   justify-content: space-evenly;
@@ -418,7 +435,7 @@ footer.site {
 }
 
 .social {
-  margin-bottom: 20px;
+  margin-top: 1rem;
   display: flex;
   justify-content: space-between;
 }
