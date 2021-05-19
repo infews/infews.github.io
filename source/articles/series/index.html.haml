@@ -5,9 +5,8 @@ pageable: true
 - series_articles = page_articles.reverse
 - series_filename = series.downcase.gsub(" ", "_")
 
-%h1
-  Blog Series:
-  %em= series
+%h1= series
+%h2.series-sub A Blog Series
 
 %hr
 = component "series/#{series_filename}_intro.md"

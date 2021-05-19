@@ -204,6 +204,11 @@ h2 {
   line-height: 1.2;
 }
 
+h2.series-sub {
+  font-size: 1.5rem;
+  color: #bbb;
+}
+
 h3 {
   font-size: 1.7rem;
   font-family: $font-display;
@@ -245,7 +250,7 @@ hr {
   display: block;
   border: none;
   height: 1px;
-  margin: 40px auto;
+  margin: 2.5rem auto 0 auto;
   background: #eee;
 }
 
