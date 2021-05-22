@@ -1,7 +1,9 @@
-/* Reset */
+// Fonts
 $font-display: "Raleway", Helvetica, Arial, sans-serif;
 $font-body: "Open Sans", Helvetica, Arial, sans-serif;
 $font-mono: "Fira Mono", monospace;
+
+/* Reset */
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   border: 0;
@@ -15,13 +17,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block
 }
 
-html {
-  font-size: 16px;
-}
-
-body {
-  line-height: 1;
-  font-size: 1rem;
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 blockquote, q {
@@ -37,22 +36,25 @@ table {
   border-spacing: 0
 }
 
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+/* Spacing */
+.post h1, h2, h3, h4, h5, p, ul, pre {
+  margin-top: 1.2rem;
 }
 
 .hidden {
   display: none;
 }
 
-/* Spacing */
-.post h1, h2, h3, h4, h5, p, ul, pre {
-  margin-top: 1.2rem;
+html {
+  font-size: 16px;
 }
 
-/* Base */
+body {
+  line-height: 1;
+  font-size: 1rem;
+}
+
+// Base
 html, body {
   height: 100%;
 }
@@ -123,7 +125,7 @@ nav.home-nav a.cta {
 .wrapper {
   max-width: 620px;
   margin: 0 auto;
-  padding: 60px 40px 20px 40px;
+  padding: 1.5rem 2.5rem;
 }
 
 /* Typography */
@@ -557,6 +559,9 @@ ul ul {
 /* Media Queries */
 
 @media screen and (max-device-width: 479px) {
+  .wrapper {
+    padding: 1rem 2rem;
+  }
   .social {
     margin: 0 0 20px 0;
     display: flex;
