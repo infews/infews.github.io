@@ -607,17 +607,20 @@ ul ul {
 
 @media print {
   html {
-    font-size: 12px;
+    font-size: 11px;
   }
   .resume {
     padding: 0;
+    color: black;
     h1, h2, h3, h4, h5 {
-      margin-top: 10px;
-      margin-bottom: 10px;
+      margin-top: 0.75rem;
+      margin-bottom: 0.75rem;
+      break-after: avoid-page;
+      page-break-after: avoid;
     }
     ul.me-links {
-      margin-top: 10px;
-      margin-bottom: 10px;
+      margin-top: 0.75rem;
+      margin-bottom: 0.75rem;
       .noprint {
         display: flex;
       }
@@ -628,7 +631,6 @@ ul ul {
   }
   h1, h2, h3, h4, h5, body {
     color: black;
-    break-after: avoid-page;
   }
   dl {
     break-before: avoid-page;
