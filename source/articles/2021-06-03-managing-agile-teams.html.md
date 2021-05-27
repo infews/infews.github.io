@@ -19,7 +19,6 @@ teaser: Agile teams and "management" do not have to be mutually exclusive. Manag
 [esh]: https://twitter.com/testobsessed
 [jw]: https://en.wikipedia.org/wiki/Gerald_Weinberg
 
-
 I stepped in it (again) on Dev Twitter, jumping into a discussion about management on agile teams. I saw [this thread from @allenholub][thread] that had an interesting reply from [@alexbunardzic][alex]:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The more I work on implementing XP in the teams I&#39;m leading, the more I&#39;m starting to strongly realize that a team is the smallest unit of work. Bypassing the team to hunt down &amp; corner individual team members for some inane &quot;performance appraisal&quot; is so wrong on so many levels.</p>&mdash; Alex Bunardzic #BlackAndAsianLivesMatter (@alexbunardzic) <a href="https://twitter.com/alexbunardzic/status/1396280635665256451?ref\_src=twsrc%5Etfw">May 23, 2021</a></blockquote>
@@ -100,5 +99,5 @@ In my experience, to ignore the team-independent needs of individuals leads to o
 
 Adding concepts like coaching and governance can help people and teams to do their best. And it is possible to add them incrementally, and process feedback about using them, just like you can with any agile practice.
 
-
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
