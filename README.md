@@ -9,6 +9,26 @@ Built with [Middleman][mm], a Ruby static site generator. Uses the [blogging ext
 
 Why this theme? It's clean and respsonsive.
 
+# Additions
+
+- Ported (most) templates to HAML, because HAML
+- Removed Disqus template
+- Activated pretty URLs
+- Added pages for:
+  - All articles tagged with a tag
+  - The concept of a blog series, with a first post, then the rest    
+- Moved CSS to `rem` measurements
+- Added slightly simpler media queries
+- Added print CSS, especially for a resume page  
+- Wrote some helpers:
+  - a tag helper to link a tag to its tag page
+  - an article teaser that can be stored in the in the YAML front matter (first paragraph auto clipping just sucks)
+  - JSON-LD rendering for SEO
+  - approximate reading time  
+- Excludes `private` posts from all list pages, but still publishes them
+- Turned on Markdown footnotes (expanded syntax, supported by RedCarpet), including style changes
+-  
+
 # Middleman Cactus Settings
 
 Update the following site configuration settings in `config.rb`:
@@ -39,18 +59,5 @@ set :disqus_shortname, nil
 set :google_analytics, nil
 ```
 
-# Additions
 
-- Ported (most) templates to HAML, because HAML
-- Removed Disqus template
-- Activated pretty URLs
-- Added pages for tags
-- Wrote a tag helper to link all tags to their pages on each article page
-- Excludes `private` posts from all list pages, but still publishes them
-- Turned on Markdown footnotes (expanded syntax, supported by RedCarpet), including style changes
-
-## Coming Soon
-
-- Other static pages
-- Available tags on home page (how? TBD)
 
