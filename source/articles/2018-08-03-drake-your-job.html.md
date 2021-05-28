@@ -34,15 +34,15 @@ Michael Dearing of Harrison Metal has [a video][video] and a [blog post][blog] t
 
 First, list which job characteristics are important to you. Take some time and make a list. Here’s what I came up with, based on what matters to me:
 
-* _Compensation_ — Money matters! Base salary, any bonus, stock options or shares, and benefits.
-* _Organization_ — How do I feel about the company or organization? Do my leaders inspire me? Do my values align?
-* _Manager_ — Is my manager helpful in my career? Do we meet regularly? Do they listen? Do they explain the “Why?” as well as the “What?” when I have questions?
-* _Peers_ — Do they have my trust and respect? Do I have coffee and lunch buddies? Do I invite them over for dinner?
-* _Commute_ — How long do I spend getting to the job every day? Does it leave me enough time for the rest of my life?
-* _Office location_ — Is the office in a place that inspires me daily? Is it easy to schedule time with my friends and mentors at other companies? Can I run errands at lunch?
-* _The company’s main product or service_ — Is my work going toward a product or service that I admire or respect? That I would use regularly? Would I be proud to recommend it to friends and family?
-* _The work_ — Is my work energizing? Is it fun? Is it interesting?
-* _Opportunity to learn_ — Are I adding to my skillset? Is this job going to help me get the next one?
+× _Compensation_ — Money matters! Base salary, any bonus, stock options or shares, and benefits.
+× _Organization_ — How do I feel about the company or organization? Do my leaders inspire me? Do my values align?
+× _Manager_ — Is my manager helpful in my career? Do we meet regularly? Do they listen? Do they explain the “Why?” as well as the “What?” when I have questions?
+× _Peers_ — Do they have my trust and respect? Do I have coffee and lunch buddies? Do I invite them over for dinner?
+× _Commute_ — How long do I spend getting to the job every day? Does it leave me enough time for the rest of my life?
+× _Office location_ — Is the office in a place that inspires me daily? Is it easy to schedule time with my friends and mentors at other companies? Can I run errands at lunch?
+× _The company’s main product or service_ — Is my work going toward a product or service that I admire or respect? That I would use regularly? Would I be proud to recommend it to friends and family?
+× _The work_ — Is my work energizing? Is it fun? Is it interesting?
+× _Opportunity to learn_ — Are I adding to my skillset? Is this job going to help me get the next one?
 
 ## The Drake Job Equation
 
@@ -52,7 +52,7 @@ Combining my terms, I got this formula:
 
 ```
   Value.job = 
-    Comp × 
+    C × 
     Q.org × 
     Q.mgr × 
     Q.peers × 
@@ -69,25 +69,25 @@ The next group of other terms is for “quality” terms. Each of these terms ne
 
 Any low term will pull your score down significantly. Be honest as you ask yourself about each term. But a zero will make the entire score zero. If your final job score is zero, it’s probably time to open up LinkedIn. A value of 0.1 serves as a nice floor that sends the right message without screaming “QUIT” and rendering the rest of the formula moot.
 
-A 1 means things are “just OK”. A value of 1 doesn’t reduce or amplify the overall score. A 2 means that things are “GREAT”, meaning it doubles your overall score. And keeping the ceiling at 2 means that any one term does not overwhelm the rest.
+A 1 means things are “just OK”. A value of 1 doesn’t reduce or amplify the overall score. A 2 means that things are “GREAT”, meaning it doubles your overall score. And keeping the ceiling at 2 means that any one term does not overwhelm the rest. 
 
-* _Quality of Organization:_ Q.org score between 0.1 and 2.
-* _Quality of Manager:_ Q.mgr score between 0.1 and 2.
-* _Quality of Peers:_ Q.peers score between 0.1 and 2.
-* _Quality of Commute:_ Q.commute score between 0.1 and 2.
-* _Quality of Location:_ Q.location score between 0.1 and 2.
+- `Q.org`- Quality of Organization 
+- `Q.mgr`- Quality of Manager
+- `Q.peers` - Quality of Peers
+- `Q.commute` - Quality of Commute
+- `Q.location` - Quality of Location
 
-The next group is for motivation scores. Motivation matters a lot to me, so I decided on a higher ceiling of 5. Feel free to tweak these ranges.
+The next group is for motivation scores. Motivation matters a lot to me, so I decided on a higher ceiling of 5. Finally, I want to be wokring at place were I am learning new things. This feels like a motivational item. So these three have a range of 0.1 up to 5.
 
-* _Motivation from Product:_ M.product score between 0.1 and 5.
-* _Motivation from Work:_ M.work score between 0.1 and 5.
-* _Frequency of Learning Opportunities:_ Freq.learning score between 0.1 and 5.
+- `M.product` - Motivation from Product
+- `M.work` - Motivation from Work
+- `Freq.learning` - Frequency of Learning Opportunities
 
 ## Using The Equation
 
 Let’s say your total compensation comes out to $50,000 this year. You love the company, have a pretty good manager, fine teammates, a soul-sucking commute, a great location, you love the product, don’t love the work you’re doing, and you are learning a reasonable amount. Using my equation, we get this:
 
-> 50,000 * 2 * 1.25 * 1 * 0.25 * 2 * 3 * 2 * 3 = 1,125,000
+> 50,000 × 2 × 1.25 × 1 × 0.25 × 2 × 3 × 2 × 3 = 1,125,000
 
 Now you have a score. What do you do with it?
 
