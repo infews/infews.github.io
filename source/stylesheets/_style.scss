@@ -205,6 +205,10 @@ h2 {
   font-weight: 800;
   line-height: 1.2;
 }
+h2.series {
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
 
 h2.series-sub {
   font-size: 1.5rem;
@@ -334,15 +338,13 @@ img {
 .post-list li:last-child {
   margin-bottom: 0;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #eee;
 }
 
 .continues .post-list li:last-child {
   border-bottom: none;
 }
 
-
-  .post-list li + li {
+.post-list li + li {
   padding-top: 1rem;
   border-top: 1px solid #eee;
 }
