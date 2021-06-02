@@ -5,11 +5,107 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2021-05-26T17:46:52-07:00</updated>
+  <updated>2021-06-02T13:45:10-07:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
   <rights>© Davis W. Frank 2021</rights>
+  <entry>
+    <title>What I Talk About When I Talk About Management</title>
+    <link href="https://dwf.bigpencil.net/managing-agile-teams/" rel="alternate"/>
+    <id/>
+    <published>2021-06-02T07:59:00-07:00</published>
+    <updated>2021-06-02T13:45:10-07:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;p&gt;I stepped in it (again) on Dev Twitter, jumping into a discussion about management on agile teams. I saw &lt;a href="https://twitter.com/allenholub/status/1396171069627633667"&gt;this thread from @allenholub&lt;/a&gt; that had an interesting reply from &lt;a href="https://twitter.com/alexbunardzic"&gt;@alexbunardzic&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;The more I work on implementing XP in the teams I&amp;rsquo;m leading, the more I&amp;rsquo;m starting to strongly realize that a team is the smallest unit of work. Bypassing the team to hunt down &amp;amp; corner individual team members for some inane &amp;ldquo;performance appraisal&amp;rdquo; is so wrong on so many levels.&lt;/p&gt;&amp;mdash; Alex Bunardzic #BlackAndAsianLivesMatter (@alexbunardzic) &lt;a href="https://twitter.com/alexbunardzic/status/1396280635665256451?ref\_src=twsrc%5Etfw"&gt;May 23, 2021&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;I like the first sentence a lot. I am a strong believer in the team being the agent of work on an agile product team. I have a more complex reaction to the second. Nobody likes an &amp;ldquo;inane &amp;lsquo;performance appraisal&amp;rsquo;.&amp;rdquo; But there are times when people need individual help. So I jumped in&amp;hellip;&lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;It is possible and necessary to separate individual management from team execution, while still treating the team as a unit of work.&lt;/p&gt;&amp;mdash; Davis W. Frank (@dwfrank) &lt;a href="https://twitter.com/dwfrank/status/1396468672772804619?ref\_src=twsrc%5Etfw"&gt;May 23, 2021&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Which led to this great analogy:&lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;It all boils down to what is being evaluated. An analogy: pass the baton race. Dysfunctional orgs keep a watchful eye on the runners. Mature orgs only care about the baton. Knowing that, teams who are lucky to work in mature orgs organize themselves to optimize the flow of baton.&lt;/p&gt;&amp;mdash; Alex Bunardzic #BlackAndAsianLivesMatter (@alexbunardzic) &lt;a href="https://twitter.com/alexbunardzic/status/1396473208010809348?ref\_src=twsrc%5Etfw"&gt;May 23, 2021&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;I find the assertion &amp;ldquo;Mature orgs only care about the baton&amp;rdquo; myopic. But let&amp;rsquo;s run with this one.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s say we have a 4x400 relay squad who has a set of goals for the season and they have self organized. They are running agile. They are doing well. They have gone from the back of the rankings to contending in most meets. Medals! Success! Fantastic!&lt;/p&gt;
+
+&lt;p&gt;What about the individual runners?&lt;/p&gt;
+
+&lt;p&gt;This team probably has a coach, or even coaches. The coaching staff worries about all sorts of problems: individual runners&amp;rsquo; practice schedules, exercises, hydration, injuries, and egos. That sounds a lot like management to me.&lt;/p&gt;
+
+&lt;p&gt;Is the coach, then a member of the squad? Sure. Slice the team however you want. I think the point stands that not all team activities, or team members, are directly about execution to outcomes. There are occasions for additional support to help the runner and the team.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s pop up a level. Say our relay squad is part of an entire Track &amp;amp; Field (Athletics) team. There are more running events. There is the heptathlon and decathlon. The Athletics team has a desired outcome to maximize medals across all of the events. This means more fans and more sponsorships and a better future for all of the team members.&lt;/p&gt;
+
+&lt;p&gt;What if swapping a runner off of the 4x400 squad improves the chances of more medals for the team? Or that by moving a runner off of the 4x400, that squad&amp;rsquo;s time improves? And then that frees up a runner who can enter another event? Or if one of the runners misbehaves outside of their work and sponsors threaten to take away necessary support? How does the team handle these situations?&lt;/p&gt;
+
+&lt;h2&gt;Running Turtles&lt;/h2&gt;
+
+&lt;p&gt;When teams are given desired outcomes and given the agency to self organize, they can do amazing things. This is what Agile is all about. But teams do not exist in isolation. They are made of individuals. In larger organizations, teams are working with and/or alongside other teams.&lt;/p&gt;
+
+&lt;p&gt;There is self similarity here. It&amp;rsquo;s turtles - I mean teams - all the way down. A person is a team of one. An organization is a team of teams.&lt;/p&gt;
+
+&lt;p&gt;If you ignore the people on a team, you run the risk of losing people from the team and perhaps miss your goals. If you ignore the context in which your team operates, you may wander away from desired outcomes and lose funding. Oops.&lt;/p&gt;
+
+&lt;p&gt;This does not have to be due to malicious ignorance. It can come just from natural tendencies to over focus &amp;ldquo;on the baton&amp;rdquo; or team members who do not have skills on the team to notice and deal with the problems. So how can you fix this and &amp;ldquo;stay agile?&amp;rdquo;&lt;/p&gt;
+
+&lt;h2&gt;Defining Terms&lt;/h2&gt;
+
+&lt;p&gt;Let&amp;rsquo;s expand the model a bit. I&amp;rsquo;m going to avoid using the term &lt;em&gt;Management&lt;/em&gt; and instead define some new-ish ones.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Coaching&lt;/em&gt; is the set of solutions that focuses on the needs of the individual within the context of their team. This includes helping a person reach their maximum potential within that team and the organization.&lt;/p&gt;
+
+&lt;p&gt;Teams can do a good job coaching directly within the goals of the team. But there are other situations - toxic personalities, complex feedback, or individual goals that are potentially outside the scope of the teams&amp;rsquo; goals - that sometimes need an outside perspective.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Governance&lt;/em&gt; is the set of solutions that focuses on the needs of the teams within the context of their organizations. This includes helping teams reach their maximum potential within the organization while considering the needs of the organization. This includes supporting coaching.&lt;/p&gt;
+
+&lt;p&gt;A team only exists while it is funded. And it&amp;rsquo;s funded to solve a problem, usually to make a thing that solves a problem. When in the course of solving that problem, their actions or solutions detract from the organization&amp;rsquo;s goals, then there is a need for at least a discussion, and possibly a correction.&lt;/p&gt;
+
+&lt;p&gt;Some situations - both team and individual - can be solved by moving individuals between teams. These situations need input from a lot of directions - involving coaching and governance - in order to get resolved.&lt;/p&gt;
+
+&lt;p&gt;This model is the result of observation and iteration that happened during my time at Pivotal. We grew from roughly forty consultants at Pivotal Labs San Francisco in 2008 to the 2000+ employees who VMware acquired at the end of 2019. Coaching and Governance were a key part of that growth.&lt;/p&gt;
+
+&lt;h2&gt;Implementing and Iterating&lt;/h2&gt;
+
+&lt;p&gt;In 2010 or so, Pivotal Labs had several high performing agile teams - one for each client of our consulting practice. We had identified the need for team-independent individual coaching. We created a new role to fill that need and gave it the title of &amp;ldquo;manager.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Managers remained consultants on projects about 80% of the time. They mostly, but not always, coached people on other teams. Which meant spending about 20% of their time coaching people in 1-1&amp;rsquo;s outside of the team context. Individuals &amp;ldquo;reported to&amp;rdquo; managers in the HR/hierarchy sense.&lt;/p&gt;
+
+&lt;p&gt;Some governance was simple. Our clients provided most of the governance for any one team. After all, we were teaching them agile practices for their products. They had their own goals and the teams managed themselves to them.&lt;/p&gt;
+
+&lt;p&gt;Pivotal&amp;rsquo;s need for governance across teams presented itself around staffing changes. We had to staff new projects and deal with projects ending. We needed to ensure we were growing individuals&amp;rsquo; skills, onboard new people, and fill seats when someone went on vacation. People quit. Some people did not work well together. This governance was the responsibility of &amp;ldquo;directors&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;We called the process of moving people around between projects &amp;ldquo;Allocations.&amp;rdquo; It was a calculus that took input from the clients, all of the teams, and all of our staff to determine who, if any, moved between projects each week. This was initially a meeting of two people and a whiteboard. Over time it grew to a continuous discussion between the team of directors and the managers. The managers were the proxies for their people in these discussions.&lt;/p&gt;
+
+&lt;p&gt;The managers were an agile team across all of the other teams. They needed coaching as they grew, met new challenges, and adapted. Managers reported to Directors who provided that coaching.&lt;/p&gt;
+
+&lt;p&gt;These management practices scaled, with several tweaks over time to, 17+ Pivotal Labs offices, the Cloud Foundry product teams, and had some influence over the rest of Pivotal R&amp;amp;D. I spent time managing in both organizations. By the time I left in early 2020, there was a lot that was working well. And there was plenty that was not. Some things remained very hard.&lt;/p&gt;
+
+&lt;p&gt;Annual Performance Reviews - which is a very non-agile implementation of recognizing achievement - was definitely one of them. It sort of worked. We did not bypass the team to get information and we cornered nobody. But it was not a smooth process and was a contributor to another problem: manager burnout. The burnout came came from other sources, too. Learning to be a manager was challenging and often amorphous. For managers of developers, I think the balance of time on teams vs time as coach was not sustainable.&lt;/p&gt;
+
+&lt;p&gt;Gathering, filtering, and delivering feedback was vital to coaching individuals to success. Bad actors were managed out of the company, people found teams where they could contribute more, and I know of a couple of careers that blossomed thanks to how we handled feedback. But as well as we did this, as a solution space it needs a lot more cross-discipline work before I would consider it smooth.&lt;/p&gt;
+
+&lt;h2&gt;Interface and Implementation&lt;/h2&gt;
+
+&lt;p&gt;All this said, I think our iterations and adaptations to add coaching and governance were valid and helpful to the people, teams, and company. I will use this experience to help any team I&amp;rsquo;m a part of.&lt;/p&gt;
+
+&lt;p&gt;What I hear a lot, and part of the arguments in the tweet thread, is that agile teams have an interface line (goals/metrics/outcomes) that management cannot cross. That any suggestions about changing things inside the team by a hierarchical manager is &lt;em&gt;anti-agile&lt;/em&gt;! That teams could get so much more done without such meddling!&lt;/p&gt;
+
+&lt;p&gt;I agree that meddling and micro-management, what &lt;a href="https://twitter.com/testobsessed"&gt;Elisabeth Hendrickson&lt;/a&gt;  (channeling &lt;a href="https://en.wikipedia.org/wiki/Gerald_Weinberg"&gt;Jerry Weinberg&lt;/a&gt;) calls &amp;ldquo;inflicting help,&amp;rdquo; are anti-patterns. Agile methods aim to prevent these practices.&lt;/p&gt;
+
+&lt;p&gt;In my experience, to ignore the team-independent needs of individuals leads to other anti-patterns like burnout, resignations, and general unhappiness. And to ignore the team-interdependent needs of an organization can lead to funding being pulled, the wrong product being built, or organizational collapse.&lt;/p&gt;
+
+&lt;p&gt;Adding concepts like coaching and governance can help people and teams to do their best. And it is possible to add them incrementally, and process feedback about using them, just like you can with any agile practice.&lt;/p&gt;
+
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+</content>
+  </entry>
   <entry>
     <title>On Pair Programming</title>
     <link href="https://dwf.bigpencil.net/on-pair-programming/" rel="alternate"/>
@@ -200,38 +296,6 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
 </content>
   </entry>
   <entry>
-    <title>Don't Sleep on the Command Palette</title>
-    <link href="https://dwf.bigpencil.net/love-the-command-palette/" rel="alternate"/>
-    <id/>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2021-03-21T09:56:00-07:00</updated>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <content type="html">&lt;p&gt;While I&amp;rsquo;m still learning how to use Obsidian, I find the Command Palette amazing. &lt;code&gt;Ctrl+P/Cmd+P&lt;/code&gt; brings up a searchable list of commands. I find new actions here all the time. And it&amp;rsquo;s the fastest way to put an &lt;a href="/series/obsidian/obsidian-links"&gt;Obsidian URL&lt;/a&gt; on your clipboard.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Obsidian URLs</title>
-    <link href="https://dwf.bigpencil.net/obsidian-links/" rel="alternate"/>
-    <id/>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2021-03-21T09:56:00-07:00</updated>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <content type="html">&lt;p&gt;Obsidian&amp;rsquo;s URL scheme is fabulous. A link of this form:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;obsidian://open?vault=&amp;lt;vault_name&amp;gt;&amp;amp;file=&amp;lt;note_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;..will open Obsidian with that vault and that note selected.&lt;/p&gt;
-
-&lt;p&gt;I use this a lot with my task manager, linking back from projects and tasks to longer thoughts on the topic. I also link to notes &lt;a href="/series/obsidian/thoughts-on-vaults"&gt;other vaults&lt;/a&gt; as needed.&lt;/p&gt;
-
-&lt;p&gt;With any note open, &amp;ldquo;Copy Obsidian URL&amp;rdquo; is available via the Command Palette and the note menu.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
     <title>Note Taking in 1-1's</title>
     <link href="https://dwf.bigpencil.net/one-on-one-notes/" rel="alternate"/>
     <id/>
@@ -323,20 +387,6 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
 </content>
   </entry>
   <entry>
-    <title>Community Plugin: Calendar</title>
-    <link href="https://dwf.bigpencil.net/community-plugin-calendar/" rel="alternate"/>
-    <id/>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2021-03-21T09:58:45-07:00</updated>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <content type="html">&lt;p&gt;This plug-in works with the Daily Notes plug-in. It adds a new tab in the right pane that gives a single-month view. Each date links to that day&amp;rsquo;s daily note, with a cute dot notation for the length of that note. You can also browse back and forth between months.&lt;/p&gt;
-
-&lt;p&gt;I find this is faster for zeroing in on historical notes. And sometimes you just need another calendar right in front of you during the day.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
     <title>Thoughts on Vaults</title>
     <link href="https://dwf.bigpencil.net/thoughts-on-vaults/" rel="alternate"/>
     <id/>
@@ -352,6 +402,68 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
 &lt;p&gt;This series started as one note in the main vault.&lt;/p&gt;
 
 &lt;p&gt;I keep the all of my vaults as subdirectories in one directory that lives online for ease of access from different computers and mobile devices. At the moment this is on Dropbox.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Obsidian URLs</title>
+    <link href="https://dwf.bigpencil.net/obsidian-links/" rel="alternate"/>
+    <id/>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2021-03-21T09:56:00-07:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;p&gt;Obsidian&amp;rsquo;s URL scheme is fabulous. A link of this form:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;obsidian://open?vault=&amp;lt;vault_name&amp;gt;&amp;amp;file=&amp;lt;note_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;..will open Obsidian with that vault and that note selected.&lt;/p&gt;
+
+&lt;p&gt;I use this a lot with my task manager, linking back from projects and tasks to longer thoughts on the topic. I also link to notes &lt;a href="/series/obsidian/thoughts-on-vaults"&gt;other vaults&lt;/a&gt; as needed.&lt;/p&gt;
+
+&lt;p&gt;With any note open, &amp;ldquo;Copy Obsidian URL&amp;rdquo; is available via the Command Palette and the note menu.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Don't Sleep on the Command Palette</title>
+    <link href="https://dwf.bigpencil.net/love-the-command-palette/" rel="alternate"/>
+    <id/>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2021-03-21T09:56:00-07:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;p&gt;While I&amp;rsquo;m still learning how to use Obsidian, I find the Command Palette amazing. &lt;code&gt;Ctrl+P/Cmd+P&lt;/code&gt; brings up a searchable list of commands. I find new actions here all the time. And it&amp;rsquo;s the fastest way to put an &lt;a href="/series/obsidian/obsidian-links"&gt;Obsidian URL&lt;/a&gt; on your clipboard.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Community Plugin: Calendar</title>
+    <link href="https://dwf.bigpencil.net/community-plugin-calendar/" rel="alternate"/>
+    <id/>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2021-03-21T09:58:45-07:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;p&gt;This plug-in works with the Daily Notes plug-in. It adds a new tab in the right pane that gives a single-month view. Each date links to that day&amp;rsquo;s daily note, with a cute dot notation for the length of that note. You can also browse back and forth between months.&lt;/p&gt;
+
+&lt;p&gt;I find this is faster for zeroing in on historical notes. And sometimes you just need another calendar right in front of you during the day.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Using Tags</title>
+    <link href="https://dwf.bigpencil.net/using-tags/" rel="alternate"/>
+    <id/>
+    <published>2021-03-21T09:13:00-07:00</published>
+    <updated>2021-03-21T09:56:00-07:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;p&gt;I am not a huge tag user. I find the search very good and the Linked/Unlinked mentions tab enlightening.&lt;/p&gt;
+
+&lt;p&gt;However, I do have a few categories of notes I want called out. So I will drop a hashtag at the bottom of the file, below a Horizontal Rule, where it is out of the way. I&amp;rsquo;ve found I like this better than using YAML front matter.&lt;/p&gt;
+
+&lt;p&gt;As I type this, I realize that all of the tags I care about are types of notes and thus have templates associated with them. So each template includes the tag. I barely even think about them except when searching.&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -372,22 +484,6 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
 &lt;p&gt;Obsidian renders the references in smaller text, making them easy to ignore most of the time. But when you need them, they are easy to find.&lt;/p&gt;
 
 &lt;p&gt;I also like putting them at the bottom of the current note, below a Horizontal Rule, where they are out of the way. I have experimented with putting all of the references at the top of the file, but for now, I keep them at the bottom.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Using Tags</title>
-    <link href="https://dwf.bigpencil.net/using-tags/" rel="alternate"/>
-    <id/>
-    <published>2021-03-21T09:13:00-07:00</published>
-    <updated>2021-03-21T09:56:00-07:00</updated>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <content type="html">&lt;p&gt;I am not a huge tag user. I find the search very good and the Linked/Unlinked mentions tab enlightening.&lt;/p&gt;
-
-&lt;p&gt;However, I do have a few categories of notes I want called out. So I will drop a hashtag at the bottom of the file, below a Horizontal Rule, where it is out of the way. I&amp;rsquo;ve found I like this better than using YAML front matter.&lt;/p&gt;
-
-&lt;p&gt;As I type this, I realize that all of the tags I care about are types of notes and thus have templates associated with them. So each template includes the tag. I barely even think about them except when searching.&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -1080,7 +1176,7 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
     <link href="https://dwf.bigpencil.net/drake-your-job/" rel="alternate"/>
     <id/>
     <published>2018-08-02T17:00:00-07:00</published>
-    <updated>2021-05-15T13:04:47-07:00</updated>
+    <updated>2021-05-28T16:26:57-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -1105,17 +1201,15 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
 
 &lt;p&gt;First, list which job characteristics are important to you. Take some time and make a list. Here’s what I came up with, based on what matters to me:&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Compensation&lt;/em&gt; — Money matters! Base salary, any bonus, stock options or shares, and benefits.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Organization&lt;/em&gt; — How do I feel about the company or organization? Do my leaders inspire me? Do my values align?&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Manager&lt;/em&gt; — Is my manager helpful in my career? Do we meet regularly? Do they listen? Do they explain the “Why?” as well as the “What?” when I have questions?&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Peers&lt;/em&gt; — Do they have my trust and respect? Do I have coffee and lunch buddies? Do I invite them over for dinner?&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Commute&lt;/em&gt; — How long do I spend getting to the job every day? Does it leave me enough time for the rest of my life?&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Office location&lt;/em&gt; — Is the office in a place that inspires me daily? Is it easy to schedule time with my friends and mentors at other companies? Can I run errands at lunch?&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;The company’s main product or service&lt;/em&gt; — Is my work going toward a product or service that I admire or respect? That I would use regularly? Would I be proud to recommend it to friends and family?&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;The work&lt;/em&gt; — Is my work energizing? Is it fun? Is it interesting?&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Opportunity to learn&lt;/em&gt; — Are I adding to my skillset? Is this job going to help me get the next one?&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;× &lt;em&gt;Compensation&lt;/em&gt; — Money matters! Base salary, any bonus, stock options or shares, and benefits.
+× &lt;em&gt;Organization&lt;/em&gt; — How do I feel about the company or organization? Do my leaders inspire me? Do my values align?
+× &lt;em&gt;Manager&lt;/em&gt; — Is my manager helpful in my career? Do we meet regularly? Do they listen? Do they explain the “Why?” as well as the “What?” when I have questions?
+× &lt;em&gt;Peers&lt;/em&gt; — Do they have my trust and respect? Do I have coffee and lunch buddies? Do I invite them over for dinner?
+× &lt;em&gt;Commute&lt;/em&gt; — How long do I spend getting to the job every day? Does it leave me enough time for the rest of my life?
+× &lt;em&gt;Office location&lt;/em&gt; — Is the office in a place that inspires me daily? Is it easy to schedule time with my friends and mentors at other companies? Can I run errands at lunch?
+× &lt;em&gt;The company’s main product or service&lt;/em&gt; — Is my work going toward a product or service that I admire or respect? That I would use regularly? Would I be proud to recommend it to friends and family?
+× &lt;em&gt;The work&lt;/em&gt; — Is my work energizing? Is it fun? Is it interesting?
+× &lt;em&gt;Opportunity to learn&lt;/em&gt; — Are I adding to my skillset? Is this job going to help me get the next one?&lt;/p&gt;
 
 &lt;h2&gt;The Drake Job Equation&lt;/h2&gt;
 
@@ -1123,7 +1217,7 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
 
 &lt;p&gt;Combining my terms, I got this formula:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre class="highlight plaintext"&gt;&lt;code&gt;  Value.job = 
-    Comp × 
+    C × 
     Q.org × 
     Q.mgr × 
     Q.peers × 
@@ -1139,22 +1233,22 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
 
 &lt;p&gt;Any low term will pull your score down significantly. Be honest as you ask yourself about each term. But a zero will make the entire score zero. If your final job score is zero, it’s probably time to open up LinkedIn. A value of 0.1 serves as a nice floor that sends the right message without screaming “QUIT” and rendering the rest of the formula moot.&lt;/p&gt;
 
-&lt;p&gt;A 1 means things are “just OK”. A value of 1 doesn’t reduce or amplify the overall score. A 2 means that things are “GREAT”, meaning it doubles your overall score. And keeping the ceiling at 2 means that any one term does not overwhelm the rest.&lt;/p&gt;
+&lt;p&gt;A 1 means things are “just OK”. A value of 1 doesn’t reduce or amplify the overall score. A 2 means that things are “GREAT”, meaning it doubles your overall score. And keeping the ceiling at 2 means that any one term does not overwhelm the rest. &lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Quality of Organization:&lt;/em&gt; Q.org score between 0.1 and 2.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Quality of Manager:&lt;/em&gt; Q.mgr score between 0.1 and 2.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Quality of Peers:&lt;/em&gt; Q.peers score between 0.1 and 2.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Quality of Commute:&lt;/em&gt; Q.commute score between 0.1 and 2.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Quality of Location:&lt;/em&gt; Q.location score between 0.1 and 2.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Q.org&lt;/code&gt;- Quality of Organization &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Q.mgr&lt;/code&gt;- Quality of Manager&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Q.peers&lt;/code&gt; - Quality of Peers&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Q.commute&lt;/code&gt; - Quality of Commute&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Q.location&lt;/code&gt; - Quality of Location&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;The next group is for motivation scores. Motivation matters a lot to me, so I decided on a higher ceiling of 5. Feel free to tweak these ranges.&lt;/p&gt;
+&lt;p&gt;The next group is for motivation scores. Motivation matters a lot to me, so I decided on a higher ceiling of 5. Finally, I want to be wokring at place were I am learning new things. This feels like a motivational item. So these three have a range of 0.1 up to 5.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Motivation from Product:&lt;/em&gt; M.product score between 0.1 and 5.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Motivation from Work:&lt;/em&gt; M.work score between 0.1 and 5.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Frequency of Learning Opportunities:&lt;/em&gt; Freq.learning score between 0.1 and 5.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;M.product&lt;/code&gt; - Motivation from Product&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;M.work&lt;/code&gt; - Motivation from Work&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Freq.learning&lt;/code&gt; - Frequency of Learning Opportunities&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2&gt;Using The Equation&lt;/h2&gt;
@@ -1162,7 +1256,7 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
 &lt;p&gt;Let’s say your total compensation comes out to $50,000 this year. You love the company, have a pretty good manager, fine teammates, a soul-sucking commute, a great location, you love the product, don’t love the work you’re doing, and you are learning a reasonable amount. Using my equation, we get this:&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;50,000 * 2 * 1.25 * 1 * 0.25 * 2 * 3 * 2 * 3 = 1,125,000&lt;/p&gt;
+&lt;p&gt;50,000 × 2 × 1.25 × 1 × 0.25 × 2 × 3 × 2 × 3 = 1,125,000&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Now you have a score. What do you do with it?&lt;/p&gt;
