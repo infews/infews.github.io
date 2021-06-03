@@ -13,7 +13,7 @@ keywords:
 series: "Obsidian"
 ---
 
-[oblinks]: /series/obsidian/obsidian-links
+[oblinks]: /obsidian-links
 
 While I'm still learning how to use Obsidian, I find the Command Palette amazing. `Ctrl+P/Cmd+P` brings up a searchable list of commands. I find new actions here all the time. And it's the fastest way to put an [Obsidian URL][oblinks] on your clipboard.
 
