@@ -5,11 +5,71 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2021-06-03T15:47:06-07:00</updated>
+  <updated>2021-09-17T16:02:17-07:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
   <rights>© Davis W. Frank 2021</rights>
+  <entry>
+    <title>Job Search Journaling with Obsidian - updated</title>
+    <link href="https://dwf.bigpencil.net/job-search-obsidian-update/" rel="alternate"/>
+    <id/>
+    <published>2021-09-17T14:36:00-07:00</published>
+    <updated>2021-09-17T16:02:17-07:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;p&gt;I wrote an article a few months ago about how I was using &lt;a href="https://obsidian.md"&gt;Obsidian&lt;/a&gt; to take &lt;a href="/my-obsidian-for-a-job-search/"&gt;copious notes during my job search&lt;/a&gt;. It covers research into companies, connections in my network, and keeps true to Obsidian daily notes patterns. I&amp;rsquo;ve kept up the practice and it has served me well. But I found a small tweak I wanted to share.&lt;/p&gt;
+
+&lt;p&gt;Interestingly, a company that had turned me down early in my search got back in touch about a new role. When letting you down, internal recruiters always say, &amp;ldquo;We&amp;rsquo;ll keep you in mind in the future!&amp;rdquo; I&amp;rsquo;ve always written this off as &amp;ldquo;nice,&amp;rdquo; but here we are, several months later, and I have a re-screen/catchup chat on the calendar. Quick! To Obsidian!&lt;/p&gt;
+
+&lt;p&gt;I immediately ran into a problem. It was harder than I expected to walk the timeline of all of the different calls, meetings, and emails, refreshing my memory. Information was scattered around my daily notes, my per-company-note, and random notes here and there. Even with search and unlinked mentions, it was not easy at all.&lt;/p&gt;
+
+&lt;h2&gt;Problems to Solve&lt;/h2&gt;
+
+&lt;p&gt;An interview cycle with a company is a series of interactions that need to be tracked in &amp;ldquo;one place&amp;rdquo; for easy retrieval. This system needs to make it easier to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Have a complete view of all interactions with and about the hiring company&lt;/li&gt;
+&lt;li&gt;Know when interactions happened&lt;/li&gt;
+&lt;li&gt;Retrieve the notes at each interaction
+
+&lt;ul&gt;
+&lt;li&gt;Notes I take during a call&lt;/li&gt;
+&lt;li&gt;Key points from emails (e.g., next steps, rejection details)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;A Solution&lt;/h2&gt;
+
+&lt;p&gt;My daily note template has a Calendar section. On the day of a meeting, I will have a heading in that section like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight markdown"&gt;&lt;code&gt;&lt;span class="gh"&gt;# Calendar&lt;/span&gt;
+
+&lt;span class="gu"&gt;## 0230p Christina @ [[Everything Imaging]]&lt;/span&gt;
+
+(notes from this call go here)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;That Obsidian link goes to the Company research note.&lt;/p&gt;
+
+&lt;p&gt;The Company research note, then has the backlink to the daily note in a new section labeled Timeline:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight markdown"&gt;&lt;code&gt;&lt;span class="gh"&gt;# Timeline&lt;/span&gt;
+&lt;span class="p"&gt;
+-&lt;/span&gt; [[2021.08.05]] Screening Phone call with Billy
+&lt;span class="p"&gt;-&lt;/span&gt; [[2021.08.17]] Christina interview via Zoom
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;The Files&lt;/h2&gt;
+
+&lt;p&gt;The repo &amp;amp; files live in &amp;ldquo;Release 2&amp;rdquo; at &lt;a href="https://github.com/infews/job_search_in_obsidian/releases"&gt;GitHub&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;The changes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The research template now has the &amp;ldquo;Timeline&amp;rdquo; section (replacing &amp;ldquo;Application&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;Added how to use this section in a few places.&lt;/li&gt;
+&lt;li&gt;Renamed the company/role note as &amp;ldquo;Research Note&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <title>What I Talk About When I Talk About Management</title>
     <link href="https://dwf.bigpencil.net/managing-agile-teams/" rel="alternate"/>
@@ -451,22 +511,6 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
 </content>
   </entry>
   <entry>
-    <title>Using Tags</title>
-    <link href="https://dwf.bigpencil.net/using-tags/" rel="alternate"/>
-    <id/>
-    <published>2021-03-21T09:13:00-07:00</published>
-    <updated>2021-03-21T09:56:00-07:00</updated>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <content type="html">&lt;p&gt;I am not a huge tag user. I find the search very good and the Linked/Unlinked mentions tab enlightening.&lt;/p&gt;
-
-&lt;p&gt;However, I do have a few categories of notes I want called out. So I will drop a hashtag at the bottom of the file, below a Horizontal Rule, where it is out of the way. I&amp;rsquo;ve found I like this better than using YAML front matter.&lt;/p&gt;
-
-&lt;p&gt;As I type this, I realize that all of the tags I care about are types of notes and thus have templates associated with them. So each template includes the tag. I barely even think about them except when searching.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
     <title>Using Links</title>
     <link href="https://dwf.bigpencil.net/using-links/" rel="alternate"/>
     <id/>
@@ -484,6 +528,22 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
 &lt;p&gt;Obsidian renders the references in smaller text, making them easy to ignore most of the time. But when you need them, they are easy to find.&lt;/p&gt;
 
 &lt;p&gt;I also like putting them at the bottom of the current note, below a Horizontal Rule, where they are out of the way. I have experimented with putting all of the references at the top of the file, but for now, I keep them at the bottom.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Using Tags</title>
+    <link href="https://dwf.bigpencil.net/using-tags/" rel="alternate"/>
+    <id/>
+    <published>2021-03-21T09:13:00-07:00</published>
+    <updated>2021-03-21T09:56:00-07:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;p&gt;I am not a huge tag user. I find the search very good and the Linked/Unlinked mentions tab enlightening.&lt;/p&gt;
+
+&lt;p&gt;However, I do have a few categories of notes I want called out. So I will drop a hashtag at the bottom of the file, below a Horizontal Rule, where it is out of the way. I&amp;rsquo;ve found I like this better than using YAML front matter.&lt;/p&gt;
+
+&lt;p&gt;As I type this, I realize that all of the tags I care about are types of notes and thus have templates associated with them. So each template includes the tag. I barely even think about them except when searching.&lt;/p&gt;
 </content>
   </entry>
   <entry>
