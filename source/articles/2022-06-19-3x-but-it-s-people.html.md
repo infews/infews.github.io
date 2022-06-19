@@ -1,6 +1,6 @@
 ---
 
-title: 3X but it's People
+title: 3X but It's People
 date: 2022-06-19 21:58 UTC
 tags: ["agile", "software development", "management"]
 keywords: ["agile", "software development", "management", "3X", "Kent Beck"]
