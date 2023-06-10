@@ -21,7 +21,7 @@ wrapper_class: resume
       github.com/infews
   %li
     %a{href: "/"}
-      %span.fab.fa-html5
+      %span.fas.fa-pen-fancy
       dwf.bigpencil.net
   %li.noprint
     %a{href: "/daviswfrank_resume/"}
@@ -131,7 +131,7 @@ wrapper_class: resume
   %span 2021 October - 2023 May
 
 %p
-  I managed teams in Product Engineering and Platform Engineering. My focus was on improving the our Continuous Delivery chops, rebuilding the engineer hiring process, optimizing cloud service spending, rethinking our approach to data engineering, and shepherding other efforts to improve our maturity as Fountain grew as a Series C startup.
+  I managed teams in Product Engineering and Platform Engineering. I drove efforts to improve Continuous Delivery chops, rebuild the engineer hiring process, optimize cloud services spending, rethink our approach to data engineering, and shepherd to mature engineering as Fountain grew into being a Series C startup. This included talent assessment and manging teams through two layoffs.
 
 %h3.company
   %span.name Personal Sabbatical &amp; Product Advising
@@ -154,7 +154,7 @@ wrapper_class: resume
   PKS (now known as
   = succeed ")" do
     = link_to "TKGI", "https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid-Integrated-Edition/"
-  is a jointly-developed Kubernetes distribution from Pivotal & VMware that was a service for Pivotal Cloud Foundry (now known as
+  was a jointly-developed Kubernetes distribution from Pivotal & VMware that was a service for Pivotal Cloud Foundry (now known as
   = succeed ")." do
     = link_to "Tanzu Application Service", "https://tanzu.vmware.com/application-service"
   Pivotal was acquired by VMware in late 2019.
@@ -162,10 +162,10 @@ wrapper_class: resume
 %h4 Senior Engineering Manager, Engineering Lead
 
 %p
-  I was the Engineering Lead on the PKS Release Engineering team. I defined, prioritized, and accepted the work for this team of 10 developers from Pivotal and VMware. We optimized the configuration, build, and CI runs for hundreds of pipelines, doubling the number of concurrently supported releases from 2 to 4 while reducing the elapsed-time-per-change of hundreds of pipelines by 75% - from 4 days to 1.
+  I was the Engineering Lead on the PKS Release Engineering team. I defined, prioritized, and accepted the work for this team of 10 developers from Pivotal and VMware. We optimized the configuration, build, and CI runs for hundreds of pipelines, doubling the number of concurrently supported releases from 2 to 4 while reducing the cycle-time-per-change across hundreds of pipelines by 75% - from 4 days to 1.
 
 %p
-  As a member of the leadership team &mdash; three managers reporting to our VP of Engineering &mdash; we restaffed the Pivotal team from Ireland to Palo Alto, dealt with regular joint-venture management style clashes, and managed our freshly-hired staff through the ambiguity of acquisition. I continued to run the summer intern roundtable, incorporating the Palo Alto interns from the PKS and
+  As a member of the leadership team &mdash; three managers reporting to our VP of Engineering &mdash; we restaffed the Pivotal team of 12 in the US (team was originally in Ireland), dealt with regular joint-venture management style clashes, and managed our freshly-hired staff through the ambiguity of acquisition. I continued to run the summer intern roundtable, incorporating the Palo Alto interns from the PKS and
   = link_to "Greenplum", "https://tanzu.vmware.com/greenplum"
   teams.
 
@@ -310,11 +310,13 @@ wrapper_class: resume
 
 %p
   I maintained and enhanced a custom animation codec used in several games. I combined the separate Win16 and Win32 codebases in order to halve the time it took to fix a bug. I added this codec to games like
-  = succeed "." do
-    = link_to "Where in the World is Carmen Sandiego?", "https://en.wikipedia.org/wiki/Carmen_Sandiego"
-  I wrote MMX assembly routines for games like
-  = succeed "." do
-    = link_to "<em>Riven: The Sequel to Myst</em>", "https://store.steampowered.com/app/63610/Riven_The_Sequel_to_MYST/" 
+  %em
+    = succeed "." do
+      = link_to "Where in the World is Carmen Sandiego?", "https://en.wikipedia.org/wiki/Carmen_Sandiego"
+  I wrote MMX assembly routines for multiple games, including
+  %em
+    = succeed "." do
+      = link_to "Riven: The Sequel to Myst", "https://store.steampowered.com/app/63610/Riven_The_Sequel_to_MYST/"
 
 %p.learned Learned how to code for real-world consumer application deadline, how to simplify legacy code, how to work with Customer Support regarding high-cost bugs, and how to use personal contacts to establish a new business relationship. I never learned where in the world Carmen Sandiego was.
 
@@ -380,6 +382,6 @@ wrapper_class: resume
       %li
         Method and apparatus for displaying an image in a windowed environment
         %a{href:"https://patents.google.com/patent/US5546103A/"} US 5,546,103
-%br
-%span.version
-  v2023.06
+%p
+  %small= "v" + Date.today.strftime("%Y.%m.%d")
+
