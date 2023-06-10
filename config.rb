@@ -87,6 +87,7 @@ set :site_id, 'urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957'
 set :github_username, 'infews'
 set :twitter_username, 'dwfrank'
 set :linkedin_username, 'daviswfrank'
+set :mastdon_url, 'ruby.social/@dwfrank'
 
 #set :keybase_username, 'example'
 #set :lastfm_username, 'example'
