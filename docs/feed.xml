@@ -5,11 +5,33 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2022-06-19T16:44:01-07:00</updated>
+  <updated>2023-06-28T08:31:28-07:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
   <rights>© Davis W. Frank 2023</rights>
+  <entry>
+    <title>GoGaRuCo 2013 Storytime</title>
+    <link href="https://dwf.bigpencil.net/gogaruco-2013-storytime/" rel="alternate"/>
+    <id/>
+    <published>2023-06-28T08:09:00-07:00</published>
+    <updated>2023-06-28T08:31:28-07:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;p&gt;Way back in 2013 I got a last minute request from &lt;a href="https://ruby.social/@sarahmei"&gt;Sarah Mei&lt;/a&gt; for a 10 minute talk during the Golden Gate Ruby Conference&amp;rsquo;s &amp;ldquo;Story time.&amp;rdquo; IIRC, it was meant to be a &amp;ldquo;break time&amp;rdquo; talk. Something light and fun so that the attendee&amp;rsquo;s brains could catch up a bit between deep technical sessions.&lt;/p&gt;
+
+&lt;p&gt;I knew exactly which stories I wanted to pull together. And it was a lot of fun to give.&lt;/p&gt;
+
+&lt;p&gt;I had mostly forgotten about this talk and totally forgotten that it was recorded. So imagine my surprise when I 
+uncovered the video this week. And that it had 200+ views!&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re curious, or you were there and want the 10-year flashback, or maybe just want a ten-minute break today, 
+here it is.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=ueeZKPGNk6I"&gt;GoGaRuCo 2013 - Afternoon Storytime - How I test-drove my Career&lt;/a&gt; (YouTube)&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>3X but It's People</title>
     <link href="https://dwf.bigpencil.net/3x-but-it-s-people/" rel="alternate"/>
@@ -454,6 +476,38 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
 </content>
   </entry>
   <entry>
+    <title>Obsidian URLs</title>
+    <link href="https://dwf.bigpencil.net/obsidian-links/" rel="alternate"/>
+    <id/>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2021-03-21T09:56:00-07:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;p&gt;Obsidian&amp;rsquo;s URL scheme is fabulous. A link of this form:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;obsidian://open?vault=&amp;lt;vault_name&amp;gt;&amp;amp;file=&amp;lt;note_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;..will open Obsidian with that vault and that note selected.&lt;/p&gt;
+
+&lt;p&gt;I use this a lot with my task manager, linking back from projects and tasks to longer thoughts on the topic. I also link to notes &lt;a href="/series/obsidian/thoughts-on-vaults"&gt;other vaults&lt;/a&gt; as needed.&lt;/p&gt;
+
+&lt;p&gt;With any note open, &amp;ldquo;Copy Obsidian URL&amp;rdquo; is available via the Command Palette and the note menu.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Don't Sleep on the Command Palette</title>
+    <link href="https://dwf.bigpencil.net/love-the-command-palette/" rel="alternate"/>
+    <id/>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2021-06-03T15:47:06-07:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;p&gt;While I&amp;rsquo;m still learning how to use Obsidian, I find the Command Palette amazing. &lt;code&gt;Ctrl+P/Cmd+P&lt;/code&gt; brings up a searchable list of commands. I find new actions here all the time. And it&amp;rsquo;s the fastest way to put an &lt;a href="/obsidian-links"&gt;Obsidian URL&lt;/a&gt; on your clipboard.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Note Taking in 1-1's</title>
     <link href="https://dwf.bigpencil.net/one-on-one-notes/" rel="alternate"/>
     <id/>
@@ -545,6 +599,20 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
 </content>
   </entry>
   <entry>
+    <title>Community Plugin: Calendar</title>
+    <link href="https://dwf.bigpencil.net/community-plugin-calendar/" rel="alternate"/>
+    <id/>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2021-03-21T09:58:45-07:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;p&gt;This plug-in works with the Daily Notes plug-in. It adds a new tab in the right pane that gives a single-month view. Each date links to that day&amp;rsquo;s daily note, with a cute dot notation for the length of that note. You can also browse back and forth between months.&lt;/p&gt;
+
+&lt;p&gt;I find this is faster for zeroing in on historical notes. And sometimes you just need another calendar right in front of you during the day.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Thoughts on Vaults</title>
     <link href="https://dwf.bigpencil.net/thoughts-on-vaults/" rel="alternate"/>
     <id/>
@@ -560,68 +628,6 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
 &lt;p&gt;This series started as one note in the main vault.&lt;/p&gt;
 
 &lt;p&gt;I keep the all of my vaults as subdirectories in one directory that lives online for ease of access from different computers and mobile devices. At the moment this is on Dropbox.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Obsidian URLs</title>
-    <link href="https://dwf.bigpencil.net/obsidian-links/" rel="alternate"/>
-    <id/>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2021-03-21T09:56:00-07:00</updated>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <content type="html">&lt;p&gt;Obsidian&amp;rsquo;s URL scheme is fabulous. A link of this form:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;obsidian://open?vault=&amp;lt;vault_name&amp;gt;&amp;amp;file=&amp;lt;note_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;..will open Obsidian with that vault and that note selected.&lt;/p&gt;
-
-&lt;p&gt;I use this a lot with my task manager, linking back from projects and tasks to longer thoughts on the topic. I also link to notes &lt;a href="/series/obsidian/thoughts-on-vaults"&gt;other vaults&lt;/a&gt; as needed.&lt;/p&gt;
-
-&lt;p&gt;With any note open, &amp;ldquo;Copy Obsidian URL&amp;rdquo; is available via the Command Palette and the note menu.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Don't Sleep on the Command Palette</title>
-    <link href="https://dwf.bigpencil.net/love-the-command-palette/" rel="alternate"/>
-    <id/>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2021-06-03T15:47:06-07:00</updated>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <content type="html">&lt;p&gt;While I&amp;rsquo;m still learning how to use Obsidian, I find the Command Palette amazing. &lt;code&gt;Ctrl+P/Cmd+P&lt;/code&gt; brings up a searchable list of commands. I find new actions here all the time. And it&amp;rsquo;s the fastest way to put an &lt;a href="/obsidian-links"&gt;Obsidian URL&lt;/a&gt; on your clipboard.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Community Plugin: Calendar</title>
-    <link href="https://dwf.bigpencil.net/community-plugin-calendar/" rel="alternate"/>
-    <id/>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2021-03-21T09:58:45-07:00</updated>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <content type="html">&lt;p&gt;This plug-in works with the Daily Notes plug-in. It adds a new tab in the right pane that gives a single-month view. Each date links to that day&amp;rsquo;s daily note, with a cute dot notation for the length of that note. You can also browse back and forth between months.&lt;/p&gt;
-
-&lt;p&gt;I find this is faster for zeroing in on historical notes. And sometimes you just need another calendar right in front of you during the day.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Using Tags</title>
-    <link href="https://dwf.bigpencil.net/using-tags/" rel="alternate"/>
-    <id/>
-    <published>2021-03-21T09:13:00-07:00</published>
-    <updated>2021-03-21T09:56:00-07:00</updated>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <content type="html">&lt;p&gt;I am not a huge tag user. I find the search very good and the Linked/Unlinked mentions tab enlightening.&lt;/p&gt;
-
-&lt;p&gt;However, I do have a few categories of notes I want called out. So I will drop a hashtag at the bottom of the file, below a Horizontal Rule, where it is out of the way. I&amp;rsquo;ve found I like this better than using YAML front matter.&lt;/p&gt;
-
-&lt;p&gt;As I type this, I realize that all of the tags I care about are types of notes and thus have templates associated with them. So each template includes the tag. I barely even think about them except when searching.&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -642,6 +648,22 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
 &lt;p&gt;Obsidian renders the references in smaller text, making them easy to ignore most of the time. But when you need them, they are easy to find.&lt;/p&gt;
 
 &lt;p&gt;I also like putting them at the bottom of the current note, below a Horizontal Rule, where they are out of the way. I have experimented with putting all of the references at the top of the file, but for now, I keep them at the bottom.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Using Tags</title>
+    <link href="https://dwf.bigpencil.net/using-tags/" rel="alternate"/>
+    <id/>
+    <published>2021-03-21T09:13:00-07:00</published>
+    <updated>2021-03-21T09:56:00-07:00</updated>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">&lt;p&gt;I am not a huge tag user. I find the search very good and the Linked/Unlinked mentions tab enlightening.&lt;/p&gt;
+
+&lt;p&gt;However, I do have a few categories of notes I want called out. So I will drop a hashtag at the bottom of the file, below a Horizontal Rule, where it is out of the way. I&amp;rsquo;ve found I like this better than using YAML front matter.&lt;/p&gt;
+
+&lt;p&gt;As I type this, I realize that all of the tags I care about are types of notes and thus have templates associated with them. So each template includes the tag. I barely even think about them except when searching.&lt;/p&gt;
 </content>
   </entry>
   <entry>
