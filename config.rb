@@ -1,3 +1,5 @@
+# Time.zone = "Pacific Time (US & Canada)"
+
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -60,15 +62,14 @@ activate :blog do |blog|
 end
 
 set :haml, { :format => :html5 }
-Haml::TempleEngine.disable_option_validator!
 
 # Markdown and syntax highlighting
-activate :syntax
+# activate :syntax
 set :markdown_engine, :redcarpet
 set :markdown, fenced_code_blocks: true, smartypants: true, footnotes: true
 
 # Use commit time from git for sitemap.xml and feed.xml
-activate :vcs_time
+#activate :vcs_time
 
 ###
 # Site settings

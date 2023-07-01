@@ -15,7 +15,6 @@
     <link href="https://dwf.bigpencil.net/gogaruco-2013-storytime/" rel="alternate"/>
     <id/>
     <published>2023-06-28T08:09:00-07:00</published>
-    <updated>2023-06-28T08:45:08-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -37,7 +36,6 @@ here it is. I hope you enjoy it.&lt;/p&gt;
     <link href="https://dwf.bigpencil.net/3x-but-it-s-people/" rel="alternate"/>
     <id/>
     <published>2022-06-19T14:58:00-07:00</published>
-    <updated>2022-06-19T16:44:01-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -91,7 +89,6 @@ here it is. I hope you enjoy it.&lt;/p&gt;
     <link href="https://dwf.bigpencil.net/what-brown-mms-taught-me-about-software/" rel="alternate"/>
     <id/>
     <published>2022-01-16T18:51:00-08:00</published>
-    <updated>2022-01-16T19:01:09-08:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -135,7 +132,6 @@ here it is. I hope you enjoy it.&lt;/p&gt;
     <link href="https://dwf.bigpencil.net/job-search-obsidian-update/" rel="alternate"/>
     <id/>
     <published>2021-09-17T14:36:00-07:00</published>
-    <updated>2021-09-17T16:04:02-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -163,20 +159,24 @@ here it is. I hope you enjoy it.&lt;/p&gt;
 &lt;h2&gt;A Solution&lt;/h2&gt;
 
 &lt;p&gt;My daily note template has a Calendar section. On the day of a meeting, I will have a heading in that section like this:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre class="highlight markdown"&gt;&lt;code&gt;&lt;span class="gh"&gt;# Calendar&lt;/span&gt;
 
-&lt;span class="gu"&gt;## 0230p Christina @ [[Everything Imaging]]&lt;/span&gt;
+&lt;pre&gt;&lt;code class="markdown"&gt;# Calendar
+
+## 0230p Christina @ [[Everything Imaging]]
 
 (notes from this call go here)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;That Obsidian link goes to the Company research note.&lt;/p&gt;
 
 &lt;p&gt;The Company research note, then has the backlink to the daily note in a new section labeled Timeline:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre class="highlight markdown"&gt;&lt;code&gt;&lt;span class="gh"&gt;# Timeline&lt;/span&gt;
-&lt;span class="p"&gt;
--&lt;/span&gt; [[2021.08.05]] Screening Phone call with Billy
-&lt;span class="p"&gt;-&lt;/span&gt; [[2021.08.17]] Christina interview via Zoom
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;pre&gt;&lt;code class="markdown"&gt;# Timeline
+
+- [[2021.08.05]] Screening Phone call with Billy
+- [[2021.08.17]] Christina interview via Zoom
+&lt;/code&gt;&lt;/pre&gt;
+
 &lt;h2&gt;The Files&lt;/h2&gt;
 
 &lt;p&gt;The repo &amp;amp; files live in &amp;ldquo;Release 2&amp;rdquo; at &lt;a href="https://github.com/infews/job_search_in_obsidian/releases"&gt;GitHub&lt;/a&gt;. &lt;/p&gt;
@@ -195,7 +195,6 @@ here it is. I hope you enjoy it.&lt;/p&gt;
     <link href="https://dwf.bigpencil.net/managing-agile-teams/" rel="alternate"/>
     <id/>
     <published>2021-06-02T07:59:00-07:00</published>
-    <updated>2021-06-02T13:45:10-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -291,7 +290,6 @@ here it is. I hope you enjoy it.&lt;/p&gt;
     <link href="https://dwf.bigpencil.net/on-pair-programming/" rel="alternate"/>
     <id/>
     <published>2021-05-26T07:51:00-07:00</published>
-    <updated>2021-05-26T17:46:52-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -368,7 +366,6 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
     <link href="https://dwf.bigpencil.net/my-obsidian-for-a-job-search/" rel="alternate"/>
     <id/>
     <published>2021-04-30T17:03:00-07:00</published>
-    <updated>2021-05-15T14:23:57-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -410,7 +407,6 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
     <link href="https://dwf.bigpencil.net/cmd-o-is-my-new-and-old-friend/" rel="alternate"/>
     <id/>
     <published>2021-04-30T17:00:00-07:00</published>
-    <updated>2021-05-15T15:03:56-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -448,7 +444,6 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
     <link href="https://dwf.bigpencil.net/big-pencil/" rel="alternate"/>
     <id/>
     <published>2021-03-21T11:22:00-07:00</published>
-    <updated>2021-05-15T13:04:47-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -480,7 +475,6 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
     <link href="https://dwf.bigpencil.net/obsidian-links/" rel="alternate"/>
     <id/>
     <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2021-03-21T09:56:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -500,7 +494,6 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
     <link href="https://dwf.bigpencil.net/love-the-command-palette/" rel="alternate"/>
     <id/>
     <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2021-06-03T15:47:06-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -512,7 +505,6 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
     <link href="https://dwf.bigpencil.net/one-on-one-notes/" rel="alternate"/>
     <id/>
     <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2021-03-21T09:56:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -521,48 +513,52 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
 &lt;h2&gt;Create the Person&amp;rsquo;s Note&lt;/h2&gt;
 
 &lt;p&gt;Before the first meeting, I make a note with the person&amp;rsquo;s name. Naturally, I use a &lt;a href="/series/obsidian/core-plugin-templates"&gt;template&lt;/a&gt; for this text.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre class="highlight markdown"&gt;&lt;code&gt;&lt;span class="gh"&gt;# {{title}} Background&lt;/span&gt;
 
-&lt;span class="gh"&gt;# Topics&lt;/span&gt;
-&lt;span class="p"&gt;
--&lt;/span&gt; [ ]
+&lt;pre&gt;&lt;code class="md"&gt;# {{title}} Background
 
-&lt;span class="gh"&gt;# Action Items&lt;/span&gt;
+# Topics
 
-&lt;span class="gu"&gt;## Me&lt;/span&gt;
-&lt;span class="p"&gt;
--&lt;/span&gt; [ ]
+- [ ]
 
-&lt;span class="gu"&gt;## {{title}}&lt;/span&gt;
-&lt;span class="p"&gt;
--&lt;/span&gt; [ ]
+# Action Items
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+## Me
+
+- [ ]
+
+## {{title}}
+
+- [ ]
+
+&lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;Over time, I fill this template in like this:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre class="highlight markdown"&gt;&lt;code&gt;
-&lt;span class="gh"&gt;# Andy Nelson Background&lt;/span&gt;
-&lt;span class="p"&gt;
--&lt;/span&gt; University of Bedford
-&lt;span class="p"&gt;-&lt;/span&gt; Likes jazz drumming
-&lt;span class="p"&gt;-&lt;/span&gt; Partner is Wendy Lam
 
-&lt;span class="gh"&gt;# Topics&lt;/span&gt;
-&lt;span class="p"&gt;
--&lt;/span&gt; [x] Next semester's classes
-&lt;span class="p"&gt;-&lt;/span&gt; [x] LinkedIn Tutorial
-&lt;span class="p"&gt;-&lt;/span&gt; [ ] Career goals review
-&lt;span class="p"&gt;-&lt;/span&gt; [ ] Miles Davis album list
+&lt;pre&gt;&lt;code class="md"&gt;
+# Andy Nelson Background
 
-&lt;span class="gh"&gt;# Action Items&lt;/span&gt;
+- University of Bedford
+- Likes jazz drumming
+- Partner is Wendy Lam
 
-&lt;span class="gu"&gt;## Me&lt;/span&gt;
-&lt;span class="p"&gt;
--&lt;/span&gt; [ ] Send goals template
+# Topics
 
-&lt;span class="gu"&gt;## Andy&lt;/span&gt;
-&lt;span class="p"&gt;
--&lt;/span&gt; [ ] Write Career Goals
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+- [x] Next semester&amp;#39;s classes
+- [x] LinkedIn Tutorial
+- [ ] Career goals review
+- [ ] Miles Davis album list
+
+# Action Items
+
+## Me
+
+- [ ] Send goals template
+
+## Andy
+
+- [ ] Write Career Goals
+&lt;/code&gt;&lt;/pre&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Background&lt;/strong&gt; is for the anything interesting about them. I usually pull most of this from our first meeting, but I&amp;rsquo;ve been known to add to it.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Topics&lt;/strong&gt; is for anything I want to make sure to mention at our next meeting. I use checklists for these.&lt;/li&gt;
@@ -603,7 +599,6 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
     <link href="https://dwf.bigpencil.net/community-plugin-calendar/" rel="alternate"/>
     <id/>
     <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2021-03-21T09:58:45-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -617,7 +612,6 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
     <link href="https://dwf.bigpencil.net/thoughts-on-vaults/" rel="alternate"/>
     <id/>
     <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2021-03-21T09:56:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -635,7 +629,6 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
     <link href="https://dwf.bigpencil.net/using-links/" rel="alternate"/>
     <id/>
     <published>2021-03-21T09:13:00-07:00</published>
-    <updated>2021-03-21T09:58:45-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -655,7 +648,6 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
     <link href="https://dwf.bigpencil.net/using-tags/" rel="alternate"/>
     <id/>
     <published>2021-03-21T09:13:00-07:00</published>
-    <updated>2021-03-21T09:56:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -671,7 +663,6 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
     <link href="https://dwf.bigpencil.net/core-plugin-templates/" rel="alternate"/>
     <id/>
     <published>2021-03-21T09:12:00-07:00</published>
-    <updated>2021-03-21T09:58:45-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -699,7 +690,6 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
     <link href="https://dwf.bigpencil.net/core-plugin-daily-journal/" rel="alternate"/>
     <id/>
     <published>2021-03-20T17:27:00-07:00</published>
-    <updated>2021-03-21T09:56:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -712,26 +702,30 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
 &lt;p&gt;I use the date format of &lt;code&gt;YYYY.MM.DD&lt;/code&gt;, which helps with sorting when looking for a day&amp;rsquo;s note outside of Obsidian - say, on mobile or via the file system.&lt;/p&gt;
 
 &lt;p&gt;As of this writing, my template looks like this:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre class="highlight markdown"&gt;&lt;code&gt;&lt;span class="gh"&gt;# Exercise&lt;/span&gt;
 
-&lt;span class="gh"&gt;# Calendar&lt;/span&gt;
+&lt;pre&gt;&lt;code class="md"&gt;# Exercise
 
-&lt;span class="gh"&gt;# Work&lt;/span&gt;
-&lt;span class="p"&gt;
----&lt;/span&gt;
-&lt;span class="gh"&gt;#dailynotes&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+# Calendar
+
+# Work
+
+---
+#dailynotes
+&lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;I like logging my daily exercise. So that&amp;rsquo;s obvious. I tend to exercise first thing in the morning, so when I open this note, I log the workouts right away.&lt;/p&gt;
 
 &lt;p&gt;The &amp;ldquo;Work&amp;rdquo; section is for stuff I did today that needs some context - beyond, say, what&amp;rsquo;s in my personal task manager. I often will have items here like &amp;ldquo;wrote some for the blog&amp;rdquo; or &amp;ldquo;talked to neighbor about the fence&amp;rdquo; just to tickle my brain when I come back to this file.&lt;/p&gt;
 
 &lt;p&gt;The &amp;ldquo;Calendar&amp;rdquo; section is full of entries of the meetings I know I&amp;rsquo;m going to have, or if spontaneous ones happen, I add them, too. They look like this:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre class="highlight markdown"&gt;&lt;code&gt;&lt;span class="gh"&gt;# Calendar&lt;/span&gt;
 
-&lt;span class="gu"&gt;## 1100a Talk with [[Andy Nelson]]&lt;/span&gt;
+&lt;pre&gt;&lt;code class="md"&gt;# Calendar
 
-&lt;span class="gu"&gt;## 0230p 1-1 with [[Kyle]]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+## 1100a Talk with [[Andy Nelson]]
+
+## 0230p 1-1 with [[Kyle]]
+&lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;I will take bulleted list notes in these sections during the meeting if possible. And anything that I need to dump out of my brain after the meeting, I&amp;rsquo;ll flesh out the section.&lt;/p&gt;
 
 &lt;p&gt;I talk about linking to people in &lt;a href="/series/obsidian/one-on-one-notes"&gt;Obsidian 1-1&amp;rsquo;s&lt;/a&gt;.&lt;/p&gt;
@@ -742,7 +736,6 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
     <link href="https://dwf.bigpencil.net/driven-to-tests/" rel="alternate"/>
     <id/>
     <published>2021-02-02T13:53:00-08:00</published>
-    <updated>2021-03-21T09:56:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -823,7 +816,6 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
     <link href="https://dwf.bigpencil.net/start-with-retrospectives/" rel="alternate"/>
     <id/>
     <published>2020-11-29T16:00:00-08:00</published>
-    <updated>2020-11-30T16:37:28-08:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -885,7 +877,6 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
     <link href="https://dwf.bigpencil.net/the-name-game/" rel="alternate"/>
     <id/>
     <published>2020-11-21T16:20:00-08:00</published>
-    <updated>2020-11-29T17:51:26-08:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -913,7 +904,6 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
     <link href="https://dwf.bigpencil.net/the-continuous-delivery-test/" rel="alternate"/>
     <id/>
     <published>2020-11-04T16:00:00-08:00</published>
-    <updated>2020-11-29T17:51:26-08:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -1100,7 +1090,6 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
     <link href="https://dwf.bigpencil.net/covid-19-inspired-meal-planning/" rel="alternate"/>
     <id/>
     <published>2020-09-23T17:00:00-07:00</published>
-    <updated>2021-05-15T13:04:47-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -1212,7 +1201,6 @@ Pivotal Labs was successful at teaching teams how to &amp;ldquo;be agile&amp;rdq
     <link href="https://dwf.bigpencil.net/improving-standups/" rel="alternate"/>
     <id/>
     <published>2020-09-21T17:00:00-07:00</published>
-    <updated>2021-05-15T13:04:47-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -1325,7 +1313,6 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
     <link href="https://dwf.bigpencil.net/foo-fighters-1995/" rel="alternate"/>
     <id/>
     <published>2020-09-14T17:00:00-07:00</published>
-    <updated>2020-11-29T17:51:26-08:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -1356,7 +1343,6 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
     <link href="https://dwf.bigpencil.net/drake-your-job/" rel="alternate"/>
     <id/>
     <published>2018-08-02T17:00:00-07:00</published>
-    <updated>2021-05-28T16:26:57-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -1396,7 +1382,8 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
 &lt;p&gt;Now that you have a list of potential terms, you need to combine them into a Drake equation. Let’s assume that the compensation is the base of your score. The other terms should increase or decrease that to get a final value. The bigger the score, the better the job is likely to be. A lower score should be a catalyst to do some deeper thinking.&lt;/p&gt;
 
 &lt;p&gt;Combining my terms, I got this formula:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre class="highlight plaintext"&gt;&lt;code&gt;  Value.job = 
+
+&lt;pre&gt;&lt;code&gt;  Value.job = 
     C × 
     Q.org × 
     Q.mgr × 
@@ -1406,7 +1393,8 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
     M.product ×
     M.work × 
     Freq.learning
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;C is compensation. Start with cash salary. Add any bonuses. Add the net gain from any stock options, RSU’s, or an employee stock program. And don’t forget any other benefits — health insurance, discount on public transit, gym memberships, etc. Add those in. If you don’t have exact amounts for any of your compensation numbers — for example, your company isn’t public yet so you can only guess about stock options — just make a reasonable estimate.&lt;/p&gt;
 
 &lt;p&gt;The next group of other terms is for “quality” terms. Each of these terms needs a range of values that reduces or amplifies the score based on each term’s impact. I recommend a range of 0.1 to 2. A value of 0.1 maps to “poor quality” or “this part of my job sucks.” This low term should be pulling down the overall job score. Why 0.1? Because we need to talk about zeroes.&lt;/p&gt;
@@ -1457,7 +1445,6 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
     <link href="https://dwf.bigpencil.net/goodbye-chris-cornell/" rel="alternate"/>
     <id/>
     <published>2017-05-17T17:00:00-07:00</published>
-    <updated>2020-11-29T17:51:26-08:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -1496,7 +1483,6 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
     <link href="https://dwf.bigpencil.net/goodbye-jonathan-demme/" rel="alternate"/>
     <id/>
     <published>2017-04-25T17:00:00-07:00</published>
-    <updated>2020-11-30T09:20:23-08:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -1523,7 +1509,6 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
     <link href="https://dwf.bigpencil.net/how-one-funny-email-almost-changed-my-career/" rel="alternate"/>
     <id/>
     <published>2016-10-05T17:00:00-07:00</published>
-    <updated>2021-05-15T13:04:47-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -1571,7 +1556,6 @@ When you think yourself a fun and funny co-worker, you want that email to be &lt
     <link href="https://dwf.bigpencil.net/how-we-xp/" rel="alternate"/>
     <id/>
     <published>2015-10-31T17:00:00-07:00</published>
-    <updated>2021-05-15T13:04:47-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -1702,7 +1686,6 @@ When you think yourself a fun and funny co-worker, you want that email to be &lt
     <link href="https://dwf.bigpencil.net/bose-customer-service/" rel="alternate"/>
     <id/>
     <published>2011-04-20T17:00:00-07:00</published>
-    <updated>2021-05-15T13:04:47-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -1744,7 +1727,6 @@ When you think yourself a fun and funny co-worker, you want that email to be &lt
     <link href="https://dwf.bigpencil.net/kids-teachable-moments/" rel="alternate"/>
     <id/>
     <published>2011-03-23T17:00:00-07:00</published>
-    <updated>2021-05-15T13:04:47-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>

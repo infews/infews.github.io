@@ -11,9 +11,8 @@ source 'https://rubygems.org'
 # Middleman Gems
 gem 'middleman'
 gem 'middleman-blog'
-gem 'middleman-syntax'
+#gem 'middleman-syntax'
 gem 'middleman-livereload', '~> 3.4'
-gem 'middleman-vcs-time', "0.0.6"
 gem 'middleman-minify-html', '~> 3.4', '>= 3.4.1'
 
 gem 'haml'
