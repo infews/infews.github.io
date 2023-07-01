@@ -29,3 +29,18 @@ task :clean do
   sh "rm -rf build"
   sh "rm -rf docs"
 end
+
+namespace :unsplash do
+  desc "Find an unsplash photo"
+  task :find do
+    require 'unsplash'
+    Unsplash.configure do |config|
+      config.application_access_key = "eifkvBuxX_TUwJYsuWyaQnXr0np7fNBnqFI5s5EaFdk"
+      config.application_secret = "VGOWjQ5VDGc2iG-vUAowPu0hGVoCUxeASa1zq7dT3fw"
+      config.utm_source = "dwfs_journal_big_pencil"
+    end
+
+    photo = Unsplash::Photo.find(ENV["ID"])
+    puts photo[:urls][:regular]
+  end
+end
