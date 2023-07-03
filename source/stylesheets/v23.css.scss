@@ -93,6 +93,7 @@ img.avatar {
 
 ul.cards {
   list-style-type: none;
+  padding-inline-start: 0;
 
   display: flex;
   flex-wrap: wrap;
@@ -100,6 +101,18 @@ ul.cards {
 
   .card {
     flex: 0 1 30%;
+    display: flex;
+    flex-flow: column nowrap;
+    p {
+      margin-bottom: 0;
+    }
+    p.series {
+      margin-top: 0;
+    }
+    .more {
+      text-align: right;
+      margin-top: auto;
+    }
   }
 }
 
@@ -118,11 +131,12 @@ header .tagline {
     display: flex;
     justify-content: space-evenly;
   }
+
   li {
   }
 }
 
-// Articles
+// Single Article
 
 article {
   .headline .info {
@@ -151,6 +165,34 @@ article {
     }
   }
 }
+
+// Article Lists
+
+ul.articles {
+  list-style-type: none;
+  padding: 0;
+  li {
+    margin: 1rem 0.5rem;
+  }
+}
+
+a.title {
+  font: 1.4rem $font-display;
+  font-weight: 800;
+}
+
+a:visited {
+  color: #aaa;
+}
+
+.date {
+  font-family: $font-body;
+  color: #bbb;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
 
 // Responsive
 
