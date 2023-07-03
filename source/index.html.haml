@@ -2,13 +2,39 @@
 sitemap_priority: 1.0
 hide_home: hidden
 wrapper_class: home
+layout: layout
 ---
 
-= component "profile"
+%header
+  %h1= config[:site_title]
+  %h2= config[:site_subtitle]
 
-%h2 Recent Posts
-= component "article_list", {articles: blog.articles[0..4]}
+%section.intro
+  %img.avatar{src: url_for('/images/dwf.png'), srcset: "#{url_for '/images/dwf@2x.png'} 2x", alt:"Davis's Profile Photo"}
+  %section.text
+    :markdown
+      Hello, there! I'm Davis.
 
-= component "series_list"
+      You may know me from my time at Pivotal and Pivotal Labs, where I helped our clients build Ruby on Rails or mobile JavaScript apps. Or maybe from co-writing [Jasmine](https://jasmine.github.io), a JavaScript testing framework.  Or maybe you saw me speak at RailsConf. Or GoGaRuCo. Or some local meetup.
 
-= component "categories"
+      It's good to see you again!
+
+%ul.cards
+  %li.card
+    %h2 Latest
+    = component "article_teaser", {article: blog.articles.first}
+    .more
+      %a{href:"/posts"} See All >>
+
+  %li.card
+    %h2 The CD Test
+    A series on how you can validate your software development team and get better at Continuous Delivery.
+    .more
+      %a{href:"/series/the-cd-test"} Read More >>
+  %li.card
+    %h2 Obsidian Tips
+    All the tips, configuration, and even a few tricks on how to use
+    = link_to("Obsidian", "https://obsidian.md")
+    for your note taking.
+    .more
+      %a{href:"/series/obsidian"} Read More >>

@@ -1,5 +1,11 @@
 module ArticleFooterHelpers
 
+  def tag_url_for(tag)
+    "/tags/#{tag.gsub(" ", "-")}"
+  end
+
+  # DEAD CODE BELOW - kill and remove tests
+
   def article_footer_for(tags, series)
     footer = "This article is"
     footer += " part of the series #{series_link_for series}" if series

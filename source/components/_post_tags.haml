@@ -1,0 +1,10 @@
+%hr
+.tags
+  This article is tagged with
+  - if tags.length == 2
+    = link_to(tags.first, tag_url_for(tags.first)) + "and"
+  - else
+    - tags[0..-2].each do |tag|
+      = link_to(tag, tag_url_for(tag)) + ","
+    and
+  = link_to(tags.last, tag_url_for(tags.last)) + "."

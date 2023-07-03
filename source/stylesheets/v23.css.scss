@@ -1,0 +1,138 @@
+// New styles for 2023 redesign
+
+// Fonts
+$font-display: "Raleway", Helvetica, Arial, sans-serif;
+$font-body: "Open Sans", Helvetica, Arial, sans-serif;
+$font-mono: "Fira Mono", monospace;
+
+// Base
+
+html {
+  font-size: 16px;
+}
+
+body {
+  line-height: 1.2rem;
+  font-size: 1rem;
+  font-family: $font-body;
+  color: #666;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+html, body {
+  height: 100%;
+}
+
+// Headings
+
+h1, h2, h3, h4, h5, h6 {
+  color: #666;
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-family: $font-display;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 1.9rem;
+  font-family: $font-display;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 1.7rem;
+  font-family: $font-display;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+h5 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+h6 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+// Home Page
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  .text {
+    flex-basis: 55%;
+  }
+}
+
+img.avatar {
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #bbb;
+}
+
+ul.cards {
+  list-style-type: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .card {
+    flex: 0 1 30%;
+  }
+}
+
+// About Me
+
+// Articles
+
+article {
+  .headline .info {
+    font-weight: normal;
+    color: #bbb;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+
+    nav {
+      border-bottom: none;
+    }
+    i {
+      font-size: 2rem;
+    }
+    .tags {
+      font-style: italic;
+    }
+  }
+}
+
+// Responsive
+
+// - Nav's need to be touch-sensitive
+// - font needs to bump up some
+// - home page cards need to wrap
+// - paragraphs on home page need to wrap
+
+
+
+// Resume

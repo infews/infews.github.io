@@ -1,13 +1,38 @@
+- title = current_article.title
+- url =  URI.join(config[:site_url], current_page.url)
+
 = wrap_layout "layout" do
-  %article.post
-    %header
+  %article
+    %section.headline
       %h1
         = current_article.title
-      %h2.date
+      .info
         = current_article.date.strftime('%e %B %Y')
         &#8212;
         = reading_time_for current_article.body
-    %section#post-body= yield
-    - if current_article.tags || current_article.data.series
-      %footer#article= article_footer_for(current_article.tags, current_article.data.series)
-  = component "personal_footer", { title: current_article.title, url: URI.join(config[:site_url], current_page.url)}
+    %section.body-text
+      = yield
+
+    %hr
+
+    %footer
+      %nav
+        %ul.links
+          %li
+            %i.fa-solid.fa-arrow-up-from-bracket
+          %li
+            %a{href: "mailto:?subject=#{title}&body=#{url}"}
+              %i.fa-solid.fa-square-envelope
+          %li
+            %a{href: "https://www.linkedin.com/sharing/share-offsite/?url=#{url}"}
+              %i.fa-brands.fa-linkedin
+          %li
+            %a{href: "https://www.facebook.com/sharer/sharer.php?u=#{url}"}
+              %i.fa-brands.fa-square-facebook
+          %li
+            %a{href: "https://twitter.com/share?text=#{title}&url=#{url}&via=#{config[:twitter_username]}"}
+              %i.fa-brands.fa-twitter-square
+
+    - if current_article.tags
+      = component "post_tags",{ tags: current_article.tags }
+

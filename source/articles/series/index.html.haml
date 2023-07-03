@@ -6,7 +6,7 @@ pageable: true
 - series_filename = series.downcase.gsub(" ", "_")
 
 %h1= series
-%h2.series-sub A Blog Series
+%h2 A Blog Series
 
 %hr
 = component "series/#{series_filename}_intro.md"
@@ -14,4 +14,4 @@ pageable: true
 = component "series/#{series_filename}_continues.md"
 .continues
   = component "article_list", {articles: series_articles[1..-1]}
-= component "personal_footer", { title: "DWF's Journal: #{series}", url: URI.join(config[:site_url], current_page.url) }
+-# = component "personal_footer", { title: "DWF's Journal: #{series}", url: URI.join(config[:site_url], current_page.url) }

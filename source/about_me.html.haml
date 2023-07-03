@@ -16,23 +16,26 @@ sitemap_priority: 1.0
 .social
   .social-sub
     %a.social-link{href: "https://#{config[:mastodon_url]}"}
-      %span.fab.fa-mastodon
+      %span.fa-brands.fa-mastodon
       %span Mastodon
   .social-sub
-    %a.social-link{href: "https://twitter.com/#{config[:twitter_username]}"}
-      %span.fab.fa-twitter
-      %span Twitter
-  .social-sub
     %a.social-link{href: "https://github.com/#{config[:github_username]}"}
-      %span.fab.fa-github-alt
+      %span.fa-brands.fa-github-alt
       %span GitHub
   .social-sub
+    %a.social-link{href: "mail-to:#{config[:email]}"}
+      %span.fa-regular.fa-envelope
+      %span Email
+  .social-sub
+    %a.social-link{href: "https://twitter.com/#{config[:twitter_username]}"}
+      %span.fa-brands.fa-twitter
+      %span Twitter
+  .social-sub
     %a.social-link{href: "https://www.linkedin.com/in/#{config[:linkedin_username]}"}
-      %span.fab.fa-linkedin-in
+      %span.fa-brands.fa-linkedin-in
       %span LinkedIn
   .social-sub
     %a.social-link{href: "/daviswfrank_resume/"}
-      %span.fas.fa-file-alt
+      %span.fa-regular.fa-file-lines
       Resume
 
-= component 'categories'

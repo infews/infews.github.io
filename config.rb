@@ -19,6 +19,10 @@ page '/404.html', directory_index: false
 ###
 
 helpers do
+  def tag_url_for(tag)
+    "/tags/#{tag.gsub(" ", "-")}"
+  end
+
   # Builds a page title from the article title + site title
   def page_title
     if current_article && current_article.title
@@ -37,7 +41,7 @@ helpers do
     if page_data.wrapper_class == "resume"
       return "resume"
     end
-    classes = ["wrapper"]
+    classes = []
     classes << page_data.wrapper_class if page_data.wrapper_class
     classes.join(" ")
   end
@@ -89,10 +93,7 @@ set :github_username, 'infews'
 set :twitter_username, 'dwfrank'
 set :linkedin_username, 'daviswfrank'
 set :mastdon_url, 'ruby.social/@dwfrank'
-
-#set :keybase_username, 'example'
-#set :lastfm_username, 'example'
-#set :spotify_username, 'example'
+set :email, "dwfrank+blog@gmail.com"
 
 # Replace 'nil' with your Disqus shortname, eg. 'example'
 #set :disqus_shortname, nil
