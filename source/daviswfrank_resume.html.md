@@ -4,39 +4,6 @@ layout: resume
 wrapper_class: resume
 ---
 
-# Davis W. Frank
-
-<ul class="social"> 
-<li>
-  <a href="mailto:dwfrank@gmail.com">
-    <span class="fa-solid fa-envelope"></span>
-    <span>dwfrank@gmail.com</span>
-  </a>
-</li>
-<li>
-  <a href="https://linkedin.com/in/daviswfrank">
-    <span class="fa-brands fa-linkedin-in"></span>
-    <span>linkedin.com/in/daviswfrank</span>
-  </a>
-</li>
-<li>
-  <a href="https://github.com/infews">
-    <span class="fa-brands fa-github-alt"></span>
-    <span>github.com/infews</span>
-  </a>
-</li>
-<li>
-  <a href="https://dwf.bigpencil.net">
-    <span class="fa-solid fa-pen-fancy"></span>
-    <span>dwf.bigpencil.net</span>
-  </a>
-</li>
-<li>
-  <span class="fa-solid fa-map-marked-alt"></span>
-  <span>San Francisco Bay Area</span>
-</li>
-</ul>
-
 I am an experienced senior software engineering leader with a demonstrated history of helping software teams shorten
 feedback loops, ship software, and stay happy. I have managed developers, designers, product managers, and people
 managers. I have built and re-staffed teams. I have owned critical business systems and started open source projects. I
@@ -329,4 +296,6 @@ fall 2017
     &amp; [US 5,546,103](https://patents.google.com/patent/US5546103A/)
 
 ---
-v2023.07.03 - Latest version lives at https://dwf.bigpencil.net/daviswfrank_resume/
+<span class="version">
+v2023.07.03
+</span>

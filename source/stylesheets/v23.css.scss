@@ -186,7 +186,7 @@ a.title {
 }
 
 a:visited {
-  color: #aaa;
+  color: rebeccapurple;
 }
 
 .date {
@@ -297,5 +297,9 @@ a:visited {
     .noprint {
       display: none;
     }
+  }
+
+  .version {
+    font-size: 0.8rem;
   }
 }
