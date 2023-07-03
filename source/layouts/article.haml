@@ -21,16 +21,16 @@
           %li
             %i.fa-solid.fa-arrow-up-from-bracket
           %li
-            %a{href: "mailto:?subject=#{title}&body=#{url}"}
+            %a{href: "mailto:?subject=#{title}&body=#{url}", title: "Email this article"}
               %i.fa-solid.fa-square-envelope
           %li
-            %a{href: "https://www.linkedin.com/sharing/share-offsite/?url=#{url}"}
+            %a{href: "https://www.linkedin.com/sharing/share-offsite/?url=#{url}", title: "Share article on LinkedIn"}
               %i.fa-brands.fa-linkedin
           %li
-            %a{href: "https://www.facebook.com/sharer/sharer.php?u=#{url}"}
+            %a{href: "https://www.facebook.com/sharer/sharer.php?u=#{url}", title: "Post article to Facebook"}
               %i.fa-brands.fa-square-facebook
           %li
-            %a{href: "https://twitter.com/share?text=#{title}&url=#{url}&via=#{config[:twitter_username]}"}
+            %a{href: "https://twitter.com/share?text=#{title}&url=#{url}&via=#{config[:twitter_username]}", title: "Tweet this article"}
               %i.fa-brands.fa-twitter-square
 
     - if current_article.tags
