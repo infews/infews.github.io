@@ -1,40 +1,48 @@
 ---
 sitemap_priority: 1.0
+wrapper_class: about
 ---
 
-= component 'profile'
+%header
+  %h1= config[:site_title]
+  %span.tagline= config[:site_subtitle]
 
-%p
-  You may know me from my time at Pivotal and Pivotal Labs, where I helped our clients build Ruby on Rails or mobile JavaScript apps. Or maybe from co-writing
-  = link_to "Jasmine","https://jasmine.github.io"
-  , a JavaScript testing framework. Or maybe you saw me speak at RailsConf. Or some local meetup.
+%section.intro
+  %img.avatar{src: url_for('/images/dwf.png'), srcset: "#{url_for '/images/dwf@2x.png'} 2x", alt:"Davis's Profile Photo"}
 
-%p It's good to see you again!
+  .text
+    :markdown
+      I've been in software seemingly forever. Assuming that your definition of "forever" goes back to the early 90's. I've worked on low-level graphics software, computer games, smartphones, and web/SaaS development. I've worked at large companies and startups.
 
-%p I can talk and write endlessly about Ruby, JavaScript, Web Applications, Test-Driven Development, and Agile Software Methodologies. I can also talk about bourbon, barbecue, or just tell you a fun story.
+      Like most engineers, I like building things, making things happen, and making them perform efficiently. This blog is about sharing some of my stories about doing this work over my career.
 
-.social
-  .social-sub
+      I hope some of these stories will help you or your team. If you would like to know more, please get in touch. I'm happy to talk about anything that helps your teams move faster.
+
+      I have some personal stories here as well. If you're curious about the domain name, you can read [History of the Big Pencil](/big-pencil).
+
+
+%ul
+  %li
     %a.social-link{href: "https://#{config[:mastodon_url]}"}
       %span.fa-brands.fa-mastodon
       %span Mastodon
-  .social-sub
+  %li
     %a.social-link{href: "https://github.com/#{config[:github_username]}"}
       %span.fa-brands.fa-github-alt
       %span GitHub
-  .social-sub
+  %li
     %a.social-link{href: "mail-to:#{config[:email]}"}
       %span.fa-regular.fa-envelope
       %span Email
-  .social-sub
+  %li
     %a.social-link{href: "https://twitter.com/#{config[:twitter_username]}"}
       %span.fa-brands.fa-twitter
       %span Twitter
-  .social-sub
+  %li
     %a.social-link{href: "https://www.linkedin.com/in/#{config[:linkedin_username]}"}
       %span.fa-brands.fa-linkedin-in
       %span LinkedIn
-  .social-sub
+  %li
     %a.social-link{href: "/daviswfrank_resume/"}
       %span.fa-regular.fa-file-lines
       Resume

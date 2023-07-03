@@ -7,17 +7,17 @@ layout: layout
 
 %header
   %h1= config[:site_title]
-  %h2= config[:site_subtitle]
+  %span.tagline= config[:site_subtitle]
 
 %section.intro
-  %img.avatar{src: url_for('/images/dwf.png'), srcset: "#{url_for '/images/dwf@2x.png'} 2x", alt:"Davis's Profile Photo"}
-  %section.text
+  .text
     :markdown
       Hello, there! I'm Davis.
 
       You may know me from my time at Pivotal and Pivotal Labs, where I helped our clients build Ruby on Rails or mobile JavaScript apps. Or maybe from co-writing [Jasmine](https://jasmine.github.io), a JavaScript testing framework.  Or maybe you saw me speak at RailsConf. Or GoGaRuCo. Or some local meetup.
 
       It's good to see you again!
+  %img.avatar{src: url_for('/images/dwf.png'), srcset: "#{url_for '/images/dwf@2x.png'} 2x", alt:"Davis's Profile Photo"}
 
 %ul.cards
   %li.card

@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  line-height: 1.2rem;
+  line-height: 1.35rem;
   font-size: 1rem;
   font-family: $font-body;
   color: #666;
@@ -30,23 +30,22 @@ h1, h2, h3, h4, h5, h6 {
   color: #666;
 }
 
-h1 {
-  font-size: 2.2rem;
+h1, h2, h3 {
   font-family: $font-display;
   font-weight: 800;
 }
 
+h1 {
+  font-size: 2.2rem;
+}
+
 h2 {
   font-size: 1.9rem;
-  font-family: $font-display;
-  font-weight: 800;
   line-height: 1.2;
 }
 
 h3 {
   font-size: 1.7rem;
-  font-family: $font-display;
-  font-weight: 800;
   line-height: 1.2;
 }
 
@@ -75,8 +74,15 @@ h6 {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+
+  .avatar {
+    margin: 0.5rem 2rem;
+    flex: 1 1;
+  }
+
   .text {
-    flex-basis: 55%;
+    margin: 0.5rem 1rem;
+    flex: 4 1;
   }
 }
 
@@ -97,7 +103,24 @@ ul.cards {
   }
 }
 
+header .tagline {
+  font-size: 1.6rem;
+  color: #bbb;
+  font-style: italic;
+  font-weight: bold;
+  font: $font-display;
+}
+
 // About Me
+.about {
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  li {
+  }
+}
 
 // Articles
 
@@ -110,6 +133,7 @@ article {
     letter-spacing: 2px;
     display: inline-block;
   }
+
   footer {
     display: flex;
     justify-content: center;
@@ -117,9 +141,11 @@ article {
     nav {
       border-bottom: none;
     }
+
     i {
       font-size: 2rem;
     }
+
     .tags {
       font-style: italic;
     }
@@ -132,7 +158,6 @@ article {
 // - font needs to bump up some
 // - home page cards need to wrap
 // - paragraphs on home page need to wrap
-
 
 
 // Resume
