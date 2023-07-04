@@ -4,8 +4,6 @@ pageable: true
 
 %h1
   Articles tagged with
-  %span.tag= tagname
+  %span.tag= "\"#{tagname}\""
 
-- public_articles = page_articles.reject {|a| a.tags.include?('private')}
-= component 'article_list', {articles: public_articles}
-= component "personal_footer", { title: "DWF's Journal: #{tagname}", url: URI.join(config[:site_url], current_page.url) }
+= component "article_list", {articles: page_articles}

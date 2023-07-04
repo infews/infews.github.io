@@ -1,10 +1,7 @@
-- if articles.any?
-  %ul.post-list
-    - articles.each do |article|
-      %li
-        %a{href: article.url}= article.title
-        - if article.data.teaser
-          %p.teaser= teaser_for(article)
-        %p.date= article.date.strftime('%e %B %Y')
-- else
-  %hr
+
+- articles = articles.reject {|a| a.tags.include?('private')}
+
+%ul.articles
+  - articles.each do |article|
+    %hr
+    %li= component "article_teaser", article: article

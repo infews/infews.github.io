@@ -3,8 +3,5 @@ sitemap_priority: 1.0
 ---
 
 %h1 All Posts
-%ul.articles
-  - blog.articles.each do |article|
-    %hr
-    %li= component "article_teaser", article: article
 
+= component "article_list", {articles: blog.articles}
