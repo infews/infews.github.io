@@ -24,13 +24,16 @@ layout: layout
     %h2 Latest
     = component "article_teaser", {article: blog.articles.first}
     .more
-      %a{href:"/posts"} See All >>
-
+      %a{href:"/posts"}
+        See All
+        %i.fa-solid.fa-chevron-right
   %li.card
     %h2 The CD Test
     %p.series A series on how you can validate your software development team and get better at Continuous Delivery.
     .more
-      %a{href:"/series/the-cd-test"} Read More >>
+      %a{href:"/series/the-cd-test"}
+        Read More
+        %i.fa-solid.fa-chevron-right
   %li.card
     %h2 Obsidian Tips
     %p.series
@@ -38,4 +41,6 @@ layout: layout
       = link_to("Obsidian", "https://obsidian.md")
       for your note taking.
     .more
-      %a{href:"/series/obsidian"} Read More >>
+      %a{href:"/series/obsidian"}
+        Read More
+        %i.fa-solid.fa-chevron-right
