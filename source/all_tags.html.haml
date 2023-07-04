@@ -1,0 +1,11 @@
+---
+pageable: true
+layout: layout
+---
+
+%h1
+  All Article Tags
+
+%ul
+  - blog.tags.sort{|a,b| a.first <=> b.first}.each do |tag, articles|
+    %li= link_to(tag, tag_url_for(tag)) +  " (#{articles.length})"

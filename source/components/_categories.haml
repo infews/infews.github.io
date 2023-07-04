@@ -1,5 +1,0 @@
-%h2 Categories
-
-%ul
-  - blog.tags.sort{|a,b| a.first <=> b.first}.each do |tag, articles|
-    %li= link_to(tag, "/tags/#{tag}") +  " (#{articles.length})"
