@@ -25,7 +25,7 @@ I use the date format of `YYYY.MM.DD`, which helps with sorting when looking for
 
 As of this writing, my template looks like this:
 
-```md
+```markdown
 # Exercise
 
 # Calendar

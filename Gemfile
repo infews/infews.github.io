@@ -21,8 +21,9 @@ gem 'nokogiri'
 # For feed.xml.builder/sitemap.xml.builder
 gem 'builder', '~> 3.0'
 
-# For markdown
-gem 'redcarpet', '~> 3.3'
+# For Syntax Highlighting
+gem 'kramdown-parser-gfm'
+gem 'rouge'
 
 # For finding unsplash photos
 gem "unsplash"

@@ -68,12 +68,18 @@ end
 set :haml, { :format => :html5 }
 
 # Markdown and syntax highlighting
-# activate :syntax
+#activate :syntax
 set :markdown_engine, :kramdown
 # set :markdown, fenced_code_blocks: true, smartypants: true, footnotes: true
-set :markdown, auto_ids: false
-# Use commit time from git for sitemap.xml and feed.xml
-#activate :vcs_time
+set :markdown,
+    auto_ids: false,
+    layout_engine: :haml,
+    tables: true,
+    autolink: true,
+    smartypants: true,
+    fenced_code_blocks: true,
+    syntax_highlighter: "rouge",
+    input: "GFM"
 
 ###
 # Site settings
