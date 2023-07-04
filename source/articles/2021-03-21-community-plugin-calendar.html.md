@@ -9,7 +9,9 @@ keywords:
   - notes
   - lifehack
   - productivity
-series: "Obsidian"
+series: obsidian
+
+
 ---
 
 This plug-in works with the Daily Notes plug-in. It adds a new tab in the right pane that gives a single-month view. Each date links to that day's daily note, with a cute dot notation for the length of that note. You can also browse back and forth between months.

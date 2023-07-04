@@ -9,7 +9,8 @@ keywords:
   - notes
   - lifehack
   - productivity
-series: "Obsidian"
+series: obsidian
+
 ---
 
 [obs-1-1]: /series/obsidian/one-on-one-notes 

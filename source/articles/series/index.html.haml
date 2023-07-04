@@ -1,17 +1,14 @@
 ---
 pageable: true
+layout: layout
 ---
 
-- series_articles = page_articles.reverse
-- series_filename = series.downcase.gsub(" ", "_")
+%h1= data.series_names["#{series}"]
+%span.tagline A Blog Series
 
-%h1= series
-%h2 A Blog Series
+= render :markdown, "articles/series/#{series}", {layout: false, object: {}}, {}
 
-%hr
-= component "series/#{series_filename}_intro.md"
-= component "article_list", {articles: [series_articles.first]}
-= component "series/#{series_filename}_continues.md"
-.continues
-  = component "article_list", {articles: series_articles[1..-1]}
--# = component "personal_footer", { title: "DWF's Journal: #{series}", url: URI.join(config[:site_url], current_page.url) }
+%ul.articles
+  - page_articles.reverse.each do |article|
+    %hr
+    %li= component "article_teaser", article: article

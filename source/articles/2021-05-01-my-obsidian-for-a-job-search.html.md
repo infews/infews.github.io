@@ -11,7 +11,8 @@ keywords:
   - lifehack
   - productivity
   - "job search"
-series: "Obsidian"
+series: obsidian
+
 teaser: "How to use an Obsidian vault that tracks all of the research, interview notes, and status during a job search."    
 ---
 

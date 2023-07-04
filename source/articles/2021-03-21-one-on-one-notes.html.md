@@ -9,7 +9,8 @@ keywords:
   - notes
   - lifehack
   - productivity
-series: "Obsidian"
+series: obsidian
+
 ---
 
 [t]: /series/obsidian/core-plugin-templates

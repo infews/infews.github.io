@@ -9,7 +9,7 @@ keywords:
   - agile
   - continuous delivery
   - the cd test
-series: "The CD Test"
+series: the_cd_test
 ---
 [cdtest]: https://dwf.bigpencil.net/series/the-cd-test/
 [bml]: https://steveblank.com/2015/05/06/build-measure-learn-throw-things-against-the-wall-and-see-if-they-work/

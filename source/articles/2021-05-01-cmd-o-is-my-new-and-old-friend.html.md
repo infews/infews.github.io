@@ -10,7 +10,8 @@ keywords:
   - lifehack
   - productivity
   - shorcuts
-series: "Obsidian"
+series: obsidian
+
 teaser: "One keystroke for Obsidian search-or-create. This. Is. Awesome."    
 ---
 

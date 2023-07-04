@@ -9,7 +9,8 @@ keywords:
   - notes
   - lifehack
   - productivity 
-series: "Obsidian"
+series: obsidian
+
 ---
 [vaults]: /series/obsidian/thoughts-on-vaults
 

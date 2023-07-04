@@ -12,7 +12,8 @@ keywords:
   - lifehack
   - productivity
   - "job search"
-series: "Obsidian"
+series: obsidian
+
 teaser: "A small update to my Obsidian Notebook and templates for tracking a job search"
 ---
 

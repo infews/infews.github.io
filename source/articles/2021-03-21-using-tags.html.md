@@ -10,7 +10,9 @@ keywords:
   - notes
   - lifehack
   - productivity
-series: "Obsidian"
+series: obsidian
+
+
 ---
 
 I am not a huge tag user. I find the search very good and the Linked/Unlinked mentions tab enlightening.

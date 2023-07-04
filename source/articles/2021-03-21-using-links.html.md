@@ -9,7 +9,8 @@ keywords:
   - notes
   - lifehack
   - productivity
-series: "Obsidian"
+series: obsidian
+
 ---
 [ref]: "https://www.markdownguide.org/basic-syntax/#reference-style-links"
 [tags]: "/series/obsidian/using-tags"

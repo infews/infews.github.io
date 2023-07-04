@@ -10,7 +10,8 @@ keywords:
   - notes
   - lifehack
   - productivity
-series: "Obsidian"
+series: obsidian
+
 ---
 
 I keep nearly all of my notes in one Obsidian vault. I've found that cross-linking and my daily journaling have benefited the most from keeping everything in one directory and thus vault.

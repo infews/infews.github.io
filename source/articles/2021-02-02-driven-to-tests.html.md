@@ -10,7 +10,7 @@ keywords:
   - agile
   - continuous delivery
   - the cd test
-series: "The CD Test"
+series: the_cd_test
 ---
 
 [jasmine_tutorial]: https://jasmine.github.io/tutorials/your_first_suite

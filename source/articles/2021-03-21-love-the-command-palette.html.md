@@ -10,7 +10,8 @@ keywords:
   - notes
   - lifehack
   - productivity
-series: "Obsidian"
+series: obsidian
+
 ---
 
 [oblinks]: /obsidian-links

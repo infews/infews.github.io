@@ -9,7 +9,8 @@ keywords:
   - notes
   - lifehack
   - productivity
-series: "Obsidian"
+series: obsidian
+
 ---
 
 I enabled the Core plugin for Templates. This allows you to specify a directory of templates - just Markdown files - for when you create new notes.
