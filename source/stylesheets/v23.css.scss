@@ -24,6 +24,10 @@ html, body {
   height: 100%;
 }
 
+nav {
+  justify-content: flex-end;
+}
+
 // Headings
 
 h1, h2, h3, h4, h5, h6 {
