@@ -13,7 +13,7 @@ series: obsidian
 
 ---
 
-[obs-1-1]: /series/obsidian/one-on-one-notes 
+[obs-1-1]: /one-on-one-notes 
 
 I use the Core Daily Journal plugin every day.
 
