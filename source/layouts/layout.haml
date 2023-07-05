@@ -1,4 +1,4 @@
-!!!
+!!! 5
 %html{lang: "en"}
   %head
     %meta{charset: "utf-8"}
@@ -10,8 +10,7 @@
     %script{src:"https://kit.fontawesome.com/e76ee0328c.js", crossorigin: "anonymous"}
     %link{rel: "stylesheet", href: "/stylesheets/v23.css"}
     %link{rel: "stylesheet", href: "/stylesheets/rouge-github-dark.css"}
-    %script{type: "application/ld+json"}
-      = linking_data_for(locals, current_article, page_articles)
+    %script{type: "application/ld+json"}!= linking_data_for(locals, current_article, page_articles)
   %body
     %nav
       %ul
