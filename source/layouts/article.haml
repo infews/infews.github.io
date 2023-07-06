@@ -10,12 +10,12 @@
         = current_article.date.strftime('%e %B %Y')
         &#8212;
         = reading_time_for current_article.body
-    %section.body-text
+    %section.text
       = yield
 
     %footer
-      %nav
-        %ul.links
+      %nav.sharing
+        %ul
           %li
             %i.fa-solid.fa-arrow-up-from-bracket
           %li

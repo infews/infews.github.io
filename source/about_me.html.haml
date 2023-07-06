@@ -20,29 +20,30 @@ wrapper_class: about
       I have some personal stories here as well. If you're curious about the domain name, you can read [History of the Big Pencil](/big-pencil).
 
 
-%ul
-  %li
-    %a.social-link{href: "https://#{config[:mastodon_url]}"}
-      %span.fa-brands.fa-mastodon
-      %span Mastodon
-  %li
-    %a.social-link{href: "https://github.com/#{config[:github_username]}"}
-      %span.fa-brands.fa-github-alt
-      %span GitHub
-  %li
-    %a.social-link{href: "mail-to:#{config[:email]}"}
-      %span.fa-regular.fa-envelope
-      %span Email
-  %li
-    %a.social-link{href: "https://twitter.com/#{config[:twitter_username]}"}
-      %span.fa-brands.fa-twitter
-      %span Twitter
-  %li
-    %a.social-link{href: "https://www.linkedin.com/in/#{config[:linkedin_username]}"}
-      %span.fa-brands.fa-linkedin-in
-      %span LinkedIn
-  %li
-    %a.social-link{href: "/daviswfrank_resume/"}
-      %span.fa-regular.fa-file-lines
-      Resume
+%section.social-links
+  %ul
+    %li
+      %a.social-link{href: "https://#{config[:mastodon_url]}"}
+        %span.fa-brands.fa-mastodon
+        %span Mastodon
+    %li
+      %a.social-link{href: "https://github.com/#{config[:github_username]}"}
+        %span.fa-brands.fa-github-alt
+        %span GitHub
+    %li
+      %a.social-link{href: "mail-to:#{config[:email]}"}
+        %span.fa-regular.fa-envelope
+        %span Email
+    %li
+      %a.social-link{href: "https://twitter.com/#{config[:twitter_username]}"}
+        %span.fa-brands.fa-twitter
+        %span Twitter
+    %li
+      %a.social-link{href: "https://www.linkedin.com/in/#{config[:linkedin_username]}"}
+        %span.fa-brands.fa-linkedin-in
+        %span LinkedIn
+    %li
+      %a.social-link{href: "/daviswfrank_resume/"}
+        %span.fa-regular.fa-file-lines
+        Resume
 

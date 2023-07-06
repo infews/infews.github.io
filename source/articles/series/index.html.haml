@@ -6,7 +6,8 @@ layout: layout
 %h1= data.series_names["#{series}"]
 %span.tagline A Blog Series
 
-= render :markdown, "articles/series/#{series}", {layout: false, object: {}}, {}
+%section.text
+  = render :markdown, "articles/series/#{series}", {layout: false, object: {}}, {}
 
 %ul.articles
   - page_articles.reverse.each do |article|

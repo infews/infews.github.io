@@ -26,8 +26,7 @@ I knew exactly which stories I wanted to pull together. And it was a lot of fun 
 I had mostly forgotten about this talk and totally forgotten that it was recorded. So imagine my surprise when I 
 uncovered the video this week. And that it had 200+ views!
 
-If you're curious, or you were there and want the 10-year flashback, or maybe just want a ten-minute break today, 
-here it is. I hope you enjoy it.
+If you're curious, or you were there and want the 10-year flashback, or maybe just want a ten-minute break today, here it is. I hope you enjoy it.
 
 [GoGaRuCo 2013 - Afternoon Storytime - How I test-drove my Career][yt] (YouTube)
  
