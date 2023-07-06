@@ -209,8 +209,3 @@ B.S., Computer Science, July 1992
 - Co-inventor of three US patents related to software video acceleration; all held by Intel Corporation
   - Patents [US 5,751,270](https://patents.google.com/patent/US5751270A/), [US 5,572,232](https://patents.google.com/patent/US5572232A/),
     &amp; [US 5,546,103](https://patents.google.com/patent/US5546103A/)
-
----
-<span class="version">
-v2023.07.05
-</span>
