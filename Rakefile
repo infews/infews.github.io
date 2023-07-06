@@ -1,4 +1,5 @@
 require 'securerandom'
+require 'open3'
 
 desc "Generate a Middleman unique ID for what have you"
 task :id do
@@ -11,8 +12,6 @@ task :article do
   exit
 end
 
-
-
 desc "Generate the site for GitHub pages"
 task :build => :clean do
   # generate the site
@@ -24,10 +23,23 @@ task :build => :clean do
 end
 
 desc "Clean all output directories"
-task :clean do
+task :clean => :ensure_clean_git do
   # delete the temp/dev directory and the GitHub pages output directory
   sh "rm -rf build"
   sh "rm -rf docs"
+end
+
+desc "Prevent cleaning & building with uncommitted changes"
+task :ensure_clean_git do
+  stdout, stderr, status = Open3.capture3("git status -s")
+
+  if !stdout.empty?
+    puts
+    puts "\e[33m"
+    puts ">>> Please commit all changes before re-building so resume has the correct version #"
+    puts "\e[0m"
+    exit 1
+  end
 end
 
 namespace :unsplash do
