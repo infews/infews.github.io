@@ -107,6 +107,10 @@ img.avatar {
   align-items: center;
 }
 
+.print-only {
+  display: none;
+}
+
 // Home Page
 
 ul.cards {
@@ -280,10 +284,6 @@ a:visited {
       font-family: $font-body;
       margin: 0 0.5rem;
     }
-
-    li.print-only {
-      display: none;
-    }
   }
 
   .version {
@@ -291,7 +291,16 @@ a:visited {
   }
 }
 
-// Responsive
+//--- --- ---  Responsive
+
+@media screen and (min-width: 767px) and (max-width: 924px) and (orientation: portrait) {
+  ul.social {
+    li {
+      flex-basis: 30%;
+    }
+  }
+}
+
 
 // Portrait Phones
 @media screen and (max-width: 766px) and (orientation: portrait) {
@@ -405,6 +414,11 @@ a:visited {
   html {
     font-size: 11px;
   }
+
+  .print-only {
+    display: list-item;
+  }
+
   .resume {
     padding: 0;
     color: black;
@@ -419,10 +433,6 @@ a:visited {
     ul.social {
       margin-top: 0.75rem;
       margin-bottom: 0.75rem;
-
-      .print-only {
-        display: list-item;
-      }
 
       a {
         //color: black;
