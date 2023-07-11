@@ -1,5 +1,4 @@
 ---
-
 title: GoGaRuCo 2013 Storytime
 date: 2023-06-28 15:09 UTC
 tags: 
@@ -13,7 +12,6 @@ keywords:
     - conference
     - GoGaRuCo
 teaser: A video from deep in the archives    
-
 ---
 
 [yt]: https://www.youtube.com/watch?v=ueeZKPGNk6I
