@@ -18,7 +18,7 @@ People Management
 : After nearly twenty years of managing people - individuals and managers - I have found that the most important skill is providing empathetic feedback. I have built feedback systems and coached people to improve their feedback-giving and -receiving skills.
 
 Mentoring
-: I can coach others by sharing my personal and professional experience as they navigate challenges. I have helped helped college students pitch themselves for summer internships, mentored managers to become directors, and co-rewrote job descripts with Vice Presidents.
+: I can coach others by sharing my personal and professional experience as they navigate challenges. I have helped college students pitch themselves for summer internships, mentored managers to become directors, and co-rewrote job descripts with Vice Presidents.
 
 Team Building
 : I have established, inherited, and improved teams. I have moved code ownership from one team to another without missing a release.
