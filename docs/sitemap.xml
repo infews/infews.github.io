@@ -163,6 +163,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://dwf.bigpencil.net/shaving-the-blog-yak/</loc>
+    <lastmod>2023-07-11T09:48:32-07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://dwf.bigpencil.net/improving-standups/</loc>
     <lastmod>2023-06-26T12:19:10-07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -182,7 +188,7 @@
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/gogaruco-2013-storytime/</loc>
-    <lastmod>2023-07-06T10:11:12-07:00</lastmod>
+    <lastmod>2023-07-11T09:46:17-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -254,6 +260,18 @@
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/series/obsidian/</loc>
+    <lastmod>2023-07-06T10:11:12-07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/tags/software/</loc>
+    <lastmod>2023-07-06T10:11:12-07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/tags/blog/</loc>
     <lastmod>2023-07-06T10:11:12-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -337,8 +355,14 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://dwf.bigpencil.net/shaving-the-blog-yak/</loc>
+    <lastmod>2023-07-11T09:48:32-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://dwf.bigpencil.net/gogaruco-2013-storytime/</loc>
-    <lastmod>2023-07-06T10:11:12-07:00</lastmod>
+    <lastmod>2023-07-11T09:46:17-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -391,18 +415,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dwf.bigpencil.net/obsidian-links/</loc>
-    <lastmod>2023-07-06T10:11:12-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://dwf.bigpencil.net/love-the-command-palette/</loc>
-    <lastmod>2023-07-06T10:11:12-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://dwf.bigpencil.net/one-on-one-notes/</loc>
     <lastmod>2023-07-06T10:11:12-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -415,19 +427,31 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://dwf.bigpencil.net/obsidian-links/</loc>
+    <lastmod>2023-07-06T10:11:12-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/love-the-command-palette/</loc>
+    <lastmod>2023-07-06T10:11:12-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://dwf.bigpencil.net/thoughts-on-vaults/</loc>
     <lastmod>2023-07-06T10:11:12-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dwf.bigpencil.net/using-links/</loc>
+    <loc>https://dwf.bigpencil.net/using-tags/</loc>
     <lastmod>2023-07-06T10:11:12-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dwf.bigpencil.net/using-tags/</loc>
+    <loc>https://dwf.bigpencil.net/using-links/</loc>
     <lastmod>2023-07-06T10:11:12-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
