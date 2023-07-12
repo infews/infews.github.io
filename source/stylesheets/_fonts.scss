@@ -1,0 +1,19 @@
+@import "https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@700&family=IBM+Plex+Sans:wght@400;600&family=JetBrains+Mono&display=swap";
+
+$holiday-font-family-base: system-ui,"Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+$holiday-font-family-base-code: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+
+// Headings
+$font-family-heading: Encode Sans SC + ", " + $holiday-font-family-base;
+$font-heading-normal: 600;
+$font-heading-bold: 800;
+$font-heading-color: #666;
+
+// Body Text
+$font-family-body: IBM Plex Sans + ", " + $holiday-font-family-base;
+$font-body-normal: 400;
+$font-body-bold: 700;
+$font-body-color: #666;
+
+// Code/Mono
+$font-family-mono: JetBrains Mono + ", " + $holiday-font-family-base-code;

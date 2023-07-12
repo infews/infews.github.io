@@ -1,0 +1,107 @@
+// Portrait Phones
+@media screen and (max-width: 766px) and (orientation: portrait) {
+
+  // bump up body text & text menus/links
+  p,
+  .all-tags li,
+  .about li,
+  tags,
+  dt,
+  dd {
+    font-size: 115%;
+    line-height: 1.35;
+  }
+
+  nav.menu {
+    padding-top: 3rem;
+    font-size: 140%;
+    line-height: 1.35;
+  }
+
+  .intro {
+    margin-top: 1rem;
+    flex-direction: column-reverse; // puts the avatar to the top
+  }
+
+  .cards {
+    margin: 0.5rem 1rem;
+    flex-direction: column; // cards should go in column order
+
+    .card {
+      h2 {
+        border-bottom: 1px #dbdbdb solid;
+      }
+
+      p.series {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      .more {
+        font-size: 140%;
+      }
+    }
+  }
+
+  a.title {
+    font-size: 1.8rem;
+  }
+
+  .title {
+    font-size: 110%;
+  }
+
+  .date {
+    font-size: 125%;
+  }
+
+  // sharing nav
+  nav.sharing {
+    // turns off holiday.css hamburger menu
+    padding-top: 0;
+    background-image: none;
+
+    // mobile sharing nav cleanup
+    ul {
+      display: flex;
+      list-style-type: none;
+      padding-inline-start: 0;
+      justify-content: space-evenly;
+      flex-direction: row;
+      align-content: center;
+
+      li i {
+        font-size: 24px;
+      }
+    }
+  }
+
+  // About me page
+  .about {
+    .intro {
+      flex-direction: column; // puts the avatar to the top
+    }
+
+    .social-links {
+      ul {
+        flex-direction: column; // social links centered in one column
+        align-items: center;
+      }
+    }
+  }
+
+  // Resume
+  .resume {
+    ul {
+      padding-inline-start: 1.5rem;
+      font-size: 115%;
+    }
+    ul ul {
+      font-size: 100%;
+    }
+    ul.social {
+      flex-direction: column;
+      font-size: 100%;
+    }
+  }
+}

@@ -1,0 +1,84 @@
+// Base
+html {
+  font-size: 16px;
+}
+
+body {
+  line-height: 1.35rem;
+  font-size: 1rem;
+  font-family: $font-family-body;
+  color: $font-body-color;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+html, body {
+  height: 100%;
+}
+
+// Headings & Text
+h1, h2, h3, h4, h5, h6 {
+  color: $font-heading-color;
+}
+
+h1, h2, h3 {
+  font-family: $font-family-heading;
+  font-weight: $font-heading-bold;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-size: 1.9rem;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 1.7rem;
+  line-height: 1.2;
+}
+
+ul h3 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+h4, h5 {
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.4rem;
+}
+
+h6 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+code {
+  font-family: $font-family-mono;
+  padding: 0;
+}
+
+.text {
+  margin: 0.5rem 1rem;
+  flex: 4 1;
+}
+
+a.title {
+  font: 1.4rem $font-family-heading;
+  font-weight: $font-heading-bold;
+}
+
+a:visited {
+  color: rebeccapurple;
+}

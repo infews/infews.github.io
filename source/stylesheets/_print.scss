@@ -1,0 +1,36 @@
+@media print {
+  html {
+    font-size: 12px;
+  }
+
+  .print-only {
+    display: list-item;
+  }
+
+  .resume {
+    padding: 0;
+    color: black;
+
+    h1, h2, h3, h4, h5 {
+      margin-top: 0.75rem;
+      margin-bottom: 0.75rem;
+      break-after: avoid-page;
+      page-break-after: avoid;
+    }
+
+    ul.social {
+      margin-top: 0.75rem;
+      margin-bottom: 0.75rem;
+
+      a {
+        //color: black;
+      }
+    }
+  }
+  h1, h2, h3, h4, h5, body {
+    color: black;
+  }
+  dl {
+    break-before: avoid-page;
+  }
+}
