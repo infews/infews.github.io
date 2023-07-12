@@ -52,7 +52,7 @@ I'm probably part of the problem. But not today. So off to the grocery for one l
 ![Last Six Pack](images/steam6.jpg)
 *The last six of Anchor Steam at my grocery, 2023 July 12*
 
-It was a misfit six-pack, the cardboard handle torn. It felt fitting that in the weight of this moment - the last Anchor Steam at this store - the cashier had to scan the barcode by lifting it with two hands.
+It was a misfit six-pack, the cardboard handle torn. It felt fitting that in the weight of this moment - the last Anchor Steam at this store - the cashier had to scan the barcode by lifting it with both hands.
 
 If this is the end, Anchor, so long and thanks for all the beer.
 
