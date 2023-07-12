@@ -10,7 +10,7 @@ keywords:
   - lifehack
   - productivity
 series: obsidian
-
+teaser: "1-1s are a special type of note."
 ---
 
 [t]: /series/obsidian/core-plugin-templates

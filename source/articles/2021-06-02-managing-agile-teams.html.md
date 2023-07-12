@@ -1,5 +1,4 @@
 ---
-
 title: What I Talk About When I Talk About Management
 date: 2021-06-02 14:59 UTC
 tags: 

@@ -7,6 +7,7 @@ tags:
 keywords:
   - Mark Williams
   - eulogy  
+teaser: "Funeral for a friend."
 ---
 
 [dick]: https://imgur.com/gallery/v4RZRwF

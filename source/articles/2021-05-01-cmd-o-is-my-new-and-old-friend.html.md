@@ -11,7 +11,6 @@ keywords:
   - productivity
   - shorcuts
 series: obsidian
-
 teaser: "One keystroke for Obsidian search-or-create. This. Is. Awesome."    
 ---
 

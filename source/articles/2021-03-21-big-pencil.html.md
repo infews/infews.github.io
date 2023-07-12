@@ -1,5 +1,4 @@
 ---
-
 title: "History of The Big Pencil"
 date: 2021-03-21 18:22 UTC
 tags: 
@@ -8,7 +7,6 @@ tags:
 keywords:
   - history   
 teaser: "Whenever someone asks me about the bigpencil.net domain, I get to tell this story."
-    
 ---
 
 [uga]: https://uga.edu

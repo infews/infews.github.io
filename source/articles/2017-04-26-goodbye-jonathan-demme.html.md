@@ -8,6 +8,7 @@ keywords:
   - rock
   - Jonathan Demme
   - Stop Making Sense   
+teaser: "Remembering how Jonathan Demme made me a Talking Heads fan."
 ---
 
 [tweets]: https://twitter.com/dwfrank/status/857378526428667904

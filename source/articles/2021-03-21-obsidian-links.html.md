@@ -10,7 +10,7 @@ keywords:
   - lifehack
   - productivity 
 series: obsidian
-
+teaser: "Linking to Obs from other apps is power."
 ---
 [vaults]: /series/obsidian/thoughts-on-vaults
 

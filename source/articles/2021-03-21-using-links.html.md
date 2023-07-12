@@ -10,7 +10,7 @@ keywords:
   - lifehack
   - productivity
 series: obsidian
-
+teaser: "Cross note linking that isn't Markdown is OK."
 ---
 [ref]: "https://www.markdownguide.org/basic-syntax/#reference-style-links"
 [tags]: "/series/obsidian/using-tags"

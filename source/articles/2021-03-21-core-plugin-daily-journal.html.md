@@ -10,7 +10,7 @@ keywords:
   - lifehack
   - productivity
 series: obsidian
-
+teaser: "The Daily Journal is key to remembering things."
 ---
 
 [obs-1-1]: /one-on-one-notes 

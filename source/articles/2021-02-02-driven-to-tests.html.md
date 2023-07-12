@@ -11,6 +11,7 @@ keywords:
   - continuous delivery
   - the cd test
 series: the_cd_test
+teaser: "TDD all the things!"
 ---
 
 [jasmine_tutorial]: https://jasmine.github.io/tutorials/your_first_suite

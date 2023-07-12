@@ -1,5 +1,4 @@
 ---
-
 title: "Job Search Journaling with Obsidian - updated"
 date: 2021-09-17 21:36 UTC
 tags:
@@ -13,7 +12,6 @@ keywords:
   - productivity
   - "job search"
 series: obsidian
-
 teaser: "A small update to my Obsidian Notebook and templates for tracking a job search"
 ---
 

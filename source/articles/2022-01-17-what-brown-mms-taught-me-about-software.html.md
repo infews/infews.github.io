@@ -1,5 +1,4 @@
 ---
-
 title: What Brown M&M's Taught Me About Software
 date: 2022-01-17 02:51 UTC
 tags:
@@ -11,7 +10,6 @@ keywords:
   - history
   - personal
 teaser: "Not all software experience is programming."
-
 ---
 
 [pc]: https://en.wikipedia.org/wiki/PC_LOAD_LETTER#:~:text=PC%20LOAD%20LETTER%20is%20a,confusing%20or%20inappropriate%20error%20message.&text=It%20means%20that%20the%20printer,no%20such%20paper%20is%20available.

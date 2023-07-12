@@ -1,9 +1,9 @@
 ---
-
 title: 3X but It's People
 date: 2022-06-19 21:58 UTC
 tags: ["agile", "software development", "management"]
 keywords: ["agile", "software development", "management", "3X", "Kent Beck"]
+teaser: "How I think about people when I think about 3X."
 ---
 
 [3x-text]: https://medium.com/@kentbeck_7670/the-product-development-triathlon-6464e2763c46

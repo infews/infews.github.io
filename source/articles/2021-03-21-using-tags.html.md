@@ -1,5 +1,4 @@
 ---
-
 title: "Using Tags"
 date: 2021-03-21 16:13 UTC
 tags:
@@ -11,8 +10,7 @@ keywords:
   - lifehack
   - productivity
 series: obsidian
-
-
+teaser: "Tag it for easier search."
 ---
 
 I am not a huge tag user. I find the search very good and the Linked/Unlinked mentions tab enlightening.

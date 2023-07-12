@@ -8,6 +8,7 @@ keywords:
   - personal
   - rock
   - Soundgarden  
+teaser: "Remembering my Soundgarden encounter."
 ---
 
 [tweets]: https://twitter.com/dwfrank/status/865661929800335360
@@ -16,7 +17,7 @@ keywords:
 [spoon]: https://www.youtube.com/watch?v=FbNIR6dkgNY&list=PLnif9Rfb5AdnVpmUboC3SEZFbcGu80Ea8
 
 _Originally written as a [tweetstorm][tweets] after Chris Cornell's suicide. I've expanded a bit more here.
-<br/><br/>&mdash;dwf_
+<br/>&mdash;dwf_
 
 ---
 

@@ -1,5 +1,4 @@
 ---
-
 title: The Name Game
 date: 2020-11-22 00:20 UTC
 tags:
@@ -7,7 +6,7 @@ tags:
 keywords:
   - personal
   - names  
-
+teaser: "My contribution to this 'what you call me' meme from 2020."
 ---
 
 _From the "Can you pronounce my name" game/meme from Twitter early fall, 2020. I love this one._ &mdash;dwf 

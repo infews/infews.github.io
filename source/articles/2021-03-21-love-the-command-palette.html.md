@@ -1,5 +1,4 @@
 ---
-
 title: "Don't Sleep on the Command Palette"
 date: 2021-03-21 16:14 UTC
 tags:
@@ -11,7 +10,7 @@ keywords:
   - lifehack
   - productivity
 series: obsidian
-
+teaser: "It takes me a while to learn new commands."
 ---
 
 [oblinks]: /obsidian-links

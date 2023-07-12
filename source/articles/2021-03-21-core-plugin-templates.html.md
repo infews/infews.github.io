@@ -10,7 +10,7 @@ keywords:
   - lifehack
   - productivity
 series: obsidian
-
+teaser: "DRY up your notes."
 ---
 
 I enabled the Core plugin for Templates. This allows you to specify a directory of templates - just Markdown files - for when you create new notes.
