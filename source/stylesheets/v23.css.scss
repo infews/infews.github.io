@@ -10,6 +10,8 @@ body > nav {
   justify-content: flex-end;
 }
 
+.github-fork-ribbon.right-top.fixed:before { background-color: #399ed3; }
+
 footer.site {
   padding-top: 0;
 }

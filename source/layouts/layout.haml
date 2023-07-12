@@ -10,6 +10,8 @@
     %link{rel: "stylesheet", href: "/stylesheets/v23.css"}
     %link{rel: "stylesheet", href: "/stylesheets/rouge-github-dark.css"}
     %script{type: "application/ld+json"}!= linking_data_for(locals, current_article, page_articles)
+    - if development?
+      %link{rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css"}
   %body
     %nav.menu
       %ul
@@ -28,7 +30,8 @@
               %a{href: "/all_tags"} All Tags
         %li
           %a{href: "/about_me"} About Me
-
+    - if development?
+      = component "dev_ribbon"
     %main{class: wrapper_classes_for(current_page.data)}
       = yield
     %footer.site
