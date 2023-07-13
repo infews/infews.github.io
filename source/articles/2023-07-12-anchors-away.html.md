@@ -21,6 +21,7 @@ teaser: Saying goodbye to Anchor Brewing
 [pub]: https://www.mlb.com/giants/news/anchor-brewing-joins-san-francisco-giants-in-mission-rock-development-project/c-41796786
 [taps]: https://www.yelp.com/biz/anchor-public-taps-san-francisco-2?osq=anchor+public+taps
 [died]: https://sfist.com/2017/08/03/anchor_brewery_was_sold_to_sapporo/
+[chron2]: https://www.sfchronicle.com/food/wine/article/anchor-steam-18192913.php
 
 I spent the summer of 1990 in Europe, mostly in Leicester, England, taking classes at what is now [DeMontfort University][lp]. That meant a summer drinking a lot of beer - English beer, mostly Leicester's [Everard's Old Original][oo] because, hey, Drink Local!
 
@@ -58,7 +59,6 @@ If this is the end, Anchor, so long and thanks for all the beer.
 
 ## Notes
 
-_The judges also would have accepted the title of "Anchor Finally on the Fritz"._
-
-_For more escapades from that summer see [Goodbye Chris Cornell][cc]._
-
+- For more escapades from that summer see [Goodbye Chris Cornell][cc].
+- The SF Chronicle has [another article about Anchor's closing][chron2].
+- The judges also would have accepted the title of "Anchor Finally on the Fritz".
