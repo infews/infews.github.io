@@ -8,10 +8,11 @@
     %link{rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/holiday.css@0.11.2"}
     %script{src:"https://kit.fontawesome.com/e76ee0328c.js", crossorigin: "anonymous"}
     %link{rel: "stylesheet", href: "/stylesheets/v23.css"}
-    %link{rel: "stylesheet", href: "/stylesheets/rouge-github-dark.css"}
-    %script{type: "application/ld+json"}!= linking_data_for(locals, current_article, page_articles)
+    %script{type: "application/ld+json"}
+      != linking_data_for(locals, current_article, page_articles)
     - if development?
       %link{rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css"}
+    %link{rel: "stylesheet", href: "/stylesheets/rouge-github-dark.css"}
   %body
     %nav.menu
       %ul
@@ -36,9 +37,4 @@
       = yield
     %footer.site
       %p.small= "© #{config[:site_author]} #{Time.now.year}"
-    / Global site tag (gtag.js) - Google Analytics
-    - if build?
-      %script{async: '', src: "https://www.googletagmanager.com/gtag/js?id=#{config[:google_analytics]}"}
-      %script
-        window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
-        gtag('config', '#{config[:google_analytics]}');
+    = component "google_analytics"
