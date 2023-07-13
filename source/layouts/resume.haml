@@ -47,7 +47,8 @@
         ="v#{`git log -n 1 --pretty=format:%cs -- source/daviswfrank_resume.html.md`}"
 
     / Global site tag (gtag.js) - Google Analytics
-    %script{async: '', src: "https://www.googletagmanager.com/gtag/js?id=#{config[:google_analytics]}"}
-    %script
-      window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
-      gtag('config', '#{config[:google_analytics]}');
+    - if build?
+      %script{async: '', src: "https://www.googletagmanager.com/gtag/js?id=#{config[:google_analytics]}"}
+      %script
+        window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
+        gtag('config', '#{config[:google_analytics]}');
