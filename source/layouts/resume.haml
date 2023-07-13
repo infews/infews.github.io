@@ -1,16 +1,8 @@
 !!! 5
 %html{lang: "en"}
   %head
-    %meta{charset: "utf-8"}
-    %meta{name: "viewport", content: "width=device-width, initial-scale=1"}
-    %title= page_title
-    %link{rel: "alternate", href: "/feed.xml", type: "application/atom+xml", title: "Atom Feed"}
-    %script{src:"https://kit.fontawesome.com/e76ee0328c.js", crossorigin: "anonymous"}
-    %link{rel: "stylesheet", href: "#{url_for '/stylesheets/v23.css'}"}
-    %script{type: "application/ld+json"}
-      != linking_data_for(locals, current_article, page_articles)
-    - if development?
-      %link{rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css"}
+    = component "meta"
+    = component "stylesheets"
   %body
     - if development?
       = component "dev_ribbon"
