@@ -265,22 +265,22 @@ uncovered the video this week. And that it had 200+ views!&lt;/p&gt;
 
 &lt;p&gt;My daily note template has a Calendar section. On the day of a meeting, I will have a heading in that section like this:&lt;/p&gt;
 
-&lt;div class="language-markdown highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;&lt;span class="gh"&gt;# Calendar&lt;/span&gt;
+&lt;pre&gt;&lt;code class="language-markdown"&gt;# Calendar
 
-&lt;span class="gu"&gt;## 0230p Christina @ [[Everything Imaging]]&lt;/span&gt;
+## 0230p Christina @ [[Everything Imaging]]
 
 (notes from this call go here)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;That Obsidian link goes to the Company research note.&lt;/p&gt;
 
 &lt;p&gt;The Company research note, then has the backlink to the daily note in a new section labeled Timeline:&lt;/p&gt;
 
-&lt;div class="language-markdown highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;&lt;span class="gh"&gt;# Timeline&lt;/span&gt;
-&lt;span class="p"&gt;
--&lt;/span&gt; [[2021.08.05]] Screening Phone call with Billy
-&lt;span class="p"&gt;-&lt;/span&gt; [[2021.08.17]] Christina interview via Zoom
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;pre&gt;&lt;code class="language-markdown"&gt;# Timeline
+
+- [[2021.08.05]] Screening Phone call with Billy
+- [[2021.08.17]] Christina interview via Zoom
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h2&gt;The Files&lt;/h2&gt;
 
 &lt;p&gt;The repo &amp;amp; files live in “Release 2” at &lt;a href="https://github.com/infews/job_search_in_obsidian/releases"&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
@@ -659,50 +659,50 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 
 &lt;p&gt;Before the first meeting, I make a note with the person’s name. Naturally, I use a &lt;a href="/series/obsidian/core-plugin-templates"&gt;template&lt;/a&gt; for this text.&lt;/p&gt;
 
-&lt;div class="language-md highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;&lt;span class="gh"&gt;# {{title}} Background&lt;/span&gt;
+&lt;pre&gt;&lt;code class="language-md"&gt;# {{title}} Background
 
-&lt;span class="gh"&gt;# Topics&lt;/span&gt;
-&lt;span class="p"&gt;
--&lt;/span&gt; [ ]
+# Topics
 
-&lt;span class="gh"&gt;# Action Items&lt;/span&gt;
+- [ ]
 
-&lt;span class="gu"&gt;## Me&lt;/span&gt;
-&lt;span class="p"&gt;
--&lt;/span&gt; [ ]
+# Action Items
 
-&lt;span class="gu"&gt;## {{title}}&lt;/span&gt;
-&lt;span class="p"&gt;
--&lt;/span&gt; [ ]
+## Me
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+- [ ]
+
+## {{title}}
+
+- [ ]
+
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Over time, I fill this template in like this:&lt;/p&gt;
 
-&lt;div class="language-md highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;
-&lt;span class="gh"&gt;# Andy Nelson Background&lt;/span&gt;
-&lt;span class="p"&gt;
--&lt;/span&gt; University of Bedford
-&lt;span class="p"&gt;-&lt;/span&gt; Likes jazz drumming
-&lt;span class="p"&gt;-&lt;/span&gt; Partner is Wendy Lam
+&lt;pre&gt;&lt;code class="language-md"&gt;
+# Andy Nelson Background
 
-&lt;span class="gh"&gt;# Topics&lt;/span&gt;
-&lt;span class="p"&gt;
--&lt;/span&gt; [x] Next semester's classes
-&lt;span class="p"&gt;-&lt;/span&gt; [x] LinkedIn Tutorial
-&lt;span class="p"&gt;-&lt;/span&gt; [ ] Career goals review
-&lt;span class="p"&gt;-&lt;/span&gt; [ ] Miles Davis album list
+- University of Bedford
+- Likes jazz drumming
+- Partner is Wendy Lam
 
-&lt;span class="gh"&gt;# Action Items&lt;/span&gt;
+# Topics
 
-&lt;span class="gu"&gt;## Me&lt;/span&gt;
-&lt;span class="p"&gt;
--&lt;/span&gt; [ ] Send goals template
+- [x] Next semester's classes
+- [x] LinkedIn Tutorial
+- [ ] Career goals review
+- [ ] Miles Davis album list
 
-&lt;span class="gu"&gt;## Andy&lt;/span&gt;
-&lt;span class="p"&gt;
--&lt;/span&gt; [ ] Write Career Goals
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+# Action Items
+
+## Me
+
+- [ ] Send goals template
+
+## Andy
+
+- [ ] Write Career Goals
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Background&lt;/strong&gt; is for the anything interesting about them. I usually pull most of this from our first meeting, but I’ve been known to add to it.&lt;/li&gt;
@@ -822,15 +822,15 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 
 &lt;p&gt;As of this writing, my template looks like this:&lt;/p&gt;
 
-&lt;div class="language-markdown highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;&lt;span class="gh"&gt;# Exercise&lt;/span&gt;
+&lt;pre&gt;&lt;code class="language-markdown"&gt;# Exercise
 
-&lt;span class="gh"&gt;# Calendar&lt;/span&gt;
+# Calendar
 
-&lt;span class="gh"&gt;# Work&lt;/span&gt;
-&lt;span class="p"&gt;
----&lt;/span&gt;
-&lt;span class="gh"&gt;#dailynotes&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+# Work
+
+---
+#dailynotes
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;I like logging my daily exercise. So that’s obvious. I tend to exercise first thing in the morning, so when I open this note, I log the workouts right away.&lt;/p&gt;
 
@@ -838,12 +838,12 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 
 &lt;p&gt;The “Calendar” section is full of entries of the meetings I know I’m going to have, or if spontaneous ones happen, I add them, too. They look like this:&lt;/p&gt;
 
-&lt;div class="language-md highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;&lt;span class="gh"&gt;# Calendar&lt;/span&gt;
+&lt;pre&gt;&lt;code class="language-md"&gt;# Calendar
 
-&lt;span class="gu"&gt;## 1100a Talk with [[Andy Nelson]]&lt;/span&gt;
+## 1100a Talk with [[Andy Nelson]]
 
-&lt;span class="gu"&gt;## 0230p 1-1 with [[Kyle]]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+## 0230p 1-1 with [[Kyle]]
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;I will take bulleted list notes in these sections during the meeting if possible. And anything that I need to dump out of my brain after the meeting, I’ll flesh out the section.&lt;/p&gt;
 
