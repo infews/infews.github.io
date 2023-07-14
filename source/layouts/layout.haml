@@ -3,9 +3,14 @@
   %head
     = component "meta"
 
-    // reset + defaults, & syntax coloring
+    // Styling for everything-but-the-resume
+
+    // reset + defaults
     %link{rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/holiday.css@0.11.2"}
-    %link{rel: "stylesheet", href: "/stylesheets/rouge-github-dark.css"}
+
+    // in-browser syntax highlighting
+    %link{rel: "stylesheet", href: "/stylesheets/prism-laserwave.css"}
+    %script{src: "/js/prism.js"}
 
     = component "stylesheets"
   %body

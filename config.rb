@@ -68,9 +68,7 @@ end
 set :haml, { :format => :html5 }
 
 # Markdown and syntax highlighting
-#activate :syntax
 set :markdown_engine, :kramdown
-# set :markdown, fenced_code_blocks: true, smartypants: true, footnotes: true
 set :markdown,
     auto_ids: false,
     layout_engine: :haml,
@@ -78,7 +76,7 @@ set :markdown,
     autolink: true,
     smartypants: true,
     fenced_code_blocks: true,
-    syntax_highlighter: "rouge",
+    syntax_highlighter: nil, # turns off Rouge so we can use PrismJS
     input: "GFM"
 
 ###
