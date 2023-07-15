@@ -76,8 +76,8 @@ set :markdown,
     autolink: true,
     smartypants: true,
     fenced_code_blocks: true,
-    syntax_highlighter: nil, # turns off Rouge so we can use PrismJS
-    input: "GFM"
+    syntax_highlighter: nil,  # turns off Rouge so we can use PrismJS
+    input: "GFM"              # gives some emoji + ``` code blocks
 
 ###
 # Site settings
