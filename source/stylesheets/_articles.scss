@@ -1,0 +1,48 @@
+// Single Article
+
+article {
+  .headline .info {
+    font-weight: normal;
+    color: #bbb;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+
+    nav {
+      border-bottom: none;
+    }
+
+    i {
+      font-size: 1rem;
+    }
+  }
+
+  .tags {
+    font-style: italic;
+  }
+}
+
+// Article Lists
+
+ul.articles {
+  list-style-type: none;
+  padding: 0;
+
+  li {
+    margin: 1rem 0.5rem;
+  }
+}
+
+.date {
+  font-family: $font-family-body;
+  color: #bbb;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}

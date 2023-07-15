@@ -1,0 +1,29 @@
+// Home Page
+
+ul.cards {
+  list-style-type: none;
+  padding-inline-start: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .card {
+    flex: 0 1 30%;
+    display: flex;
+    flex-flow: column nowrap;
+
+    p {
+      margin-bottom: 0;
+    }
+
+    p.series {
+      margin-top: 0;
+    }
+
+    .more {
+      text-align: right;
+      margin-top: auto;
+    }
+  }
+}
