@@ -109,6 +109,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://dwf.bigpencil.net/more-blog-yakking/</loc>
+    <lastmod>2023-07-15T15:16:20-07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://dwf.bigpencil.net/how-we-xp/</loc>
     <lastmod>2023-06-26T12:19:10-07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -277,18 +283,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://dwf.bigpencil.net/tags/personal/</loc>
-    <lastmod>2023-07-06T10:11:12-07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://dwf.bigpencil.net/tags/history/</loc>
-    <lastmod>2023-07-06T10:11:12-07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://dwf.bigpencil.net/tags/software/</loc>
     <lastmod>2023-07-06T10:11:12-07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -296,6 +290,18 @@
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/tags/blog/</loc>
+    <lastmod>2023-07-06T10:11:12-07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/tags/personal/</loc>
+    <lastmod>2023-07-06T10:11:12-07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/tags/history/</loc>
     <lastmod>2023-07-06T10:11:12-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -359,6 +365,12 @@
     <lastmod>2023-07-06T10:11:12-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/more-blog-yakking/</loc>
+    <lastmod>2023-07-15T15:16:20-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/anchors-away/</loc>
@@ -427,6 +439,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://dwf.bigpencil.net/obsidian-links/</loc>
+    <lastmod>2023-07-12T09:26:59-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://dwf.bigpencil.net/community-plugin-calendar/</loc>
     <lastmod>2023-07-12T09:26:59-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -439,19 +457,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dwf.bigpencil.net/obsidian-links/</loc>
+    <loc>https://dwf.bigpencil.net/one-on-one-notes/</loc>
     <lastmod>2023-07-12T09:26:59-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/love-the-command-palette/</loc>
-    <lastmod>2023-07-12T09:26:59-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://dwf.bigpencil.net/one-on-one-notes/</loc>
     <lastmod>2023-07-12T09:26:59-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

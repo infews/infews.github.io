@@ -5,11 +5,62 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2023-07-12T17:56:27-07:00</updated>
+  <updated>2023-07-15T15:16:20-07:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
   <rights>© Davis W. Frank 2023</rights>
+  <entry>
+    <title>A Little More Yak Trimming</title>
+    <link href="https://dwf.bigpencil.net/more-blog-yakking/" rel="alternate"/>
+    <id/>
+    <published>2023-07-15T14:45:00-07:00</published>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">
+&lt;p&gt;I continued to trim around the ears of this blog since last week. And a few things stood out that I felt worth sharing.&lt;/p&gt;
+
+&lt;h2&gt;CSS Factoring&lt;/h2&gt;
+
+&lt;p&gt;CSS, in this case, SCSS, is source code worth factoring just like any other code. Now that I’d trimmed the sytlesheets signficantly, I felt it worth organizing them better for later maintenance. Maybe I won’t feel the need to throw out and start over in anohter year!&lt;/p&gt;
+
+&lt;p&gt;I’m using Google Fonts here. While I was pretty happy with the indirection of SASS variables for font family, I did go a little further and have variables for color and weight. Then I pulled out a fonts-only file. While I stopped short of writing a function that generated the Google Fonts URL, I still can change all font attributes in one place if I choose. That’s a fine win.&lt;/p&gt;
+
+&lt;p&gt;I also made sure all my font units were in &lt;code&gt;rem&lt;/code&gt;, making it easier to scale things for mobile as I tweak sizes over time when fonts change.&lt;/p&gt;
+
+&lt;p&gt;I pulled out other sections, roughly mapped to the different types of pages, each into their own files. And I put special media queries at the bottom of each file. But I do have 1 key complex media query for portrait phones in its own file. The longest file is 85 lines. My final css file is only imports.&lt;/p&gt;
+
+&lt;h2&gt;Better Syntax Highlighting&lt;/h2&gt;
+
+&lt;p&gt;Lastly, due to my &lt;a href="/series/obsidian"&gt;Obsidian&lt;/a&gt; series, there are a lot of code blocks that are just Markdown. I wasn’t happy with how simply &lt;a href="https://github.com/rouge-ruby/rouge"&gt;Rouge&lt;/a&gt; (and thus &lt;a href="https://pygments.org/"&gt;Pygments&lt;/a&gt;) supported Markdown - the tagging is simpler than I’d like. &lt;a href="https://kramdown.gettalong.org/"&gt;Kramdown&lt;/a&gt; supports Rouge and [Coderay][c]. But I wanted a converter that had more granularity for MD.&lt;/p&gt;
+
+&lt;p&gt;I converted to using &lt;a href="https://prismjs.com/"&gt;Prism&lt;/a&gt;, which highlights &lt;code&gt;&amp;lt;code&amp;gt;&lt;/code&gt; blocks with JavaScript. This required:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Downloading a Prism bundle that included the language support I expect&lt;/li&gt;
+  &lt;li&gt;Finding and tweaking a Prism theme&lt;/li&gt;
+  &lt;li&gt;Adding these to the repo&lt;/li&gt;
+  &lt;li&gt;Adding these to the layout files&lt;/li&gt;
+  &lt;li&gt;Turning off syntax highlighting for &lt;a href="https://kramdown.gettalong.org/"&gt;Kramdown&lt;/a&gt; with a well-placed &lt;code&gt;nil&lt;/code&gt; in Middleman’s &lt;code&gt;config.rb&lt;/code&gt; like so:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class="language-ruby"&gt;set :markdown_engine, :kramdown
+set :markdown,
+    auto_ids: false,
+    input: "GFM",            # GH emoji + ``` code blocks
+    layout_engine: :haml,
+    tables: true,
+    autolink: true,
+    smartypants: true,
+    fenced_code_blocks: true,
+    syntax_highlighter: nil  # turns off Rouge so we can use PrismJS
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;While Kramdown won’t parse the contents of the &lt;code&gt;&amp;lt;code&amp;gt;&lt;/code&gt; block, it does set a CSS class on it (and the parent &lt;code&gt;&amp;lt;pre&amp;gt;&lt;/code&gt; tag) based on the language. Prism uses that class when converting to HTML for coloring.&lt;/p&gt;
+
+&lt;p&gt;That’s enough blog yak shaving for a while. Back to writing…&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Anchor's Away</title>
     <link href="https://dwf.bigpencil.net/anchors-away/" rel="alternate"/>
@@ -580,6 +631,27 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 </content>
   </entry>
   <entry>
+    <title>Obsidian URLs</title>
+    <link href="https://dwf.bigpencil.net/obsidian-links/" rel="alternate"/>
+    <id/>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">
+&lt;p&gt;Obsidian’s URL scheme is fabulous. A link of this form:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;obsidian://open?vault=&amp;lt;vault_name&amp;gt;&amp;amp;file=&amp;lt;note_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;..will open Obsidian with that vault and that note selected.&lt;/p&gt;
+
+&lt;p&gt;I use this a lot with my task manager, linking back from projects and tasks to longer thoughts on the topic. I also link to notes &lt;a href="/series/obsidian/thoughts-on-vaults"&gt;other vaults&lt;/a&gt; as needed.&lt;/p&gt;
+
+&lt;p&gt;With any note open, “Copy Obsidian URL” is available via the Command Palette and the note menu.&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
     <title>Community Plugin: Calendar</title>
     <link href="https://dwf.bigpencil.net/community-plugin-calendar/" rel="alternate"/>
     <id/>
@@ -607,40 +679,6 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;p&gt;This series started as one note in the main vault.&lt;/p&gt;
 
 &lt;p&gt;I keep the all of my vaults as subdirectories in one directory that lives online for ease of access from different computers and mobile devices. At the moment this is on Dropbox.&lt;/p&gt;
-
-</content>
-  </entry>
-  <entry>
-    <title>Obsidian URLs</title>
-    <link href="https://dwf.bigpencil.net/obsidian-links/" rel="alternate"/>
-    <id/>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <content type="html">
-&lt;p&gt;Obsidian’s URL scheme is fabulous. A link of this form:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;obsidian://open?vault=&amp;lt;vault_name&amp;gt;&amp;amp;file=&amp;lt;note_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;..will open Obsidian with that vault and that note selected.&lt;/p&gt;
-
-&lt;p&gt;I use this a lot with my task manager, linking back from projects and tasks to longer thoughts on the topic. I also link to notes &lt;a href="/series/obsidian/thoughts-on-vaults"&gt;other vaults&lt;/a&gt; as needed.&lt;/p&gt;
-
-&lt;p&gt;With any note open, “Copy Obsidian URL” is available via the Command Palette and the note menu.&lt;/p&gt;
-
-</content>
-  </entry>
-  <entry>
-    <title>Don't Sleep on the Command Palette</title>
-    <link href="https://dwf.bigpencil.net/love-the-command-palette/" rel="alternate"/>
-    <id/>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <content type="html">
-&lt;p&gt;While I’m still learning how to use Obsidian, I find the Command Palette amazing. &lt;code&gt;Ctrl+P/Cmd+P&lt;/code&gt; brings up a searchable list of commands. I find new actions here all the time. And it’s the fastest way to put an &lt;a href="/obsidian-links"&gt;Obsidian URL&lt;/a&gt; on your clipboard.&lt;/p&gt;
 
 </content>
   </entry>
@@ -737,6 +775,19 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;h2&gt;Between Meetings&lt;/h2&gt;
 
 &lt;p&gt;I will add new Topics to the Person’s note as they come up. The Linked Mentions tab becomes a great historical list of our 1-1 meetings.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Don't Sleep on the Command Palette</title>
+    <link href="https://dwf.bigpencil.net/love-the-command-palette/" rel="alternate"/>
+    <id/>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <content type="html">
+&lt;p&gt;While I’m still learning how to use Obsidian, I find the Command Palette amazing. &lt;code&gt;Ctrl+P/Cmd+P&lt;/code&gt; brings up a searchable list of commands. I find new actions here all the time. And it’s the fastest way to put an &lt;a href="/obsidian-links"&gt;Obsidian URL&lt;/a&gt; on your clipboard.&lt;/p&gt;
+
 </content>
   </entry>
   <entry>
