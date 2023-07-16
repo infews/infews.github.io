@@ -1,12 +1,5 @@
 site_url = config[:site_url]
 site_author = config[:site_author]
-site_updated = Time.parse('2000-01-01 00:00:00') # WRONG
-blog.articles.each do |article|
-  article_updated = File.mtime(article.source_file)
-  if article_updated > site_updated
-    site_updated = article_updated
-  end
-end
 
 xml.instruct!
 xml.feed xmlns: 'http://www.w3.org/2005/Atom' do
@@ -15,19 +8,21 @@ xml.feed xmlns: 'http://www.w3.org/2005/Atom' do
   xml.link href: URI.join(site_url, current_page.path), rel: 'self'
   xml.link href: URI.join(site_url, blog.options.prefix.to_s)
   xml.id config[:site_id]
-  xml.updated site_updated.iso8601
+  xml.updated Time.now.iso8601
   xml.author { xml.name site_author }
   xml.rights "© #{site_author} #{Time.now.year}"
 
   blog.articles.each do |article|
+    article_file_in_git = article.source_file.split("/")[-3..-1].join("/")
+    updated_date = Date.parse(`git log -n 1 --pretty=format:%cI -- #{article_file_in_git}`)
     xml.entry do
       xml.title article.title
       xml.link href: URI.join(site_url, article.url), rel: 'alternate'
       xml.id article.metadata[:page][:id]
       xml.published article.date.to_time.iso8601
-      # xml.updated article.mtime.iso8601
+      xml.updated updated_date.to_time.iso8601 if updated_date > article.date
       xml.author { xml.name site_author }
-      # xml.summary article.summary, type: 'html'
+      xml.summary article.data.teaser, type: 'html'
       xml.content article.body, type: 'html'
     end
   end
