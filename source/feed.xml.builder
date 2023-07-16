@@ -13,8 +13,7 @@ xml.feed xmlns: 'http://www.w3.org/2005/Atom' do
   xml.rights "© #{site_author} #{Time.now.year}"
 
   blog.articles.each do |article|
-    article_file_in_git = article.source_file.split("/")[-3..-1].join("/")
-    updated_date = Date.parse(`git log -n 1 --pretty=format:%cI -- #{article_file_in_git}`)
+    updated_date = updated_at(article.source_file).to_date
     xml.entry do
       xml.title article.title
       xml.link href: URI.join(site_url, article.url), rel: 'alternate'

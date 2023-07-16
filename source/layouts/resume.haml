@@ -36,5 +36,5 @@
       = yield
       %hr
       %span.version
-        ="v#{`git log -n 1 --pretty=format:%cs -- source/daviswfrank_resume.html.md`}"
+        ="v#{updated_date("source/daviswfrank_resume.html.md")}"
       = component "google_analytics"
