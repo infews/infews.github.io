@@ -25,7 +25,7 @@ I continued to trim around the ears of this blog since last week. And a few thin
 
 ## CSS Factoring
 
-CSS, in this case, SCSS, is source code worth factoring just like any other code. Now that I'd trimmed the sytlesheets signficantly, I felt it worth organizing them better for later maintenance. Maybe I won't feel the need to throw out and start over in anohter year!
+CSS, in this case SCSS, is source code worth factoring just like any other code. Now that I'd trimmed the stylesheets significantly, I felt it worth organizing them better for later maintenance. Maybe I won't feel the need to throw out and start over in another year!
 
 I'm using Google Fonts here. While I was pretty happy with the indirection of SASS variables for font family, I did go a little further and have variables for color and weight. Then I pulled out a fonts-only file. While I stopped short of writing a function that generated the Google Fonts URL, I still can change all font attributes in one place if I choose. That's a fine win.
 
