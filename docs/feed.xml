@@ -5,7 +5,7 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2023-07-15T15:16:20-07:00</updated>
+  <updated>2023-07-16T09:01:13-07:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
@@ -23,7 +23,7 @@
 
 &lt;h2&gt;CSS Factoring&lt;/h2&gt;
 
-&lt;p&gt;CSS, in this case, SCSS, is source code worth factoring just like any other code. Now that I’d trimmed the sytlesheets signficantly, I felt it worth organizing them better for later maintenance. Maybe I won’t feel the need to throw out and start over in anohter year!&lt;/p&gt;
+&lt;p&gt;CSS, in this case SCSS, is source code worth factoring just like any other code. Now that I’d trimmed the stylesheets significantly, I felt it worth organizing them better for later maintenance. Maybe I won’t feel the need to throw out and start over in another year!&lt;/p&gt;
 
 &lt;p&gt;I’m using Google Fonts here. While I was pretty happy with the indirection of SASS variables for font family, I did go a little further and have variables for color and weight. Then I pulled out a fonts-only file. While I stopped short of writing a function that generated the Google Fonts URL, I still can change all font attributes in one place if I choose. That’s a fine win.&lt;/p&gt;
 
