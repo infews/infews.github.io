@@ -5,7 +5,7 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2023-07-16T09:01:13-07:00</updated>
+  <updated>2023-07-16T10:05:15-07:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
@@ -15,9 +15,11 @@
     <link href="https://dwf.bigpencil.net/more-blog-yakking/" rel="alternate"/>
     <id/>
     <published>2023-07-15T14:45:00-07:00</published>
+    <updated>2023-07-16T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">I did a couple more small things.</summary>
     <content type="html">
 &lt;p&gt;I continued to trim around the ears of this blog since last week. And a few things stood out that I felt worth sharing.&lt;/p&gt;
 
@@ -69,6 +71,7 @@ set :markdown,
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">Saying goodbye to Anchor Brewing</summary>
     <content type="html">
 &lt;p&gt;I spent the summer of 1990 in Europe, mostly in Leicester, England, taking classes at what is now &lt;a href=":%20https://www.dmu.ac.uk/home.aspx"&gt;DeMontfort University&lt;/a&gt;. That meant a summer drinking a lot of beer - English beer, mostly Leicester’s &lt;a href="https://www.everards.co.uk/our-beers/old-original/"&gt;Everard’s Old Original&lt;/a&gt; because, hey, Drink Local!&lt;/p&gt;
 
@@ -121,6 +124,7 @@ set :markdown,
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">All the details about the update and clean up this blog's code.</summary>
     <content type="html">
 &lt;p&gt;I thought some would be interested in my blog “refresh” story. It’s got several yaks that needed everything from a light trim to a buzz-cut/rogaine special.  Like any good technical project rathole, I started with a dependency update…&lt;/p&gt;
 
@@ -166,9 +170,11 @@ set :markdown,
     <link href="https://dwf.bigpencil.net/gogaruco-2013-storytime/" rel="alternate"/>
     <id/>
     <published>2023-06-28T08:09:00-07:00</published>
+    <updated>2023-07-11T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">A video from deep in the archives</summary>
     <content type="html">
 &lt;p&gt;Way back in 2013 I got a last minute request from &lt;a href="https://ruby.social/@sarahmei"&gt;Sarah Mei&lt;/a&gt; for a 10 minute talk during the Golden Gate Ruby Conference’s “Story time.” IIRC, it was meant to be a “break time” talk. Something light and fun so that the attendee’s brains could catch up a bit between deep technical sessions.&lt;/p&gt;
 
@@ -188,9 +194,11 @@ uncovered the video this week. And that it had 200+ views!&lt;/p&gt;
     <link href="https://dwf.bigpencil.net/3x-but-it-s-people/" rel="alternate"/>
     <id/>
     <published>2022-06-19T14:58:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">How I think about people when I think about 3X.</summary>
     <content type="html">
 &lt;p&gt;Kent Beck’s “3X” model is an interesting way to think about software work over the life of a product. Read the &lt;a href="https://medium.com/@kentbeck_7670/the-product-development-triathlon-6464e2763c46"&gt;article&lt;/a&gt; and watch this &lt;a href="https://www.youtube.com/watch?v=YGhS8VQpS6s"&gt;video&lt;/a&gt; for a catch-up.&lt;/p&gt;
 
@@ -243,9 +251,11 @@ uncovered the video this week. And that it had 200+ views!&lt;/p&gt;
     <link href="https://dwf.bigpencil.net/what-brown-mms-taught-me-about-software/" rel="alternate"/>
     <id/>
     <published>2022-01-16T18:51:00-08:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">Not all software experience is programming.</summary>
     <content type="html">
 &lt;p&gt;&lt;em&gt;I wrote this originally in 2013, and it’s been hosted on the Pivotal Labs, then Pivotal Software, and now VMware Tanzu blog ever since. But I wanted to keep a copy of it around. So here you go, with some light editing.&lt;/em&gt;&lt;/p&gt;
 
@@ -287,9 +297,11 @@ uncovered the video this week. And that it had 200+ views!&lt;/p&gt;
     <link href="https://dwf.bigpencil.net/job-search-obsidian-update/" rel="alternate"/>
     <id/>
     <published>2021-09-17T14:36:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">A small update to my Obsidian Notebook and templates for tracking a job search</summary>
     <content type="html">
 &lt;p&gt;I wrote an article a few months ago about how I was using &lt;a href="https://obsidian.md"&gt;Obsidian&lt;/a&gt; to take &lt;a href="/my-obsidian-for-a-job-search/"&gt;copious notes during my job search&lt;/a&gt;. It covers research into companies, connections in my network, and keeps true to Obsidian daily notes patterns. I’ve kept up the practice and it has served me well. But I found a small tweak I wanted to share.&lt;/p&gt;
 
@@ -351,9 +363,11 @@ uncovered the video this week. And that it had 200+ views!&lt;/p&gt;
     <link href="https://dwf.bigpencil.net/managing-agile-teams/" rel="alternate"/>
     <id/>
     <published>2021-06-02T07:59:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">Agile teams and "management" do not have to be mutually exclusive. Management is essential the long term success of agile teams.</summary>
     <content type="html">
 &lt;p&gt;I stepped in it (again) on Dev Twitter, jumping into a discussion about management on agile teams. I saw &lt;a href="https://twitter.com/allenholub/status/1396171069627633667"&gt;this thread from @allenholub&lt;/a&gt; that had an interesting reply from &lt;a href="https://twitter.com/alexbunardzic"&gt;@alexbunardzic&lt;/a&gt;:&lt;/p&gt;
 
@@ -444,9 +458,11 @@ uncovered the video this week. And that it had 200+ views!&lt;/p&gt;
     <link href="https://dwf.bigpencil.net/on-pair-programming/" rel="alternate"/>
     <id/>
     <published>2021-05-26T07:51:00-07:00</published>
+    <updated>2023-07-04T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">In which I talk about my experience and ideas on how to build a sustainable pairing environment for your team.</summary>
     <content type="html">
 &lt;p&gt;The internet had a bit of a buzz about &lt;a href="https://www.simplermachines.com/the-mortifying-ordeal-of-pairing-all-day/"&gt;Nat Bennett’s thoughtful post on their pairing experience&lt;/a&gt;. I think they did a great job talking about the personal impact of the pros and the cons of how we practiced pair programming at Pivotal.&lt;/p&gt;
 
@@ -520,9 +536,11 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <link href="https://dwf.bigpencil.net/my-obsidian-for-a-job-search/" rel="alternate"/>
     <id/>
     <published>2021-04-30T17:03:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">How to use an Obsidian vault that tracks all of the research, interview notes, and status during a job search.</summary>
     <content type="html">
 &lt;p&gt;My friends have been great about asking me how my current job search is going. Twice in the last month, people have asked a follow-up, “How are you tackling the problem?”&lt;/p&gt;
 
@@ -563,9 +581,11 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <link href="https://dwf.bigpencil.net/cmd-o-is-my-new-and-old-friend/" rel="alternate"/>
     <id/>
     <published>2021-04-30T17:00:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">One keystroke for Obsidian search-or-create. This. Is. Awesome.</summary>
     <content type="html">
 &lt;p&gt;When I was a big &lt;a href="https://brettterpstra.com/projects/nvalt/"&gt;nvALT&lt;/a&gt; user, I got very used to a specific set of actions whenever I needed to take notes on something I would…&lt;/p&gt;
 
@@ -602,9 +622,11 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <link href="https://dwf.bigpencil.net/big-pencil/" rel="alternate"/>
     <id/>
     <published>2021-03-21T11:22:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">Whenever someone asks me about the bigpencil.net domain, I get to tell this story.</summary>
     <content type="html">
 &lt;p&gt;Whenever someone asks me about the bigpencil.net domain, I get to tell this story.&lt;/p&gt;
 
@@ -635,9 +657,11 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <link href="https://dwf.bigpencil.net/obsidian-links/" rel="alternate"/>
     <id/>
     <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">Linking to Obs from other apps is power.</summary>
     <content type="html">
 &lt;p&gt;Obsidian’s URL scheme is fabulous. A link of this form:&lt;/p&gt;
 
@@ -656,9 +680,11 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <link href="https://dwf.bigpencil.net/community-plugin-calendar/" rel="alternate"/>
     <id/>
     <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">The calendar helps you build the daily journal habit.</summary>
     <content type="html">&lt;p&gt;This plug-in works with the Daily Notes plug-in. It adds a new tab in the right pane that gives a single-month view. Each date links to that day’s daily note, with a cute dot notation for the length of that note. You can also browse back and forth between months.&lt;/p&gt;
 
 &lt;p&gt;I find this is faster for zeroing in on historical notes. And sometimes you just need another calendar right in front of you during the day.&lt;/p&gt;
@@ -669,9 +695,11 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <link href="https://dwf.bigpencil.net/thoughts-on-vaults/" rel="alternate"/>
     <id/>
     <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">When to Vault and when not to.</summary>
     <content type="html">&lt;p&gt;I keep nearly all of my notes in one Obsidian vault. I’ve found that cross-linking and my daily journaling have benefited the most from keeping everything in one directory and thus vault.&lt;/p&gt;
 
 &lt;p&gt;I do have separate vaults for dedicated topics of longer form writing. I have an ongoing blog series that has its own vault. And I have another for a topic that may turn into a book.&lt;/p&gt;
@@ -687,9 +715,11 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <link href="https://dwf.bigpencil.net/one-on-one-notes/" rel="alternate"/>
     <id/>
     <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">1-1s are a special type of note.</summary>
     <content type="html">
 &lt;p&gt;I have several regular meetings with a handful of people. These meetings are often peer-to-peer or manager-to-person type meetings. Here is how I use Obsidian to take notes during these meetings.&lt;/p&gt;
 
@@ -782,9 +812,11 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <link href="https://dwf.bigpencil.net/love-the-command-palette/" rel="alternate"/>
     <id/>
     <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">It takes me a while to learn new commands.</summary>
     <content type="html">
 &lt;p&gt;While I’m still learning how to use Obsidian, I find the Command Palette amazing. &lt;code&gt;Ctrl+P/Cmd+P&lt;/code&gt; brings up a searchable list of commands. I find new actions here all the time. And it’s the fastest way to put an &lt;a href="/obsidian-links"&gt;Obsidian URL&lt;/a&gt; on your clipboard.&lt;/p&gt;
 
@@ -795,9 +827,11 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <link href="https://dwf.bigpencil.net/using-links/" rel="alternate"/>
     <id/>
     <published>2021-03-21T09:13:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">Cross note linking that isn't Markdown is OK.</summary>
     <content type="html">
 &lt;p&gt;For internal links, I use the &lt;code&gt;[[wiki links]]&lt;/code&gt; style. This is the default option and I find it’s just faster when I’m typing and am pretty sure there’s a note I want to link to. And if I’m wrong, it’s one click to make that note.&lt;/p&gt;
 
@@ -816,9 +850,11 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <link href="https://dwf.bigpencil.net/using-tags/" rel="alternate"/>
     <id/>
     <published>2021-03-21T09:13:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">Tag it for easier search.</summary>
     <content type="html">&lt;p&gt;I am not a huge tag user. I find the search very good and the Linked/Unlinked mentions tab enlightening.&lt;/p&gt;
 
 &lt;p&gt;However, I do have a few categories of notes I want called out. So I will drop a hashtag at the bottom of the file, below a Horizontal Rule, where it is out of the way. I’ve found I like this better than using YAML front matter.&lt;/p&gt;
@@ -832,9 +868,11 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <link href="https://dwf.bigpencil.net/core-plugin-templates/" rel="alternate"/>
     <id/>
     <published>2021-03-21T09:12:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">DRY up your notes.</summary>
     <content type="html">&lt;p&gt;I enabled the Core plugin for Templates. This allows you to specify a directory of templates - just Markdown files - for when you create new notes.&lt;/p&gt;
 
 &lt;p&gt;You get a new button on the left gutter called Insert Template for inserting templated text.&lt;/p&gt;
@@ -859,9 +897,11 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <link href="https://dwf.bigpencil.net/core-plugin-daily-journal/" rel="alternate"/>
     <id/>
     <published>2021-03-20T17:27:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">The Daily Journal is key to remembering things.</summary>
     <content type="html">
 &lt;p&gt;I use the Core Daily Journal plugin every day.&lt;/p&gt;
 
@@ -906,9 +946,11 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <link href="https://dwf.bigpencil.net/driven-to-tests/" rel="alternate"/>
     <id/>
     <published>2021-02-02T13:53:00-08:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">TDD all the things!</summary>
     <content type="html">
 &lt;hr /&gt;
 
@@ -983,9 +1025,11 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <link href="https://dwf.bigpencil.net/start-with-retrospectives/" rel="alternate"/>
     <id/>
     <published>2020-11-29T16:00:00-08:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">Every team improvement journey starts with a retro.</summary>
     <content type="html">
 &lt;p&gt;You have read &lt;a href="https://dwf.bigpencil.net/series/the-cd-test/"&gt;The CD Test&lt;/a&gt; and it resonates with you. Continuous Delivery sounds great as a concept. Your team is doing some of these practices, but not all.  Your list of questions with “no” answers sounds like a good to do list. You know that changing how the team works could improve the team’s momentum. That means shipping new features to your customers more often. And that means increasing business value of your product smoothly and steadily.&lt;/p&gt;
 
@@ -1046,9 +1090,11 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <link href="https://dwf.bigpencil.net/the-name-game/" rel="alternate"/>
     <id/>
     <published>2020-11-21T16:20:00-08:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">My contribution to this 'what you call me' meme from 2020.</summary>
     <content type="html">&lt;p&gt;&lt;em&gt;From the “Can you pronounce my name” game/meme from Twitter early fall, 2020. I love this one.&lt;/em&gt; —dwf&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Davis:&lt;/strong&gt; 10/10 All day&lt;/p&gt;
@@ -1073,9 +1119,11 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <link href="https://dwf.bigpencil.net/the-continuous-delivery-test/" rel="alternate"/>
     <id/>
     <published>2020-11-04T16:00:00-08:00</published>
+    <updated>2023-07-04T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html"/>
     <content type="html">
 &lt;p&gt;&lt;em&gt;The spice must flow…&lt;/em&gt;&lt;/p&gt;
 
@@ -1261,9 +1309,11 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <link href="https://dwf.bigpencil.net/covid-19-inspired-meal-planning/" rel="alternate"/>
     <id/>
     <published>2020-09-23T17:00:00-07:00</published>
+    <updated>2021-05-15T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">How I experimented to make weekly meal planning work well for our family.</summary>
     <content type="html">
 &lt;p&gt;&lt;em&gt;Originally published as a &lt;a href="https://twitter.com/dwfrank/status/1297643495897706496"&gt;tweetstorm&lt;/a&gt;, I expanded this one a little to make it more blog-worthy.&lt;br /&gt;
 &lt;br /&gt;&lt;br /&gt;—dwf&lt;/em&gt;&lt;/p&gt;
@@ -1374,9 +1424,11 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <link href="https://dwf.bigpencil.net/improving-standups/" rel="alternate"/>
     <id/>
     <published>2020-09-21T17:00:00-07:00</published>
+    <updated>2021-05-15T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">One simple technique to tame your suddenly unwiedly daily standup meeting.</summary>
     <content type="html">
 &lt;p&gt;Your software development team has a daily standup meeting. How’s that going?&lt;/p&gt;
 
@@ -1488,9 +1540,11 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
     <link href="https://dwf.bigpencil.net/foo-fighters-1995/" rel="alternate"/>
     <id/>
     <published>2020-09-14T17:00:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">My Foo Fighters Tweets.</summary>
     <content type="html">&lt;p&gt;&lt;em&gt;A tweetstorm I wrote up from being at a very early Foo Fighters’ show. I’ve kept this in Tweet format because I wrote it in 280-word segments.&lt;br /&gt;
 &lt;br /&gt;&lt;br /&gt;–dwf&lt;/em&gt;&lt;/p&gt;
 
@@ -1517,9 +1571,11 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
     <link href="https://dwf.bigpencil.net/drake-your-job/" rel="alternate"/>
     <id/>
     <published>2018-08-02T17:00:00-07:00</published>
+    <updated>2021-05-28T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">In which I use math to evaluate if I should switch jobs and which job I should accept.</summary>
     <content type="html">
 &lt;p&gt;&lt;em&gt;I originally published this on &lt;a href="https://blog.usejournal.com/drake-your-job-5c55b706bb18"&gt;Medium&lt;/a&gt; in 2018. I’ve made a few copy edits, but the content and intent is the same. &lt;br /&gt;
 &lt;br /&gt;&lt;br /&gt;–dwf&lt;/em&gt;&lt;/p&gt;
@@ -1620,9 +1676,11 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
     <link href="https://dwf.bigpencil.net/goodbye-chris-cornell/" rel="alternate"/>
     <id/>
     <published>2017-05-17T17:00:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">Remembering my Soundgarden encounter.</summary>
     <content type="html">
 &lt;p&gt;&lt;em&gt;Originally written as a &lt;a href="https://twitter.com/dwfrank/status/865661929800335360"&gt;tweetstorm&lt;/a&gt; after Chris Cornell’s suicide. I’ve expanded a bit more here.&lt;br /&gt;
 &lt;br /&gt;—dwf&lt;/em&gt;&lt;/p&gt;
@@ -1660,9 +1718,11 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
     <link href="https://dwf.bigpencil.net/goodbye-jonathan-demme/" rel="alternate"/>
     <id/>
     <published>2017-04-25T17:00:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">Remembering how Jonathan Demme made me a Talking Heads fan.</summary>
     <content type="html">
 &lt;p&gt;&lt;em&gt;Originally written as a &lt;a href="https://twitter.com/dwfrank/status/857378526428667904"&gt;tweetstorm&lt;/a&gt; on the death of Jonathan Demme. I’ve expanded a bit more here.&lt;br /&gt;
 &lt;br /&gt;&lt;br /&gt;—dwf&lt;/em&gt;&lt;/p&gt;
@@ -1687,9 +1747,11 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
     <link href="https://dwf.bigpencil.net/how-one-funny-email-almost-changed-my-career/" rel="alternate"/>
     <id/>
     <published>2016-10-05T17:00:00-07:00</published>
+    <updated>2023-07-06T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">How to write a goodbye email that people remember for years.</summary>
     <content type="html">
 &lt;p&gt;&lt;em&gt;Originally published at &lt;a href="https://medium.com/@dwfrank/how-one-funny-email-almost-changed-my-career-80b20ee7c5ff"&gt;Medium&lt;/a&gt;. But really originally published on Palm’s Outlook server in 2006.&lt;br /&gt;
 &lt;br /&gt;–dwf&lt;/em&gt;&lt;/p&gt;
@@ -1736,9 +1798,11 @@ When you think yourself a fun and funny co-worker, you want that email to be &lt
     <link href="https://dwf.bigpencil.net/how-we-xp/" rel="alternate"/>
     <id/>
     <published>2015-10-31T17:00:00-07:00</published>
+    <updated>2021-05-15T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">A short summary of how I think about the path of features from development, through Continuous Integration, and into Production.</summary>
     <content type="html">
 &lt;p&gt;&lt;em&gt;Originally written (and posted to &lt;a href="https://medium.com/@dwfrank/how-we-xp-develop-deploy-13faf089420b"&gt;Medium&lt;/a&gt;) for a friend who while around software for a while, and seen some agile teams, he was just starting to manage one directly. So I wrote up this bit of a braindump.&lt;br /&gt;
 &lt;br /&gt;&lt;br /&gt;–dwf&lt;/em&gt;&lt;/p&gt;
@@ -1864,9 +1928,11 @@ When you think yourself a fun and funny co-worker, you want that email to be &lt
     <link href="https://dwf.bigpencil.net/bose-customer-service/" rel="alternate"/>
     <id/>
     <published>2011-04-20T17:00:00-07:00</published>
+    <updated>2021-05-15T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">SPOILER ALERT: Sometimes big companies don't suck.</summary>
     <content type="html">&lt;p&gt;I have a set of Bose QC2 noise-canceling headphones that I use every day. I bought them in late 2007. They don’t make my BART commute quiet, but they make it tolerable enough that I can listen to music and podcasts.&lt;/p&gt;
 
 &lt;p&gt;Within the first year the wire started to fray a little. I walked into the Bose store in San Francisco and without blinking they gave me a new cable. Very cool.&lt;/p&gt;
@@ -1905,9 +1971,11 @@ When you think yourself a fun and funny co-worker, you want that email to be &lt
     <link href="https://dwf.bigpencil.net/kids-teachable-moments/" rel="alternate"/>
     <id/>
     <published>2011-03-23T17:00:00-07:00</published>
+    <updated>2021-05-15T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
+    <summary type="html">In which my son learns about lost luggage.</summary>
     <content type="html">
 &lt;p&gt;Back to Work’s episode &lt;em&gt;&lt;a href="http://5by5.tv/b2w/8"&gt;Little Velvet Hands&lt;/a&gt;&lt;/em&gt; was in my head the other day, so I used it in a teachable moment with my son.&lt;/p&gt;
 
