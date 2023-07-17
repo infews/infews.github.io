@@ -12,10 +12,10 @@ keywords:
 teaser: "Not all software experience is programming."
 ---
 
-[pc]: https://en.wikipedia.org/wiki/PC_LOAD_LETTER#:~:text=PC%20LOAD%20LETTER%20is%20a,confusing%20or%20inappropriate%20error%20message.&text=It%20means%20that%20the%20printer,no%20such%20paper%20is%20available.
+[pc]: https://en.wikipedia.org/wiki/PC_LOAD_LETTER
 [interview]: https://techcrunch.com/2013/06/22/the-technical-interview-is-dead/
 [big_data]: https://www.nytimes.com/2013/06/20/business/in-head-hunting-big-data-may-not-be-such-a-big-deal.html
-[dee]: https://en.wikipedia.org/wiki/Deee-Lite
+[dee]: https://en.wikipedia.org/wiki/deee-lite
 [mm]: https://www.vhnd.com/2013/01/03/van-halens-no-brown-mms-concert-rider-infographic/
 [rider]: https://www.slate.com/blogs/behold/2013/06/02/henry_hargreaves_band_riders_pokes_fun_at_the_outrageous_requests_of_rock.html
 
