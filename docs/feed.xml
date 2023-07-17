@@ -5,7 +5,7 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2023-07-16T10:05:15-07:00</updated>
+  <updated>2023-07-17T15:31:53-07:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
@@ -14,8 +14,6 @@
     <title>A Little More Yak Trimming</title>
     <link href="https://dwf.bigpencil.net/more-blog-yakking/" rel="alternate"/>
     <id/>
-    <published>2023-07-15T14:45:00-07:00</published>
-    <updated>2023-07-16T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -62,18 +60,19 @@ set :markdown,
 
 &lt;p&gt;That’s enough blog yak shaving for a while. Back to writing…&lt;/p&gt;
 </content>
+    <published>2023-07-15T14:45:00-07:00</published>
+    <updated>2023-07-16T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Anchor's Away</title>
     <link href="https://dwf.bigpencil.net/anchors-away/" rel="alternate"/>
     <id/>
-    <published>2023-07-12T14:51:00-07:00</published>
     <author>
       <name>Davis W. Frank</name>
     </author>
     <summary type="html">Saying goodbye to Anchor Brewing</summary>
     <content type="html">
-&lt;p&gt;I spent the summer of 1990 in Europe, mostly in Leicester, England, taking classes at what is now &lt;a href=":%20https://www.dmu.ac.uk/home.aspx"&gt;DeMontfort University&lt;/a&gt;. That meant a summer drinking a lot of beer - English beer, mostly Leicester’s &lt;a href="https://www.everards.co.uk/our-beers/old-original/"&gt;Everard’s Old Original&lt;/a&gt; because, hey, Drink Local!&lt;/p&gt;
+&lt;p&gt;I spent the summer of 1990 in Europe, mostly in Leicester, England, taking classes at what is now &lt;a href="https://www.dmu.ac.uk/home.aspx"&gt;DeMontfort University&lt;/a&gt;. That meant a summer drinking a lot of beer - English beer, mostly Leicester’s &lt;a href="https://www.everards.co.uk/our-beers/old-original/"&gt;Everard’s Old Original&lt;/a&gt; because, hey, Drink Local!&lt;/p&gt;
 
 &lt;p&gt;I was dreading heading back to Athens, GA, and being stuck with the beer choices we had. The microbrew revolution - thanks, &lt;a href="https://content.kegworks.com/blog/how-jimmy-carter-sparked-the-craft-beer-revolution"&gt;President Carter&lt;/a&gt;! - ironically hadn’t made it to Georgia just yet. Which meant my beer choices were slim. So slim that were were happy with Killian’s Irish Red and ecstatic with the occasional splurge on Samuel Smith’s 4-packs.&lt;/p&gt;
 
@@ -115,12 +114,13 @@ set :markdown,
   &lt;li&gt;The judges also would have accepted the title of “Anchor Finally on the Fritz”.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
+    <published>2023-07-12T14:51:00-07:00</published>
+    <updated>2023-07-17T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Shaving The Blog Yak</title>
     <link href="https://dwf.bigpencil.net/shaving-the-blog-yak/" rel="alternate"/>
     <id/>
-    <published>2023-07-11T09:43:00-07:00</published>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -164,13 +164,12 @@ set :markdown,
 
 &lt;p&gt;Was this yak shaving? Absolutely. Was it fun? Also absolutely.&lt;/p&gt;
 </content>
+    <published>2023-07-11T09:43:00-07:00</published>
   </entry>
   <entry>
     <title>GoGaRuCo 2013 Storytime</title>
     <link href="https://dwf.bigpencil.net/gogaruco-2013-storytime/" rel="alternate"/>
     <id/>
-    <published>2023-06-28T08:09:00-07:00</published>
-    <updated>2023-07-11T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -188,13 +187,13 @@ uncovered the video this week. And that it had 200+ views!&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=ueeZKPGNk6I"&gt;GoGaRuCo 2013 - Afternoon Storytime - How I test-drove my Career&lt;/a&gt; (YouTube)&lt;/p&gt;
 
 </content>
+    <published>2023-06-28T08:09:00-07:00</published>
+    <updated>2023-07-11T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>3X but It's People</title>
     <link href="https://dwf.bigpencil.net/3x-but-it-s-people/" rel="alternate"/>
     <id/>
-    <published>2022-06-19T14:58:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -245,13 +244,13 @@ uncovered the video this week. And that it had 200+ views!&lt;/p&gt;
 &lt;p&gt;Thinking about the 3X’s of people can help you staff your projects for maximum productivity and happiness. It turns out software is made of people.&lt;/p&gt;
 
 </content>
+    <published>2022-06-19T14:58:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>What Brown M&amp;M's Taught Me About Software</title>
     <link href="https://dwf.bigpencil.net/what-brown-mms-taught-me-about-software/" rel="alternate"/>
     <id/>
-    <published>2022-01-16T18:51:00-08:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -265,15 +264,15 @@ uncovered the video this week. And that it had 200+ views!&lt;/p&gt;
 
 &lt;p&gt;The booking agent had just quoted a larger fee than expected. I had not negotiated the finances of a show before. This skill was in the job description but was rarely exercised. Students’ wallets only open so far. This wasn’t going to work. I was stumped.&lt;/p&gt;
 
-&lt;p&gt;This all came rushing back recently when &lt;a href="http://techcrunch.com/2013/06/22/the-technical-interview-is-dead/"&gt;Google announced&lt;/a&gt; that their traditional methods of recruiting and interviewing were not predictive of new college graduates’ success. They see the academic computer science environment as being &lt;a href="http://www.nytimes.com/2013/06/20/business/in-head-hunting-big-data-may-not-be-such-a-big-deal.html"&gt;very different than the corporate software environment&lt;/a&gt;. This was not much of a surprise to me. Submitting a class project is not the same as shipping production code. The job of a software engineer is to design, develop, and ship while working on project teams with other people, high stress, and big consequences.&lt;/p&gt;
+&lt;p&gt;This all came rushing back recently when &lt;a href="https://techcrunch.com/2013/06/22/the-technical-interview-is-dead/"&gt;Google announced&lt;/a&gt; that their traditional methods of recruiting and interviewing were not predictive of new college graduates’ success. They see the academic computer science environment as being &lt;a href="https://www.nytimes.com/2013/06/20/business/in-head-hunting-big-data-may-not-be-such-a-big-deal.html"&gt;very different than the corporate software environment&lt;/a&gt;. This was not much of a surprise to me. Submitting a class project is not the same as shipping production code. The job of a software engineer is to design, develop, and ship while working on project teams with other people, high stress, and big consequences.&lt;/p&gt;
 
 &lt;p&gt;Said another way, there the real world is not in a computer lab.&lt;/p&gt;
 
 &lt;p&gt;But my entire college career was not just in the computer labs on UGA’s South Campus. I was one of the few geeks who ventured to the middle of campus and got involved with the University Union. I “worked” with mostly North Campus majors – Journalism, English, Drama, and Art – at the Tate Student Center, booking movies, concerts, and lectures on campus. At the time, there were very few terminals, algorithms, or compilers around.&lt;/p&gt;
 
-&lt;p&gt;Computers were starting to proliferate around campus – I spent plenty of time teaching MS Word shortcuts, recovering deleted files, and solving &lt;a href="https://en.wikipedia.org/wiki/PC_LOAD_LETTER#:~:text=PC%20LOAD%20LETTER%20is%20a,confusing%20or%20inappropriate%20error%20message.&amp;amp;text=It%20means%20that%20the%20printer,no%20such%20paper%20is%20available."&gt;PC LOAD LETTERs&lt;/a&gt;. But aside from one concert where I was able to re-program &lt;a href="http://en.wikipedia.org/wiki/Deee-Lite"&gt;Dee-Lite’s&lt;/a&gt; lighting system – I was the only person who could count in binary and knew how to flip some barely-accessible dip switches – my CS knowledge did not get much use around the Tate Center.&lt;/p&gt;
+&lt;p&gt;Computers were starting to proliferate around campus – I spent plenty of time teaching MS Word shortcuts, recovering deleted files, and solving &lt;a href="https://en.wikipedia.org/wiki/PC_LOAD_LETTER"&gt;PC LOAD LETTERs&lt;/a&gt;. But aside from one concert where I was able to re-program &lt;a href="https://en.wikipedia.org/wiki/deee-lite"&gt;Dee-Lite’s&lt;/a&gt; lighting system – I was the only person who could count in binary and knew how to flip some barely-accessible dip switches – my CS knowledge did not get much use around the Tate Center.&lt;/p&gt;
 
-&lt;p&gt;I started as a freshman moving speakers and taking tickets. I worked my way up the ranks, finding artists on tour, working security, and buying the obscure things that were &lt;a href="http://www.vhnd.com/2013/01/03/van-halens-no-brown-mms-concert-rider-infographic/"&gt;buried&lt;/a&gt; on &lt;a href="http://www.slate.com/blogs/behold/2013/06/02/henry_hargreaves_band_riders_pokes_fun_at_the_outrageous_requests_of_rock.html"&gt;contract riders&lt;/a&gt;. By my last year I was managing the sound and light crew and finding runners (who had approval to drive from the University motor pool) to pick up food for 40 people so we ate before show time.&lt;/p&gt;
+&lt;p&gt;I started as a freshman moving speakers and taking tickets. I worked my way up the ranks, finding artists on tour, working security, and buying the obscure things that were &lt;a href="https://www.vhnd.com/2013/01/03/van-halens-no-brown-mms-concert-rider-infographic/"&gt;buried&lt;/a&gt; on &lt;a href="https://www.slate.com/blogs/behold/2013/06/02/henry_hargreaves_band_riders_pokes_fun_at_the_outrageous_requests_of_rock.html"&gt;contract riders&lt;/a&gt;. By my last year I was managing the sound and light crew and finding runners (who had approval to drive from the University motor pool) to pick up food for 40 people so we ate before show time.&lt;/p&gt;
 
 &lt;p&gt;There are so many similarities between producing a concert and shipping software. Each is a large project that involves a lot of moving parts: complex dependent subsystems, opaque politics, resource budgets, and vocal customers. I spent time coordinating multiple service vendors, student teams, and a musical artist. I managed budgets, ran marketing campaigns, and represented student interests to the school administration. I learned to be ready for anything – to stop, assess and find simple, effective solutions that achieve some manner of consensus.&lt;/p&gt;
 
@@ -291,13 +290,13 @@ uncovered the video this week. And that it had 200+ views!&lt;/p&gt;
 
 &lt;p&gt;Today I’d just say “Ship it!”&lt;/p&gt;
 </content>
+    <published>2022-01-16T18:51:00-08:00</published>
+    <updated>2023-07-17T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Job Search Journaling with Obsidian - updated</title>
     <link href="https://dwf.bigpencil.net/job-search-obsidian-update/" rel="alternate"/>
     <id/>
-    <published>2021-09-17T14:36:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -357,13 +356,13 @@ uncovered the video this week. And that it had 200+ views!&lt;/p&gt;
 &lt;/ul&gt;
 
 </content>
+    <published>2021-09-17T14:36:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>What I Talk About When I Talk About Management</title>
     <link href="https://dwf.bigpencil.net/managing-agile-teams/" rel="alternate"/>
     <id/>
-    <published>2021-06-02T07:59:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -452,13 +451,13 @@ uncovered the video this week. And that it had 200+ views!&lt;/p&gt;
 &lt;script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 
 </content>
+    <published>2021-06-02T07:59:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>On Pair Programming</title>
     <link href="https://dwf.bigpencil.net/on-pair-programming/" rel="alternate"/>
     <id/>
-    <published>2021-05-26T07:51:00-07:00</published>
-    <updated>2023-07-04T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -472,7 +471,7 @@ uncovered the video this week. And that it had 200+ views!&lt;/p&gt;
 
 &lt;h2&gt;Pairing at Pivotal Labs&lt;/h2&gt;
 
-&lt;p&gt;The Pivotal Labs consulting practice was built to immerse product teams in agile practices. Those practices started with &lt;a href="https://en.wikipedia.org/wiki/Extreme_programming"&gt;Extreme Programming&lt;/a&gt; (XP), and added &lt;a href="http://theleanstartup.com/"&gt;Lean Startup&lt;/a&gt; and &lt;a href="https://tanzu.vmware.com/developer/learningpaths/application-development/balanced-teams/"&gt;Balanced Team&lt;/a&gt; over time. Clients paid for and expected the immersion. The work was (almost exclusively) in our offices, thus away from their normal day-to-day routines, to maximize exposure to new ways of working.&lt;/p&gt;
+&lt;p&gt;The Pivotal Labs consulting practice was built to immerse product teams in agile practices. Those practices started with &lt;a href="https://en.wikipedia.org/wiki/Extreme_programming"&gt;Extreme Programming&lt;/a&gt; (XP), and added &lt;a href="https://theleanstartup.com/"&gt;Lean Startup&lt;/a&gt; and &lt;a href="https://tanzu.vmware.com/developer/learningpaths/application-development/balanced-teams/"&gt;Balanced Team&lt;/a&gt; over time. Clients paid for and expected the immersion. The work was (almost exclusively) in our offices, thus away from their normal day-to-day routines, to maximize exposure to new ways of working.&lt;/p&gt;
 
 &lt;p&gt;For developers, XP includes pairing. So developers - pivots and clients - paired from 9am to 6pm. Every day sitting at your own keyboard, mouse, and screen, but at the same computer as another developer (who has their own keyboard mouse and screen). The coaching and learning and dead ends and green-test-runs and high-fives were constant. Breaks happened - people got up to walk around the block, play ping pong, get coffee, etc. But still, it was exhausting.&lt;/p&gt;
 
@@ -530,13 +529,13 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 
 &lt;p&gt;In my experience I’ve seen pair programming work in a lot of contexts. But for pairing to &lt;em&gt;last&lt;/em&gt; in a lot of contexts, you need to remember that your developers are people. And you need to take care of people first so that they can take care of the product and themselves.&lt;/p&gt;
 </content>
+    <published>2021-05-26T07:51:00-07:00</published>
+    <updated>2023-07-17T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>My Obsidian for a Job Search</title>
     <link href="https://dwf.bigpencil.net/my-obsidian-for-a-job-search/" rel="alternate"/>
     <id/>
-    <published>2021-04-30T17:03:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -575,13 +574,13 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;p&gt;It’s also a GitHub repo. So issues welcome. Though I will be picky about PR’s. Make this your own.&lt;/p&gt;
 
 </content>
+    <published>2021-04-30T17:03:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Cmd-O is My New and Old Friend</title>
     <link href="https://dwf.bigpencil.net/cmd-o-is-my-new-and-old-friend/" rel="alternate"/>
     <id/>
-    <published>2021-04-30T17:00:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -616,13 +615,13 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;p&gt;Just glorious.&lt;/p&gt;
 
 </content>
+    <published>2021-04-30T17:00:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>History of The Big Pencil</title>
     <link href="https://dwf.bigpencil.net/big-pencil/" rel="alternate"/>
     <id/>
-    <published>2021-03-21T11:22:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -651,13 +650,13 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;p&gt;That note has been in this frame ever since.&lt;/p&gt;
 
 </content>
+    <published>2021-03-21T11:22:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Obsidian URLs</title>
     <link href="https://dwf.bigpencil.net/obsidian-links/" rel="alternate"/>
     <id/>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -674,13 +673,13 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;p&gt;With any note open, “Copy Obsidian URL” is available via the Command Palette and the note menu.&lt;/p&gt;
 
 </content>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Community Plugin: Calendar</title>
     <link href="https://dwf.bigpencil.net/community-plugin-calendar/" rel="alternate"/>
     <id/>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -689,13 +688,13 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 
 &lt;p&gt;I find this is faster for zeroing in on historical notes. And sometimes you just need another calendar right in front of you during the day.&lt;/p&gt;
 </content>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Thoughts on Vaults</title>
     <link href="https://dwf.bigpencil.net/thoughts-on-vaults/" rel="alternate"/>
     <id/>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -709,13 +708,13 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;p&gt;I keep the all of my vaults as subdirectories in one directory that lives online for ease of access from different computers and mobile devices. At the moment this is on Dropbox.&lt;/p&gt;
 
 </content>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Note Taking in 1-1's</title>
     <link href="https://dwf.bigpencil.net/one-on-one-notes/" rel="alternate"/>
     <id/>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -806,13 +805,13 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 
 &lt;p&gt;I will add new Topics to the Person’s note as they come up. The Linked Mentions tab becomes a great historical list of our 1-1 meetings.&lt;/p&gt;
 </content>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Don't Sleep on the Command Palette</title>
     <link href="https://dwf.bigpencil.net/love-the-command-palette/" rel="alternate"/>
     <id/>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -821,13 +820,13 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;p&gt;While I’m still learning how to use Obsidian, I find the Command Palette amazing. &lt;code&gt;Ctrl+P/Cmd+P&lt;/code&gt; brings up a searchable list of commands. I find new actions here all the time. And it’s the fastest way to put an &lt;a href="/obsidian-links"&gt;Obsidian URL&lt;/a&gt; on your clipboard.&lt;/p&gt;
 
 </content>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Using Links</title>
     <link href="https://dwf.bigpencil.net/using-links/" rel="alternate"/>
     <id/>
-    <published>2021-03-21T09:13:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -835,7 +834,7 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <content type="html">
 &lt;p&gt;For internal links, I use the &lt;code&gt;[[wiki links]]&lt;/code&gt; style. This is the default option and I find it’s just faster when I’m typing and am pretty sure there’s a note I want to link to. And if I’m wrong, it’s one click to make that note.&lt;/p&gt;
 
-&lt;p&gt;For external links, I have a strong preference for &lt;a href="&amp;quot;https://www.markdownguide.org/basic-syntax/#reference-style-links&amp;quot;"&gt;reference-style links&lt;/a&gt; in my notes. Given that I spend so much time in Edit Mode, I find this keeps the notes more readable.&lt;/p&gt;
+&lt;p&gt;For external links, I have a strong preference for &lt;a href="https://www.markdownguide.org/basic-syntax#reference-style-links"&gt;reference-style links&lt;/a&gt; in my notes. Given that I spend so much time in Edit Mode, I find this keeps the notes more readable.&lt;/p&gt;
 
 &lt;p&gt;I use named references, usually only one word, and stay away from numbers. Why? Because I’m always re-ordering them.&lt;/p&gt;
 
@@ -844,13 +843,13 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;p&gt;I also like putting them at the bottom of the current note, below a Horizontal Rule, where they are out of the way. I have experimented with putting all of the references at the top of the file, but for now, I keep them at the bottom.&lt;/p&gt;
 
 </content>
+    <published>2021-03-21T09:13:00-07:00</published>
+    <updated>2023-07-17T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Using Tags</title>
     <link href="https://dwf.bigpencil.net/using-tags/" rel="alternate"/>
     <id/>
-    <published>2021-03-21T09:13:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -862,13 +861,13 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;p&gt;As I type this, I realize that all of the tags I care about are types of notes and thus have templates associated with them. So each template includes the tag. I barely even think about them except when searching.&lt;/p&gt;
 
 </content>
+    <published>2021-03-21T09:13:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Core Plugin: Templates</title>
     <link href="https://dwf.bigpencil.net/core-plugin-templates/" rel="alternate"/>
     <id/>
-    <published>2021-03-21T09:12:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -891,13 +890,13 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 
 &lt;p&gt;And yes, the Daily Journal plugin is fine with the daily template living in this directory.&lt;/p&gt;
 </content>
+    <published>2021-03-21T09:12:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Core Plugin: Daily Journal</title>
     <link href="https://dwf.bigpencil.net/core-plugin-daily-journal/" rel="alternate"/>
     <id/>
-    <published>2021-03-20T17:27:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -940,13 +939,13 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 
 &lt;p&gt;I talk about linking to people in &lt;a href="/one-on-one-notes"&gt;Obsidian 1-1’s&lt;/a&gt;.&lt;/p&gt;
 </content>
+    <published>2021-03-20T17:27:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Driven to Tests</title>
     <link href="https://dwf.bigpencil.net/driven-to-tests/" rel="alternate"/>
     <id/>
-    <published>2021-02-02T13:53:00-08:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -996,7 +995,7 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 
 &lt;p&gt;Getting started is easy. It is as simple as writing code in the “test, fail, implement, pass” pattern. And playing with some refactoring along the way. &lt;em&gt;Where&lt;/em&gt; to start is harder.&lt;/p&gt;
 
-&lt;p&gt;If you’re a book person, Kent Beck’s &lt;a href="https://amzn.to/3sYihAu"&gt;TDD By Example&lt;/a&gt; is great. If you’re a tutorial type, take a look at James Shore’s &lt;a href="http://www.jamesshore.com/v2/projects/lets-play-tdd"&gt;Let’s Play&lt;/a&gt; casts. If you’re a doc-crawler, try Test Double’s &lt;a href="https://github.com/testdouble/contributing-tests/wiki"&gt;TDD wiki&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you’re a book person, Kent Beck’s &lt;a href="https://amzn.to/3sYihAu"&gt;TDD By Example&lt;/a&gt; is great. If you’re a tutorial type, take a look at James Shore’s &lt;a href="https://www.jamesshore.com/v2/projects/lets-play-tdd"&gt;Let’s Play&lt;/a&gt; casts. If you’re a doc-crawler, try Test Double’s &lt;a href="https://github.com/testdouble/contributing-tests/wiki"&gt;TDD wiki&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;If it feels too daunting to start with your product code base, try smaller, isolated problems. There are plenty of TDD exercizes out there (including the Test Double wiki above). Or you can pick up something like &lt;a href="https://adventofcode.com/"&gt;Advent of Code&lt;/a&gt;, which has fun problems with test data and test answers. When comfortable with your new habits, take them back to your product development.&lt;/p&gt;
 
@@ -1019,13 +1018,13 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
   &lt;/ol&gt;
 &lt;/div&gt;
 </content>
+    <published>2021-02-02T13:53:00-08:00</published>
+    <updated>2023-07-17T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Start with Retrospectives</title>
     <link href="https://dwf.bigpencil.net/start-with-retrospectives/" rel="alternate"/>
     <id/>
-    <published>2020-11-29T16:00:00-08:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -1065,7 +1064,7 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 
 &lt;p&gt;This retro scenario introduces the metaphor of using a catapult to fling yourself over a mountain to a destination. You draw the catapult, the mountain, and the destination all on your whiteboard.&lt;/p&gt;
 
-&lt;p&gt;(If you don’t like the idea of being flung over a mountain, there are different options. &lt;a href="https://www.pagerduty.com/blog/4-step-agile-sailboat-retrospective/"&gt;The Sailboat&lt;/a&gt;, &lt;a href="https://www.funretrospectives.com/hot-air-balloon-bad-weather/"&gt;The Balloon&lt;/a&gt;, and &lt;a href="http://retrospectivewiki.org/index.php?title=Mountain_Hiking"&gt;The Mountain Hiker&lt;/a&gt; are similar agendas that will work just as well.)&lt;/p&gt;
+&lt;p&gt;(If you don’t like the idea of being flung over a mountain, there are different options. &lt;a href="https://www.pagerduty.com/blog/4-step-agile-sailboat-retrospective/"&gt;The Sailboat&lt;/a&gt;, &lt;a href="https://www.funretrospectives.com/hot-air-balloon-bad-weather/"&gt;The Balloon&lt;/a&gt;, and &lt;a href="https://retrospectivewiki.org/index.php?title=Mountain_Hiking"&gt;The Mountain Hiker&lt;/a&gt; are similar agendas that will work just as well.)&lt;/p&gt;
 
 &lt;p&gt;You discuss your current state. How is the team working today? How have you met team goals? How have you met product and business goals? Each key point gets a sticky note and goes near the catapult. Next, you discuss your desired, future state. What new product features are coming? And what business goals will they help achieve? Again, key points get stickies and goes to the board. The discussion here is important. You are building alignment about today and tomorrow.&lt;/p&gt;
 
@@ -1084,13 +1083,13 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;p&gt;Retrospectives are the foundation for any great team. They build trust. They surface issues when they are painful. And they allow a team to improve continuously as they deliver continuously.&lt;/p&gt;
 
 </content>
+    <published>2020-11-29T16:00:00-08:00</published>
+    <updated>2023-07-17T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>The Name Game</title>
     <link href="https://dwf.bigpencil.net/the-name-game/" rel="alternate"/>
     <id/>
-    <published>2020-11-21T16:20:00-08:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -1113,13 +1112,13 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 
 &lt;p&gt;&lt;strong&gt;DWF (rhymes with “woof”):&lt;/strong&gt; 12/10 💪 I have cooked for you&lt;/p&gt;
 </content>
+    <published>2020-11-21T16:20:00-08:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Introducing The Continuous Delivery Test</title>
     <link href="https://dwf.bigpencil.net/the-continuous-delivery-test/" rel="alternate"/>
     <id/>
-    <published>2020-11-04T16:00:00-08:00</published>
-    <updated>2023-07-04T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -1303,13 +1302,13 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;p&gt;The team should review the open action items at the beginning of each retro. This serves as a reminder to the owners. They are helping the team fix a problem and making everyone more productive and happy. When an action item is complete, the team should celebrate!&lt;/p&gt;
 
 </content>
+    <published>2020-11-04T16:00:00-08:00</published>
+    <updated>2023-07-04T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>COVID-19-Inspired Meal Planning</title>
     <link href="https://dwf.bigpencil.net/covid-19-inspired-meal-planning/" rel="alternate"/>
     <id/>
-    <published>2020-09-23T17:00:00-07:00</published>
-    <updated>2021-05-15T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -1418,13 +1417,13 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;p&gt;What did I learn? A spreadsheet is a great place to start with any new app that is data-related. There’s a threshold you cross where project’s complexity begs for multiple tabs, conditional logic, and &lt;em&gt;gasp&lt;/em&gt; queries. When you see that threshold, taking a look at &lt;a href="https://www.airtable.com"&gt;Airtable&lt;/a&gt;, or maybe the newly announced &lt;a href="https://tables.area120.google.com/u/0/home"&gt;Google Tables&lt;/a&gt;, is a good investment.&lt;/p&gt;
 
 </content>
+    <published>2020-09-23T17:00:00-07:00</published>
+    <updated>2021-05-15T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Improving Standups</title>
     <link href="https://dwf.bigpencil.net/improving-standups/" rel="alternate"/>
     <id/>
-    <published>2020-09-21T17:00:00-07:00</published>
-    <updated>2021-05-15T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -1434,7 +1433,7 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 
 &lt;p&gt;Teams at Pivotal had a fairly common agenda for standup. We reviewed Helps (“I need help with…”), Interestings (“Yesterday I learned that…), and Events (“What are we doing besides coding today?”). We rarely got into the details of specific work unless there were team-wide concerns or if someone had a specific question.&lt;/p&gt;
 
-&lt;p&gt;Keeping to this agenda daily and keeping the ritual alive over time takes effort. We wrote a &lt;a href="https://github.com/pivotal-legacy/whiteboard"&gt;Rails app&lt;/a&gt; to help. Over time we realized that there are additional, some emergent, problems that cropped up during our meetings.&lt;/p&gt;
+&lt;p&gt;Keeping to this agenda daily and keeping the ritual alive over time takes effort. We wrote a Rails app to help. Over time we realized that there are additional, some emergent, problems that cropped up during our meetings.&lt;/p&gt;
 
 &lt;h2&gt;Standup Problems&lt;/h2&gt;
 
@@ -1457,7 +1456,7 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
   &lt;li&gt;The ritual is lightweight enough to allow for iteration, but solid enough to perpetuate.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Having some sort of physical board present in a team’s area can work well. Put this information in one place, use it to drive the daily ritual, and it lives the rest of the day as an information radiator for the team and the rest of the office. Some Cloud Foundry teams even had &lt;a href="https://www.amazon.com/s?k=fuji+instax&amp;amp;crid=30RYK9F4OJF9A&amp;amp;sprefix=fuji+insta%2Caps%2C203&amp;amp;ref=nb_sb_ss_i_6_10"&gt;Fuji Instax&lt;/a&gt; photos of each team member and moved them around to identify pairings and which stories they were implementing.&lt;/p&gt;
+&lt;p&gt;Having some sort of physical board present in a team’s area can work well. Put this information in one place, use it to drive the daily ritual, and it lives the rest of the day as an information radiator for the team and the rest of the office. Some Cloud Foundry teams even had &lt;a href="https://www.amazon.com/s?k=fuji+instax"&gt;Fuji Instax&lt;/a&gt; photos of each team member and moved them around to identify pairings and which stories they were implementing.&lt;/p&gt;
 
 &lt;p&gt;The physical board breaks down as soon as the team has one remote team member. Given how COVID-19 has made so many teams fully remote, what can we do?&lt;/p&gt;
 
@@ -1534,13 +1533,13 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
 &lt;p&gt;This is just a starting point. It is ripe for innovation and iteration. Knock yourself out. But be careful of the yaks you choose to shave - it’s just for five minutes out of your team’s day. Do what works.&lt;/p&gt;
 
 </content>
+    <published>2020-09-21T17:00:00-07:00</published>
+    <updated>2023-07-17T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Foo Fighters 1995</title>
     <link href="https://dwf.bigpencil.net/foo-fighters-1995/" rel="alternate"/>
     <id/>
-    <published>2020-09-14T17:00:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -1565,13 +1564,13 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
 
 &lt;blockquote class="twitter-tweet" data-conversation="none"&gt;&lt;p lang="en" dir="ltr"&gt;Then one of the other band members jumps in. “You member that one night in Portland? When they started MOSHING? To f’n EXHAUSTED? That never happens.” Dave - “Oh, yeah. By the end that was NUTS. What a show!”&lt;br /&gt;🎸🕺🤘 &lt;br /&gt;7/7&lt;/p&gt;&amp;mdash; Thank You for being a VOTER (@dwfrank) &lt;a href="https://twitter.com/dwfrank/status/1305724888284504064?ref_src=twsrc%5Etfw"&gt;September 15, 2020&lt;/a&gt;&lt;/blockquote&gt;
 </content>
+    <published>2020-09-14T17:00:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Drake Your Job</title>
     <link href="https://dwf.bigpencil.net/drake-your-job/" rel="alternate"/>
     <id/>
-    <published>2018-08-02T17:00:00-07:00</published>
-    <updated>2021-05-28T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -1670,13 +1669,13 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
 
 &lt;p&gt;What are the components of &lt;em&gt;your&lt;/em&gt; Drake Job Equation?&lt;/p&gt;
 </content>
+    <published>2018-08-02T17:00:00-07:00</published>
+    <updated>2021-05-28T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Goodbye Chris Cornell</title>
     <link href="https://dwf.bigpencil.net/goodbye-chris-cornell/" rel="alternate"/>
     <id/>
-    <published>2017-05-17T17:00:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -1712,13 +1711,13 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
 &lt;p&gt;This is what #adulting is all about.&lt;/p&gt;
 
 </content>
+    <published>2017-05-17T17:00:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Goodbye Jonathan Demme</title>
     <link href="https://dwf.bigpencil.net/goodbye-jonathan-demme/" rel="alternate"/>
     <id/>
-    <published>2017-04-25T17:00:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -1741,13 +1740,13 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
 
 &lt;p&gt;RIP and &lt;em&gt;Thank You&lt;/em&gt;, Mr. Demme.&lt;/p&gt;
 </content>
+    <published>2017-04-25T17:00:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>How One Funny Email Almost Changed My Career</title>
     <link href="https://dwf.bigpencil.net/how-one-funny-email-almost-changed-my-career/" rel="alternate"/>
     <id/>
-    <published>2016-10-05T17:00:00-07:00</published>
-    <updated>2023-07-06T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -1792,13 +1791,13 @@ When you think yourself a fun and funny co-worker, you want that email to be &lt
 &lt;p&gt;I guess I do.&lt;/p&gt;
 
 </content>
+    <published>2016-10-05T17:00:00-07:00</published>
+    <updated>2023-07-06T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>How We XP: Develop &amp; Deploy</title>
     <link href="https://dwf.bigpencil.net/how-we-xp/" rel="alternate"/>
     <id/>
-    <published>2015-10-31T17:00:00-07:00</published>
-    <updated>2021-05-15T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -1922,13 +1921,13 @@ When you think yourself a fun and funny co-worker, you want that email to be &lt
 
 &lt;p&gt;Code should always move towards Production. It increases the confidence in the code and keeps regressions low. When a fix is made downstream of development, then it’s harder than normal development to integrate that fix back in development.&lt;/p&gt;
 </content>
+    <published>2015-10-31T17:00:00-07:00</published>
+    <updated>2021-05-15T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Bose Customer Service</title>
     <link href="https://dwf.bigpencil.net/bose-customer-service/" rel="alternate"/>
     <id/>
-    <published>2011-04-20T17:00:00-07:00</published>
-    <updated>2021-05-15T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
@@ -1965,19 +1964,19 @@ When you think yourself a fun and funny co-worker, you want that email to be &lt
 
 &lt;p&gt;Meanwhile? Super Happy Customer.&lt;/p&gt;
 </content>
+    <published>2011-04-20T17:00:00-07:00</published>
+    <updated>2021-05-15T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Kids &amp; Teachable Moments</title>
     <link href="https://dwf.bigpencil.net/kids-teachable-moments/" rel="alternate"/>
     <id/>
-    <published>2011-03-23T17:00:00-07:00</published>
-    <updated>2021-05-15T00:00:00-07:00</updated>
     <author>
       <name>Davis W. Frank</name>
     </author>
     <summary type="html">In which my son learns about lost luggage.</summary>
     <content type="html">
-&lt;p&gt;Back to Work’s episode &lt;em&gt;&lt;a href="http://5by5.tv/b2w/8"&gt;Little Velvet Hands&lt;/a&gt;&lt;/em&gt; was in my head the other day, so I used it in a teachable moment with my son.&lt;/p&gt;
+&lt;p&gt;Back to Work’s episode &lt;em&gt;&lt;a href="https://5by5.tv/b2w/8"&gt;Little Velvet Hands&lt;/a&gt;&lt;/em&gt; was in my head the other day, so I used it in a teachable moment with my son.&lt;/p&gt;
 
 &lt;p&gt;We just took a family trip to Phoenix, AZ to catch a little Giants Spring Training (Merlin, that’s cricket). When we fly, we always have the kids, 5 &amp;amp; 9, pack &amp;amp; pull their own roller bags. All the better to teach how to navigate the whole airport thing. Plus ownership &amp;amp; responsibility is good, right?&lt;/p&gt;
 
@@ -2023,5 +2022,7 @@ When you think yourself a fun and funny co-worker, you want that email to be &lt
 
 &lt;p&gt;The boy, “Oh, MAN!”&lt;/p&gt;
 </content>
+    <published>2011-03-23T17:00:00-07:00</published>
+    <updated>2023-07-17T00:00:00-07:00</updated>
   </entry>
 </feed>
