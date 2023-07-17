@@ -9,7 +9,7 @@ keywords:
 teaser: "In which my son learns about lost luggage."
 ---
 
-[btw]: http://5by5.tv/b2w/8
+[btw]: https://5by5.tv/b2w/8
 
 Back to Work's episode _[Little Velvet Hands][btw]_ was in my head the other day, so I used it in a teachable moment with my son.
 

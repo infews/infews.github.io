@@ -14,7 +14,7 @@ teaser: "Every team improvement journey starts with a retro."
 ---
 [cdtest]: https://dwf.bigpencil.net/series/the-cd-test/
 [bml]: https://steveblank.com/2015/05/06/build-measure-learn-throw-things-against-the-wall-and-see-if-they-work/
-[ls]: http://theleanstartup.com/principles
+[ls]: https://theleanstartup.com/principles
 [xpeteam]: http://www.agile-process.org/team.html
 [psafe]: https://hbr.org/2017/08/high-performing-teams-need-psychological-safety-heres-how-to-create-it
 [retrosheet]: https://docs.google.com/spreadsheets/d/1t8L7uO6emxpMJ3i-JhJ-7QYzXXI5J0aIaOs18v5DWE0/edit?usp=sharing
@@ -26,7 +26,7 @@ teaser: "Every team improvement journey starts with a retro."
 [retros]: https://www.agilealliance.org/glossary/heartbeatretro/
 [sailboat]: https://www.pagerduty.com/blog/4-step-agile-sailboat-retrospective/
 [balloon]: https://www.funretrospectives.com/hot-air-balloon-bad-weather/
-[mountain]: http://retrospectivewiki.org/index.php?title=Mountain_Hiking
+[mountain]: https://retrospectivewiki.org/index.php?title=Mountain_Hiking
 [tips1]: https://www.funretrospectives.com/candy-love/
 [tips2]: https://spin.atomicobject.com/2014/04/07/improve-retrospective/
 [tips3]: https://www.mountaingoatsoftware.com/blog/overcoming-four-common-problems-with-retrospectives

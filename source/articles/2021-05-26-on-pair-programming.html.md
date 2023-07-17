@@ -16,7 +16,7 @@ teaser: "In which I talk about my experience and ideas on how to build a sustain
 [nat]: https://www.simplermachines.com/the-mortifying-ordeal-of-pairing-all-day/
 [pairing]:https://martinfowler.com/articles/on-pair-programming.html
 [xp]: https://en.wikipedia.org/wiki/Extreme_programming
-[lean]: http://theleanstartup.com/
+[lean]: https://theleanstartup.com/
 [bt]: https://tanzu.vmware.com/developer/learningpaths/application-development/balanced-teams/
 [jdawg]: https://janicefraser.com/
 [ubad]: https://vimeo.com/298568369

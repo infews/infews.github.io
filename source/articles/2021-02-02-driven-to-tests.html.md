@@ -19,7 +19,7 @@ teaser: "TDD all the things!"
 [steering_premise]: https://threadreaderapp.com/thread/1335623514959777795.html
 [kent_tddbe]: https://amzn.to/3sYihAu
 [tdd_docs]: https://github.com/testdouble/contributing-tests/wiki
-[lets_play]: http://www.jamesshore.com/v2/projects/lets-play-tdd
+[lets_play]: https://www.jamesshore.com/v2/projects/lets-play-tdd
 [failures]: https://blog.testdouble.com/posts/2014-01-25-the-failures-of-intro-to-tdd/
 [aoc]: https://adventofcode.com/
 [joel]: https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/
