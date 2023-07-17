@@ -12,8 +12,8 @@ keywords:
 series: obsidian
 teaser: "Cross note linking that isn't Markdown is OK."
 ---
-[ref]: "https://www.markdownguide.org/basic-syntax/#reference-style-links"
-[tags]: "/series/obsidian/using-tags"
+[ref]: https://www.markdownguide.org/basic-syntax#reference-style-links
+[tags]: /series/obsidian/using-tags
 
 For internal links, I use the `[[wiki links]]` style. This is the default option and I find it's just faster when I'm typing and am pretty sure there's a note I want to link to. And if I'm wrong, it's one click to make that note.
 
