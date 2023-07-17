@@ -28,4 +28,7 @@ gem 'rouge'
 # For finding unsplash photos
 gem "unsplash"
 
+# For checking URLs in rendered HTML before publishing
+gem "html-proofer", "~> 5.0"
+
 gem 'rake'

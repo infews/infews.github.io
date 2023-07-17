@@ -1,5 +1,7 @@
 require 'securerandom'
 require 'open3'
+require "bundler/setup"
+require "html-proofer"
 
 desc "Generate a Middleman unique ID for what have you"
 task :id do
@@ -41,6 +43,12 @@ task :ensure_clean_git do
     exit 1
   end
 end
+
+desc "Validate all the HTML, including links"
+task :html_proof do
+  HTMLProofer.check_directory("./docs").run
+end
+
 
 namespace :unsplash do
   desc "Find an unsplash photo"
