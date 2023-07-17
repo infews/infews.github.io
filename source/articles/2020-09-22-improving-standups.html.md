@@ -11,8 +11,7 @@ keywords:
 teaser: "One simple technique to tame your suddenly unwiedly daily standup meeting."
 ---
 
-[wb]: https://github.com/pivotal-legacy/whiteboard
-[fuji]: https://www.amazon.com/s?k=fuji+instax&crid=30RYK9F4OJF9A&sprefix=fuji+insta%2Caps%2C203&ref=nb_sb_ss_i_6_10
+[fuji]: https://www.amazon.com/s?k=fuji+instax
 [example]: https://trello.com/b/qcJ1Ba56/standup-example#
 [trello]: https://trello.com
 [miro]: https://miro.com
@@ -22,7 +21,7 @@ Your software development team has a daily standup meeting. How’s that going?
 
 Teams at Pivotal had a fairly common agenda for standup. We reviewed Helps (“I need help with…”), Interestings (“Yesterday I learned that…), and Events (“What are we doing besides coding today?”). We rarely got into the details of specific work unless there were team-wide concerns or if someone had a specific question.
 
-Keeping to this agenda daily and keeping the ritual alive over time takes effort. We wrote a [Rails app][wb] to help. Over time we realized that there are additional, some emergent, problems that cropped up during our meetings. 
+Keeping to this agenda daily and keeping the ritual alive over time takes effort. We wrote a Rails app to help. Over time we realized that there are additional, some emergent, problems that cropped up during our meetings. 
 
 ## Standup Problems 
 
