@@ -203,7 +203,7 @@ B.S., Computer Science, July 1992
 - Author of [Keydown][kd] a Markdown-to-HTML presentation builder (archived),
   and [Anchorman][am], a release notes generator from Git commit logs (archived)
 - Content reviewer for O’Reilly books on JavaScript Testing and Jasmine; [one of them][jbook] was published.
-- Presented sessions at [RailsConf][rc], Fluent (2012), and [Golden Gate Ruby Conference][story] (2013)
+- Presented sessions at [RailsConf][rc] (2009), Fluent (2012), and [Golden Gate Ruby Conference][story] (2013)
 - Mentoring Computer Science students via the [University of Georgia undergraduate mentoring program][mentor]
 - Co-inventor of three US patents related to software video acceleration; all held by Intel Corporation
   - Patents [US 5,751,270][p1], [US 5,572,232][p2], &amp; [US 5,546,103][p3]
