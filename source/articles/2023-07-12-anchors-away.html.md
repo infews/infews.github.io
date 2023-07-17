@@ -11,7 +11,7 @@ keywords:
 teaser: Saying goodbye to Anchor Brewing
 ---
 
-[lp]:: https://www.dmu.ac.uk/home.aspx
+[lp]: https://www.dmu.ac.uk/home.aspx
 [cc]: /goodbye-chris-cornell/
 [oo]: https://www.everards.co.uk/our-beers/old-original/
 [mj]: https://thetvdb.com/series/the-beer-hunter/episodes/345791
