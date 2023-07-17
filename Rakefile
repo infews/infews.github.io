@@ -14,14 +14,28 @@ task :article do
   exit
 end
 
-desc "Generate the site for GitHub pages"
+desc "Validate all the HTML, including links"
+task :html_proof => :build do
+  options = {
+    ignore_empty_mailto: true,
+    ignore_status_codes: [302, 307, 403, 429, 999]
+  }
+  HTMLProofer.check_directory("./build", options).run
+end
+
+desc "Generate a clean site ready to publish"
+task :prep => :build do
+  # rename the output for GitHub pages
+  sh "mv build docs"
+  # GitHub pages file means that they won't attempt to re-jekyll
+  sh "echo 'Built with Middleman' > docs/.nojekyll"
+  puts "Ready to commit and push."
+end
+
+desc "Generate the site"
 task :build => :clean do
   # generate the site
   sh "bundle exec middleman build clean"
-  # rename the output for GitHub pages
-  #sh "mv build docs"
-  # GitHub pages file means that they won't attempt to re-jekyll
-  #sh "echo 'Built with Middleman' > docs/.nojekyll"
 end
 
 desc "Clean all output directories"
@@ -43,16 +57,6 @@ task :ensure_clean_git do
     exit 1
   end
 end
-
-desc "Validate all the HTML, including links"
-task :html_proof => :build do
-  options = {
-    ignore_empty_mailto: true,
-    ignore_status_codes: [302, 307, 403, 429, 999]
-  }
-  HTMLProofer.check_directory("./build", options).run
-end
-
 
 namespace :unsplash do
   desc "Find an unsplash photo"
