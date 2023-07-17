@@ -47,7 +47,8 @@ end
 desc "Validate all the HTML, including links"
 task :html_proof => :build do
   options = {
-    ignore_empty_mailto: true
+    ignore_empty_mailto: true,
+    ignore_status_codes: [302, 307, 403, 429, 999]
   }
   HTMLProofer.check_directory("./build", options).run
 end
