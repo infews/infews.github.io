@@ -227,7 +227,7 @@ B.S., Computer Science, July 1992
 [bugs]: https://bugzilla.org
 [nci]: https://en.wikipedia.org/wiki/Nuclear_Cities_Initiative
 [bb]: https://en.wikipedia.org/wiki/Broderbund
-[carmen]: https://en.wikipedia.org/wiki/Carmen_Sandiego
+[carmen]: https://en.wikipedia.org/wiki/Carmen_Sandiego_(video_game_series)
 [riven]: https://store.steampowered.com/app/63610/Riven_The_Sequel_to_MYST/
 [uga]: https://uga.edu
 [hm]: https://www.harrisonmetal.com/
