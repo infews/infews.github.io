@@ -176,7 +176,7 @@ _Learned about startup craziness, the benefits of a good software development pr
 
 #### Software Engineer, Systems
 
-I maintained an animation codec, including combining two separate codebases in order to halve the time it took to fix a bug. I added this codec to games like _[Where in the World is Carmen Sandiego?](https://en.wikipedia.org/wiki/Carmen_Sandiego)_. I wrote MMX assembly routines for games, including _[Riven: The Sequel to Myst]("https://en.wikipedia.org/wiki/Riven")_.
+I maintained an animation codec, including combining two separate codebases in order to halve the time it took to fix a bug. I added this codec to games like _[Where in the World is Carmen Sandiego?](https://en.wikipedia.org/wiki/Carmen_Sandiego)_. I wrote MMX assembly routines for games, including _[Riven: The Sequel to Myst](https://store.steampowered.com/app/63610/Riven_The_Sequel_to_MYST/)_.
 
 _Learned how to code for a real-world consumer application deadline, how to simplify legacy code, how to work with Customer Support regarding high-cost bugs, and how to use personal contacts to establish a new business relationship. I never learned where in the world Carmen Sandiego was._
 
