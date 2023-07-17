@@ -15,7 +15,6 @@ teaser: "Every team improvement journey starts with a retro."
 [cdtest]: https://dwf.bigpencil.net/series/the-cd-test/
 [bml]: https://steveblank.com/2015/05/06/build-measure-learn-throw-things-against-the-wall-and-see-if-they-work/
 [ls]: https://theleanstartup.com/principles
-[xpeteam]: http://www.agile-process.org/team.html
 [psafe]: https://hbr.org/2017/08/high-performing-teams-need-psychological-safety-heres-how-to-create-it
 [retrosheet]: https://docs.google.com/spreadsheets/d/1t8L7uO6emxpMJ3i-JhJ-7QYzXXI5J0aIaOs18v5DWE0/edit?usp=sharing
 [Nicola]: https://tanzu.vmware.com/content/blog/how-to-run-a-really-good-retrospective
