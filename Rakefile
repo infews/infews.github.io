@@ -19,9 +19,9 @@ task :build => :clean do
   # generate the site
   sh "bundle exec middleman build clean"
   # rename the output for GitHub pages
-  sh "mv build docs"
+  #sh "mv build docs"
   # GitHub pages file means that they won't attempt to re-jekyll
-  sh "echo 'Built with Middleman' > docs/.nojekyll"
+  #sh "echo 'Built with Middleman' > docs/.nojekyll"
 end
 
 desc "Clean all output directories"
@@ -45,11 +45,11 @@ task :ensure_clean_git do
 end
 
 desc "Validate all the HTML, including links"
-task :html_proof do
+task :html_proof => :build do
   options = {
     ignore_empty_mailto: true
   }
-  HTMLProofer.check_directory("./docs", options).run
+  HTMLProofer.check_directory("./build", options).run
 end
 
 
