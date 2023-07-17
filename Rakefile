@@ -46,7 +46,10 @@ end
 
 desc "Validate all the HTML, including links"
 task :html_proof do
-  HTMLProofer.check_directory("./docs").run
+  options = {
+    ignore_empty_mailto: true
+  }
+  HTMLProofer.check_directory("./docs", options).run
 end
 
 
