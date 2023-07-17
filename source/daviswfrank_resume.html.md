@@ -204,7 +204,7 @@ B.S., Computer Science, July 1992
 - Co-author of [Jasmine](https://jasmine.github.io/), a BDD testing framework for Javascript
 - Author of [Keydown](https://github.com/infews/keydown) a Markdown-to-HTML presentation builder (archived),
   and [Anchorman](https://github.com/infews/anchorman), a release notes generator from Git commit logs (archived)
-- Content reviewer for O’Reilly books on JavaScript Testing and Jasmine; [one of them](http://shop.oreilly.com/product/0636920028277.do) was published.
+- Content reviewer for O’Reilly books on JavaScript Testing and Jasmine; [one of them](https://shop.oreilly.com/product/0636920028277.do) was published.
 - Presented sessions at [RailsConf](https://web.archive.org/web/20120531175448/http://en.oreilly.com/rails2009/public/schedule/detail/7035"}), Fluent (2012), and [Golden Gate Ruby Conference](https://youtu.be/ueeZKPGNk6I"})(2013)
 - Co-inventor of three US patents related to software video acceleration; all held by Intel Corporation
   - Patents [US 5,751,270](https://patents.google.com/patent/US5751270A/), [US 5,572,232](https://patents.google.com/patent/US5572232A/), &amp; [US 5,546,103](https://patents.google.com/patent/US5546103A/)
