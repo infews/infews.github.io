@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dwf.bigpencil.net/series/the-cd-test/</loc>
+    <loc>https://dwf.bigpencil.net/series/obsidian/</loc>
     <lastmod>2023-07-06T08:02:09-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -13,14 +13,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dwf.bigpencil.net/series/obsidian/</loc>
+    <loc>https://dwf.bigpencil.net/series/the-cd-test/</loc>
     <lastmod>2023-07-06T08:02:09-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/articles/series/obsidian/</loc>
-    <lastmod>2023-07-04T13:19:59-07:00</lastmod>
+    <lastmod>2023-07-18T07:54:49-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -105,6 +105,12 @@
   <url>
     <loc>https://dwf.bigpencil.net/job-search-obsidian-update/</loc>
     <lastmod>2023-07-12T09:31:48-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/curiousity-and-impatience/</loc>
+    <lastmod>2023-07-18T07:49:55-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -283,6 +289,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://dwf.bigpencil.net/tags/agile/</loc>
+    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/tags/software-development/</loc>
+    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://dwf.bigpencil.net/tags/software/</loc>
     <lastmod>2023-07-16T10:05:01-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -313,19 +331,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dwf.bigpencil.net/tags/agile/</loc>
-    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://dwf.bigpencil.net/tags/xp/</loc>
-    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://dwf.bigpencil.net/tags/software-development/</loc>
     <lastmod>2023-07-16T10:05:01-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
