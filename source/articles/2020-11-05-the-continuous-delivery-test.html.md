@@ -1,9 +1,14 @@
 ---
-
 title: Introducing The Continuous Delivery Test
 date: 2020-11-05 00:00 UTC
-tags: ["agile"]
-keywords: ["software development", "agile", "continuous delivery", "the cd test"]
+tags:
+  - agile
+  - software development
+  - continuous delivery
+keywords:
+  - agile
+  - software development
+  - continuous delivery
 series: the_cd_test
 
 ---
