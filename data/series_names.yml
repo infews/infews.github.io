@@ -1,2 +1,6 @@
-obsidian: How I Obsidian
-the_cd_test: The Continuous Delivery Test
+obsidian:
+  title: How I Obsidian
+  url_name: obsidian
+the_cd_test:
+  title: The Continuous Delivery Test
+  url_name: the-cd-test

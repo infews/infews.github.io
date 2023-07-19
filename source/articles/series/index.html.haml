@@ -3,7 +3,8 @@ pageable: true
 layout: layout
 ---
 
-%h1= data.series_names["#{series}"]
+- series_data = data.series_names["#{series}"]
+%h1= series_data["title"]
 %span.tagline A Blog Series
 
 %section.text
