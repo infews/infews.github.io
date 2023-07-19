@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://dwf.bigpencil.net/series/obsidian/</loc>
-    <lastmod>2023-07-06T08:02:09-07:00</lastmod>
+    <lastmod>2023-07-19T13:11:19-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/series/the-cd-test/</loc>
-    <lastmod>2023-07-06T08:02:09-07:00</lastmod>
+    <lastmod>2023-07-19T13:11:19-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -134,7 +134,7 @@
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/the-continuous-delivery-test/</loc>
-    <lastmod>2023-07-04T13:19:59-07:00</lastmod>
+    <lastmod>2023-07-19T08:56:37-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -362,6 +362,12 @@
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/tags/pair-programming/</loc>
+    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/tags/continuous-delivery/</loc>
     <lastmod>2023-07-16T10:05:01-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
