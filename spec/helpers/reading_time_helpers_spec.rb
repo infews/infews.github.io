@@ -1,25 +1,22 @@
-require_relative '../../helpers/reading_time_helpers'
+require_relative '../../helpers/updated_at_helpers'
 
-RSpec.describe ReadingTimeHelpers do
+RSpec.describe UpdatedAtHelpers do
   class Helpers
-    include ReadingTimeHelpers
+    include UpdatedAtHelpers
   end
 
   let(:helpers) {Helpers.new}
+  let(:filename) {"/Users/dwfrank/workspace/infews.github.io/source/articles/2011-03-24-kids-teachable-moments.html.md"}
 
-  context "when an article has a very short reading time" do
-    let(:article_body) { "this is a short article" }
-
-    it "returns an empty string" do
-      expect(helpers.reading_time_for(article_body)).to eq("under 1 minute to read")
+  describe "#updated_at" do
+    it "returns a Time object that's the last time the file was updated in git" do
+      expect(helpers.updated_at(filename)).to eq(Time.parse("2023-07-17 14:32:18.000000000 -0700"))
     end
   end
 
-  context "when an article has a longer reading time" do
-    let(:article_body) { "This is a longer article." * 300 }
-
-    it "returns an empty string" do
-      expect(helpers.reading_time_for(article_body)).to eq("about a 6 minute read")
+  describe "#updated_date" do
+    it "returns a String with just the date" do
+      expect(helpers.updated_date(filename)).to eq("2023.07.17")
     end
   end
 end
