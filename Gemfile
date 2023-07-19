@@ -32,3 +32,5 @@ gem "unsplash"
 gem "html-proofer", "~> 5.0"
 
 gem 'rake'
+gem "rspec"
+gem "standard"

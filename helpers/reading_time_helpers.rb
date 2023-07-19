@@ -7,7 +7,7 @@ module ReadingTimeHelpers
     if minutes > 0
       "about a #{minutes} minute read"
     else
-      "under 1 minute read"
+       "under 1 minute to read"
     end
   end
 end
