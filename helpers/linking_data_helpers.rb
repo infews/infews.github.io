@@ -1,22 +1,21 @@
-require 'json'
+require "json"
 
 module LinkingDataHelpers
   class LinkingData
-
     def initialize(options)
       path = options[:path].sub("index.html", "")
 
       @data = {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "genre": "software development",
-        "headline": headline("Home"),
-        "url": "https://dwf.bigpencil.net/#{path}",
-        "keywords": "software development, agile, career, personal",
-        "author": {
+        genre: "software development",
+        headline: headline("Home"),
+        url: "https://dwf.bigpencil.net/#{path}",
+        keywords: "software development, agile, career, personal",
+        author: {
           "@type": "Person",
-          "name": "Davis W. Frank",
-          "email": "dwfrank@gmail.com"
+          name: "Davis W. Frank",
+          email: "dwfrank@gmail.com"
         }
       }
     end
@@ -38,7 +37,7 @@ module LinkingDataHelpers
         Article
       elsif options[:series]
         Series
-      elsif options[:path] =~ /^tags/
+      elsif /^tags/.match?(options[:path])
         Tag
       else
         Page
@@ -47,7 +46,6 @@ module LinkingDataHelpers
   end
 
   class Article < LinkingData
-
     def initialize(options)
       super
       article = options[:article]
@@ -57,19 +55,18 @@ module LinkingDataHelpers
       modified_date = File.mtime(source_file).strftime("%Y-%m-%d")
 
       @data.merge!({
-        "headline": headline(article.data.title),
-        "keywords": article.data.keywords.join(","),
-        "datePublished": original_date,
-        "dateCreated": original_date,
-        "dateModified": modified_date,
-        "description": article.data.description,
-        "articleBody": strip_tags_from(article.body)
+        headline: headline(article.data.title),
+        keywords: article.data.keywords.join(","),
+        datePublished: original_date,
+        dateCreated: original_date,
+        dateModified: modified_date,
+        description: article.data.description,
+        articleBody: strip_tags_from(article.body)
       })
     end
   end
 
   class Series < LinkingData
-
     def initialize(options)
       super
 
@@ -79,37 +76,35 @@ module LinkingDataHelpers
       earliest_article = articles.last
 
       @data.merge!({
-        "headline": headline(options[:series]),
-        "datePublished": earliest_article.date.strftime("%Y-%m-%d"),
-        "dateCreated": earliest_article.date.strftime("%Y-%m-%d"),
-        "dateModified": most_recent_article.date.strftime("%Y-%m-%d"),
-        "articleBody": articles.collect { |a| a.title }.join(", ")
+        headline: headline(options[:series]),
+        datePublished: earliest_article.date.strftime("%Y-%m-%d"),
+        dateCreated: earliest_article.date.strftime("%Y-%m-%d"),
+        dateModified: most_recent_article.date.strftime("%Y-%m-%d"),
+        articleBody: articles.collect { |a| a.title }.join(", ")
       })
     end
   end
 
   class Tag < LinkingData
-
     def initialize(options)
       super
 
-      tag = options[:path].split('/')[1]
+      tag = options[:path].split("/")[1]
       articles = options[:articles]
       most_recent_article = articles.first
       earliest_article = articles.last
 
       @data.merge!({
-        "headline": headline("#{tag}"),
-        "datePublished": earliest_article.date.strftime("%Y-%m-%d"),
-        "dateCreated": earliest_article.date.strftime("%Y-%m-%d"),
-        "dateModified": most_recent_article.date.strftime("%Y-%m-%d"),
-        "articleBody": articles.collect { |a| a.title }.join(", ")
+        headline: headline(tag.to_s),
+        datePublished: earliest_article.date.strftime("%Y-%m-%d"),
+        dateCreated: earliest_article.date.strftime("%Y-%m-%d"),
+        dateModified: most_recent_article.date.strftime("%Y-%m-%d"),
+        articleBody: articles.collect { |a| a.title }.join(", ")
       })
     end
   end
 
   class Page < LinkingData
-
     def initialize(options)
       super
 
@@ -117,9 +112,9 @@ module LinkingDataHelpers
       modified_date = File.mtime(source_file).strftime("%Y-%m-%d")
 
       @data.merge!({
-        "datePublished": "2020-11-01",
-        "dateCreated": "2020-11-01",
-        "dateModified": modified_date
+        datePublished: "2020-11-01",
+        dateCreated: "2020-11-01",
+        dateModified: modified_date
       })
     end
   end

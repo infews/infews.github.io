@@ -1,7 +1,8 @@
-require 'securerandom'
-require 'open3'
+require "securerandom"
+require "open3"
 require "bundler/setup"
 require "html-proofer"
+require "standard/rake"
 
 desc "Generate a Middleman unique ID for what have you"
 task :id do
@@ -15,7 +16,7 @@ task :article do
 end
 
 desc "Validate all the HTML, including links"
-task :html_proof => :build do
+task html_proof: :build do
   options = {
     ignore_empty_mailto: true,
     ignore_status_codes: [302, 307, 403, 429, 503, 999]
@@ -24,7 +25,7 @@ task :html_proof => :build do
 end
 
 desc "Generate a clean site ready to publish"
-task :prep => :build do
+task prep: :build do
   # rename the output for GitHub pages
   sh "mv build docs"
   # GitHub pages file means that they won't attempt to re-jekyll
@@ -33,13 +34,13 @@ task :prep => :build do
 end
 
 desc "Generate the site"
-task :build => :clean do
+task build: :clean do
   # generate the site
   sh "bundle exec middleman build clean"
 end
 
 desc "Clean all output directories"
-task :clean => :ensure_clean_git do
+task clean: :ensure_clean_git do
   # delete the temp/dev directory and the GitHub pages output directory
   sh "rm -rf build"
   sh "rm -rf docs"
@@ -47,7 +48,7 @@ end
 
 desc "Prevent cleaning & building with uncommitted changes"
 task :ensure_clean_git do
-  stdout, stderr, status = Open3.capture3("git status -s")
+  stdout, _stderr, _status = Open3.capture3("git status -s")
 
   if !stdout.empty?
     puts
@@ -61,7 +62,7 @@ end
 namespace :unsplash do
   desc "Find an unsplash photo"
   task :find do
-    require 'unsplash'
+    require "unsplash"
     Unsplash.configure do |config|
       config.application_access_key = "eifkvBuxX_TUwJYsuWyaQnXr0np7fNBnqFI5s5EaFdk"
       config.application_secret = "VGOWjQ5VDGc2iG-vUAowPu0hGVoCUxeASa1zq7dT3fw"

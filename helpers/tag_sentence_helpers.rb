@@ -1,10 +1,9 @@
 module TagSentenceHelpers
-
-  def tag_sentence_for(tags, series_url, series_title="")
+  def tag_sentence_for(tags, series_url, series_title = "")
     tags = Array(tags)
     series_url ||= ""
 
-    if tags.empty? and series_url.empty?
+    if tags.empty? && series_url.empty?
       return ""
     end
 
@@ -20,7 +19,7 @@ module TagSentenceHelpers
     end
 
     if tags.length > 0
-      linked_tags = Array(tags).collect {|t| link_to(t, tag_url_for(t))}
+      linked_tags = Array(tags).collect { |t| link_to(t, tag_url_for(t)) }
       sentence << "tagged with #{linked_tags.to_sentence}"
     end
 
@@ -28,6 +27,6 @@ module TagSentenceHelpers
   end
 
   def tag_url_for(tag)
-    "/tags/#{tag.gsub(" ", "-")}"
+    "/tags/#{tag.tr(" ", "-")}"
   end
 end

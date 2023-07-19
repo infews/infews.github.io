@@ -1,12 +1,12 @@
-require_relative '../../helpers/updated_at_helpers'
+require_relative "../../helpers/updated_at_helpers"
+
+class Helpers
+  include UpdatedAtHelpers
+end
 
 RSpec.describe UpdatedAtHelpers do
-  class Helpers
-    include UpdatedAtHelpers
-  end
-
-  let(:helpers) {Helpers.new}
-  let(:filename) {"/Users/dwfrank/workspace/infews.github.io/source/articles/2011-03-24-kids-teachable-moments.html.md"}
+  let(:helpers) { Helpers.new }
+  let(:filename) { "/Users/dwfrank/workspace/infews.github.io/source/articles/2011-03-24-kids-teachable-moments.html.md" }
 
   describe "#updated_at" do
     it "returns a Time object that's the last time the file was updated in git" do

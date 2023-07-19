@@ -1,16 +1,16 @@
-require_relative '../../helpers/tag_sentence_helpers'
+require_relative "../../helpers/tag_sentence_helpers"
 require "active_support/core_ext/array/conversions"
 
-RSpec.describe TagSentenceHelpers do
-  class Helpers
-    include TagSentenceHelpers
+class Helpers
+  include TagSentenceHelpers
 
-    # lightweight dumb implementation because using Middleman's was complex
-    def link_to(text, url)
-      "<a href=\"#{url}\">#{text}</a>"
-    end
+  # lightweight dumb implementation because using Middleman's was complex
+  def link_to(text, url)
+    "<a href=\"#{url}\">#{text}</a>"
   end
+end
 
+RSpec.describe TagSentenceHelpers do
   let(:helpers) { Helpers.new }
 
   context "when an article has no tags and not part of a series" do
@@ -66,7 +66,6 @@ RSpec.describe TagSentenceHelpers do
       it "builds the right linked sentence" do
         expect(helpers.tag_sentence_for(tags, series_url, series_title)).to eq("This article is part of the series <a href=\"/series/sasquatch-coffee\">Sasquatch Coffee</a> and is tagged with <a href=\"/tags/foo\">foo</a> and <a href=\"/tags/bar\">bar</a>.")
       end
-
     end
   end
 
@@ -101,6 +100,5 @@ RSpec.describe TagSentenceHelpers do
         expect(helpers.tag_sentence_for(tags, series_url)).to eq("This article is tagged with <a href=\"/tags/foo\">foo</a>, <a href=\"/tags/bar\">bar</a>, and <a href=\"/tags/baz\">baz</a>.")
       end
     end
-
   end
 end

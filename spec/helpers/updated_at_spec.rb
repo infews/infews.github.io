@@ -1,11 +1,11 @@
-require_relative '../../helpers/reading_time_helpers'
+require_relative "../../helpers/reading_time_helpers"
+
+class Helpers
+  include ReadingTimeHelpers
+end
 
 RSpec.describe ReadingTimeHelpers do
-  class Helpers
-    include ReadingTimeHelpers
-  end
-
-  let(:helpers) {Helpers.new}
+  let(:helpers) { Helpers.new }
 
   context "when an article has a very short reading time" do
     let(:article_body) { "this is a short article" }
