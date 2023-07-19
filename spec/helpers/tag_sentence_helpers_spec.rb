@@ -51,24 +51,20 @@ RSpec.describe TagSentenceHelpers do
     context "and has no tags" do
       let(:tags) { nil }
       let(:series) { "sasquatch_coffee" }
-      let(:site_data) { double("site_data")}
-      let(:series_names) { {"sasquatch_coffee" => "Sasquatch Coffee"} }
+      let(:series_name) { "Sasquatch Coffee" }
 
       it "builds the right linked sentence" do
-        allow(site_data).to receive(:series_names) {series_names}
-        expect(helpers.tag_sentence_for(tags, series, site_data)).to eq("This article is part of the series <a href=\"/series/sasquatch_coffee\">Sasquatch Coffee</a>.")
+        expect(helpers.tag_sentence_for(tags, series, series_name)).to eq("This article is part of the series <a href=\"/series/sasquatch_coffee\">Sasquatch Coffee</a>.")
       end
     end
 
     context "and has tags" do
       let(:tags) { ["foo", "bar"] }
       let(:series) { "sasquatch_coffee" }
-      let(:site_data) { double("site_data")}
-      let(:series_names) { {"sasquatch_coffee" => "Sasquatch Coffee"} }
+      let(:series_name) { "Sasquatch Coffee" }
 
       it "builds the right linked sentence" do
-        allow(site_data).to receive(:series_names) {series_names}
-        expect(helpers.tag_sentence_for(tags, series, site_data)).to eq("This article is part of the series <a href=\"/series/sasquatch_coffee\">Sasquatch Coffee</a> and is tagged with <a href=\"/tags/foo\">foo</a> and <a href=\"/tags/bar\">bar</a>.")
+        expect(helpers.tag_sentence_for(tags, series, series_name)).to eq("This article is part of the series <a href=\"/series/sasquatch_coffee\">Sasquatch Coffee</a> and is tagged with <a href=\"/tags/foo\">foo</a> and <a href=\"/tags/bar\">bar</a>.")
       end
 
     end
