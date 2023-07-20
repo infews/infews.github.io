@@ -9,4 +9,8 @@ module GitDateHelpers
     time = updated_at(source_path)
     time.strftime("%Y.%m.%d")
   end
+  def updated_date_dashed(source_path)
+    time = updated_at(source_path)
+    time.strftime("%Y-%m-%d")
+  end
 end

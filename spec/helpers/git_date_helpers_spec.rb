@@ -19,4 +19,10 @@ RSpec.describe GitDateHelpers do
       expect(helpers.updated_date(filename)).to eq("2023.07.17")
     end
   end
+
+  describe "#updated_date_dashed" do
+    it "returns a String with just the date" do
+      expect(helpers.updated_date_dashed(filename)).to eq("2023-07-17")
+    end
+  end
 end
