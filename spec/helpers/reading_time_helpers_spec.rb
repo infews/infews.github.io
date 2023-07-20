@@ -23,4 +23,3 @@ RSpec.describe ReadingTimeHelpers do
     end
   end
 end
-

@@ -9,7 +9,7 @@ keywords:
   - agile
   - continuous delivery
   - the cd test
-series: the_cd_test
+series: the-cd-test
 teaser: "Every team improvement journey starts with a retro."
 ---
 [cdtest]: https://dwf.bigpencil.net/series/the-cd-test/

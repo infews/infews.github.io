@@ -10,7 +10,7 @@ keywords:
   - agile
   - continuous delivery
   - the cd test
-series: the_cd_test
+series: the-cd-test
 teaser: "TDD all the things!"
 ---
 

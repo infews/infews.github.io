@@ -1,6 +1,17 @@
 obsidian:
   title: How I Obsidian
-  url_name: obsidian
-the_cd_test:
+  teaser: All the tips, configuration, and even a few tricks for using Obsidian for your note taking.
+  keywords:
+    - obsidian
+    - note taking
+    - productivity
+    - text
+    - journaling
+the-cd-test:
   title: The Continuous Delivery Test
-  url_name: the-cd-test
+  teaser: A series about validating your software development team and get better at Continuous Delivery.
+  keywords:
+    - software development
+    - software engineering
+    - continuous delivery
+    - agile

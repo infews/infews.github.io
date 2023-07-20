@@ -9,7 +9,7 @@ keywords:
   - agile
   - software development
   - continuous delivery
-series: the_cd_test
+series: the-cd-test
 
 ---
 [slootman]: https://www.linkedin.com/pulse/amp-up-frank-slootman/

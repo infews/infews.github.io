@@ -1,3 +1,4 @@
+
 [xp]: http://extremeprogramming.org
 [bt]: https://tanzu.vmware.com/developer/learningpaths/application-development/balanced-teams/
 [ls]: https://theleanstartup.com/

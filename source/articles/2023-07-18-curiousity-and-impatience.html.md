@@ -12,7 +12,7 @@ keywords:
   - curiosity
   - impatience
   - Pivotal
-series: the_cd_test
+series: the-cd-test
 teaser: "Two under-valued behaviors that accelerate a team."
 ---
 [tbm]: https://cutlefish.substack.com/p/tbm-4952-your-calendar-your-priorities
