@@ -13,4 +13,16 @@ module GitDateHelpers
     time = updated_at(source_path)
     time.strftime("%Y-%m-%d")
   end
+
+  def created_date_dashed(source_path)
+    path = git_path(source_path)
+    time = Time.parse(` git log --pretty=format:"%ad" --date=short --diff-filter=A -- #{path}`)
+    time.strftime("%Y-%m-%d")
+  end
+
+  private
+
+  def git_path(full_path)
+    full_path.split("/").drop_while { |e| e != "source" }.join("/")
+  end
 end

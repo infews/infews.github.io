@@ -6,23 +6,29 @@ end
 
 RSpec.describe GitDateHelpers do
   let(:helpers) { Helpers.new }
-  let(:filename) { "/Users/dwfrank/workspace/infews.github.io/source/articles/2011-03-24-kids-teachable-moments.html.md" }
+  let(:full_path) { "/Users/dwfrank/workspace/infews.github.io/source/articles/2011-03-24-kids-teachable-moments.html.md" }
 
   describe "#updated_at" do
     it "returns a Time object that's the last time the file was updated in git" do
-      expect(helpers.updated_at(filename)).to eq(Time.parse("2023-07-17 14:32:18.000000000 -0700"))
+      expect(helpers.updated_at(full_path)).to eq(Time.parse("2023-07-17 14:32:18.000000000 -0700"))
     end
   end
 
   describe "#updated_date" do
     it "returns a String with just the date" do
-      expect(helpers.updated_date(filename)).to eq("2023.07.17")
+      expect(helpers.updated_date(full_path)).to eq("2023.07.17")
     end
   end
 
   describe "#updated_date_dashed" do
-    it "returns a String with just the date" do
-      expect(helpers.updated_date_dashed(filename)).to eq("2023-07-17")
+    it "returns a String with just the date in a dashed format" do
+      expect(helpers.updated_date_dashed(full_path)).to eq("2023-07-17")
+    end
+  end
+
+  describe "#created_at_dashed" do
+    it "returns a String with just the date in a dashed format" do
+      expect(helpers.created_date_dashed(full_path)).to eq("2020-09-21")
     end
   end
 end
