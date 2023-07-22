@@ -19,7 +19,7 @@ module LinkingDataHelpers
       @data.merge!(
         headline: @series_data.title,
         abstract: @series_data.teaser,
-        # keywords: @article_data.keywords,
+        keywords: @series_data.keywords,
       )
     end
 

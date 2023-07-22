@@ -70,7 +70,7 @@ RSpec.describe LinkingDataHelpers do
       it "includes the date fields" do
         expect(ld["datePublished"]).to eq("2020-09-20")
         expect(ld["dateCreated"]).to eq("2020-09-20")
-        expect(ld["dateModified"]).to eq("2023-07-04")
+        expect(ld["dateModified"]).to eq("2023-07-22")
       end
 
       it "includes relevant blog posts" do
@@ -125,6 +125,7 @@ RSpec.describe LinkingDataHelpers do
       it "includes the content fields" do
         expect(ld["headline"]).to eq("How I Obsidian")
         expect(ld["abstract"]).to match(/^All the tips/)
+        expect(ld["keywords"]).not_to be_empty
       end
 
       it "includes the date fields" do
