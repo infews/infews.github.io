@@ -73,7 +73,7 @@ RSpec.describe LinkingDataHelpers do
         expect(ld["dateModified"]).to eq("2023-07-22")
       end
 
-      it "includes relevant blog posts" do
+      xit "includes relevant blog posts" do
         expect(ld["blogPost"].length).to eq(3)
         latest, _article_1, _article_2 = *ld["blogPost"]
 

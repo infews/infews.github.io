@@ -34,7 +34,7 @@ module LinkingDataHelpers
           p.url = full_url
           p.published_at = created_date_dashed(current_page.source_file)
           p.updated_at = updated_date_dashed(current_page.source_file)
-          p.series_data = site_data.series_names[series]
+          p.series_data = site_data.series[series]
           p.is_authored_node
         end
       elsif current_page.url == "/"
