@@ -5,7 +5,7 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2023-07-19T15:23:49-07:00</updated>
+  <updated>2023-07-23T12:58:50-07:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
@@ -58,6 +58,7 @@
 &lt;p&gt;Stay impatient. Stay curious.&lt;/p&gt;
 </content>
     <published>2023-07-17T17:00:00-07:00</published>
+    <updated>2023-07-22T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>A Little More Yak Trimming</title>
@@ -1068,7 +1069,7 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;/div&gt;
 </content>
     <published>2021-02-02T13:53:00-08:00</published>
-    <updated>2023-07-17T00:00:00-07:00</updated>
+    <updated>2023-07-22T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Start with Retrospectives</title>
@@ -1133,7 +1134,7 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 
 </content>
     <published>2020-11-29T16:00:00-08:00</published>
-    <updated>2023-07-17T00:00:00-07:00</updated>
+    <updated>2023-07-22T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>The Name Game</title>
@@ -1352,7 +1353,7 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 
 </content>
     <published>2020-11-04T16:00:00-08:00</published>
-    <updated>2023-07-19T00:00:00-07:00</updated>
+    <updated>2023-07-22T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>COVID-19-Inspired Meal Planning</title>

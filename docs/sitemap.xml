@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://dwf.bigpencil.net/series/obsidian/</loc>
-    <lastmod>2023-07-19T13:11:19-07:00</lastmod>
+    <lastmod>2023-07-22T12:22:31-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/series/the-cd-test/</loc>
-    <lastmod>2023-07-19T13:11:19-07:00</lastmod>
+    <lastmod>2023-07-22T12:22:31-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -25,8 +25,8 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://dwf.bigpencil.net/articles/series/the_cd_test/</loc>
-    <lastmod>2023-07-17T14:24:40-07:00</lastmod>
+    <loc>https://dwf.bigpencil.net/articles/series/the-cd-test/</loc>
+    <lastmod>2023-07-22T12:13:12-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -98,7 +98,7 @@
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/driven-to-tests/</loc>
-    <lastmod>2023-07-17T14:32:18-07:00</lastmod>
+    <lastmod>2023-07-22T12:13:12-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -110,7 +110,7 @@
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/curiousity-and-impatience/</loc>
-    <lastmod>2023-07-18T07:49:55-07:00</lastmod>
+    <lastmod>2023-07-22T12:13:12-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -134,7 +134,7 @@
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/the-continuous-delivery-test/</loc>
-    <lastmod>2023-07-19T08:56:37-07:00</lastmod>
+    <lastmod>2023-07-22T12:13:12-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -248,7 +248,7 @@
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/start-with-retrospectives/</loc>
-    <lastmod>2023-07-17T14:39:04-07:00</lastmod>
+    <lastmod>2023-07-22T18:52:23-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -260,7 +260,7 @@
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/</loc>
-    <lastmod>2023-07-04T16:33:42-07:00</lastmod>
+    <lastmod>2023-07-22T12:13:12-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
