@@ -1,17 +1,17 @@
 module TagSentenceHelpers
-  def tag_sentence_for(tags, series_url, series_title = "")
+  def tag_sentence_for(tags, series_name, series_title = "")
     tags = Array(tags)
-    series_url ||= ""
+    series_name ||= ""
 
-    if tags.empty? && series_url.empty?
+    if tags.empty? && series_name.empty?
       return ""
     end
 
     sentence = ["This article is"]
 
-    unless series_url.empty?
+    unless series_name.empty?
       sentence << "part of the series"
-      sentence << "<a href=\"/series/#{series_url}\">#{series_title}</a>"
+      sentence << "<a href=\"/series/#{series_name}\">#{series_title}</a>"
 
       if tags.length > 0
         sentence << "and is"

@@ -36,7 +36,7 @@
 
       %p.tags
         - if current_article.data.series
-          - series = data.series[current_article.data.series]
-          - series_title = series["title"]
+          - series_name = current_article.data.series
+          - series_title = data.series[series_name].title
 
-        != tag_sentence_for(current_article.tags, series, series_title)
+        != tag_sentence_for(current_article.tags, series_name, series_title)
