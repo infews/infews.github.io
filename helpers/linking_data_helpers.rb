@@ -6,18 +6,22 @@ require_relative "./linking_data_helpers/dwf_ld"
 require_relative "./linking_data_helpers/series_ld"
 
 module LinkingDataHelpers
+
+  def full_url_for(path)
+    "https://dwf.bigpencil.net#{path}"
+  end
+
   def linking_data_for(options)
     current_page = options[:current_page]
     is_blog_article = options[:is_blog_article]
     blog = options[:blog]
     site_data = options[:site_data]
-
-    full_url = "https://dwf.bigpencil.net#{current_page.url}"
+    articles = options[:articles]
 
     linking_data =
       if is_blog_article
         ArticleLd.new do |p|
-          p.url = full_url
+          p.url = full_url_for(current_page.url)
           p.published_at = Date.parse(current_page.data.date).strftime("%Y-%m-%d")
           p.updated_at = updated_date_dashed(current_page.source_file)
           p.article_data = current_page.data
@@ -30,46 +34,61 @@ module LinkingDataHelpers
         #   # elsif /^\/tags/.match?(current_page.url)
       elsif /^\/series/.match?(current_page.url)
         series = current_page.url.split("/").last
-        SeriesLd.new do |p|
-          p.url = full_url
+        series_ld = SeriesLd.new do |p|
+          p.url = full_url_for(current_page.url)
           p.published_at = created_date_dashed(current_page.source_file)
           p.updated_at = updated_date_dashed(current_page.source_file)
           p.series_data = site_data.series[series]
           p.is_authored_node
         end
+
+        articles_ld =
+          articles.collect do |article|
+            pp article.data.date
+            a_ld =
+              ArticleLd.new do |p|
+                p.url = full_url_for(article.url)
+                p.published_at = Date.parse(article.data.date).strftime("%Y-%m-%d")
+                p.updated_at = updated_date_dashed(article.source_file)
+                p.article_data = article.data
+                p.is_authored_node
+              end
+            a_ld.linking_data
+          end
+
+        series_ld.articles = articles_ld
+        series_ld
       elsif current_page.url == "/"
         latest_article = options[:blog].articles.first
         latest_ld = ArticleLd.new do |p|
-          p.url = "https://dwf.bigpencil.net#{latest_article.url}"
+          p.url = full_url_for(latest_article.url)
           p.article_data = latest_article.data
         end
 
         HomeLd.new do |p|
-          p.url = "https://dwf.bigpencil.net/"
+          p.url = full_url_for(current_page.url)
           p.published_at = created_date_dashed(current_page.source_file)
           p.updated_at = updated_date_dashed(current_page.source_file)
-          p.articles = [latest_ld.data, latest_ld.data, latest_ld.data]
+          p.articles = [latest_ld.linking_data, latest_ld.linking_data, latest_ld.linking_data]
           p.is_authored_node
         end
       elsif current_page.url =~ /resume\/$/ || current_page.url =~ /about_me\/$/
         DwfLd.new do |p|
-          p.url = full_url
+          p.url = full_url_for(current_page.url)
           p.published_at = created_date_dashed(current_page.source_file)
           p.updated_at = updated_date_dashed(current_page.source_file)
           p.is_root_node
         end
       end
 
-    if linking_data.respond_to? :to_json
-      linking_data.to_json
-    end
+     linking_data.to_json
   end
 
   # class LinkingData
   #   def initialize(options)
   #     path = options[:path].sub("index.html", "")
   #
-  #     @data = {
+  #     @linking_data = {
   #       "@context": "https://schema.org",
   #       "@type": "BlogPosting",
   #       genre: "software development",
@@ -93,7 +112,7 @@ module LinkingDataHelpers
   #   end
   #
   #   def to_json
-  #     @data.to_json
+  #     @linking_data.to_json
   #   end
   #
   #   def self.class_for(options)
@@ -118,7 +137,7 @@ module LinkingDataHelpers
   #     source_file = Dir.glob("source/articles/#{original_date}-#{article.slug}*").first
   #     modified_date = File.mtime(source_file).strftime("%Y-%m-%d")
   #
-  #     @data.merge!({
+  #     @linking_data.merge!({
   #       headline: headline(article.data.title),
   #       keywords: article.data.keywords.join(","),
   #       datePublished: original_date,
@@ -139,7 +158,7 @@ module LinkingDataHelpers
   #     most_recent_article = articles.first
   #     earliest_article = articles.last
   #
-  #     @data.merge!({
+  #     @linking_data.merge!({
   #       headline: headline(options[:series]),
   #       datePublished: earliest_article.date.strftime("%Y-%m-%d"),
   #       dateCreated: earliest_article.date.strftime("%Y-%m-%d"),
@@ -158,7 +177,7 @@ module LinkingDataHelpers
   #     most_recent_article = articles.first
   #     earliest_article = articles.last
   #
-  #     @data.merge!({
+  #     @linking_data.merge!({
   #       headline: headline(tag.to_s),
   #       datePublished: earliest_article.date.strftime("%Y-%m-%d"),
   #       dateCreated: earliest_article.date.strftime("%Y-%m-%d"),
@@ -175,7 +194,7 @@ module LinkingDataHelpers
   #     source_file = Dir.glob("source/index.html.haml").first
   #     modified_date = File.mtime(source_file).strftime("%Y-%m-%d")
   #
-  #     @data.merge!({
+  #     @linking_data.merge!({
   #       datePublished: "2020-11-01",
   #       dateCreated: "2020-11-01",
   #       dateModified: modified_date

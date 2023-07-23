@@ -3,15 +3,16 @@ module LinkingDataHelpers
     include LinkingData
 
     attr_accessor :article_data, :stripped_body
+    attr_reader :linking_data
 
     def initialize
-      @data = {
+      @linking_data = {
         "@type": "BlogPosting"
       }
 
       yield self
 
-      @data.merge!(
+      @linking_data.merge!(
         headline: @article_data.title,
         abstract: @article_data.teaser,
         keywords: @article_data.keywords,

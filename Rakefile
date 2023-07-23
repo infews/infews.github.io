@@ -3,6 +3,9 @@ require "open3"
 require "bundler/setup"
 require "html-proofer"
 require "standard/rake"
+require "rspec/rake"
+
+task default: [:"standard:fix", :rspec]
 
 desc "Generate a Middleman unique ID for what have you"
 task :id do

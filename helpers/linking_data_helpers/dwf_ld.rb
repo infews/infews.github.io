@@ -5,7 +5,7 @@ module LinkingDataHelpers
     include LinkingData
 
     def initialize
-      @data = {
+      @linking_data = {
         "@type": "Person",
         name: "Davis W. Frank",
         email: "dwfrank@gmail.com",

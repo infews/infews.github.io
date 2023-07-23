@@ -33,7 +33,8 @@ RSpec.shared_examples "person fields" do
 end
 
 RSpec.describe LinkingDataHelpers do
-  let(:helpers) { Helpers.new }
+  # let(:helpers) { Helpers.new }
+  let(:date_re) { /\d\d\d\d-\d\d-\d\d/ }
 
   # Note: This is a full-stack test, rendering some files, then pulling in HTML
   #   of specific files, parsing the LD+JSON and checking the contents.
@@ -131,10 +132,13 @@ RSpec.describe LinkingDataHelpers do
       it "includes the date fields" do
         expect(ld["datePublished"]).to eq("2020-11-21")
         expect(ld["dateCreated"]).to eq("2020-11-21")
-        expect(ld["dateModified"]).to eq("2023-07-19")
+        expect(ld["dateModified"]).to eq("2023-07-22")
       end
 
-      it "includes articles"
+      it "includes articles" do
+        articles = ld["blogPost"]
+        expect(articles.length).to eq(12)
+      end
     end
 
     context "for the about me page " do

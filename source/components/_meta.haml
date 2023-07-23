@@ -2,8 +2,11 @@
 %meta{name: "viewport", content: "width=device-width, initial-scale=1"}
 %title= page_title
 %link{rel: "alternate", href: "/feed.xml", type: "application/atom+xml", title: "Atom Feed"}
+-# %code
+-#   = pp page_articles
 %script{type: "application/ld+json"}
   != linking_data_for({ current_page: current_page,
                         is_blog_article: is_blog_article?,
                         blog: blog,
-                        site_data: data })
+                        site_data: data,
+                        articles: page_articles })
