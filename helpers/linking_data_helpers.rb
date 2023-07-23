@@ -74,20 +74,14 @@ module LinkingDataHelpers
 
   def series_page_ld_for(page, articles, site_data)
     series = page.url.split("/").last
+    series_data = site_data.series[series]
 
-    series_ld = ArticleListLd.new do |p|
-      p.url = full_url_for(page.url)
-      p.published_at = created_date_dashed(page.source_file)
-      p.updated_at = updated_date_dashed(page.source_file)
-      p.summary_data = site_data.series[series]
-      p.is_authored_node
-    end
-
-    series_ld.articles =
-      articles.collect do |article|
-        a_ld = single_article_ld_for(article)
-        a_ld.linking_data
-      end
+    series_ld = article_list_ld_for(page, series_data.title, articles)
+    series_ld.summary_data = {
+      title: series_data.title,
+      headline: series_data.teaser,
+      keywords: series_data.keywords
+    }
 
     series_ld
   end
