@@ -20,7 +20,10 @@ module LinkingDataHelpers
 
     linking_data =
       if is_blog_article
-        single_article_ld_for(current_page)
+        article_ld = single_article_ld_for(current_page)
+        article_ld.stripped_body = strip_tags(current_page.body)
+        article_ld.is_root_node
+        article_ld
       # elsif current_page.url == "/posts/"
       # elsif current_page.url == "/all_tags/"
       # elsif /^\/tags/.match?(current_page.url)
@@ -43,18 +46,12 @@ module LinkingDataHelpers
       p.published_at = Date.parse(page.data.date).strftime("%Y-%m-%d")
       p.updated_at = updated_date_dashed(page.source_file)
       p.article_data = page.data
-      p.stripped_body = strip_tags(page.body)
-      p.is_root_node
       p.is_authored_node
     end
   end
 
   def home_page_ld(home_page, blog)
-    latest_article = blog.articles.first
-    latest_ld = ArticleLd.new do |p|
-      p.url = full_url_for(latest_article.url)
-      p.article_data = latest_article.data
-    end
+    latest_ld = single_article_ld_for(blog.articles.first)
 
     HomeLd.new do |p|
       p.url = full_url_for(home_page.url)
