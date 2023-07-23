@@ -1,9 +1,8 @@
 module LinkingDataHelpers
   private
 
-  class SeriesLd
+  class ArticleListLd
     include LinkingData
-    attr_accessor :series_data
     def initialize
       @linking_data = {
         "@type": "Blog",
@@ -12,12 +11,14 @@ module LinkingDataHelpers
       is_root_node
 
       yield self
+    end
 
+    def summary_data=(data)
       @linking_data.merge!(
-        headline: @series_data.title,
-        abstract: @series_data.teaser,
-        keywords: @series_data.keywords,
-      )
+        headline: data[:title],
+        abstract: data[:teaser],
+        keywords: data[:keywords],
+        )
     end
 
     def articles=(new_articles)

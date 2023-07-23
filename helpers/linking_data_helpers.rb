@@ -3,7 +3,8 @@ require_relative "./linking_data_helpers/linking_data"
 require_relative "./linking_data_helpers/home_ld"
 require_relative "./linking_data_helpers/article_ld"
 require_relative "./linking_data_helpers/dwf_ld"
-require_relative "./linking_data_helpers/series_ld"
+require_relative "./linking_data_helpers/article_list_ld"
+
 
 module LinkingDataHelpers
 
@@ -25,9 +26,33 @@ module LinkingDataHelpers
         article_ld.stripped_body = strip_tags(current_page.body)
         article_ld.is_root_node
         article_ld
-        # elsif current_page.url == "/posts/"
-        # elsif current_page.url == "/all_tags/"
-        # elsif /^\/tags/.match?(current_page.url)
+      elsif current_page.url == "/posts/"
+        article_list_ld = ArticleListLd.new do |p|
+          p.url = full_url_for(current_page.url)
+          p.published_at = created_date_dashed(current_page.source_file)
+          p.updated_at = updated_date_dashed(current_page.source_file)
+          p.summary_data = {
+            title: "DWF's Journal - All Posts",
+          }
+          p.is_authored_node
+        end
+
+        article_list_ld.articles =
+          articles.collect do |article|
+            a_ld =
+              ArticleLd.new do |p|
+                p.url = full_url_for(article.url)
+                p.published_at = Date.parse(article.data.date).strftime("%Y-%m-%d")
+                p.updated_at = updated_date_dashed(article.source_file)
+                p.article_data = article.data
+                p.is_authored_node
+              end
+            a_ld.linking_data
+          end
+
+        article_list_ld
+      # elsif current_page.url == "/all_tags/"
+      # elsif /^\/tags/.match?(current_page.url)
       elsif /^\/series/.match?(current_page.url)
         series_page_ld_for(current_page, articles, site_data)
       elsif current_page.url == "/"
@@ -87,11 +112,11 @@ module LinkingDataHelpers
   def series_page_ld_for(page, articles, site_data)
     series = page.url.split("/").last
 
-    series_ld = SeriesLd.new do |p|
+    series_ld = ArticleListLd.new do |p|
       p.url = full_url_for(page.url)
       p.published_at = created_date_dashed(page.source_file)
       p.updated_at = updated_date_dashed(page.source_file)
-      p.series_data = site_data.series[series]
+      p.summary_data = site_data.series[series]
       p.is_authored_node
     end
 

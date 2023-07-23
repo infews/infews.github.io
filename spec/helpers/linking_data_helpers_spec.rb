@@ -2,18 +2,6 @@ require_relative "../../helpers/linking_data_helpers"
 require "nokogiri"
 require "json"
 
-# In scope:
-# blog => BlogData
-#
-# is_blog_article? true if an article, false if not
-#
-# current_article if a BlogArticle, else nil
-# BlogArtice is_a? Resource
-# page_articles => all the articles relavant for this page
-#
-# series => series name if series home page, else nil
-#
-
 RSpec.shared_examples "person fields" do
   it "includes the author" do
     person = ld["author"]
@@ -184,13 +172,37 @@ RSpec.describe LinkingDataHelpers do
       end
     end
 
-    context "for the all_tags page" do
-    end
-
     context "for the all posts page" do
+      let(:filepath) { "build/posts/index.html" }
+
+      it "is a root node" do
+        expect(ld["@context"]).to eq("https://schema.org")
+      end
+
+      it "has the correct type" do
+        expect(ld["@type"]).to eq("Blog")
+      end
+
+      it "includes the content fields" do
+        expect(ld["headline"]).to eq("DWF's Journal - All Posts")
+      end
+
+      it "includes the date fields" do
+        expect(ld["datePublished"]).to match(formatted_date)
+        expect(ld["dateCreated"]).to match(formatted_date)
+        expect(ld["dateModified"]).to match(formatted_date)
+      end
+
+      it "includes articles" do
+        articles = ld["blogPost"]
+        expect(articles.length > 1).to eq(true)
+      end
     end
 
     context "for one tags page" do
+    end
+
+    context "for the all_tags page" do
     end
   end
 end
