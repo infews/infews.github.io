@@ -75,12 +75,18 @@ RSpec.describe LinkingDataHelpers do
         expect(ld["dateModified"]).to match(formatted_date)
       end
 
-      xit "includes relevant blog posts" do
+      it "includes relevant blog posts" do
         expect(ld["blogPost"].length).to eq(3)
-        latest, _article_1, _article_2 = *ld["blogPost"]
+        latest, cd_test, obsidian = *ld["blogPost"]
 
         expect(latest["@type"]).to eq("BlogPosting")
         expect(latest["headline"]).to eq("Curiosity and Impatience") # Sorry; this will change
+
+        expect(cd_test["@type"]).to eq("BlogPosting")
+        expect(cd_test["headline"]).to eq("The Continuous Delivery Test")
+
+        expect(obsidian["@type"]).to eq("BlogPosting")
+        expect(obsidian["headline"]).to eq("How I Obsidian")
       end
     end
 
