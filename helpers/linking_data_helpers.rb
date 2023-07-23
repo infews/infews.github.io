@@ -122,8 +122,6 @@ module LinkingDataHelpers
   def personal_ld_for(page)
     DwfLd.new do |p|
       p.url = full_url_for(page.url)
-      p.published_at = created_date_dashed(page.source_file)
-      p.updated_at = updated_date_dashed(page.source_file)
       p.is_root_node
     end
   end
