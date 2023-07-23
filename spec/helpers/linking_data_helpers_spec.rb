@@ -200,6 +200,30 @@ RSpec.describe LinkingDataHelpers do
     end
 
     context "for one tags page" do
+      let(:filepath) { "build/tags/agile/index.html" }
+
+      it "is a root node" do
+        expect(ld["@context"]).to eq("https://schema.org")
+      end
+
+      it "has the correct type" do
+        expect(ld["@type"]).to eq("Blog")
+      end
+
+      it "includes the content fields" do
+        expect(ld["headline"]).to eq("DWF's Journal - Posts tagged with \"agile\"")
+      end
+
+      it "includes the date fields" do
+        expect(ld["datePublished"]).to match(formatted_date)
+        expect(ld["dateCreated"]).to match(formatted_date)
+        expect(ld["dateModified"]).to match(formatted_date)
+      end
+
+      it "includes articles" do
+        articles = ld["blogPost"]
+        expect(articles.length > 1).to eq(true)
+      end
     end
 
     context "for the all_tags page" do

@@ -51,14 +51,38 @@ module LinkingDataHelpers
           end
 
         article_list_ld
-      # elsif current_page.url == "/all_tags/"
-      # elsif /^\/tags/.match?(current_page.url)
+      elsif /^\/tags/.match?(current_page.url)
+        article_list_ld = ArticleListLd.new do |p|
+          p.url = full_url_for(current_page.url)
+          p.published_at = created_date_dashed(current_page.source_file)
+          p.updated_at = updated_date_dashed(current_page.source_file)
+          p.summary_data = {
+            title: "DWF's Journal - Posts tagged with \"#{current_page.url.split("/").last}\"",
+          }
+          p.is_authored_node
+        end
+
+        article_list_ld.articles =
+          articles.collect do |article|
+            a_ld =
+              ArticleLd.new do |p|
+                p.url = full_url_for(article.url)
+                p.published_at = Date.parse(article.data.date).strftime("%Y-%m-%d")
+                p.updated_at = updated_date_dashed(article.source_file)
+                p.article_data = article.data
+                p.is_authored_node
+              end
+            a_ld.linking_data
+          end
+
+        article_list_ld
       elsif /^\/series/.match?(current_page.url)
         series_page_ld_for(current_page, articles, site_data)
       elsif current_page.url == "/"
         home_page_ld(current_page, blog, sitemap, site_data)
       elsif current_page.url =~ /resume\/$/ || current_page.url =~ /about_me\/$/
         personal_ld_for(current_page)
+      # elsif current_page.url == "/all_tags/"
       end
 
     linking_data.to_json
