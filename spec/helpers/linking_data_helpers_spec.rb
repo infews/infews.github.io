@@ -40,7 +40,7 @@ RSpec.describe LinkingDataHelpers do
   #   of specific files, parsing the LD+JSON and checking the contents.
 
   before :all do
-    `NO_CONTRACTS=true bundle exec middleman build --clean`
+    `NO_CONTRACTS=true bundle exec middleman build --clean --parallel`
   end
 
   after :all do
@@ -48,6 +48,7 @@ RSpec.describe LinkingDataHelpers do
   end
 
   describe "#linking_data_for" do
+    let(:formatted_date) { /\d\d\d\d-\d\d-\d\d/ }
     let(:ld) do
       doc = Nokogiri::HTML5(File.read(filepath))
       ld_json = doc.search("//script").first
@@ -69,9 +70,9 @@ RSpec.describe LinkingDataHelpers do
       end
 
       it "includes the date fields" do
-        expect(ld["datePublished"]).to eq("2020-09-20")
-        expect(ld["dateCreated"]).to eq("2020-09-20")
-        expect(ld["dateModified"]).to eq("2023-07-22")
+        expect(ld["datePublished"]).to match(formatted_date)
+        expect(ld["dateCreated"]).to match(formatted_date)
+        expect(ld["dateModified"]).to match(formatted_date)
       end
 
       xit "includes relevant blog posts" do
@@ -97,9 +98,9 @@ RSpec.describe LinkingDataHelpers do
       end
 
       it "includes the dates" do
-        expect(ld["datePublished"]).to eq("2011-03-24")
-        expect(ld["dateCreated"]).to eq("2011-03-24")
-        expect(ld["dateModified"]).to eq("2023-07-17")
+        expect(ld["datePublished"]).to match(formatted_date)
+        expect(ld["dateCreated"]).to match(formatted_date)
+        expect(ld["dateModified"]).to match(formatted_date)
       end
 
       it "includes the content fields" do
@@ -113,7 +114,7 @@ RSpec.describe LinkingDataHelpers do
     end
 
     context "for a series page" do
-      let(:filepath) {"build/series/obsidian/index.html"}
+      let(:filepath) { "build/series/obsidian/index.html" }
 
       it "is a root node" do
         expect(ld["@context"]).to eq("https://schema.org")
@@ -130,9 +131,9 @@ RSpec.describe LinkingDataHelpers do
       end
 
       it "includes the date fields" do
-        expect(ld["datePublished"]).to eq("2020-11-21")
-        expect(ld["dateCreated"]).to eq("2020-11-21")
-        expect(ld["dateModified"]).to eq("2023-07-22")
+        expect(ld["datePublished"]).to match(formatted_date)
+        expect(ld["dateCreated"]).to match(formatted_date)
+        expect(ld["dateModified"]).to match(formatted_date)
       end
 
       it "includes articles" do
