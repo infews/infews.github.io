@@ -6,7 +6,6 @@ require_relative "./linking_data_helpers/dwf_ld"
 require_relative "./linking_data_helpers/article_list_ld"
 
 module LinkingDataHelpers
-
   def full_url_for(path)
     "https://dwf.bigpencil.net#{path}"
   end
@@ -50,7 +49,7 @@ module LinkingDataHelpers
         p.url = full_url_for(page.url)
         p.published_at = created_date_dashed(page.source_file)
         p.updated_at = updated_date_dashed(page.source_file)
-        p.summary_data = { title: title }
+        p.summary_data = {title: title}
         p.is_authored_node
       end
 
@@ -99,17 +98,16 @@ module LinkingDataHelpers
   end
 
   def home_page_ld(home_page, blog, sitemap, site_data)
-
     featured_articles_ld = []
     featured_articles_ld << single_article_ld_for(blog.articles.first).linking_data
     cd = "the-cd-test"
     featured_articles_ld << series_page_on_home_page_ld_for(cd,
-                                                            site_data.series[cd],
-                                                            sitemap).linking_data
+      site_data.series[cd],
+      sitemap).linking_data
     obs = "obsidian"
     featured_articles_ld << series_page_on_home_page_ld_for(obs,
-                                                            site_data.series[obs],
-                                                            sitemap).linking_data
+      site_data.series[obs],
+      sitemap).linking_data
     HomeLd.new do |p|
       p.url = full_url_for(home_page.url)
       p.published_at = created_date_dashed(home_page.source_file)

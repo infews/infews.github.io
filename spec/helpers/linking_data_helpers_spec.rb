@@ -148,9 +148,9 @@ RSpec.describe LinkingDataHelpers do
         expect(ld["alumniOf"]).to eq("University of Georgia")
         expect(ld["image"]).to eq("https://dwf.bigpencil.net/images/dwf@2x-b89bef4d.png")
         expect(ld["sameAs"]).to eq(["https://www.linkedin.com/in/daviswfrank",
-                                    "https://github.com/infews",
-                                    "https://ruby.social/@dwfrank",
-                                    "https://www.threads.net/@dwfrank"])
+          "https://github.com/infews",
+          "https://ruby.social/@dwfrank",
+          "https://www.threads.net/@dwfrank"])
       end
     end
 
@@ -166,9 +166,9 @@ RSpec.describe LinkingDataHelpers do
         expect(ld["alumniOf"]).to eq("University of Georgia")
         expect(ld["image"]).to eq("https://dwf.bigpencil.net/images/dwf@2x-b89bef4d.png")
         expect(ld["sameAs"]).to eq(["https://www.linkedin.com/in/daviswfrank",
-                                    "https://github.com/infews",
-                                    "https://ruby.social/@dwfrank",
-                                    "https://www.threads.net/@dwfrank"])
+          "https://github.com/infews",
+          "https://ruby.social/@dwfrank",
+          "https://www.threads.net/@dwfrank"])
       end
     end
 

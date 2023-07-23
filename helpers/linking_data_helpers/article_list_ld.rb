@@ -17,8 +17,8 @@ module LinkingDataHelpers
       @linking_data.merge!(
         headline: data[:title],
         abstract: data[:teaser],
-        keywords: data[:keywords],
-        )
+        keywords: data[:keywords]
+      )
     end
 
     def articles=(new_articles)

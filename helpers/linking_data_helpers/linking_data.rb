@@ -15,7 +15,7 @@ module LinkingDataHelpers
 
       @linking_data.merge!({
         author: me,
-        publisher: me,
+        publisher: me
       })
     end
 
