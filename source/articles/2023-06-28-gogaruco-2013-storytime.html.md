@@ -6,6 +6,7 @@ tags:
     - agile
     - xp
     - history
+    - youtube
 keywords:
     - ruby
     - talk
