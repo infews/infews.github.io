@@ -5,11 +5,32 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2023-07-23T12:58:50-07:00</updated>
+  <updated>2023-08-14T07:59:14-07:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
   <rights>© Davis W. Frank 2023</rights>
+  <entry>
+    <title>Three Cheers for Release Engineering</title>
+    <link href="https://dwf.bigpencil.net/releng-beer-talk/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">Using beer brewing to talk about Release Engineering and software complexity.</summary>
+    <content type="html">
+&lt;p&gt;The first time I was on a modern Release Engineering team, I was skeptical. I had worked with, and managed, “build” or “installer” teams. They often felt slow - a relic of the years of shrink-wrapped software. Why did we need them for a web-downloadable or web-deployable product?&lt;/p&gt;
+
+&lt;p&gt;I understood right away. Even web software could reach a level of complexity where additional engineering &lt;em&gt;just to release&lt;/em&gt; was necessary. I wanted to share my realizations with everyone!&lt;/p&gt;
+
+&lt;p&gt;The analogy of beer brewing hit me one afternoon and this talk came together. The first versions included the pun of Release Engi-beer-ing. But like most puns, that didn’t last long. I’ve given versions of this a few times for internal audiences at Pivotal, and then at Fountain. But this is the first time I’ve shared this publicly.&lt;/p&gt;
+
+&lt;p&gt;Come for the analogy, stay for the war stories and insights.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://youtu.be/ih2JHXBb8tY"&gt;Three Cheers for Release Engineering&lt;/a&gt;&lt;/p&gt;
+</content>
+    <published>2023-08-14T07:16:00-07:00</published>
+  </entry>
   <entry>
     <title>Curiosity and Impatience</title>
     <link href="https://dwf.bigpencil.net/curiousity-and-impatience/" rel="alternate"/>
@@ -238,7 +259,7 @@ uncovered the video this week. And that it had 200+ views!&lt;/p&gt;
 
 </content>
     <published>2023-06-28T08:09:00-07:00</published>
-    <updated>2023-07-11T00:00:00-07:00</updated>
+    <updated>2023-08-14T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>3X but It's People</title>
@@ -704,49 +725,6 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
-    <title>Thoughts on Vaults</title>
-    <link href="https://dwf.bigpencil.net/thoughts-on-vaults/" rel="alternate"/>
-    <id/>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <summary type="html">When to Vault and when not to.</summary>
-    <content type="html">&lt;p&gt;I keep nearly all of my notes in one Obsidian vault. I’ve found that cross-linking and my daily journaling have benefited the most from keeping everything in one directory and thus vault.&lt;/p&gt;
-
-&lt;p&gt;I do have separate vaults for dedicated topics of longer form writing. I have an ongoing blog series that has its own vault. And I have another for a topic that may turn into a book.&lt;/p&gt;
-
-&lt;p&gt;This series started as one note in the main vault.&lt;/p&gt;
-
-&lt;p&gt;I keep the all of my vaults as subdirectories in one directory that lives online for ease of access from different computers and mobile devices. At the moment this is on Dropbox.&lt;/p&gt;
-
-</content>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
-  </entry>
-  <entry>
-    <title>Obsidian URLs</title>
-    <link href="https://dwf.bigpencil.net/obsidian-links/" rel="alternate"/>
-    <id/>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <summary type="html">Linking to Obs from other apps is power.</summary>
-    <content type="html">
-&lt;p&gt;Obsidian’s URL scheme is fabulous. A link of this form:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;obsidian://open?vault=&amp;lt;vault_name&amp;gt;&amp;amp;file=&amp;lt;note_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;..will open Obsidian with that vault and that note selected.&lt;/p&gt;
-
-&lt;p&gt;I use this a lot with my task manager, linking back from projects and tasks to longer thoughts on the topic. I also link to notes &lt;a href="/series/obsidian/thoughts-on-vaults"&gt;other vaults&lt;/a&gt; as needed.&lt;/p&gt;
-
-&lt;p&gt;With any note open, “Copy Obsidian URL” is available via the Command Palette and the note menu.&lt;/p&gt;
-
-</content>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
-  </entry>
-  <entry>
     <title>Note Taking in 1-1's</title>
     <link href="https://dwf.bigpencil.net/one-on-one-notes/" rel="alternate"/>
     <id/>
@@ -844,21 +822,6 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
-    <title>Don't Sleep on the Command Palette</title>
-    <link href="https://dwf.bigpencil.net/love-the-command-palette/" rel="alternate"/>
-    <id/>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <summary type="html">It takes me a while to learn new commands.</summary>
-    <content type="html">
-&lt;p&gt;While I’m still learning how to use Obsidian, I find the Command Palette amazing. &lt;code&gt;Ctrl+P/Cmd+P&lt;/code&gt; brings up a searchable list of commands. I find new actions here all the time. And it’s the fastest way to put an &lt;a href="/obsidian-links"&gt;Obsidian URL&lt;/a&gt; on your clipboard.&lt;/p&gt;
-
-</content>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
-  </entry>
-  <entry>
     <title>Community Plugin: Calendar</title>
     <link href="https://dwf.bigpencil.net/community-plugin-calendar/" rel="alternate"/>
     <id/>
@@ -874,21 +837,61 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
-    <title>Using Tags</title>
-    <link href="https://dwf.bigpencil.net/using-tags/" rel="alternate"/>
+    <title>Obsidian URLs</title>
+    <link href="https://dwf.bigpencil.net/obsidian-links/" rel="alternate"/>
     <id/>
     <author>
       <name>Davis W. Frank</name>
     </author>
-    <summary type="html">Tag it for easier search.</summary>
-    <content type="html">&lt;p&gt;I am not a huge tag user. I find the search very good and the Linked/Unlinked mentions tab enlightening.&lt;/p&gt;
+    <summary type="html">Linking to Obs from other apps is power.</summary>
+    <content type="html">
+&lt;p&gt;Obsidian’s URL scheme is fabulous. A link of this form:&lt;/p&gt;
 
-&lt;p&gt;However, I do have a few categories of notes I want called out. So I will drop a hashtag at the bottom of the file, below a Horizontal Rule, where it is out of the way. I’ve found I like this better than using YAML front matter.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;obsidian://open?vault=&amp;lt;vault_name&amp;gt;&amp;amp;file=&amp;lt;note_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;As I type this, I realize that all of the tags I care about are types of notes and thus have templates associated with them. So each template includes the tag. I barely even think about them except when searching.&lt;/p&gt;
+&lt;p&gt;..will open Obsidian with that vault and that note selected.&lt;/p&gt;
+
+&lt;p&gt;I use this a lot with my task manager, linking back from projects and tasks to longer thoughts on the topic. I also link to notes &lt;a href="/series/obsidian/thoughts-on-vaults"&gt;other vaults&lt;/a&gt; as needed.&lt;/p&gt;
+
+&lt;p&gt;With any note open, “Copy Obsidian URL” is available via the Command Palette and the note menu.&lt;/p&gt;
 
 </content>
-    <published>2021-03-21T09:13:00-07:00</published>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
+  </entry>
+  <entry>
+    <title>Don't Sleep on the Command Palette</title>
+    <link href="https://dwf.bigpencil.net/love-the-command-palette/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">It takes me a while to learn new commands.</summary>
+    <content type="html">
+&lt;p&gt;While I’m still learning how to use Obsidian, I find the Command Palette amazing. &lt;code&gt;Ctrl+P/Cmd+P&lt;/code&gt; brings up a searchable list of commands. I find new actions here all the time. And it’s the fastest way to put an &lt;a href="/obsidian-links"&gt;Obsidian URL&lt;/a&gt; on your clipboard.&lt;/p&gt;
+
+</content>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
+  </entry>
+  <entry>
+    <title>Thoughts on Vaults</title>
+    <link href="https://dwf.bigpencil.net/thoughts-on-vaults/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">When to Vault and when not to.</summary>
+    <content type="html">&lt;p&gt;I keep nearly all of my notes in one Obsidian vault. I’ve found that cross-linking and my daily journaling have benefited the most from keeping everything in one directory and thus vault.&lt;/p&gt;
+
+&lt;p&gt;I do have separate vaults for dedicated topics of longer form writing. I have an ongoing blog series that has its own vault. And I have another for a topic that may turn into a book.&lt;/p&gt;
+
+&lt;p&gt;This series started as one note in the main vault.&lt;/p&gt;
+
+&lt;p&gt;I keep the all of my vaults as subdirectories in one directory that lives online for ease of access from different computers and mobile devices. At the moment this is on Dropbox.&lt;/p&gt;
+
+</content>
+    <published>2021-03-21T09:14:00-07:00</published>
     <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
@@ -913,6 +916,24 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 </content>
     <published>2021-03-21T09:13:00-07:00</published>
     <updated>2023-07-17T00:00:00-07:00</updated>
+  </entry>
+  <entry>
+    <title>Using Tags</title>
+    <link href="https://dwf.bigpencil.net/using-tags/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">Tag it for easier search.</summary>
+    <content type="html">&lt;p&gt;I am not a huge tag user. I find the search very good and the Linked/Unlinked mentions tab enlightening.&lt;/p&gt;
+
+&lt;p&gt;However, I do have a few categories of notes I want called out. So I will drop a hashtag at the bottom of the file, below a Horizontal Rule, where it is out of the way. I’ve found I like this better than using YAML front matter.&lt;/p&gt;
+
+&lt;p&gt;As I type this, I realize that all of the tags I care about are types of notes and thus have templates associated with them. So each template includes the tag. I barely even think about them except when searching.&lt;/p&gt;
+
+</content>
+    <published>2021-03-21T09:13:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Core Plugin: Templates</title>
