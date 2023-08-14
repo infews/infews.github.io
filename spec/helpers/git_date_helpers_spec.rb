@@ -35,7 +35,7 @@ RSpec.describe GitDateHelpers do
     end
   end
 
-  describe "#created_at_dashed" do
+  describe "#created_date_dashed" do
     it "returns a String with just the date in a dashed format" do
       expect(helpers.created_date_dashed(full_path)).to eq("2020-09-21")
     end
