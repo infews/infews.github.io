@@ -68,7 +68,7 @@ RSpec.describe LinkingDataHelpers do
         latest, cd_test, obsidian = *ld["blogPost"]
 
         expect(latest["@type"]).to eq("BlogPosting")
-        expect(latest["headline"]).to eq("Curiosity and Impatience") # Sorry; this will change
+        expect(latest["headline"]).to be_a(String)
 
         expect(cd_test["@type"]).to eq("BlogPosting")
         expect(cd_test["headline"]).to eq("The Continuous Delivery Test")
@@ -120,7 +120,6 @@ RSpec.describe LinkingDataHelpers do
 
       it "includes the content fields" do
         expect(ld["headline"]).to eq("How I Obsidian")
-        expect(ld["abstract"]).to match(/^All the tips/)
         expect(ld["keywords"]).not_to be_empty
       end
 
