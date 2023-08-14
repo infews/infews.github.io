@@ -22,7 +22,7 @@ xml.feed xmlns: "http://www.w3.org/2005/Atom" do
       xml.content article.body, type: "html"
       xml.published article.date.to_time.iso8601
 
-      updated_date = updated_at(article.source_file).to_date
+      updated_date = updated_time(article.source_file).to_date
       xml.updated updated_date.to_time.iso8601 if updated_date > article.date
     end
   end

@@ -15,8 +15,6 @@ module GitDateHelpers
       .strftime("%Y-%m-%d")
   end
 
-  private
-
   def updated_time(source_path)
     updated_time = `git log -n 1 --pretty=format:%cI -- #{git_path(source_path)}`
     now_if_empty(updated_time)
@@ -26,6 +24,8 @@ module GitDateHelpers
     created_time = `git log --pretty=format:%aI --diff-filter=A -- #{git_path(source_path)}`
     now_if_empty(created_time)
   end
+
+  private
 
   def git_path(full_path)
     full_path.split("/").drop_while { |e| e != "source" }.join("/")
