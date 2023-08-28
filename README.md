@@ -50,9 +50,11 @@ Once the article updates look good:
 - Commit new Markdown file(s)
 - `be rake html_proof`
   - This builds the site and crawls all the links
-  - Fix the errors
+  - Fix the errors (there will be some local errors)
   - Commit updates
   - Once clean, continue
+- `git restore docs`
+  - resets any interim changes to the published site
 - `be rake prep`
 - Commit changes
 - `git push`
