@@ -5,7 +5,7 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2023-08-14T07:59:14-07:00</updated>
+  <updated>2023-08-28T12:16:53-07:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
@@ -1668,15 +1668,53 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
 
 &lt;p&gt;First, list which job characteristics are important to you. Take some time and make a list. Here’s what I came up with, based on what matters to me:&lt;/p&gt;
 
-&lt;p&gt;× &lt;em&gt;Compensation&lt;/em&gt; — Money matters! Base salary, any bonus, stock options or shares, and benefits.&lt;br /&gt;
-× &lt;em&gt;Organization&lt;/em&gt; — How do I feel about the company or organization? Do my leaders inspire me? Do my values align?&lt;br /&gt;
-× &lt;em&gt;Manager&lt;/em&gt; — Is my manager helpful in my career? Do we meet regularly? Do they listen? Do they explain the “Why?” as well as the “What?” when I have questions?&lt;br /&gt;
-× &lt;em&gt;Peers&lt;/em&gt; — Do they have my trust and respect? Do I have coffee and lunch buddies? Do I invite them over for dinner?&lt;br /&gt;
-× &lt;em&gt;Commute&lt;/em&gt; — How long do I spend getting to the job every day? Does it leave me enough time for the rest of my life?&lt;br /&gt;
-× &lt;em&gt;Office location&lt;/em&gt; — Is the office in a place that inspires me daily? Is it easy to schedule time with my friends and mentors at other companies? Can I run errands at lunch?&lt;br /&gt;
-× &lt;em&gt;The company’s main product or service&lt;/em&gt; — Is my work going toward a product or service that I admire or respect? That I would use regularly? Would I be proud to recommend it to friends and family?&lt;br /&gt;
-× &lt;em&gt;The work&lt;/em&gt; — Is my work energizing? Is it fun? Is it interesting?&lt;br /&gt;
-× &lt;em&gt;Opportunity to learn&lt;/em&gt; — Are I adding to my skillset? Is this job going to help me get the next one?&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Compensation&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Money matters! Base salary, any bonus, stock options or shares, and benefits.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Organization&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;How do I feel about the company or organization? Do my leaders inspire me? Do my values align?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Manager&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Is my manager helpful in my career? Do we meet regularly? Do they listen? Do they explain the “Why?” as well as the “What?” when I have questions?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Peers&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Do they have my trust and respect? Do I have coffee and lunch buddies? Do I invite them over for dinner?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Commute&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;How long do I spend getting to the job every day? Does it leave me enough time for the rest of my life?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Office location&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Is the office in a place that inspires me daily? Is it easy to schedule time with my friends and mentors at other companies? Can I run errands at lunch?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The company’s main product or service&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Is my work going toward a product or service that I admire or respect? That I would use regularly? Would I be proud to recommend it to friends and family?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The work&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Is the work I’m doing energizing to me? Is it fun? Is it interesting?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Opportunity to learn&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Are I adding to my skillset? Is this job going to help me get the next one?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2&gt;The Drake Job Equation&lt;/h2&gt;
 
@@ -1696,7 +1734,7 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
     Freq.learning
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;C is compensation. Start with cash salary. Add any bonuses. Add the net gain from any stock options, RSU’s, or an employee stock program. And don’t forget any other benefits — health insurance, discount on public transit, gym memberships, etc. Add those in. If you don’t have exact amounts for any of your compensation numbers — for example, your company isn’t public yet so you can only guess about stock options — just make a reasonable estimate.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;C&lt;/code&gt; is compensation. Start with cash salary. Add any bonuses. Add the net gain from any stock options, RSU’s, or an employee stock program. And don’t forget any other benefits — health insurance, discount on public transit, gym memberships, etc. Add those in. If you don’t have exact amounts for any of your compensation numbers — for example, your company isn’t public yet so you can only guess about stock options — just make a reasonable estimate.&lt;/p&gt;
 
 &lt;p&gt;The next group of other terms is for “quality” terms. Each of these terms needs a range of values that reduces or amplifies the score based on each term’s impact. I recommend a range of 0.1 to 2. A value of 0.1 maps to “poor quality” or “this part of my job sucks.” This low term should be pulling down the overall job score. Why 0.1? Because we need to talk about zeroes.&lt;/p&gt;
 
@@ -1741,7 +1779,7 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
 &lt;p&gt;What are the components of &lt;em&gt;your&lt;/em&gt; Drake Job Equation?&lt;/p&gt;
 </content>
     <published>2018-08-02T17:00:00-07:00</published>
-    <updated>2021-05-28T00:00:00-07:00</updated>
+    <updated>2023-08-28T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Goodbye Chris Cornell</title>
