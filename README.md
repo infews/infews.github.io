@@ -5,21 +5,21 @@
 
 My personal blog.
 
-Built with [Middleman][mm], a Ruby static site generator. Uses the [blogging extension][blog] and the [Middleman Cactus][cactus] theme.
-
-Why this theme? It's clean and respsonsive.
+Built with [Middleman][mm], a Ruby static site generator. Uses the [blogging extension][blog], style self-grown, and has plenty of helpers.
 
 # Additions
 
 - Ported (most) templates to HAML, because HAML
-- Removed Disqus template
 - Activated pretty URLs
 - Added pages for:
   - All articles tagged with a tag
-  - The concept of a blog series, with a first post, then the rest    
-- Moved CSS to `rem` measurements
-- Added slightly simpler media queries
-- Added print CSS, especially for a resume page  
+  - The concept of a blog series, with a first post, then the rest
+  - Resume
+- Styling
+  - Moved CSS to `rem` measurements
+  - Use of variables for fonts, colors
+  - Added slightly simpler media queries
+  - Added print CSS, especially for a resume page  
 - Wrote some helpers:
   - a tag helper to link a tag to its tag page
   - an article teaser that can be stored in the in the YAML front matter (first paragraph auto clipping just sucks)
@@ -27,37 +27,39 @@ Why this theme? It's clean and respsonsive.
   - approximate reading time  
 - Excludes `private` posts from all list pages, but still publishes them
 - Turned on Markdown footnotes (expanded syntax, supported by RedCarpet), including style changes
--  
 
-# Middleman Cactus Settings
+# Writing
 
-Update the following site configuration settings in `config.rb`:
+`be rake article "NEW ARTICLE TITLE"`
 
-```ruby
-###
-# Site settings
-###
-set :site_url, 'http://example.com/'
-set :site_title, 'Site title'
-set :site_subtitle, 'This is the site subtitle'
-set :profile_text, %q(Pitchfork kogi forage, gluten-free pour-over drinking vinegar Etsy narwhal next level shabby chic bicycle rights tofu mustache scenester. Intelligentsia Brooklyn mumblecore, church-key meggings cardigan quinoa gluten-free banjo. Polaroid beard 8-bit, lumbersexual photo booth forage bitters mustache drinking vinegar biodiesel cardigan. Four loko raw denim polaroid selfies, mixtape skateboard lumbersexual. Odd Future Blue Bottle bicycle rights Etsy. Etsy Odd Future normcore, deep v Shoreditch seitan sustainable yr heirloom Brooklyn try-hard stumptown Bushwick cornhole. Portland chillwave pug Tumblr deep v readymade.)
-set :site_author, 'Joe Bloggs'
-# Generate your own by running `rake id`
-set :site_id, 'urn:uuid:b8261ce6-4d49-4afa-9d16-643631ab5afc'
+- New article will be put in `source/articles`
+- Update the YAML frontmatter
+  - Fix the title
+  - Update tags (for the blog), keywords (for SEO)
+  - Ideally, links at the top of the article
+- Write the article
+  - Note that the title will be put at the top of the article as an H1. So start headings/structure at H2 
+- Reviewing locally 
+  - `be middleman`
+  - Play with screen sizes
 
-# Usernames
-set :github_username, 'example'
-set :keybase_username, 'example'
-set :twitter_username, 'example'
-set :linkedin_username, 'example'
-set :lastfm_username, 'example'
-set :spotify_username, 'example'
+# Publishing
 
-# Replace 'nil' with your Disqus shortname, eg. 'example'
-set :disqus_shortname, nil
-# Replace 'nil' with your Google Analytics key, eg. 'XX-XXXXXXXX-X'
-set :google_analytics, nil
-```
+Once the article updates look good:
 
+- Commit new Markdown file(s)
+- `be rake html_proof`
+  - This builds the site and crawls all the links
+  - Fix the errors
+  - Commit updates
+  - Once clean, continue
+- `be rake prep`
+- Commit changes
+- `git push`
+
+# Extending
+
+- Anything Ruby, make sure that you `be rake` to fix the ruby as per Standard, then RSpec passes.
+- Any new Ruby likely means the HTML will change, so re-publish as needed.
 
 
