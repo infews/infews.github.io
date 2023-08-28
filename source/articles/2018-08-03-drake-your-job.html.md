@@ -34,15 +34,24 @@ Michael Dearing of Harrison Metal has [a video][video] and a [blog post][blog] t
 
 First, list which job characteristics are important to you. Take some time and make a list. Here’s what I came up with, based on what matters to me:
 
-× _Compensation_ — Money matters! Base salary, any bonus, stock options or shares, and benefits.
-× _Organization_ — How do I feel about the company or organization? Do my leaders inspire me? Do my values align?
-× _Manager_ — Is my manager helpful in my career? Do we meet regularly? Do they listen? Do they explain the “Why?” as well as the “What?” when I have questions?
-× _Peers_ — Do they have my trust and respect? Do I have coffee and lunch buddies? Do I invite them over for dinner?
-× _Commute_ — How long do I spend getting to the job every day? Does it leave me enough time for the rest of my life?
-× _Office location_ — Is the office in a place that inspires me daily? Is it easy to schedule time with my friends and mentors at other companies? Can I run errands at lunch?
-× _The company’s main product or service_ — Is my work going toward a product or service that I admire or respect? That I would use regularly? Would I be proud to recommend it to friends and family?
-× _The work_ — Is my work energizing? Is it fun? Is it interesting?
-× _Opportunity to learn_ — Are I adding to my skillset? Is this job going to help me get the next one?
+- **Compensation**
+  - Money matters! Base salary, any bonus, stock options or shares, and benefits.
+- **Organization**
+  - How do I feel about the company or organization? Do my leaders inspire me? Do my values align?
+- **Manager**
+  - Is my manager helpful in my career? Do we meet regularly? Do they listen? Do they explain the “Why?” as well as the “What?” when I have questions?
+- **Peers**
+  - Do they have my trust and respect? Do I have coffee and lunch buddies? Do I invite them over for dinner? 
+- **Commute** 
+  - How long do I spend getting to the job every day? Does it leave me enough time for the rest of my life?
+- **Office location** 
+  - Is the office in a place that inspires me daily? Is it easy to schedule time with my friends and mentors at other companies? Can I run errands at lunch?
+- **The company’s main product or service**
+  - Is my work going toward a product or service that I admire or respect? That I would use regularly? Would I be proud to recommend it to friends and family?
+- **The work** 
+  - Is the work I'm doing energizing to me? Is it fun? Is it interesting?
+- **Opportunity to learn** 
+  - Are I adding to my skillset? Is this job going to help me get the next one?
 
 ## The Drake Job Equation
 
@@ -63,7 +72,7 @@ Combining my terms, I got this formula:
     Freq.learning
 ```
 
-C is compensation. Start with cash salary. Add any bonuses. Add the net gain from any stock options, RSU’s, or an employee stock program. And don’t forget any other benefits — health insurance, discount on public transit, gym memberships, etc. Add those in. If you don’t have exact amounts for any of your compensation numbers — for example, your company isn’t public yet so you can only guess about stock options — just make a reasonable estimate.
+`C` is compensation. Start with cash salary. Add any bonuses. Add the net gain from any stock options, RSU’s, or an employee stock program. And don’t forget any other benefits — health insurance, discount on public transit, gym memberships, etc. Add those in. If you don’t have exact amounts for any of your compensation numbers — for example, your company isn’t public yet so you can only guess about stock options — just make a reasonable estimate.
 
 The next group of other terms is for “quality” terms. Each of these terms needs a range of values that reduces or amplifies the score based on each term’s impact. I recommend a range of 0.1 to 2. A value of 0.1 maps to “poor quality” or “this part of my job sucks.” This low term should be pulling down the overall job score. Why 0.1? Because we need to talk about zeroes.
 
