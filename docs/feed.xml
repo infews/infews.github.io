@@ -5,11 +5,71 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2023-08-28T12:16:53-07:00</updated>
+  <updated>2023-09-13T12:28:00-07:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
   <rights>© Davis W. Frank 2023</rights>
+  <entry>
+    <title>Improved 1-1 Note Taking</title>
+    <link href="https://dwf.bigpencil.net/improved-1-1-note-taking/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">In which I adapt some of my note taking to Notion.</summary>
+    <content type="html">
+&lt;p&gt;I spent the better part of 18 months getting really good at using &lt;a href="https://obsidian.md"&gt;Obsidian&lt;/a&gt;. Enough that I wrote a &lt;a href="https://dwf.bigpencil.net/series/obsidian/"&gt;whole blog series about it&lt;/a&gt;! Daily Journaling, general knowledge dumping, and longer-form writing became very natural.&lt;/p&gt;
+
+&lt;p&gt;The job I started after those months of Markdown-ing-more-than-ever-before was remote-first. I was ready to use my new-ish note taking superpowers in another context.&lt;/p&gt;
+
+&lt;p&gt;I set up my home office with two screens. I had a 27” monitor full of browser tabs where I did a bunch of Zooming, Looming, and a little coding. And I  had my employer’s laptop with Obsidian maximized so I could take notes as I did all the work. Things started well.&lt;/p&gt;
+
+&lt;p&gt;But a few months into the job, Obsidian and I started having problems. Smooth writing became clunky. What happened?&lt;/p&gt;
+
+&lt;p&gt;It turns out that in a job on a team of other people, collaborative writing is a thing. Duh.&lt;/p&gt;
+
+&lt;p&gt;I started any document in Obsidian as always, but when I was ready to get comments or work with others on a shared doc, I moved text over to Google Docs, or later when our team started using it more, to &lt;a href="https://notion.so"&gt;Notion&lt;/a&gt;. I needed comments and co-writing, so this made sense.&lt;/p&gt;
+
+&lt;p&gt;I learned to delete an Obsidian draft and move it to Notion sooner. I even got better at &lt;em&gt;starting&lt;/em&gt; a doc in Notion, preferring to work, write, and think more in the open. But there was still a case where my Obsidian patterns weren’t working: 1-1’s.&lt;/p&gt;
+
+&lt;h2&gt;1-1 Notes as a Collaborative Document&lt;/h2&gt;
+
+&lt;p&gt;As part of my Obsidian series, I wrote about &lt;a href="https://dwf.bigpencil.net/one-on-one-notes/"&gt;how I tracked 1-1’s&lt;/a&gt;. I was pretty happy with how this worked. I kept action items. I linked individual notes into the Daily Journal. It really worked for me most of the time.&lt;/p&gt;
+
+&lt;p&gt;However, it turns out that 1-1’s are an opportunity for collaboration. Duh, again. The whole point of 1-1 meetings, especially between a manager and a report, is to work through issues, career plans, and meta concerns &lt;em&gt;together&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;An Obsidian vault is not easily a place for “together.”&lt;/p&gt;
+
+&lt;h2&gt;A Notion of a Solution&lt;/h2&gt;
+
+&lt;p&gt;I spent a few weeks iterating using Notion for 1-1’s with the other people involved (one at a time). Notion turned out to be fantastic place to experiment with meeting these needs:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Keeping all of my 1-1’s well organized, making it easy to find the next meeting with a person&lt;/li&gt;
+  &lt;li&gt;Allow for different meeting templates per person&lt;/li&gt;
+  &lt;li&gt;Easy to create a new regular 1-1; my staff changed occasionally, so adding/removing meetings was useful&lt;/li&gt;
+  &lt;li&gt;Keeping track of action items the two people were creating and managing in each meeting&lt;/li&gt;
+  &lt;li&gt;Keeping the 1-1 notes and action items just for the two people to collaborate&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I got to a pretty robust solution. Enough that I’ve productized it!&lt;/p&gt;
+
+&lt;p&gt;So if you are someone who:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Uses Notion as your knowledge base&lt;/li&gt;
+  &lt;li&gt;Has several regular 1-1 meetings with others in the same Notion instance&lt;/li&gt;
+  &lt;li&gt;Have had challenges keeping the notes and action items from these meetings organized&lt;/li&gt;
+  &lt;li&gt;Like, or are intrigued by, the idea of 1-1 content being the result of collaborative editing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Then please have a look at my &lt;a href="https://bigpencilapp.gumroad.com/l/zfortz"&gt;1-1 Tracker&lt;/a&gt; (purchase link at &lt;a href="https://gumroad.com"&gt;Gumroad&lt;/a&gt;). And if you like what you see, you can buy it. And if it works well for you, you can rate it.&lt;/p&gt;
+
+&lt;p&gt;I hope this helps you. Five Stars. Will take notes again.&lt;/p&gt;
+</content>
+    <published>2023-09-13T10:54:00-07:00</published>
+  </entry>
   <entry>
     <title>Three Cheers for Release Engineering</title>
     <link href="https://dwf.bigpencil.net/releng-beer-talk/" rel="alternate"/>
@@ -725,6 +785,59 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
+    <title>Community Plugin: Calendar</title>
+    <link href="https://dwf.bigpencil.net/community-plugin-calendar/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">The calendar helps you build the daily journal habit.</summary>
+    <content type="html">&lt;p&gt;This plug-in works with the Daily Notes plug-in. It adds a new tab in the right pane that gives a single-month view. Each date links to that day’s daily note, with a cute dot notation for the length of that note. You can also browse back and forth between months.&lt;/p&gt;
+
+&lt;p&gt;I find this is faster for zeroing in on historical notes. And sometimes you just need another calendar right in front of you during the day.&lt;/p&gt;
+</content>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
+  </entry>
+  <entry>
+    <title>Obsidian URLs</title>
+    <link href="https://dwf.bigpencil.net/obsidian-links/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">Linking to Obs from other apps is power.</summary>
+    <content type="html">
+&lt;p&gt;Obsidian’s URL scheme is fabulous. A link of this form:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;obsidian://open?vault=&amp;lt;vault_name&amp;gt;&amp;amp;file=&amp;lt;note_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;..will open Obsidian with that vault and that note selected.&lt;/p&gt;
+
+&lt;p&gt;I use this a lot with my task manager, linking back from projects and tasks to longer thoughts on the topic. I also link to notes &lt;a href="/series/obsidian/thoughts-on-vaults"&gt;other vaults&lt;/a&gt; as needed.&lt;/p&gt;
+
+&lt;p&gt;With any note open, “Copy Obsidian URL” is available via the Command Palette and the note menu.&lt;/p&gt;
+
+</content>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
+  </entry>
+  <entry>
+    <title>Don't Sleep on the Command Palette</title>
+    <link href="https://dwf.bigpencil.net/love-the-command-palette/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">It takes me a while to learn new commands.</summary>
+    <content type="html">
+&lt;p&gt;While I’m still learning how to use Obsidian, I find the Command Palette amazing. &lt;code&gt;Ctrl+P/Cmd+P&lt;/code&gt; brings up a searchable list of commands. I find new actions here all the time. And it’s the fastest way to put an &lt;a href="/obsidian-links"&gt;Obsidian URL&lt;/a&gt; on your clipboard.&lt;/p&gt;
+
+</content>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
+  </entry>
+  <entry>
     <title>Note Taking in 1-1's</title>
     <link href="https://dwf.bigpencil.net/one-on-one-notes/" rel="alternate"/>
     <id/>
@@ -817,59 +930,6 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;h2&gt;Between Meetings&lt;/h2&gt;
 
 &lt;p&gt;I will add new Topics to the Person’s note as they come up. The Linked Mentions tab becomes a great historical list of our 1-1 meetings.&lt;/p&gt;
-</content>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
-  </entry>
-  <entry>
-    <title>Community Plugin: Calendar</title>
-    <link href="https://dwf.bigpencil.net/community-plugin-calendar/" rel="alternate"/>
-    <id/>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <summary type="html">The calendar helps you build the daily journal habit.</summary>
-    <content type="html">&lt;p&gt;This plug-in works with the Daily Notes plug-in. It adds a new tab in the right pane that gives a single-month view. Each date links to that day’s daily note, with a cute dot notation for the length of that note. You can also browse back and forth between months.&lt;/p&gt;
-
-&lt;p&gt;I find this is faster for zeroing in on historical notes. And sometimes you just need another calendar right in front of you during the day.&lt;/p&gt;
-</content>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
-  </entry>
-  <entry>
-    <title>Obsidian URLs</title>
-    <link href="https://dwf.bigpencil.net/obsidian-links/" rel="alternate"/>
-    <id/>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <summary type="html">Linking to Obs from other apps is power.</summary>
-    <content type="html">
-&lt;p&gt;Obsidian’s URL scheme is fabulous. A link of this form:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;obsidian://open?vault=&amp;lt;vault_name&amp;gt;&amp;amp;file=&amp;lt;note_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;..will open Obsidian with that vault and that note selected.&lt;/p&gt;
-
-&lt;p&gt;I use this a lot with my task manager, linking back from projects and tasks to longer thoughts on the topic. I also link to notes &lt;a href="/series/obsidian/thoughts-on-vaults"&gt;other vaults&lt;/a&gt; as needed.&lt;/p&gt;
-
-&lt;p&gt;With any note open, “Copy Obsidian URL” is available via the Command Palette and the note menu.&lt;/p&gt;
-
-</content>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
-  </entry>
-  <entry>
-    <title>Don't Sleep on the Command Palette</title>
-    <link href="https://dwf.bigpencil.net/love-the-command-palette/" rel="alternate"/>
-    <id/>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <summary type="html">It takes me a while to learn new commands.</summary>
-    <content type="html">
-&lt;p&gt;While I’m still learning how to use Obsidian, I find the Command Palette amazing. &lt;code&gt;Ctrl+P/Cmd+P&lt;/code&gt; brings up a searchable list of commands. I find new actions here all the time. And it’s the fastest way to put an &lt;a href="/obsidian-links"&gt;Obsidian URL&lt;/a&gt; on your clipboard.&lt;/p&gt;
-
 </content>
     <published>2021-03-21T09:14:00-07:00</published>
     <updated>2023-07-12T00:00:00-07:00</updated>
@@ -1615,28 +1675,39 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
       <name>Davis W. Frank</name>
     </author>
     <summary type="html">My Foo Fighters Tweets.</summary>
-    <content type="html">&lt;p&gt;&lt;em&gt;A tweetstorm I wrote up from being at a very early Foo Fighters’ show. I’ve kept this in Tweet format because I wrote it in 280-word segments.&lt;br /&gt;
-&lt;br /&gt;&lt;br /&gt;–dwf&lt;/em&gt;&lt;/p&gt;
+    <content type="html">
+&lt;p&gt;&lt;em&gt;A tweetstorm I wrote up in September, 2020, from being at a very early Foo Fighters’ show. I’ve migrated this away from being embedded tweets because Twitter/X. I’ve kept it &lt;a href="https://twitter.com/dwfrank/status/1305724884052443136"&gt;linked&lt;/a&gt; for history’s sake. Refreshed with links and some text formatting. –dwf&lt;/em&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
-&lt;script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;My Amazing Rock’n’Roll moments. Next in a series. &lt;br /&gt;&lt;br /&gt;Foo Fighters first tour. May 13th 1995. Or maybe the July show. Portland, Oregon. La Luna. An amazing venue that doesn’t do rock shows anymore. 1/7&lt;/p&gt;&amp;mdash; Thank You for being a VOTER (@dwfrank) &lt;a href="https://twitter.com/dwfrank/status/1305724884052443136?ref_src=twsrc%5Etfw"&gt;September 15, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;My Amazing Rock’n’Roll moments. Next in a series.&lt;/p&gt;
 
-&lt;blockquote class="twitter-tweet" data-conversation="none"&gt;&lt;p lang="en" dir="ltr"&gt;But an absolutely AMAZING mosh pit. Near the end of the show, the band took a short breather to change guitars or something. And we all stood there, spent.&lt;br /&gt;&lt;br /&gt;Then they started “Exhausted.” But nobody was dancing. We were all too tired. 2/7&lt;/p&gt;&amp;mdash; Thank You for being a VOTER (@dwfrank) &lt;a href="https://twitter.com/dwfrank/status/1305724884799037440?ref_src=twsrc%5Etfw"&gt;September 15, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;Foo Fighters first tour. &lt;a href="https://www.foofighterslive.com/shows/13th-may-1995-la-luna-32"&gt;May 13th, 1995&lt;/a&gt; (or maybe the &lt;a href="https://www.setlist.fm/setlists/foo-fighters-bd6893a.html"&gt;July 24th show&lt;/a&gt;, I’m not sure&lt;sup id="fnref:1" role="doc-noteref"&gt;&lt;a href="#fn:1" class="footnote" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;). Portland, Oregon. &lt;a href="https://en.wikipedia.org/wiki/La_Luna_(Portland,_Oregon)"&gt;La Luna&lt;/a&gt;. An amazing venue that doesn’t do rock shows anymore.&lt;/p&gt;
 
-&lt;blockquote class="twitter-tweet" data-conversation="none"&gt;&lt;p lang="en" dir="ltr"&gt;I was in the middle of the room at the edge of a big circle of people. I wanted to keep the excitement. After a 30 seconds or so, when the song is still slow, I tucked in my arms and started rolling slowly to the tempo off of everyone along the inside of the circle. 3/7&lt;/p&gt;&amp;mdash; Thank You for being a VOTER (@dwfrank) &lt;a href="https://twitter.com/dwfrank/status/1305724885503602689?ref_src=twsrc%5Etfw"&gt;September 15, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;But an absolutely AMAZING mosh pit. Near the end of the show, the band took a short breather to change guitars or something. And we all stood there, spent.&lt;br /&gt;&lt;br /&gt;Then they started “Exhausted.” But nobody was dancing. We were all too tired.&lt;/p&gt;
 
-&lt;blockquote class="twitter-tweet" data-conversation="none"&gt;&lt;p lang="en" dir="ltr"&gt;Just me became two or three, then four people. Not crazy dancing, but just building. And building. Just like the song. By the crescendo we had the pit at full strength. That song felt like it went on forever. Just forever. It was so special. 4/7&lt;/p&gt;&amp;mdash; Thank You for being a VOTER (@dwfrank) &lt;a href="https://twitter.com/dwfrank/status/1305724886187302915?ref_src=twsrc%5Etfw"&gt;September 15, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;I was in the middle of the room at the edge of a big circle of people. I wanted to keep the excitement. After a 30 seconds or so, when the song is still slow, I tucked in my arms and started rolling slowly to the tempo off of everyone along the inside of the circle.&lt;/p&gt;
 
-&lt;blockquote class="twitter-tweet" data-conversation="none"&gt;&lt;p lang="en" dir="ltr"&gt;Fast forward about 4 months. The tour is wrapping up. And I’m listening to a Westwood One interview with the band on a Sunday night. They start taking calls from the audience. “What was your favorite show during this tour?” 5/7&lt;/p&gt;&amp;mdash; Thank You for being a VOTER (@dwfrank) &lt;a href="https://twitter.com/dwfrank/status/1305724886896144384?ref_src=twsrc%5Etfw"&gt;September 15, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;Just me became two or three, then four people. Not crazy dancing, but just building. And building. Just like the song. By the crescendo we had the pit at full strength. That song felt like it went on forever. Just forever. It was so special.&lt;/p&gt;
 
-&lt;blockquote class="twitter-tweet" data-conversation="none"&gt;&lt;p lang="en" dir="ltr"&gt;Dave Grohl- “It’s just so great to be on tour. That we’ve picked up fans and they’ve embraced us. And the shows everywhere have been beyond what we’ve could have ever expected.” 6/7&lt;/p&gt;&amp;mdash; Thank You for being a VOTER (@dwfrank) &lt;a href="https://twitter.com/dwfrank/status/1305724887579779072?ref_src=twsrc%5Etfw"&gt;September 15, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;Fast forward about 4 months. The tour is wrapping up. And I’m listening to a Westwood One radio interview with the band on a Sunday night. They start taking calls from the audience. “What was your favorite show during this tour?”&lt;/p&gt;
 
-&lt;blockquote class="twitter-tweet" data-conversation="none"&gt;&lt;p lang="en" dir="ltr"&gt;Then one of the other band members jumps in. “You member that one night in Portland? When they started MOSHING? To f’n EXHAUSTED? That never happens.” Dave - “Oh, yeah. By the end that was NUTS. What a show!”&lt;br /&gt;🎸🕺🤘 &lt;br /&gt;7/7&lt;/p&gt;&amp;mdash; Thank You for being a VOTER (@dwfrank) &lt;a href="https://twitter.com/dwfrank/status/1305724888284504064?ref_src=twsrc%5Etfw"&gt;September 15, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;Dave Grohl - “It’s just so great to be on tour. That we’ve picked up fans and they’ve embraced us. And the shows everywhere have been beyond what we’ve could have ever expected.”&lt;/p&gt;
+
+&lt;p&gt;Then one of the other band members jumps in. “Remember that one night in Portland? When they started &lt;em&gt;moshing&lt;/em&gt;? To f’n &lt;em&gt;Exhausted&lt;/em&gt; ? That never happens.”&lt;/p&gt;
+
+&lt;p&gt;Dave - “Oh, yeah. So cool. By the end of the song that was &lt;em&gt;nuts&lt;/em&gt;. What a show!”&lt;/p&gt;
+
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+  &lt;ol&gt;
+    &lt;li id="fn:1" role="doc-endnote"&gt;
+      &lt;p&gt;I think it was likely the May show, as I recall it being short. Regardless, it makes a better story with &lt;em&gt;Exhausted&lt;/em&gt; being the last song. &lt;a href="#fnref:1" class="reversefootnote" role="doc-backlink"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
 </content>
     <published>2020-09-14T17:00:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
+    <updated>2023-09-13T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Drake Your Job</title>
