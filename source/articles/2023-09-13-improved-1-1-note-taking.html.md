@@ -15,7 +15,7 @@ keywords:
   - 1-1's
 teaser: "In which I adapt some of my note taking to Notion."
 ---
-[obs]: https://obsidian.com
+[obs]: https://obsidian.md
 [obs-series]: https://dwf.bigpencil.net/series/obsidian/
 [notion]: https://notion.so
 [o1s]: https://dwf.bigpencil.net/one-on-one-notes/
