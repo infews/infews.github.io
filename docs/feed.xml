@@ -5,11 +5,75 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2023-09-13T12:28:00-07:00</updated>
+  <updated>2023-09-18T15:33:02-07:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
   <rights>© Davis W. Frank 2023</rights>
+  <entry>
+    <title>The Team is the Agent of Work</title>
+    <link href="https://dwf.bigpencil.net/team-is-the-agent-of-work/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">That time that somebody wanted me fired.</summary>
+    <content type="html">
+&lt;p&gt;Once, a VP walked into my boss’s office and said that I needed to be fired.&lt;/p&gt;
+
+&lt;p&gt;I had been on the team for about four months. The first few months I was an engineer on the team. Then I had moved into the role of Product Manager - in the &lt;a href="https://tanzu.vmware.com/developer/learningpaths/application-development/balanced-teams/"&gt;Balanced Team/Pivotal&lt;/a&gt; sense, defining and prioritizing the outcomes for the team of 3-to-4 pairs of engineers.&lt;/p&gt;
+
+&lt;p&gt;This was a Release Engineering Team and we weren’t releasing  incremental builds to the rest of the organization very fast or efficiently. We were finding problems and fixing them, and thus increasing our frequency of output. But we had a &lt;em&gt;long&lt;/em&gt; way to go.&lt;/p&gt;
+
+&lt;p&gt;But for some in the org management chain, we weren’t moving nearly fast enough. And since I was nominally “in charge,” they decided that &lt;em&gt;I&lt;/em&gt; was the problem. Replacing me was the essential course of action.&lt;/p&gt;
+
+&lt;h1&gt;Finding Accountability&lt;/h1&gt;
+
+&lt;p&gt;Release Engineering for PKS was an intentional specialization, abstracting away the complexity of Kubernetes, 5 different cloud infrastructures, and multiple interdependent products from related teams. The was was building all the tooling to run a very complex set of continuous integration pipelines for 4 versions of the product simultaneously.&lt;/p&gt;
+
+&lt;p&gt;The org had over 30 engineers and multiple downstream teams who needed CI to be green and an installable product package in order to get their jobs done. RelEng needed to be smooth and efficient and we weren’t there yet.&lt;/p&gt;
+
+&lt;p&gt;The VP had &lt;em&gt;very&lt;/em&gt; different expectations about how long CI and packaging should take. Since I couldn’t meet these expectations after four weeks leading, I needed to be held accountable. Removing me was necessary to make the team more productive.&lt;/p&gt;
+
+&lt;p&gt;Somehow.&lt;/p&gt;
+
+&lt;p&gt;Looking back, this would have been like a Major League Baseball team replacing its manager in the middle of a losing season and then expecting a World Series win come October.&lt;/p&gt;
+
+&lt;h1&gt;Keeping the Black Box Open&lt;/h1&gt;
+
+&lt;p&gt;Andy Grove &lt;a href="https://a.co/d/7wMVxHz"&gt;valued middle management&lt;/a&gt; because they could cut a hole in the (black) box that is a system to find out a team’s problems, then drive them to fix those problems. John Cutler has talked about what happens &lt;a href="https://cutlefish.substack.com/p/tbm-224-the-black-box"&gt;when you stop looking inside the box&lt;/a&gt; - you return to status-report-driven drudgery without improvements.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.linkedin.com/in/testobsessed/"&gt;Elisabeth Hendrickson&lt;/a&gt; taught me about a model of management that’s builds well on top of these ideas - that &lt;em&gt;the team is the agent of work&lt;/em&gt;. They do the work. They own the desired outcomes. Together. No single person, and certainly not the manager, is essential to team success. The team succeeds and fails together.&lt;/p&gt;
+
+&lt;p&gt;If a team is struggling, if they are not meeting expectations, a manager should ask them why. A &lt;em&gt;lot&lt;/em&gt;. The team has the most context about what is happening and why. They know where their dependencies are. They know what work they are doing or not able to do. The manager’s job is to ask, listen, understand, and then use their own context and experience to enable the team to improve.&lt;/p&gt;
+
+&lt;p&gt;Because it’s the team doing the work.&lt;/p&gt;
+
+&lt;h1&gt;Flashlight Time&lt;/h1&gt;
+
+&lt;p&gt;Back to the story.&lt;/p&gt;
+
+&lt;p&gt;My boss asked me a boatload of questions about what was &lt;em&gt;really&lt;/em&gt; going on. Then she pulled some organizational aikido and had me lead a series of meetings with the VP and other team leaders where I reviewed, in excruciating detail, the entire Release Engineering pipeline. We talked about code and dependencies. I showed average timings of each step over the past few weeks. I talked about the causes of our top five bottlenecks and what our roadmap was to fix them. I also pointed out where other parts of the org could help RelEng go even faster.&lt;/p&gt;
+
+&lt;p&gt;I kept the job. The team kept moving. We even got a bit more support from the rest of the organization. And &lt;a href="https://dwf.bigpencil.net/releng-beer-talk/"&gt;we did get faster&lt;/a&gt; over the coming months.&lt;/p&gt;
+
+&lt;p&gt;(It’s worth noting I didn’t hear about the whole firing thing from this manager until a year or two later. Great managers know how to get the most out of a team.)&lt;/p&gt;
+
+&lt;h1&gt;Save the Team, Save the Outcomes&lt;/h1&gt;
+
+&lt;p&gt;So when a team is struggling, if it seems sudden or perennial, the solution is almost never to replace the manager.&lt;/p&gt;
+
+&lt;p&gt;If you want to help as a leader, remember that building software is a system like any other. Dig into the context with the team. Ask why enough times until you understand what is preventing the outcomes you and the organization expect.&lt;/p&gt;
+
+&lt;p&gt;Then use your experience and influence to increase the team’s chances of success. Remove obstacles. Change goals. Find other black boxes, cut more holes, and shine more lights. And if you have data that tells you to, make staff changes.&lt;/p&gt;
+
+&lt;p&gt;But remember that a new manager isn’t going to win you the World Series. Just ask New York Yankees fans about Billy Martin.&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;team&lt;/em&gt; is the agent of work.&lt;/p&gt;
+
+</content>
+    <published>2023-09-18T15:11:00-07:00</published>
+  </entry>
   <entry>
     <title>Improved 1-1 Note Taking</title>
     <link href="https://dwf.bigpencil.net/improved-1-1-note-taking/" rel="alternate"/>
@@ -785,21 +849,6 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
-    <title>Community Plugin: Calendar</title>
-    <link href="https://dwf.bigpencil.net/community-plugin-calendar/" rel="alternate"/>
-    <id/>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <summary type="html">The calendar helps you build the daily journal habit.</summary>
-    <content type="html">&lt;p&gt;This plug-in works with the Daily Notes plug-in. It adds a new tab in the right pane that gives a single-month view. Each date links to that day’s daily note, with a cute dot notation for the length of that note. You can also browse back and forth between months.&lt;/p&gt;
-
-&lt;p&gt;I find this is faster for zeroing in on historical notes. And sometimes you just need another calendar right in front of you during the day.&lt;/p&gt;
-</content>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
-  </entry>
-  <entry>
     <title>Obsidian URLs</title>
     <link href="https://dwf.bigpencil.net/obsidian-links/" rel="alternate"/>
     <id/>
@@ -817,21 +866,6 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;p&gt;I use this a lot with my task manager, linking back from projects and tasks to longer thoughts on the topic. I also link to notes &lt;a href="/series/obsidian/thoughts-on-vaults"&gt;other vaults&lt;/a&gt; as needed.&lt;/p&gt;
 
 &lt;p&gt;With any note open, “Copy Obsidian URL” is available via the Command Palette and the note menu.&lt;/p&gt;
-
-</content>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
-  </entry>
-  <entry>
-    <title>Don't Sleep on the Command Palette</title>
-    <link href="https://dwf.bigpencil.net/love-the-command-palette/" rel="alternate"/>
-    <id/>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <summary type="html">It takes me a while to learn new commands.</summary>
-    <content type="html">
-&lt;p&gt;While I’m still learning how to use Obsidian, I find the Command Palette amazing. &lt;code&gt;Ctrl+P/Cmd+P&lt;/code&gt; brings up a searchable list of commands. I find new actions here all the time. And it’s the fastest way to put an &lt;a href="/obsidian-links"&gt;Obsidian URL&lt;/a&gt; on your clipboard.&lt;/p&gt;
 
 </content>
     <published>2021-03-21T09:14:00-07:00</published>
@@ -930,6 +964,36 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;h2&gt;Between Meetings&lt;/h2&gt;
 
 &lt;p&gt;I will add new Topics to the Person’s note as they come up. The Linked Mentions tab becomes a great historical list of our 1-1 meetings.&lt;/p&gt;
+</content>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
+  </entry>
+  <entry>
+    <title>Don't Sleep on the Command Palette</title>
+    <link href="https://dwf.bigpencil.net/love-the-command-palette/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">It takes me a while to learn new commands.</summary>
+    <content type="html">
+&lt;p&gt;While I’m still learning how to use Obsidian, I find the Command Palette amazing. &lt;code&gt;Ctrl+P/Cmd+P&lt;/code&gt; brings up a searchable list of commands. I find new actions here all the time. And it’s the fastest way to put an &lt;a href="/obsidian-links"&gt;Obsidian URL&lt;/a&gt; on your clipboard.&lt;/p&gt;
+
+</content>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
+  </entry>
+  <entry>
+    <title>Community Plugin: Calendar</title>
+    <link href="https://dwf.bigpencil.net/community-plugin-calendar/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">The calendar helps you build the daily journal habit.</summary>
+    <content type="html">&lt;p&gt;This plug-in works with the Daily Notes plug-in. It adds a new tab in the right pane that gives a single-month view. Each date links to that day’s daily note, with a cute dot notation for the length of that note. You can also browse back and forth between months.&lt;/p&gt;
+
+&lt;p&gt;I find this is faster for zeroing in on historical notes. And sometimes you just need another calendar right in front of you during the day.&lt;/p&gt;
 </content>
     <published>2021-03-21T09:14:00-07:00</published>
     <updated>2023-07-12T00:00:00-07:00</updated>
@@ -1169,7 +1233,7 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 
 &lt;h2&gt;Retrospectives&lt;/h2&gt;
 
-&lt;p&gt;First, a quick intro to (or refresher about) &lt;a href="https://www.agilealliance.org/glossary/heartbeatretro/"&gt;retrospectives&lt;/a&gt;. A retro is a meeting where the team reflects on their team’s “story so far.” It is a time to talk about what is working and find ways to amplify that strength. Or it’s a time to talk about what is &lt;em&gt;not&lt;/em&gt; working, rank the problems’ importance, and suggest fixes.&lt;/p&gt;
+&lt;p&gt;First, a quick intro to (or refresher about) &lt;a href="https://www.agilealliance.org/glossary/heartbeat-retrospective/"&gt;retrospectives&lt;/a&gt;. A retro is a meeting where the team reflects on their team’s “story so far.” It is a time to talk about what is working and find ways to amplify that strength. Or it’s a time to talk about what is &lt;em&gt;not&lt;/em&gt; working, rank the problems’ importance, and suggest fixes.&lt;/p&gt;
 
 &lt;p&gt;If your team does not have regular retrospectives, &lt;a href="https://tanzu.vmware.com/content/blog/how-to-run-a-really-good-retrospective"&gt;Nicola Rushton’s quick start guide&lt;/a&gt; is a great introduction. The book &lt;a href="https://amzn.to/38TKWiq"&gt;Agile Retrospectives&lt;/a&gt; is full of more advanced retro topics. It has good discussions on how to set the team’s expectations for the meetings, how to facilitate well, and how to process the outcomes. There are also mini-discussions of different retro types and their preparation activities.&lt;/p&gt;
 
@@ -1215,7 +1279,7 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 
 </content>
     <published>2020-11-29T16:00:00-08:00</published>
-    <updated>2023-07-22T00:00:00-07:00</updated>
+    <updated>2023-09-18T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>The Name Game</title>
@@ -1420,7 +1484,7 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 
 &lt;p&gt;Some process, techniques, and behaviors are the opposite. They work very well, solving problems and making the team stronger. They should be recognized and further promoted.&lt;/p&gt;
 
-&lt;p&gt;A weekly &lt;a href="https://www.agilealliance.org/glossary/heartbeatretro/"&gt;retrospective&lt;/a&gt; helps a team identify both problems and successes.&lt;/p&gt;
+&lt;p&gt;A weekly &lt;a href="https://www.agilealliance.org/glossary/heartbeat-retrospective/"&gt;retrospective&lt;/a&gt; helps a team identify both problems and successes.&lt;/p&gt;
 
 &lt;p&gt;Teams should celebrate every win. This makes team members feel good about their work. It cements good patterns for potential reuse.&lt;/p&gt;
 
@@ -1434,7 +1498,7 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 
 </content>
     <published>2020-11-04T16:00:00-08:00</published>
-    <updated>2023-07-22T00:00:00-07:00</updated>
+    <updated>2023-09-18T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>COVID-19-Inspired Meal Planning</title>
