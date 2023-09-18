@@ -22,7 +22,7 @@ teaser: "Every team improvement journey starts with a retro."
 [catapult]: https://www.funretrospectives.com/the-catapult/
 [agileretros]: https://amzn.to/38TKWiq
 [funbook]: https://amzn.to/38ZPGD9
-[retros]: https://www.agilealliance.org/glossary/heartbeatretro/
+[retros]: https://www.agilealliance.org/glossary/heartbeat-retrospective/
 [sailboat]: https://www.pagerduty.com/blog/4-step-agile-sailboat-retrospective/
 [balloon]: https://www.funretrospectives.com/hot-air-balloon-bad-weather/
 [mountain]: https://retrospectivewiki.org/index.php?title=Mountain_Hiking

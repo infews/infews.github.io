@@ -19,7 +19,7 @@ series: the-cd-test
 [joel]: https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/
 [toaster]: https://www.danielsen.com/jokes/objecttoaster.txt
 [explore_it]: https://amzn.to/2HdUWrs
-[retros]: https://www.agilealliance.org/glossary/heartbeatretro/
+[retros]: https://www.agilealliance.org/glossary/heartbeat-retrospective/
 
 _The spice must flow…_
 
