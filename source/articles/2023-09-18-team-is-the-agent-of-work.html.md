@@ -27,7 +27,7 @@ But for some in the org management chain, we weren't moving nearly fast enough. 
 
 # Finding Accountability
 
-Release Engineering for PKS was an intentional specialization, abstracting away the complexity of Kubernetes, 5 different cloud infrastructures, and multiple interdependent products from related teams. The was was building all the tooling to run a very complex set of continuous integration pipelines for 4 versions of the product simultaneously.
+Release Engineering for PKS was an intentional specialization, abstracting away the complexity of Kubernetes, 5 different cloud infrastructures, and multiple interdependent products from related teams. The team was building all the tooling to run a very complex set of continuous integration pipelines for 4 versions of the product simultaneously.
 
 The org had over 30 engineers and multiple downstream teams who needed CI to be green and an installable product package in order to get their jobs done. RelEng needed to be smooth and efficient and we weren't there yet.
 
