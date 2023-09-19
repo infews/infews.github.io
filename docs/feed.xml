@@ -5,7 +5,7 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2023-09-18T15:33:02-07:00</updated>
+  <updated>2023-09-19T07:24:25-07:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
@@ -29,7 +29,7 @@
 
 &lt;h1&gt;Finding Accountability&lt;/h1&gt;
 
-&lt;p&gt;Release Engineering for PKS was an intentional specialization, abstracting away the complexity of Kubernetes, 5 different cloud infrastructures, and multiple interdependent products from related teams. The was was building all the tooling to run a very complex set of continuous integration pipelines for 4 versions of the product simultaneously.&lt;/p&gt;
+&lt;p&gt;Release Engineering for PKS was an intentional specialization, abstracting away the complexity of Kubernetes, 5 different cloud infrastructures, and multiple interdependent products from related teams. The team was building all the tooling to run a very complex set of continuous integration pipelines for 4 versions of the product simultaneously.&lt;/p&gt;
 
 &lt;p&gt;The org had over 30 engineers and multiple downstream teams who needed CI to be green and an installable product package in order to get their jobs done. RelEng needed to be smooth and efficient and we weren’t there yet.&lt;/p&gt;
 
@@ -73,6 +73,7 @@
 
 </content>
     <published>2023-09-18T15:11:00-07:00</published>
+    <updated>2023-09-19T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Improved 1-1 Note Taking</title>
