@@ -20,7 +20,7 @@ img.avatar {
 .tagline {
   font-size: 1.6rem;
   line-height: 1.2;
-  color: #bbb;
+  color: var(--tagline-color);
   font-style: italic;
   font-weight: bold;
   font: $font-family-heading;

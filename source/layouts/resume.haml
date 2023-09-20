@@ -2,39 +2,39 @@
 %html{lang: "en"}
   %head
     = component "meta"
+    %link{rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/holiday.css@0.11.2"}
     = component "stylesheets"
-  %body
+  %body.resume
     - if development?
       = component "dev_ribbon"
-    %main{class: wrapper_classes_for(current_page.data)}
-      %h1
-        = config[:site_author]
-      %ul.social
-        %li
-          %a{href: "mailto:dwfrank@gmail.com"}
-            %span.fa-solid.fa-envelope
-            %span dwfrank@gmail.com
-        %li
-          %a{href: "https://linkedin.com/in/daviswfrank"}
-            %span.fa-brands.fa-linkedin-in
-            %span linkedin.com/in/daviswfrank
-        %li
-          %a{href: "https://github.com/infews"}
-            %span.fa-brands.fa-github-alt
-            %span github.com/infews
-        %li
-          %a{href: "https://dwf.bigpencil.net"}
-            %span.fa-solid.fa-pen-fancy
-            %span dwf.bigpencil.net
-        %li.print-only
-          %a{href: "https://dwf.bigpencil.net/daviswfrank_resume/"}
-            %span.fa-solid.fa-file-lines
-            %span Latest resume: https://dwf.bigpencil.net/daviswfrank_resume/
-        %li
-          %span.fa-solid.fa-map-marked-alt
-          %span San Francisco Bay Area
-      = yield
-      %hr
-      %span.version
-        ="v#{updated_date("source/daviswfrank_resume.html.md")}"
-      = component "google_analytics"
+    %h1
+      = config[:site_author]
+    %ul.social
+      %li
+        %a{href: "mailto:dwfrank@gmail.com"}
+          %span.fa-solid.fa-envelope
+          %span dwfrank@gmail.com
+      %li
+        %a{href: "https://linkedin.com/in/daviswfrank"}
+          %span.fa-brands.fa-linkedin-in
+          %span linkedin.com/in/daviswfrank
+      %li
+        %a{href: "https://github.com/infews"}
+          %span.fa-brands.fa-github-alt
+          %span github.com/infews
+      %li
+        %a{href: "https://dwf.bigpencil.net"}
+          %span.fa-solid.fa-pen-fancy
+          %span dwf.bigpencil.net
+      %li.print-only
+        %a{href: "https://dwf.bigpencil.net/daviswfrank_resume/"}
+          %span.fa-solid.fa-file-lines
+          %span Latest resume: https://dwf.bigpencil.net/daviswfrank_resume/
+      %li
+        %span.fa-solid.fa-map-marked-alt
+        %span San Francisco Bay Area
+    = yield
+    %hr
+    %span.version
+      ="v#{updated_date("source/daviswfrank_resume.html.md")}"
+    = component "google_analytics"

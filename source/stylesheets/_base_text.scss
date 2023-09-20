@@ -7,7 +7,6 @@ body {
   line-height: 1.35rem;
   font-size: 1rem;
   font-family: $font-family-body;
-  color: $font-body-color-light;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -18,7 +17,7 @@ html, body {
 
 // Headings & Text
 h1, h2, h3, h4, h5, h6 {
-  color: $font-heading-color-light;
+  color: var(--heading-color);
 }
 
 h1, h2, h3 {
@@ -77,8 +76,4 @@ code {
 a.title {
   font: 1.4rem $font-family-heading;
   font-weight: $font-heading-bold;
-}
-
-a:visited {
-  color: rebeccapurple;
 }
