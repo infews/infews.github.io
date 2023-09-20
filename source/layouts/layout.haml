@@ -3,17 +3,10 @@
   %head
     -# Meta tags + JSON+LD
     = component "meta"
-
-    -# Styling for everything-but-the-resume
-
-    -# reset + defaults
-    %link{rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/holiday.css@0.11.2"}
-
+    = component "stylesheets"
     -# in-browser syntax highlighting
     %link{rel: "stylesheet", href: "/stylesheets/prism-laserwave.css"}
     %script{src: "/js/prism.js"}
-
-    = component "stylesheets"
   %body
     - if development?
       = component "dev_ribbon"
