@@ -7,7 +7,7 @@ body {
   line-height: 1.35rem;
   font-size: 1rem;
   font-family: $font-family-body;
-  color: $font-body-color;
+  color: $font-body-color-light;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -18,7 +18,7 @@ html, body {
 
 // Headings & Text
 h1, h2, h3, h4, h5, h6 {
-  color: $font-heading-color;
+  color: $font-heading-color-light;
 }
 
 h1, h2, h3 {

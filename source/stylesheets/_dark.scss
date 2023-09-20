@@ -1,0 +1,29 @@
+// dark mode
+@media (prefers-color-scheme: dark) {
+  //--background-color: #2d2d2d;
+
+  // base text
+  body, body.resume {
+    color: $font-body-color-dark;
+    //background-color: var(--background-color);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $font-heading-color-dark;
+  }
+
+  a:visited {
+    color: mediumpurple;
+  }
+
+  // articles & article lists
+  article {
+    .headline .info {
+      color: $font-heading-color-dark-info;
+    }
+  }
+
+  .date {
+    color: $font-heading-color-dark-info;
+  }
+}

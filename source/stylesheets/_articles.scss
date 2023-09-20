@@ -3,7 +3,7 @@
 article {
   .headline .info {
     font-weight: normal;
-    color: #bbb;
+    color: $font-heading-color-info;
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -41,7 +41,7 @@ ul.articles {
 
 .date {
   font-family: $font-family-body;
-  color: #bbb;
+  color: $font-heading-color-info;
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 2px;
