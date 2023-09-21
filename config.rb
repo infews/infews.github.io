@@ -98,6 +98,7 @@ set :twitter_username, "dwfrank"
 set :linkedin_username, "daviswfrank"
 set :mastodon_url, "ruby.social/@dwfrank"
 set :email, "dwfrank+blog@gmail.com"
+set :threads_url, "threads.net/dwfrank"
 
 # Replace 'nil' with your Disqus shortname, eg. 'example'
 # set :disqus_shortname, nil
