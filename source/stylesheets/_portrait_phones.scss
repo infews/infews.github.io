@@ -3,11 +3,13 @@
 
   // bump up body text & text menus/links
   p,
+  dt,
+  dd,
   .all-tags li,
   .about li,
-  tags,
-  dt,
-  dd {
+  .tags,
+  .more,
+  {
     font-size: 115%;
     line-height: 1.35;
   }
@@ -36,10 +38,6 @@
         margin-top: 1rem;
         margin-bottom: 1rem;
       }
-
-      .more {
-        font-size: 140%;
-      }
     }
   }
 
@@ -49,10 +47,6 @@
 
   .title {
     font-size: 110%;
-  }
-
-  .date {
-    font-size: 125%;
   }
 
   // sharing nav
