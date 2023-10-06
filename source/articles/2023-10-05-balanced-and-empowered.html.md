@@ -13,6 +13,12 @@ keywords:
   - Empowered Teams
 teaser: "How we got RelEng back on course, and I kept my job."
 ---
+[bt]: https://tanzu.vmware.com/developer/learningpaths/application-development/balanced-teams/
+[cci]: https://concourse-ci.org/
+[me]: https://dwf.bigpencil.net/team-is-the-agent-of-work/
+[mtn]: https://userstorymap.io/mountain-climber-retrospective-template/
+[rj]: https://rjzaworski.com/2023/09/do-we-even-need-managers
+[3c]: https://dwf.bigpencil.net/releng-beer-talk/
 
 _This article is a spiritual Part II to the post [The Team is the Agent of Work][me]._
 
