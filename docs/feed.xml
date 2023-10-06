@@ -5,7 +5,7 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2023-10-06T10:59:27-07:00</updated>
+  <updated>2023-10-06T11:00:30-07:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
@@ -27,7 +27,7 @@
 
 &lt;p&gt;Track One was developing all of the continuous integration pipelines and tooling that tested and packaged the PKS product. This was a &lt;em&gt;very&lt;/em&gt; complex system of nearly 500 &lt;a href="https://concourse-ci.org/"&gt;Concourse&lt;/a&gt; pipelines, running on 4 (eventually 5) cloud infrastructures, for 4 versions of the product, and between 3-8 different scenarios. These ran on every pull request that came from the PKS development teams.&lt;/p&gt;
 
-&lt;p&gt;Track Two &lt;em&gt;operating&lt;/em&gt; all of those pipelines - updating pipelines as business needs changed, triaging failing builds, fixing any infrastructure causes, and notifying the dev teams when it was a legitimate product failure.&lt;/p&gt;
+&lt;p&gt;Track Two was &lt;em&gt;operating&lt;/em&gt; all of those pipelines - updating pipelines as business needs changed, triaging failing builds, fixing any infrastructure causes, and notifying the dev teams when it was a legitimate product failure.&lt;/p&gt;
 
 &lt;p&gt;This was hard.&lt;/p&gt;
 
