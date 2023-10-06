@@ -85,6 +85,7 @@ In the [Joel Test][joel], he talks about having dedicated testers for a software
 
 Twenty years on, more and more testing is done with code. These tests are repeatable and essential to your product. Moving to test-driven development provides even more benefits. It is an investment in your product that results in lower costs in code design, higher team productivity, and fewer bugs for your customers. When it comes to Continuous Delivery, it can increase the momentum of the team, making it easier to ship early and often.
 
+---
 [^1]: If this is hard to imagine, [Dagmara Szkurłat's][dagmar] wrote a fun [real-world analogy][analogy] that is a good next stop.
 [^2]: Thanks to [Michael Jackson](https://twitter.com/mjackson) who suggested this at the speakers' summit prior to the first Fluent Conf in 2012.
 
