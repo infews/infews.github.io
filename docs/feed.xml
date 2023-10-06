@@ -5,11 +5,104 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2023-09-22T15:04:17-07:00</updated>
+  <updated>2023-10-06T10:31:03-07:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
   <rights>© Davis W. Frank 2023</rights>
+  <entry>
+    <title>Balanced and Empowered</title>
+    <link href="https://dwf.bigpencil.net/balanced-and-empowered/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">How we got RelEng back on course, and I kept my job.</summary>
+    <content type="html">&lt;p&gt;&lt;em&gt;This article is a spiritual Part II to the post [The Team is the Agent of Work][me].&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;When I joined the PKS Release Engineering team, they had two dense tracks of work.&lt;/p&gt;
+
+&lt;p&gt;Track One was developing all of the continuous integration pipelines and tooling that tested and packaged the PKS product. This was a &lt;em&gt;very&lt;/em&gt; complex system of nearly 500 [Concourse][cci[] pipelines, running on 4 (eventually 5) cloud infrastructures, for 4 versions of the product, and between 3-8 different scenarios. These ran on every pull request that came from the PKS development teams.&lt;/p&gt;
+
+&lt;p&gt;Track Two &lt;em&gt;operating&lt;/em&gt; all of those pipelines - updating pipelines as business needs changed, triaging failing builds, fixing any infrastructure causes, and notifying the dev teams when it was a legitimate product failure.&lt;/p&gt;
+
+&lt;p&gt;This was hard.&lt;/p&gt;
+
+&lt;p&gt;To make it easier, the team was building the system so a developer could run a subset of pipelines, locally, on one infrastructure. The hypothesis was that running green locally increased the chances that the run of the full pipeline set would be green and the PR was acceptable. It was a fine hypothesis.&lt;/p&gt;
+
+&lt;p&gt;The complication came from the volume of RelEng feature work needed before that hypothesis could be validated. RelEng as a team was empowered to do this work for the PKS dev teams. But unvalidated hypotheses are the devil’s playthings.&lt;/p&gt;
+
+&lt;p&gt;The stakeholders didn’t care about a grand set of tooling that might eventually make the developers’ job “easier.” They wanted to ship PKS to customers NOW. New features, new versions of Kubernetes, and bug fixes should be shipping frequently. RelEng wasn’t “moving fast enough” (read: as fast as they expected).&lt;/p&gt;
+
+&lt;p&gt;Which is why [one of the VPs wanted to fire me][me]. I was leading this team now. And I had a &lt;em&gt;very&lt;/em&gt; frustrated stakeholder.&lt;/p&gt;
+
+&lt;h2&gt;Balance the Team&lt;/h2&gt;
+
+&lt;p&gt;With the team being the agent of work, how do you set them up to deliver to stakeholders’ expectations?&lt;/p&gt;
+
+&lt;p&gt;Empowered teams are impressive for the amount of work they can do while staying healthy. What is sometimes missing in [the discussions of empowered team theory][rj]&lt;sup id="fnref:1" role="doc-noteref"&gt;&lt;a href="#fn:1" class="footnote" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; is how to keep the team focused on the correct work - the work that actually meets the stakeholders’ and customers’ needs and expectations - at the right time - executed in an efficient order. How do you keep everyone talking, the team productive, and prevent unnecessary work?&lt;/p&gt;
+
+&lt;p&gt;One organizational approach for empowered teams is [Balanced Team][bt]. Very simply put this approach gives you three key roles:  Designers, Developers/Engineers, and Product Managers. Each comes with a set of modern practices. Designers bring User Centered Design, Developers bring XP (TDD, Pair Programming, Continuous Integration, etc.), and PMs bring Lean Product Development.&lt;/p&gt;
+
+&lt;p&gt;Designers decide what’s &lt;em&gt;desirable&lt;/em&gt; to customers that solves their problem, Developers decide what’s &lt;em&gt;feasible&lt;/em&gt; to build, and Product Managers decide what is &lt;em&gt;viable&lt;/em&gt; for the business and stakeholders. The intersection of the three areas is where the team will build the most value. The interactions between the roles reinforce each other to keep the team in the value sweet spot.&lt;/p&gt;
+
+&lt;p&gt;This sounds great. But how do you keep your stakeholders involved? By owning viability for the business, Product Managers are the conduit between the team and the stakeholders. They need to understand the business context well enough to help define stories and epics, especially story slicing and backlog prioritization. They need to understand design and engineering well enough to evaluate and compare the costs of potential solutions.&lt;/p&gt;
+
+&lt;p&gt;And it’s not just a “build the backlog” role. They need to accept completed stories as a proxy for the customers and the stakeholders, rejecting work when it’s incomplete or bugs are found. They need to react  to changes in the business climate when things like budget or headcount changes or new competitors enter the market. PMs also need to reset stakeholder expectations when challenges like API limits, hosting costs, or new user insights present themselves.&lt;/p&gt;
+
+&lt;p&gt;A strong Product Manager reduces the stress of stakeholders, enables designers to focus, and frees up developers to code.&lt;/p&gt;
+
+&lt;h2&gt;Reset the Team&lt;/h2&gt;
+
+&lt;p&gt;The VP (who, again, was the one who wanted to fire me) was telling us, very directly and indirectly, that we were &lt;em&gt;not&lt;/em&gt; meeting their needs and expectations. Our Empowered RelEng team was building what we &lt;em&gt;thought&lt;/em&gt; would make the whole org move faster. Instead, it was a big, complex solution with impact that was months away from paying off.&lt;/p&gt;
+
+&lt;p&gt;I was acting in the balanced team’s role of Product Manager. I needed to reset the relationship with the VP, the dev teams, and the rest of the stakeholders. And I needed to do this in a way that would unlock the developers’ skills to tell us how we could start moving the entire org to higher productivity.&lt;/p&gt;
+
+&lt;p&gt;First, we broke our existing system down into all of its steps - from pull request to published package - and timed them all. We listed all of the potential failure cases along the way. We put it all on a public whiteboard and shared it with the entire org.&lt;/p&gt;
+
+&lt;p&gt;With some introspection, we saw that we were focusing on building an ideal toolset for the PKS dev teams - Track One. Track Two had us mostly focusing on frequent flaky tests running in the pipelines. The former was something that nobody asked for. The latter was wasting time and effort, because at the end of the day RelEng had very little control over making the tests more reliable.&lt;/p&gt;
+
+&lt;h2&gt;Point at the Summit&lt;/h2&gt;
+
+&lt;p&gt;We held a [mountain climber retrospective][mtn] and put the goal at the top of the mountain of “1 pull request per day per version.” We listed our “boulders” - all of the bottlenecks from the whiteboard. We talked about making better “ropes” - code we could write that would get us to the top more reliably and faster. We spotted some “First Aid kits” - places where some additional help from other teams would make us stronger.&lt;/p&gt;
+
+&lt;p&gt;With the new focus, we prioritized smaller efforts that shrank the feedback loops for every pull request. We did work in the pipelines themselves. We found the easy wins improving RelEng’s code and tooling that removed, or heavily reduced the cost of managing, failure cases.&lt;/p&gt;
+
+&lt;p&gt;Some highlights&lt;sup id="fnref:2" role="doc-noteref"&gt;&lt;a href="#fn:2" class="footnote" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Parallelized our pipelines such that a 35 hour pipeline run shrunk to 7 hours&lt;/li&gt;
+  &lt;li&gt;Built our pipelines from smaller, well-abstracted YAML files, reducing manual errors during pipeline operation to zero&lt;/li&gt;
+  &lt;li&gt;Moved our public cloud resource management to well-factored Terraform, eliminating errors during cloud creation &amp;amp; deletion (this happened hundreds of times a day)&lt;/li&gt;
+  &lt;li&gt;Worked with an internal team to right-size our private cloud resources, reducing errors due to lack of server availability&lt;/li&gt;
+  &lt;li&gt;Deleted code that generated some product configuration YAML, replacing it with editable YAML files, reducing errors during our final packaging&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We updated the public whiteboard frequently and improved org-wide communication on our results. We got &lt;em&gt;very&lt;/em&gt; close to 1 PR per day.&lt;/p&gt;
+
+&lt;p&gt;Oh, and I kept my job.&lt;/p&gt;
+
+&lt;p&gt;Our empowered team became a balanced team. We treated Release Engineering as a &lt;em&gt;product&lt;/em&gt;. We interviewed our users - the PKS developers. We met more often with our stakeholders. We focused on what we &lt;em&gt;needed&lt;/em&gt; to build instead of what we &lt;em&gt;wanted&lt;/em&gt; to build.&lt;/p&gt;
+
+&lt;p&gt;We solved problems. We shipped. And people - customers, stakeholders, and the RelEng team - got happier.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+  &lt;ol&gt;
+    &lt;li id="fn:1" role="doc-endnote"&gt;
+      &lt;p&gt;Shoutout to RJ Zaworski for this take on Empowered Teams. And extra points for the hot-take-title. &lt;a href="#fnref:1" class="reversefootnote" role="doc-backlink"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id="fn:2" role="doc-endnote"&gt;
+      &lt;p&gt;For more technical details of some of this work, see [Three Cheers for Release Engineering][3c]. &lt;a href="#fnref:2" class="reversefootnote" role="doc-backlink"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</content>
+    <published>2023-10-04T17:00:00-07:00</published>
+    <updated>2023-10-06T00:00:00-07:00</updated>
+  </entry>
   <entry>
     <title>The Team is the Agent of Work</title>
     <link href="https://dwf.bigpencil.net/team-is-the-agent-of-work/" rel="alternate"/>
@@ -73,7 +166,7 @@
 
 </content>
     <published>2023-09-18T15:11:00-07:00</published>
-    <updated>2023-09-19T00:00:00-07:00</updated>
+    <updated>2023-10-06T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Improved 1-1 Note Taking</title>
@@ -1203,6 +1296,8 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 
 &lt;p&gt;Twenty years on, more and more testing is done with code. These tests are repeatable and essential to your product. Moving to test-driven development provides even more benefits. It is an investment in your product that results in lower costs in code design, higher team productivity, and fewer bugs for your customers. When it comes to Continuous Delivery, it can increase the momentum of the team, making it easier to ship early and often.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;div class="footnotes" role="doc-endnotes"&gt;
   &lt;ol&gt;
     &lt;li id="fn:1" role="doc-endnote"&gt;
@@ -1215,7 +1310,7 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;/div&gt;
 </content>
     <published>2021-02-02T13:53:00-08:00</published>
-    <updated>2023-07-22T00:00:00-07:00</updated>
+    <updated>2023-10-06T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Start with Retrospectives</title>
