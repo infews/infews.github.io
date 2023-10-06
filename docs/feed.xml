@@ -5,7 +5,7 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2023-10-06T10:31:03-07:00</updated>
+  <updated>2023-10-06T10:38:49-07:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
@@ -18,7 +18,8 @@
       <name>Davis W. Frank</name>
     </author>
     <summary type="html">How we got RelEng back on course, and I kept my job.</summary>
-    <content type="html">&lt;p&gt;&lt;em&gt;This article is a spiritual Part II to the post [The Team is the Agent of Work][me].&lt;/em&gt;&lt;/p&gt;
+    <content type="html">
+&lt;p&gt;&lt;em&gt;This article is a spiritual Part II to the post &lt;a href="https://dwf.bigpencil.net/team-is-the-agent-of-work/"&gt;The Team is the Agent of Work&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -36,15 +37,15 @@
 
 &lt;p&gt;The stakeholders didn’t care about a grand set of tooling that might eventually make the developers’ job “easier.” They wanted to ship PKS to customers NOW. New features, new versions of Kubernetes, and bug fixes should be shipping frequently. RelEng wasn’t “moving fast enough” (read: as fast as they expected).&lt;/p&gt;
 
-&lt;p&gt;Which is why [one of the VPs wanted to fire me][me]. I was leading this team now. And I had a &lt;em&gt;very&lt;/em&gt; frustrated stakeholder.&lt;/p&gt;
+&lt;p&gt;Which is why &lt;a href="https://dwf.bigpencil.net/team-is-the-agent-of-work/"&gt;one of the VPs wanted to fire me&lt;/a&gt;. I was leading this team now. And I had a &lt;em&gt;very&lt;/em&gt; frustrated stakeholder.&lt;/p&gt;
 
 &lt;h2&gt;Balance the Team&lt;/h2&gt;
 
 &lt;p&gt;With the team being the agent of work, how do you set them up to deliver to stakeholders’ expectations?&lt;/p&gt;
 
-&lt;p&gt;Empowered teams are impressive for the amount of work they can do while staying healthy. What is sometimes missing in [the discussions of empowered team theory][rj]&lt;sup id="fnref:1" role="doc-noteref"&gt;&lt;a href="#fn:1" class="footnote" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; is how to keep the team focused on the correct work - the work that actually meets the stakeholders’ and customers’ needs and expectations - at the right time - executed in an efficient order. How do you keep everyone talking, the team productive, and prevent unnecessary work?&lt;/p&gt;
+&lt;p&gt;Empowered teams are impressive for the amount of work they can do while staying healthy. What is sometimes missing in &lt;a href="https://rjzaworski.com/2023/09/do-we-even-need-managers"&gt;the discussions of empowered team theory&lt;/a&gt;&lt;sup id="fnref:1" role="doc-noteref"&gt;&lt;a href="#fn:1" class="footnote" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; is how to keep the team focused on the correct work - the work that actually meets the stakeholders’ and customers’ needs and expectations - at the right time - executed in an efficient order. How do you keep everyone talking, the team productive, and prevent unnecessary work?&lt;/p&gt;
 
-&lt;p&gt;One organizational approach for empowered teams is [Balanced Team][bt]. Very simply put this approach gives you three key roles:  Designers, Developers/Engineers, and Product Managers. Each comes with a set of modern practices. Designers bring User Centered Design, Developers bring XP (TDD, Pair Programming, Continuous Integration, etc.), and PMs bring Lean Product Development.&lt;/p&gt;
+&lt;p&gt;One organizational approach for empowered teams is &lt;a href="https://tanzu.vmware.com/developer/learningpaths/application-development/balanced-teams/"&gt;Balanced Team&lt;/a&gt;. Very simply put this approach gives you three key roles:  Designers, Developers/Engineers, and Product Managers. Each comes with a set of modern practices. Designers bring User Centered Design, Developers bring XP (TDD, Pair Programming, Continuous Integration, etc.), and PMs bring Lean Product Development.&lt;/p&gt;
 
 &lt;p&gt;Designers decide what’s &lt;em&gt;desirable&lt;/em&gt; to customers that solves their problem, Developers decide what’s &lt;em&gt;feasible&lt;/em&gt; to build, and Product Managers decide what is &lt;em&gt;viable&lt;/em&gt; for the business and stakeholders. The intersection of the three areas is where the team will build the most value. The interactions between the roles reinforce each other to keep the team in the value sweet spot.&lt;/p&gt;
 
@@ -66,7 +67,7 @@
 
 &lt;h2&gt;Point at the Summit&lt;/h2&gt;
 
-&lt;p&gt;We held a [mountain climber retrospective][mtn] and put the goal at the top of the mountain of “1 pull request per day per version.” We listed our “boulders” - all of the bottlenecks from the whiteboard. We talked about making better “ropes” - code we could write that would get us to the top more reliably and faster. We spotted some “First Aid kits” - places where some additional help from other teams would make us stronger.&lt;/p&gt;
+&lt;p&gt;We held a &lt;a href="https://userstorymap.io/mountain-climber-retrospective-template/"&gt;mountain climber retrospective&lt;/a&gt; and put the goal at the top of the mountain of “1 pull request per day per version.” We listed our “boulders” - all of the bottlenecks from the whiteboard. We talked about making better “ropes” - code we could write that would get us to the top more reliably and faster. We spotted some “First Aid kits” - places where some additional help from other teams would make us stronger.&lt;/p&gt;
 
 &lt;p&gt;With the new focus, we prioritized smaller efforts that shrank the feedback loops for every pull request. We did work in the pipelines themselves. We found the easy wins improving RelEng’s code and tooling that removed, or heavily reduced the cost of managing, failure cases.&lt;/p&gt;
 
@@ -95,7 +96,7 @@
       &lt;p&gt;Shoutout to RJ Zaworski for this take on Empowered Teams. And extra points for the hot-take-title. &lt;a href="#fnref:1" class="reversefootnote" role="doc-backlink"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id="fn:2" role="doc-endnote"&gt;
-      &lt;p&gt;For more technical details of some of this work, see [Three Cheers for Release Engineering][3c]. &lt;a href="#fnref:2" class="reversefootnote" role="doc-backlink"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;For more technical details of some of this work, see &lt;a href="https://dwf.bigpencil.net/releng-beer-talk/"&gt;Three Cheers for Release Engineering&lt;/a&gt;. &lt;a href="#fnref:2" class="reversefootnote" role="doc-backlink"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
