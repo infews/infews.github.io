@@ -1,6 +1,6 @@
 ---
 title: Balanced and Empowered
-date: 2023-10-06 00:00 UTC
+date: 2023-10-05 00:00 UTC
 tags:
   - agile
   - software development
