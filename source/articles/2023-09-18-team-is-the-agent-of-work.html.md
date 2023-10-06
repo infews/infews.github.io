@@ -9,6 +9,8 @@ keywords:
   - agile
   - Pivotal
   - Release Engineering
+  - Balanced Team
+  - Empowered Team
 teaser: "That time that somebody wanted me fired."
 ---
 [bt]: https://tanzu.vmware.com/developer/learningpaths/application-development/balanced-teams/
