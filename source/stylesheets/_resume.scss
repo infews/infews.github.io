@@ -27,13 +27,18 @@
     justify-content: space-between;
   }
 
-  h3, h4, dl {
+  h2, h3, h4, dl {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+    margin-bottom: 0;
   }
 
   a {
     text-decoration: none;
+  }
+
+  dl {
+    margin-top: 0;
   }
 
   dt {
@@ -75,13 +80,5 @@
 
   .version {
     font-size: 0.8rem;
-  }
-}
-
-@media screen and (min-width: 767px) and (max-width: 924px) and (orientation: portrait) {
-  ul.social {
-    li {
-      flex-basis: 30%;
-    }
   }
 }
