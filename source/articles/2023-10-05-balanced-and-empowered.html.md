@@ -26,7 +26,7 @@ _This article is a spiritual Part II to the post [The Team is the Agent of Work]
 
 When I joined the PKS Release Engineering team, they had two dense tracks of work.
 
-Track One was developing all of the continuous integration pipelines and tooling that tested and packaged the PKS product. This was a _very_ complex system of nearly 500 [Concourse][cci[] pipelines, running on 4 (eventually 5) cloud infrastructures, for 4 versions of the product, and between 3-8 different scenarios. These ran on every pull request that came from the PKS development teams.
+Track One was developing all of the continuous integration pipelines and tooling that tested and packaged the PKS product. This was a _very_ complex system of nearly 500 [Concourse][cci] pipelines, running on 4 (eventually 5) cloud infrastructures, for 4 versions of the product, and between 3-8 different scenarios. These ran on every pull request that came from the PKS development teams.
 
 Track Two _operating_ all of those pipelines - updating pipelines as business needs changed, triaging failing builds, fixing any infrastructure causes, and notifying the dev teams when it was a legitimate product failure.
 
