@@ -1,0 +1,571 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Davis W. Frank",
+    "label": "Software Engineering Leader",
+    "image": "",
+    "email": "dwfrank@gmail.com",
+    "phone": "",
+    "url": "https://dwf.bigpencil.net",
+    "summary": "I am an experienced senior software engineering leader with a demonstrated history helping software teams shorten feedback loops, ship software, and stay happy. I have managed developers, designers, product managers, and people managers. I have built and re-staffed teams. I have owned critical business systems and started open source projects. I have presented to meetups, conferences, customers, and executives about Ruby, JavaScript, YAML, Web Applications, early history of PC game development, low-level processor optimization, Test-driven Development, and Continuous Delivery practices.",
+    "location": {
+      "countryCode": "US",
+      "address": "United States"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "daviswfrank",
+        "url": "https://www.linkedin.com/in/daviswfrank/"
+      },
+      {
+        "network": "GitHub",
+        "username": "infews",
+        "url": "https://github.com/infews"
+      },
+      {
+        "network": "Threads",
+        "username": "dwfrank",
+        "url": "https://threads.net/@dwfrank"
+      },
+
+      {
+        "network": "Mastodon",
+        "username": "ruby.social/@dwfrank",
+        "url": "https://ruby.social/@dwfrank"
+      },
+      {
+        "network": "Twitter",
+        "username": "dwfrank",
+        "url": "https://twitter.com/dwfrank"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Fountain",
+      "position": "Director of Software Engineering",
+      "startDate": "2021-10-31",
+      "endDate": "2023-05-31",
+      "highlights": [],
+      "summary": "I led various teams at Fountain over my tenure, including some of the Hire Product Engineering teams, Cloud Platform, Developer Experience, Strategic Engineering, Release Engineering, and Data. The common themes of work were maturing our practices, driving for consistency, and reducing the length of feedback loops. Additionally, I drove revamping developer (and engineering manager) interview & hiring practices and introduced iterative product engineering techniques to our Data & Reporting team.",
+      "url": "https://www.linkedin.com/company/fountaininc/",
+      "location": "San Francisco Bay Area"
+    },
+    {
+      "name": "Self",
+      "position": "Technical Advisor",
+      "startDate": "2020-01-31",
+      "endDate": "2021-10-31",
+      "highlights": [],
+      "summary": "I recharged while writing about my career experience (see link to blog, above), optimizing our home meal planning, and improving our household operations to accommodate working and schooling from home. \n\nI have helped a few companies in my network. I have aided architecture, design, and development for Curious Duck (https://curiosduck.io) and advised about web content application development for Bigger Bolder Baking (https://biggerbolderbaking.com - 2.6M+ YouTube subscribers).",
+      "url": "",
+      "location": "San Francisco Bay Area"
+    },
+    {
+      "name": "Pivotal Software, Inc.",
+      "position": "Senior Engineering Manager (PKS)",
+      "startDate": "2018-10-31",
+      "endDate": "2020-01-31",
+      "highlights": [],
+      "summary": "PKS (now known as TKGI) is a jointly-developed Kubernetes distribution from Pivotal & VMware that was a service for Pivotal Cloud Foundry (now known as Tanzu Application Service). Pivotal was acquired by VMware in late 2019.\n\nI was the Engineering Lead on the PKS Release Engineering team. I defined, prioritized, and accepted the work for this team of 10 developers from Pivotal and VMware. We optimized the configuration, build, and CI runs for hundreds of pipelines, doubling the number of concurrently supported releases from 2 to 4 while reducing the elapsed-time-per-change of hundreds of pipelines by 75% - from 4 days to 1.\n\nAs a member of the leadership team — three managers reporting to our VP of Engineering — we restaffed the Pivotal team from Ireland to Palo Alto, dealt with regular joint-venture management style clashes, and managed our freshly-hired staff through the ambiguity of acquisition. I continued to run the summer intern roundtable, incorporating the Palo Alto interns from the PKS and Greenplum teams.",
+      "url": "https://www.linkedin.com/company/pivotal-software-inc./",
+      "location": "Palo Alto, CA"
+    },
+    {
+      "name": "Pivotal Software, Inc.",
+      "position": "Senior Engineering Manager (Cloud Foundry)",
+      "startDate": "2018-03-31",
+      "endDate": "2018-10-31",
+      "highlights": [],
+      "summary": "Pivotal was the primary sponsor of the Cloud Foundry project, a multi-cloud Platform-as-a-Service (PaaS) for deployment of web apps and services. Pivotal sold its own version of CF, now known as Tanzu Application Service.\n\nI was an engineer on the Open Source CF Cloud API team and managed 4 engineers on other teams. I facilitated working sessions to improve managers' skills across the San Francisco office. I rebuilt the summer intern experience, starting a weekly \"intern roundtable,\" where Pivotal leaders from around the company came for an AMA-style chat with our developer, product manager, and designer interns.",
+      "url": "https://www.linkedin.com/company/pivotal-software-inc./",
+      "location": "San Francisco Bay Area"
+    },
+    {
+      "name": "Pivotal Software, Inc.",
+      "position": "Director, Internal Applications Development",
+      "startDate": "2015-03-31",
+      "endDate": "2018-03-31",
+      "highlights": [],
+      "summary": "I created this team out of a need to improve the development & maintainence of our business-critical, internal software projects. I grew this team from nothing to 16 developers, product managers, and designers across two sites - San Francisco and Toronto. I drove budgeting and prioritization exercises with executive staff for our work. I also coached other IT teams regarding Pivotal's agile practices.",
+      "url": "https://www.linkedin.com/company/pivotal-software-inc./",
+      "location": "San Francisco Bay Area"
+    },
+    {
+      "name": "Pivotal Labs",
+      "position": "Associate Director",
+      "startDate": "2013-03-31",
+      "endDate": "2015-02-28",
+      "highlights": [],
+      "summary": "I managed a staff of 40 developers and 5 managers, about one-third of the the San Francisco consulting practice. I scoped projects, wrote proposals, and managed the business relationship for clients. I scheduled “beach” time for 8 Pivotal Labs open source projects across multiple offices. I continued to present at conferences, meetups, and clients about Pivotal, Extreme Programming, and testing JavaScript.",
+      "url": "https://www.linkedin.com/company/vmware-tanzu-labs/"
+    },
+    {
+      "name": "Pivotal Labs",
+      "position": "Software Engineering Manager",
+      "startDate": "2010-02-28",
+      "endDate": "2013-03-31",
+      "highlights": [],
+      "summary": "I was a member of the first manager cohort when Pivotal grew to need managers. I managed 10 individual developers. I continued to lead consulting projects for clients. I also presented at conferences, meetups, and clients about Pivotal, Extreme Programming, and testing JavaScript.",
+      "url": "https://www.linkedin.com/company/vmware-tanzu-labs/"
+    },
+    {
+      "name": "Pivotal Labs",
+      "position": "Software Engineer",
+      "startDate": "2008-04-30",
+      "endDate": "2010-02-28",
+      "highlights": [],
+      "summary": "I was a engineer on dozens of consulting projects, all Ruby on Rails or JavaScript web-mobile applications. Co-authored Jasmine, a BDD framework for JavaScript testing.",
+      "url": "https://www.linkedin.com/company/vmware-tanzu-labs/",
+      "location": "San Francisco Bay Area"
+    },
+    {
+      "name": "Real Girls Media Network",
+      "position": "Senior Software Engineer",
+      "startDate": "2007-02-28",
+      "endDate": "2008-04-30",
+      "highlights": [],
+      "summary": "I joined this web startup to work on their Ruby on Rails application that powered the online women's magazine Divine Caroline. After attempting various agile practices at previous jobs, I was test-driving, pair-programming, and releasing new production code all the time with a team that actually wanted to do the same. Even when this fledgling site was down when a story made the front page of Yahoo!, we learned to keep the backlog moving. Among my favorite parts of this job was interacting with RGM's writing team - a group of smart, witty, in-house customers for the features we developed every day.",
+      "url": "https://www.linkedin.com/company/real-girls-media/"
+    },
+    {
+      "name": "Infews",
+      "position": "Founder, Software Engineer",
+      "startDate": "2006-06-30",
+      "endDate": "2007-01-31",
+      "highlights": [],
+      "summary": "I taught myself Ruby, Rails, and modern web development at a local Peet's Coffee, \"borrowing\" the WiFi from the adjacent Apple store. I explored developing mobile-specific web products including an RSS reader.",
+      "url": ""
+    },
+    {
+      "name": "Palm, Inc.",
+      "position": "Software Engineering Manager",
+      "startDate": "2004-12-31",
+      "endDate": "2006-05-31",
+      "highlights": [],
+      "summary": "I designed and managed implementation of software that updated the OS and applied carrier customization for every Treo phone at the end of the manufacturing line. This reduced the elapsed time to manufacture a phone from hours to minutes. I managed the implementation of the installation development for every Treo in-box CD.",
+      "url": "https://www.linkedin.com/company/webos/",
+      "location": "Sunnyvale, California"
+    },
+    {
+      "name": "palmOne",
+      "position": "Engineering Program Manager",
+      "startDate": "2002-12-31",
+      "endDate": "2004-11-30",
+      "highlights": [],
+      "summary": "I led prioritization and implementation for the Messaging and Photos applications for several releases for the Treo 600 and Treo 650. I managed remote partners for libraries for these apps.",
+      "url": "https://www.linkedin.com/company/webos/",
+      "location": "Milpitas, California"
+    },
+    {
+      "name": "Handspring",
+      "position": "Software Tools Manager",
+      "startDate": "2001-11-30",
+      "endDate": "2002-11-30",
+      "highlights": [],
+      "summary": "I managed the team of 5 developers that produced daily builds of new internal SDKs for application developers. I inherited, re-prioritized work, and shipped a new bug database web app, based on Bugzilla (https://bugzill.org), for internal use.",
+      "url": "",
+      "location": "Sunnyvale, California"
+    },
+    {
+      "name": "Intel Corporation",
+      "position": "Senior Software Engineer",
+      "startDate": "1999-02-28",
+      "endDate": "2001-11-30",
+      "highlights": [],
+      "summary": "I was the architect for image processing, signal processing, and JPEG compression libraries. They were hand-tuned, per-processor assembly code for high performance. I managed the remote development team in Sarov, Russia, who were were employed as part of the Clinton/Yeltsin Nuclear Cities Initiative (https://en.wikipedia.org/wiki/Nuclear_Cities_Initiative).",
+      "url": "https://www.linkedin.com/company/intel-corporation/",
+      "location": "Santa Clara, California"
+    },
+    {
+      "name": "NetStudio",
+      "position": "Software Engineer",
+      "startDate": "1997-05-31",
+      "endDate": "1998-12-31",
+      "highlights": [],
+      "summary": "I was one of the original team, developing an object oriented web graphics editor for Microsoft Windows. I designed and developed several of the image filters and large chunks of style application code.",
+      "url": "",
+      "location": "Berkeley, California"
+    },
+    {
+      "name": "Broderbund Software",
+      "position": "Software Engineer",
+      "startDate": "1995-12-31",
+      "endDate": "1997-04-30",
+      "highlights": [],
+      "summary": "I maintained and enhanced a custom animation codec used in several games. I combined the separate Win16 and Win32 codebases in order to halve the time it took to fix a bug. I added this codec to games like \"Where in the World is Carmen Sandiego.\" I wrote MMX assembly routines for games like \"Riven: The Sequel to Myst\"?",
+      "url": "https://www.linkedin.com/company/broderbund-software/",
+      "location": "Novato, California"
+    },
+    {
+      "name": "Intel Corporation",
+      "position": "Software Engineer",
+      "startDate": "1992-07-31",
+      "endDate": "1995-12-31",
+      "highlights": [],
+      "summary": "I was a developer on the DCI project, which proved that direct-to-frame-buffer and accelerated graphics was viable on Windows. This technology was shipped with Windows 95. It led to three patents and became the inspiration and basis for DirectX 1.0 and the XBox.",
+      "url": "https://www.linkedin.com/company/intel-corporation/",
+      "location": "Portland, Oregon, United States"
+    },
+    {
+      "name": "Floyd Design",
+      "position": "Intern",
+      "startDate": "1990-12-31",
+      "endDate": "1991-12-31",
+      "highlights": [],
+      "summary": "I spent two Christmas and one summer break setting up IBM PS/2's, supporting corporate demos, and a little programming in OS/2 multimedia authoring systems.",
+      "url": "",
+      "location": "Atlanta GA"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "The University of Georgia",
+      "position": "Mentor",
+      "startDate": "2019-08-31",
+      "endDate": "",
+      "summary": "UGA started a mentorship program in 2019 to connect current students with alumni in their fields. I've worked with a handful of Georgia Computer Science students since then, giving back to my alma mater. A hour every few weeks talking about how the software industry really works, reviewing resumes, or suggesting further reading opens eyes on both sides of the call.",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/166638"
+    }
+  ],
+  "education": [
+    {
+      "institution": "The University of Georgia",
+      "area": "Computer Science",
+      "studyType": "B.S.",
+      "startDate": "1988-08-31",
+      "endDate": "1992-06-10",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Harrison Metal",
+      "area": "General Management ",
+      "studyType": "",
+      "startDate": "2017-12-31",
+      "endDate": "",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "The Westminster Schools",
+      "area": "",
+      "studyType": "High School Diploma",
+      "startDate": "",
+      "endDate": "1988-12-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Software Projects",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Object Oriented Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Strategic Vision",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Stakeholder Relations",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Hiring",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Build Strong Relationships",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "XP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Testing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Recruiting",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "REST",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software as a Service (SaaS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Stakeholder Engagement",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Critical Thinking",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Mobile Applications",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cross-functional Team Leadership",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cascading Style Sheets (CSS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Agile Methodologies",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Resource Allocation",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Continuous Integration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Industry",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Object-Oriented Programming (OOP)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Engineering Leadership",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Oral Communication",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Problem Solving",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Mobile",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Applications",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Continuous Delivery",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Ruby",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Ruby on Rails",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Test Driven Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Representational State Transfer (REST)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Kubernetes",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Engineering",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Agile",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Project Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Written Communication",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Open Source",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Mobile Devices",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Communication",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML 5",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Whisky",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Presentations",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [
+    {
+      "name": "Josh Harrisking",
+      "reference": "In our time together, Davis was always one of my favorite people to collaborate with, and bounce ideas off of.  His grasp of software development is fantastic, but his openness to new ideas or tactics makes him a real asset to  any team.  He excels at breaking down problems into simple manageable chunks and then driving to delivery on them.\n\nThere are few people in the industry that I would rather work with than Davis.  He makes work easy with his welcome laugh and sincere attitude.  He is a person you want to work with or for...and someone that will make any company better through all that he brings."
+    },
+    {
+      "name": "George Feil",
+      "reference": "Davis brings a high degree of precision to managing software projects bringing forth a thorough and comprehensive communications style. He shows an exuberant willingness to tackle any problem thrown his way."
+    },
+    {
+      "name": "David Belser",
+      "reference": "A profound communicator and thinker.  Nuances and multifarious minutiae, nothing is ever lost even in the big picture.  Every colleague knows Davis is in the trenches with them and every manager knows he is the best man for  the job, and all consider themselves fortunate to have worked with him."
+    },
+    {
+      "name": "Wolfram Arnold",
+      "reference": "Davis has an innate curiosity for technology and new ways to work more effectively. He's not afraid to dive into the guts of the Rails framework nor to try out the \"Rails\" way. With Davis you'll always get the benefit of the doubt. At the same time, he's an assertive communicator when he feels strongly about an idea which he will back up with facts. Davis is of the rare breed of tech people that excel both in development and in talking with the rest of the world. He's a warm human you don't want to miss on your team."
+    },
+    {
+      "name": "Jeff Fry",
+      "reference": "What makes working with Davis a pleasure? Some combination of his skill at coding, his skill at listening, his practical and generous disposition, and his brilliant sense of humor. I would happily work with him again."
+    },
+    {
+      "name": "Rick Wolfe",
+      "reference": "I've had the distinct pleasure of working with Davis on several cross-functional teams. He's a bright, articulate person that knows the ins and outs of problem-solving in a group environment.\r\nGiven the small-valley nature of this industry, I look forward to working with him again.\r\nAnd he's a fellow baseball fan. :-)"
+    },
+    {
+      "name": "Ezekiel Sanborn de Asis",
+      "reference": "Davis is one of the better Managers I have had. As an engineer I appreciated his pragmatic management style. I also enjoyed that while he may have crossed over to management, he still often played a creative and valuable role in architectural/design decisions in the work we were doing. He was always a pleasure to work with, and just as much a pleasure to chat with."
+    },
+    {
+      "name": "Andres Davidovits",
+      "reference": "I've enjoyed working with Davis a great deal.  Professional, smart and creative, Davis brings a good mixture to the table to solve critical challenges and provide valuable input to corporate direction."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Jasmine",
+      "startDate": "2008-09-30",
+      "summary": "We needed a JavaScript testing framework that was decoupled from the DOM, web requests, and any external dependencies. We wanted a Behavior-Driven-Development syntax and a style that would run anywhere JavaScript would run. This framework didn't exist in 2008, so we wrote Jasmine. \n\nWe hope it helps you write great test suites for your JavaScript projects.",
+      "url": "http://pivotal.github.com/jasmine",
+      "endDate": "2016-12-31"
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
