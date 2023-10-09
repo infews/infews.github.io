@@ -41,7 +41,7 @@ People Management
 : After nearly twenty years of managing people - individuals and managers - I have found that the most important skill is providing empathetic feedback. I have built feedback systems and coached people to improve their feedback-giving and -receiving skills.
 
 Mentoring
-: I can coach others by sharing my personal and professional experience as they navigate challenges. I have helped college students pitch themselves for summer internships, mentored managers to become directors, and co-rewrote job descripts with Vice Presidents.
+: I can coach others by sharing my personal and professional experience as they navigate challenges. I have helped college students pitch themselves for summer internships, mentored managers to become directors, and co-rewrote job descriptions with Vice Presidents.
 
 Team Building
 : I have established, inherited, and improved teams. I have moved code ownership from one team to another without missing a release.
@@ -115,7 +115,7 @@ I recharged while writing about my career experience, getting involved with the 
 
 #### Senior Engineering Manager, PKS <span class="duration">2018 October - 2020 January </span>
 
-PKS (now known as [TKGI][tkgi]) was a jointly-developed Kubernetes distribution from Pivotal & VMware that was a service for Pivotal Cloud Foundry (now known as [Tanzu Application Service][tas]. Pivotal was acquired by VMware in late 2019.
+PKS (now known as [TKGI][tkgi]) was a jointly-developed Kubernetes distribution from Pivotal & VMware that was a service for Pivotal Cloud Foundry (now known as [Tanzu Application Service][tas]). Pivotal was acquired by VMware in late 2019.
 
 I was the Engineering Lead on the PKS Release Engineering team. I defined, prioritized, and accepted the work for this team of 10 developers from Pivotal and VMware. We optimized CI/CD, doubling the number of concurrent releases from 2 to 4 while reducing the cycle-time-per-change by 75% - from 4 days to 1.
 
