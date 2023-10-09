@@ -4,7 +4,7 @@
     -# Meta tags + JSON+LD
     = component "meta"
     = component "stylesheets"
-  %body.resume
+  %body{class: wrapper_classes_for(current_resource.data) }
     - if development?
       = component "dev_ribbon"
     %h1
