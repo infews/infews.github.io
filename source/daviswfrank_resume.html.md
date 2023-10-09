@@ -6,6 +6,29 @@ wrapper_class: resume
 
 I am an experienced senior software engineering leader with a demonstrated history of helping software teams shorten feedback loops, ship software, and stay happy. I can manage developers, designers, product managers, and people managers. I can build and re-staff teams. I can own critical business systems and start open source projects. I can present to meetups, conferences, customers, and executives about Ruby, JavaScript, YAML, Web Applications, early history of PC game development, low-level processor optimization, Pair Programming, and Test-driven Development.
 
+<div class="tabs-panels">
+<input type="radio" name="tabs" id="tab1" checked="checked">
+<input type="radio" name="tabs" id="tab2">
+<input type="radio" name="tabs" id="tab3">
+
+<div class="tabs">
+  <label for="tab1" class="tab" id="icon1">
+    <i class="fa-solid fa-people-arrows"></i>
+  </label>
+  <label for="tab2" class="tab" id="icon2">
+    <i class="fa-solid fa-computer"></i>
+  </label>
+  <label for="tab3" class="tab" id="icon3">
+    <i class="fa-solid fa-timeline"></i>
+  </label>
+  <span class="tab filler"></span>
+  <span class="tab filler"></span>
+  <span class="tab filler"></span>
+</div>
+
+<div class="panels">
+<div class="panel" id="panel1" markdown="1">
+
 ## Management Skills
 
 Facilitation
@@ -28,6 +51,9 @@ Leading Distributed Teams
 
 Stakeholder Management
 : I have built trust with internal customers and clients across industries. I have helped them manage budgets from five to seven figures. I have set their expectations and managed teams to meet and exceed them.
+</div>
+
+<div class="panel" id="panel2" markdown="1">
 
 ## Technology Skills
 
@@ -67,6 +93,10 @@ Mobile Development Constraints
 Legacy Technology Skills
 : I spent my early career working with digital desktop video and graphics on Microsoft Windows. I wrote low-level assembly routines, C/C++ application and driver code, spelunked in graphics sub-systems, and helped make Windows a viable video and game platform.
 
+</div>
+
+<div class="panel" id="panel3" markdown="1">
+
 ## Professional Experience Timeline
 
 ### [Fountain](https://www.fountain.com) <span class="duration"> 2021 October - 2023 May </span>
@@ -81,11 +111,11 @@ _Learned how, and how not, to grow the engineering discipline of a team to match
 
 I recharged while writing about my career experience, getting involved with the Pivotal Alumni network, optimizing our home meal planning, and improving our household operations to accommodate working and schooling from home. I helped a few companies in my network. I have aided architecture, design, and development for [Curious Duck][duck]  and advised about web content application development for [Bigger Bolder Baking][bake].
 
-### Pivotal - PKS <span class="duration">2018 October - 2020 January </span>
+### Pivotal <span class="duration"> 2015 March - 2020 January </span>
+
+#### Senior Engineering Manager, PKS <span class="duration">2018 October - 2020 January </span>
 
 PKS (now known as [TKGI][tkgi]) was a jointly-developed Kubernetes distribution from Pivotal & VMware that was a service for Pivotal Cloud Foundry (now known as [Tanzu Application Service][tas]. Pivotal was acquired by VMware in late 2019.
-
-#### Senior Engineering Manager, Engineering Lead
 
 I was the Engineering Lead on the PKS Release Engineering team. I defined, prioritized, and accepted the work for this team of 10 developers from Pivotal and VMware. We optimized CI/CD, doubling the number of concurrent releases from 2 to 4 while reducing the cycle-time-per-change by 75% - from 4 days to 1.
 
@@ -93,19 +123,15 @@ As a member of the leadership team reporting to our VP of Engineering, we restaf
 
 _Learned how to navigate conflicting management styles to a common goal, how to manage an entire team transition across 8 time zones, how to DRY up hundreds of YAML files with shared components._
 
-### Pivotal - Cloud Foundry <span class="duration"> 2018 April - 2018 October </span>
+#### Senior Engineering Manager - Cloud Foundry <span class="duration"> 2018 April - 2018 October </span>
 
 Pivotal was the primary sponsor of the [Cloud Foundry][cf] project, a multi-cloud Platform-as-a-Service (PaaS) for deployment of web apps and services. Pivotal sold its own version of CF, now known as [Tanzu Application Service][tas].
-
-#### Senior Engineering Manager
 
 I was an engineer on the Open Source CF Cloud API team and managed 4 engineers on other teams. I facilitated working sessions to improve managers' skills across the San Francisco office. I rebuilt the summer intern experience, starting a weekly "intern roundtable," where Pivotal leaders from around the company came for an AMA-style chat with our developer, product manager, and designer interns.
 
 _Learned how to mentor a staff of new engineering managers, how to build a better intern experience, and how to refresh my Ruby on Rails skills._
 
-### Pivotal - IT <span class="duration"> 2015 March - 2018 March </span>
-
-#### Director of Engineering
+#### Director of Engineering, Internal Application Development <span class="duration"> 2015 March - 2018 March </span> 
 
 I created this team out of a need to improve the development &amp; maintainence of our business-critical, internal software projects. I grew this team from zero to 16 developers, product managers, and designers across two sites - San Francisco and Toronto. I drove budgeting and prioritization exercises with executive staff for our work. I also coached other IT teams regarding Pivotal's agile practices.
 
@@ -127,7 +153,7 @@ I was a engineer on dozens of consulting projects, all Ruby on Rails or JavaScri
 
 _Learned how to be a software consultant, how to practice agile software development every day, and how to build feedback-oriented management skills across an organization._
 
-### Real Girls Media <span class="duration">2007 February - 2008 April </span>
+### [Real Girls Media][rgm] <span class="duration">2007 February - 2008 April </span>
 
 #### Senior Software Engineer
 
@@ -139,7 +165,7 @@ _Learned that every startup is different, that sometimes indirect management of 
 
 _Taught myself Ruby, Ruby on Rails, and SQL in order to keep sharp. Also learned that I liked both object oriented programming and web development._
 
-### Handspring/Palm <span class="duration"> 2001 November - 2006 June </span>
+### Handspring & Palm <span class="duration"> 2001 November - 2006 June </span>
 
 #### Engineering Manager, Customization and In-box
 
@@ -187,6 +213,10 @@ I was a developer on the DCI project, which proved that direct-to-frame-buffer a
 
 _Learned how to write production code in the real world, how to build an SDK to teach developers to use your API, and how to travel internationally on 4 hours notice._
 
+</div>
+</div>
+</div>
+
 ## Education
 
 ### [University of Georgia][uga]
@@ -200,8 +230,7 @@ B.S., Computer Science, July 1992
 ## Projects & Activities
 
 - Co-author of [Jasmine][jasmine], a BDD testing framework for Javascript
-- Author of [Keydown][kd] a Markdown-to-HTML presentation builder (archived),
-  and [Anchorman][am], a release notes generator from Git commit logs (archived)
+- Author of [Keydown][kd] a Markdown-to-HTML presentation builder (archived), and [Anchorman][am], a release notes generator from Git commit logs (archived)
 - Content reviewer for O’Reilly books on JavaScript Testing and Jasmine; [one of them][jbook] was published.
 - Presented sessions at [RailsConf][rc] (2009), Fluent (2012), and [Golden Gate Ruby Conference][story] (2013)
 - Mentoring Computer Science students via the [University of Georgia undergraduate mentoring program][mentor]
@@ -241,3 +270,4 @@ B.S., Computer Science, July 1992
 [p1]: https://patents.google.com/patent/US5751270A/
 [p2]: https://patents.google.com/patent/US5572232A/
 [p3]: https://patents.google.com/patent/US5546103A/z1
+[rgm]: https://www.crunchbase.com/organization/real-girls-media-network-inc

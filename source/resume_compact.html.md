@@ -74,7 +74,7 @@ I advocated for and created this team within IT to improve the development &amp;
 - Taught client developers Ruby on Rails and [XP][xp] practices.
 - Co-authored [Jasmine][jasmine], a BDD framework for JavaScript testing.
 
-### Real Girls Media  <span class="duration">2007 February - 2008 April </span>
+### [Real Girls Media][rgm]  <span class="duration">2007 February - 2008 April </span>
 
 #### Senior Software Engineer
 
@@ -88,7 +88,9 @@ RGM was building a custom CMS in Ruby on Rails, intended to back a family of web
 
 - Taught myself Ruby, Ruby on Rails, and SQL in order to keep sharp
 
-### Handspring/Palm <span class="duration"> 2001 November - 2006 June </span>
+### Handspring & Palm <span class="duration"> 2001 November - 2006 June </span>
+
+Handspring was acquired by PalmSource and renamed to palmOne in 2003. They renamed again to Palm in 2004.
 
 - Managed staff of 8 across Device Customization and In-box CD-ROM teams.
   - Reduced end-of-line smartphone final programming from hours to 3 minutes.
@@ -99,7 +101,7 @@ RGM was building a custom CMS in Ruby on Rails, intended to back a family of web
 
 ## Prior Experience
 
-My history of roles and accomplishments at Netstudio, [Brøderbund][bb], and Intel are available on request.
+My history of roles and accomplishments at Netstudio, [Brøderbund][bb], and Intel are available in [my full resume](/daviswfrank_resume/).
 
 ## Education
 
@@ -157,3 +159,4 @@ B.S., Computer Science, July 1992
 [p1]: https://patents.google.com/patent/US5751270A/
 [p2]: https://patents.google.com/patent/US5572232A/
 [p3]: https://patents.google.com/patent/US5546103A/z1
+[rgm]: https://www.crunchbase.com/organization/real-girls-media-network-inc
