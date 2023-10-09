@@ -89,7 +89,7 @@ PKS (now known as [TKGI][tkgi]) was a jointly-developed Kubernetes distribution 
 
 I was the Engineering Lead on the PKS Release Engineering team. I defined, prioritized, and accepted the work for this team of 10 developers from Pivotal and VMware. We optimized CI/CD, doubling the number of concurrent releases from 2 to 4 while reducing the cycle-time-per-change by 75% - from 4 days to 1.
 
-As a member of the leadership team reporting to our VP of Engineering, we restaffed a team from Ireland to teh US, dealt with regular joint-venture management issues, and managed our team through an acquisition. I continued to run the summer intern roundtable, incorporating the Palo Alto interns from the PKS and [Greenplum][gp] teams.
+As a member of the leadership team reporting to our VP of Engineering, we restaffed a team from Ireland to the US, dealt with regular joint-venture management issues, and managed our team through an acquisition. I continued to run the summer intern roundtable, incorporating the Palo Alto interns from the PKS and [Greenplum][gp] teams.
 
 _Learned how to navigate conflicting management styles to a common goal, how to manage an entire team transition across 8 time zones, how to DRY up hundreds of YAML files with shared components._
 
@@ -115,7 +115,7 @@ _Learned how to make a business case for a team, staff that team, how to manage 
 
 #### Associate Director <span class="duration">2013 February - 2015 March </span>
 
-I managed a staff of 40 developers and 5 managers, about one-third of the the San Francisco consulting practice. I scoped projects, wrote proposals, and managed the business relationship for clients. I scheduled “beach” time for 8 Pivotal Labs open source projects across multiple offices. I continued to present at conferences, meetups, and clients about Pivotal, Extreme Programming, and testing JavaScript. Pivotal Labs is now known as [VMware Tanzu Labs][tlabs].
+I managed a staff of 40 developers and 5 managers, about one-third of the San Francisco consulting practice. I scoped projects, wrote proposals, and managed the business relationship for clients. I scheduled “beach” time for 8 Pivotal Labs open source projects across multiple offices. I continued to present at conferences, meetups, and clients about Pivotal, Extreme Programming, and testing JavaScript. Pivotal Labs is now known as [VMware Tanzu Labs][tlabs].
 
 #### Engineering Manager <span class="duration">2010 February - 2013 February </span>
 
