@@ -14,16 +14,16 @@ I am an experienced senior software engineering leader with a demonstrated histo
 <div class="tabs">
   <label for="tab1" class="tab" id="icon1">
     <i class="fa-solid fa-people-arrows"></i>
+    <span class="tab-text">Management Skills</span>
   </label>
   <label for="tab2" class="tab" id="icon2">
     <i class="fa-solid fa-computer"></i>
+    <span class="tab-text">Technical Skills</span>
   </label>
   <label for="tab3" class="tab" id="icon3">
-    <i class="fa-solid fa-timeline"></i>
+    <i class="fa-solid fa-calendar-days"></i>
+    <span class="tab-text">Professional Experience Timeline</span>
   </label>
-  <span class="tab filler"></span>
-  <span class="tab filler"></span>
-  <span class="tab filler"></span>
 </div>
 
 <div class="panels">
