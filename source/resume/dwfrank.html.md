@@ -28,7 +28,7 @@ I am an experienced senior software engineering leader with a demonstrated histo
 
 #### Senior Engineering Manager, PKS <span class="duration">2018 October - 2020 January </span>
 
-PKS (now known as [TKGI][tkgi]) was a jointly-developed Kubernetes distribution from Pivotal & VMware that was a service for Pivotal Cloud Foundry (now known as [Tanzu Application Service][tas]. Pivotal was acquired by VMware in late 2019.
+PKS (now known as [TKGI][tkgi]) was a jointly-developed Kubernetes distribution from Pivotal & VMware that was a service for Pivotal Cloud Foundry. Pivotal was acquired by VMware in late 2019.
 
 - Reported to VP of Engineering as part of leadership team.
   - Restaffed team of 10-12 developers from Ireland to the US.
