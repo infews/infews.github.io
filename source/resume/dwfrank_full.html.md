@@ -2,6 +2,7 @@
 sitemap_priority: 1.0
 layout: resume
 wrapper_class: resume
+title: Davis W. Frank Resume - Full
 ---
 
 I am an experienced senior software engineering leader with a demonstrated history of helping software teams shorten feedback loops, ship software, and stay happy. I can manage developers, designers, product managers, and people managers. I can build and re-staff teams. I can own critical business systems and start open source projects. I can present to meetups, conferences, customers, and executives about Ruby, JavaScript, YAML, Web Applications, early history of PC game development, low-level processor optimization, Pair Programming, and Test-driven Development.

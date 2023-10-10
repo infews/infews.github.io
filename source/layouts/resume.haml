@@ -27,14 +27,15 @@
           %span.fa-solid.fa-pen-fancy
           %span dwf.bigpencil.net
       %li.print-only
-        %a{href: "https://dwf.bigpencil.net/daviswfrank_resume/"}
-          %span.fa-solid.fa-file-lines
-          %span Latest resume: https://dwf.bigpencil.net/daviswfrank_resume/
+        %a{href: "https://dwf.bigpencil.net/resume/"}
+          %span.fa-solid.fa-file
+          %span Latest: https://dwf.bigpencil.net/resume/
       %li
         %span.fa-solid.fa-map-marked-alt
         %span San Francisco Bay Area
     = yield
     %hr
     %span.version
-      ="v#{updated_date("source/daviswfrank_resume.html.md")}"
+      - prefix = (current_resource.path =~ /full/) ? "full - " : "std - "
+      = prefix + "v#{updated_date("source#{current_resource.path}.html.md")}"
     = component "google_analytics"
