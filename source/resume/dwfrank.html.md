@@ -93,16 +93,21 @@ RGM was building a custom CMS in Ruby on Rails, intended to back a family of web
 
 Handspring was acquired by PalmSource and renamed to palmOne in 2003. They renamed again to Palm in 2004.
 
-- Managed staff of 8 across Device Customization and In-box CD-ROM teams.
+- Engineering Manager, Device Customization and In-box CD-ROM teams
   - Reduced end-of-line smartphone final programming from hours to 3 minutes.
+  - Designed & managed implementation of new XML-based carrier customization system. 
   - Moved In-box shared MacOS/Windows CD installer to daily builds.
-- Led prioritization and implementation for Messaging and Photos apps for Treo 600 and Treo 650 smartphones
-- Managed team of 5 developers who developed internal SDK for all of Handspring software devices.
-- Managed migration from custom bug database to Mozilla/Bugzilla-based web app.
+  - Managed staff of 8 engineers.
+- Engineering Program Messaging & Photos
+  - Led prioritization and implementation for Treo 600 and Treo 650 smartphones
+  - Reduced "click-to-1st-photo" time from 3.5 seconds to under 1 second
+- Engineering Manager, Tools
+  - Managed team of 5 developers who developed internal SDK for all of Handspring software devices.
+  - Managed migration from custom bug database to Mozilla/Bugzilla-based web app.
 
 ## Prior Experience
 
-My history of roles and accomplishments at Netstudio, [Brøderbund][bb], and Intel are available in [my full resume](/daviswfrank_resume/).
+My history of roles and accomplishments at Netstudio, [Brøderbund][bb], and Intel are available in [my full resume](/resume/dwfrank_full/).
 
 ## Education
 
