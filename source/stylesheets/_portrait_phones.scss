@@ -79,17 +79,15 @@
   // Resume
   .resume {
     h3, h4 {
-      //justify-content: flex-start;
       flex-direction: column;
-      align-content: flex-end;
       .duration {
         font-size: 85%;
+        margin-top: 0.5rem;
       }
     }
 
     ul {
       padding-inline-start: 1.5rem;
-      //font-size: 115%;
     }
 
     ul ul {

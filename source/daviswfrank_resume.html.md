@@ -22,7 +22,7 @@ I am an experienced senior software engineering leader with a demonstrated histo
   </label>
   <label for="tab3" class="tab" id="icon3">
     <i class="fa-solid fa-calendar-days"></i>
-    <span class="tab-text">Professional Experience Timeline</span>
+    <span class="tab-text">Professional Experience</span>
   </label>
 </div>
 
