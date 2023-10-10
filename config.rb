@@ -25,8 +25,8 @@ helpers do
 
   # Builds a page title from the article title + site title
   def page_title
-    if current_article&.title
-      current_article.title + " | " + config[:site_title]
+    if current_resource&.data&.title
+      current_resource&.data&.title&.+ " | " + config[:site_title]
     else
       config[:site_title]
     end
