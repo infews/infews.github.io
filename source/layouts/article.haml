@@ -2,6 +2,11 @@
 - url =  URI.join(config[:site_url], current_page.url)
 
 = wrap_layout "layout" do
+
+  - if current_resource.data.unsplash
+    %picture
+      %img{src: current_resource.data.unsplash }
+
   %article
     %section.headline
       %h1

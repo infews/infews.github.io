@@ -12,6 +12,7 @@ keywords:
   - Balanced Teams
   - Empowered Teams
 teaser: "How we got RelEng back on course, and I kept my job."
+unsplash: https://images.unsplash.com/photo-1526663089957-f2aa2776f572?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NjkxMjJ8MHwxfGFsbHx8fHx8fHx8fDE2OTcwNTYyNTB8&ixlib=rb-4.0.3&q=80&w=1080&utm_source=dwfs_journal_big_pencil&utm_medium=referral&utm_campaign=api-credit
 ---
 [bt]: https://tanzu.vmware.com/developer/learningpaths/application-development/balanced-teams/
 [cci]: https://concourse-ci.org/
