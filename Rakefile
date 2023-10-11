@@ -72,6 +72,7 @@ namespace :unsplash do
       config.utm_source = "dwfs_journal_big_pencil"
     end
 
+
     photo = Unsplash::Photo.find(ENV["ID"])
     puts photo[:urls][:regular]
   end
