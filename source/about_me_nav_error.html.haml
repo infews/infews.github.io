@@ -1,0 +1,58 @@
+---
+sitemap_priority: 1.0
+wrapper_class: about
+---
+
+%header
+  %h1 About DWF
+
+%section.intro
+  %img.avatar{src: url_for('/images/dwf.png'), srcset: "#{url_for '/images/dwf@2x.png'} 2x", alt:"Davis's Profile Photo"}
+
+  .text
+    :markdown
+      I've been in software seemingly forever - assuming that your definition of "forever" goes back to the early 90's. I've worked on low-level graphics software, computer games, smartphones, and web app/SaaS development. I've worked at large companies and startups.
+
+      Like most engineers, I like building things, making things happen, and making them perform efficiently. This blog is about sharing some of my stories about doing this work over my career.
+
+      I hope some of these stories will help you or your team. If you would like to know more, please get in touch. I'm happy to talk about anything that helps your teams move faster.
+
+      I have some personal stories here as well. If you're curious about the domain name, you can read [History of the Big Pencil](/big-pencil).
+
+
+%nav
+  %ul
+    %li
+      %a.social-link{href: "https://#{config[:threads_url]}"}
+        %span.fa-brands.fa-threads
+        %span Threads
+    %li
+      %a.social-link{href: "https://#{config[:mastodon_url]}"}
+        %span.fa-brands.fa-mastodon
+        %span Mastodon
+    %li
+      %a.social-link{href: "https://github.com/#{config[:github_username]}"}
+        %span.fa-brands.fa-github-alt
+        %span GitHub
+    %li
+      %a.social-link{href: "https://www.linkedin.com/in/#{config[:linkedin_username]}"}
+        %span.fa-brands.fa-linkedin-in
+        %span LinkedIn
+    %li
+      %a.social-link{href: "mail-to:#{config[:email]}"}
+        %span.fa-regular.fa-envelope
+        %span Email
+    %li
+      %span.fa-regular.fa-file-lines
+      %span Resumes
+      %ul
+        %li
+          %a{href: "/resume/dwfrank/"}
+            %i.fa-regular.fa-file-lines
+            %span Resume
+        %li
+          %a{href: "/resume/dwfrank_full/"}
+            %i.fa-solid.fa-file-lines
+            %span Full CV
+
+
