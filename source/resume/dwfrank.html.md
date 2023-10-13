@@ -17,12 +17,14 @@ I am an experienced senior software engineering leader with a demonstrated histo
 - Managed 2-3 various teams of 20-25 engineers and managers across assessment cycles, re-orgs, and layoffs.
   - Teams included: Some of Product Development teams, Data Engineering, Release Engineering, and Cloud Engineering.
 - Rebuilt, centralized, and standardized engineer hiring process.
+- Tech Stacks: Ruby on Rails, Javascript/Typescript, React, Kubernetes, Heroku, AWS, GCP, Looker
 
 ### Personal Sabbatical &amp; Product Advising <span class="duration">2020 January - 2021 October </span>
 
 - Collaborated on the software engineering simulation at [Curious Duck][duck].
 - Advised [Bigger Bolder Baking][bake] on vendor selection for improving their CMS.
-- Rebuilt my personal website and blogged on software engineering topics. 
+- Rebuilt my personal website and blogged on software engineering topics.
+- Tech Stacks: Ruby, Ruby on Rails, Wordpress
 
 ### Pivotal Software & Pivotal Labs <span class="duration">2008 April - 2020 January </span>
 
@@ -36,6 +38,7 @@ PKS (now known as [TKGI][tkgi]) was a jointly-developed Kubernetes distribution 
 - Defined and prioritized CI/CD work for the Release Engineering team of 10 developers.
   - Doubled the number of concurrent releases from 2 to 4. 
   - Reduced cycle time from 4 days to 1.
+- Tech Stacks: Ruby, Kubernetes, Concourse, AWS, GCP, Azure, VMware
 
 #### Senior Engineering Manager, Cloud Foundry <span class="duration"> 2018 April - 2018 October </span>
 
@@ -45,6 +48,7 @@ Pivotal was the primary sponsor of the [Cloud Foundry][cf] project, a multi-clou
 - Managed 4 engineers on other teams.
 - Facilitated weekly working sessions to improve managers' skills across the San Francisco office. 
 - Rebuilt the summer intern experience, starting a weekly "intern roundtable," with Pivotal leaders.
+- Tech Stacks: Ruby on Rails, Sinatra
 
 #### Director of Engineering, Internal Application Development <span class="duration"> 2015 March - 2018 March </span>
 
@@ -53,6 +57,7 @@ I advocated for and created this team within IT to improve the development &amp;
 - Staffed team to 15 engineers, product managers, and designers in San Francisco, CA, and Toronto, CA.
 - Drove budgeting and prioritization exercises with executive staff and other organzation leaders.
 - Key projects: Employee Feedback app, Staff Allocations app + integrations with back office, reporting infrastructure for sales reporting, Discovery for SAP-to-Workday transition, Discovery for support tooling.
+- Tech Stacks: Ruby on Rails, Javascript, React, Java, Kotlin, Spring, Cloud Foundry
 
 #### Associate Director, Pivotal Labs <span class="duration">2013 February - 2015 March </span>
 
@@ -61,6 +66,7 @@ I advocated for and created this team within IT to improve the development &amp;
 - Managed 3-4 active concurrent client projects, including staff adjustments and extenstions, keeping clients happy.
 - Scheduled “beach” time for 8 Pivotal Labs open source projects across multiple offices.
 - Presented at conferences, meetups, and clients about Pivotal, Extreme Programming, and testing JavaScript. 
+- Tech Stacks: Ruby on Rails, Javascript
 
 #### Engineering Manager, Pivotal Labs <span class="duration">2010 February - 2013 February </span>
 
@@ -68,12 +74,14 @@ I advocated for and created this team within IT to improve the development &amp;
 - Managed 8-10 IC developers across consulting projects.
 - Continued to lead engagements as engineering "anchor" for client projects.
 - Presented at conferences, meetups, and clients about Pivotal, Extreme Programming, and testing JavaScript.
+- Tech Stacks: Ruby on Rails, Javascript
 
 #### Software Engineer, Pivotal Labs <span class="duration">2008 April - 2010 February </span>
 
 - Lead engagements as engineering "anchor" for numerous client projects.
 - Taught client developers Ruby on Rails and [XP][xp] practices.
 - Co-authored [Jasmine][jasmine], a BDD framework for JavaScript testing.
+- Tech Stacks: Ruby on Rails, Javascript
 
 ### [Real Girls Media][rgm]  <span class="duration">2007 February - 2008 April </span>
 
@@ -84,6 +92,7 @@ RGM was building a custom CMS in Ruby on Rails, intended to back a family of web
 - Led engineer the development team of 6-8 for <i>Divine Caroline</i>, a women's interest magazine. 
 - Worked with internal Product Management on feature feasibility.
 - Improved CI run from 2 hours to under 45 minutes over 6 weeks.
+- Tech Stacks: Ruby on Rails
 
 ### Personal Sabbatical <span class="duration">2006 June - 2007 February </span>
 
@@ -104,6 +113,7 @@ Handspring was acquired by PalmSource and renamed to palmOne in 2003. They renam
 - Engineering Manager, Tools
   - Managed team of 5 developers who developed internal SDK for all of Handspring software devices.
   - Managed migration from custom bug database to Mozilla/Bugzilla-based web app.
+- Tech Stacks: PalmOS, C, InstallShield (cross-platform), XML
 
 ## Prior Experience
 
