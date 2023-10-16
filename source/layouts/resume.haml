@@ -29,10 +29,11 @@
         %a{href: "https://linkedin.com/in/daviswfrank"}
           %span.fa-brands.fa-linkedin-in
           %span linkedin.com/in/daviswfrank
-      %li.resume.print-only
-        %a{href: "https://dwf.bigpencil.net/resume/"}
+      %li.resume-link.print-only
+        - resume_link = "dwf.bigpencil.net#{current_resource.url}"
+        %a{href: "https://#{resume_link}"}
           %span.fa-solid.fa-file-lines
-          %span https://dwf.bigpencil.net/resume/
+          %span= resume_link
     = yield
     %hr
     %span.version
