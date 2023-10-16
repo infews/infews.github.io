@@ -10,29 +10,29 @@
     %h1
       = config[:site_author]
     %ul.social
-      %li
+      %li.email
         %a{href: "mailto:dwfrank@gmail.com"}
           %span.fa-solid.fa-envelope
           %span dwfrank@gmail.com
-      %li
-        %a{href: "https://linkedin.com/in/daviswfrank"}
-          %span.fa-brands.fa-linkedin-in
-          %span linkedin.com/in/daviswfrank
-      %li
+      %li.gh
         %a{href: "https://github.com/infews"}
           %span.fa-brands.fa-github-alt
           %span github.com/infews
-      %li
+      %li.web
         %a{href: "https://dwf.bigpencil.net"}
           %span.fa-solid.fa-pen-fancy
           %span dwf.bigpencil.net
-      %li.print-only
-        %a{href: "https://dwf.bigpencil.net/resume/"}
-          %span.fa-solid.fa-file
-          %span Latest: https://dwf.bigpencil.net/resume/
-      %li
+      %li.map
         %span.fa-solid.fa-map-marked-alt
         %span San Francisco Bay Area
+      %li.linkedin
+        %a{href: "https://linkedin.com/in/daviswfrank"}
+          %span.fa-brands.fa-linkedin-in
+          %span linkedin.com/in/daviswfrank
+      %li.resume.print-only
+        %a{href: "https://dwf.bigpencil.net/resume/"}
+          %span.fa-solid.fa-file-lines
+          %span https://dwf.bigpencil.net/resume/
     = yield
     %hr
     %span.version
