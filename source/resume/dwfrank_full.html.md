@@ -134,7 +134,7 @@ _Learned how to mentor a staff of new engineering managers, how to build a bette
 
 #### Director of Engineering, Internal Application Development <span class="duration"> 2015 March - 2018 March </span> 
 
-I created this team out of a need to improve the development &amp; maintainence of our business-critical, internal software projects. I grew this team from zero to 16 developers, product managers, and designers across two sites - San Francisco and Toronto. I drove budgeting and prioritization exercises with executive staff for our work. I also coached other IT teams regarding Pivotal's agile practices.
+I created this team out of a need to improve the development &amp; maintenance of our business-critical, internal software projects. I grew this team from zero to 15 developers, product managers, and designers across two sites - San Francisco and Toronto. I drove budgeting and prioritization exercises with executive staff for our work. I also coached other IT teams regarding Pivotal's agile practices.
 
 _Learned how to make a business case for a team, staff that team, how to manage across multiple sites, how internal back office customers are not quite like end consumers, and how to present to exec staff._
 
@@ -158,7 +158,7 @@ _Learned how to be a software consultant, how to practice agile software develop
 
 #### Senior Software Engineer
 
-I led the development team for <i>Divine Caroline</i>, a web-only women’s interest magazine. This was custom CMS built in Rails. As a startup, they intended to sell the platform for online magazines. The writing and editing staff was our real-world, yet internal customers.
+I led the development team for _Divine Caroline_, a web-only women’s interest magazine. This was custom CMS built in Rails. As a startup, they intended to sell the platform for online magazines. The writing and editing staff was our real-world, yet internal customers.
 
 _Learned that every startup is different, that sometimes indirect management of people is more impactful than direct, and that surrounding yourself with people in diverse roles makes for a much more fulfilling day._
 
@@ -214,7 +214,6 @@ I was a developer on the DCI project, which proved that direct-to-frame-buffer a
 
 _Learned how to write production code in the real world, how to build an SDK to teach developers to use your API, and how to travel internationally on 4 hours notice._
 
-</div>
 </div>
 </div>
 

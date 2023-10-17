@@ -15,58 +15,61 @@ I am an experienced senior software engineering leader with a demonstrated histo
 
 - Improved release frequency from 3 times per month to 4 times per week.
 - Managed 2-3 various teams of 20-25 engineers and managers across assessment cycles, re-orgs, and layoffs.
-  - Teams included: Some of Product Development teams, Data Engineering, Release Engineering, and Cloud Engineering.
+  - Teams included Product Development teams, Data Engineering, Release Engineering, and Cloud Engineering.
 - Rebuilt, centralized, and standardized engineer hiring process.
-- Tech Stacks: Ruby on Rails, Javascript/Typescript, React, Kubernetes, Heroku, AWS, GCP, Looker
+- __Stacks & Skills:__ Ruby on Rails, Javascript/Typescript, React, Kubernetes, Heroku, AWS, GCP, Looker; Facilitation, Management of managers, Cost management, Remote team management, Staff & Software strategy.
 
 ### Personal Sabbatical &amp; Product Advising <span class="duration">2020 January - 2021 October </span>
 
 - Collaborated on the software engineering simulation at [Curious Duck][duck].
 - Advised [Bigger Bolder Baking][bake] on vendor selection for improving their CMS.
 - Rebuilt my personal website and blogged on software engineering topics.
-- Tech Stacks: Ruby, Ruby on Rails, Wordpress
+- __Stacks & Skills:__ Ruby, Ruby on Rails, Wordpress; Negotiation, Estimation, Client management.
 
 ### Pivotal Software & Pivotal Labs <span class="duration">2008 April - 2020 January </span>
 
 #### Senior Engineering Manager, PKS <span class="duration">2018 October - 2020 January </span>
 
-PKS (now known as [TKGI][tkgi]) was a jointly-developed Kubernetes distribution from Pivotal & VMware that was a service for Pivotal Cloud Foundry. Pivotal was acquired by VMware in late 2019.
+PKS (now known as [TKGI][tkgi]) is a jointly-developed Kubernetes distribution from Pivotal & VMware that is a service for Pivotal Cloud Foundry/[Tanzu Application Service][tas]. Pivotal was acquired by VMware in late 2019.
 
 - Reported to VP of Engineering as part of leadership team.
   - Restaffed team of 10-12 developers from Ireland to the US.
-  - Continued to lead summer intern roundtable.
+  - Continued to lead summer intern round table.
+  - Managed team through acquisition uncertainty.
 - Defined and prioritized CI/CD work for the Release Engineering team of 10 developers.
   - Doubled the number of concurrent releases from 2 to 4. 
-  - Reduced cycle time from 4 days to 1.
-- Tech Stacks: Ruby, Kubernetes, Concourse, AWS, GCP, Azure, VMware
+  - Reduced cycle time from 4 days to less than 1.
+- __Stacks & Skills:__ Ruby, Kubernetes, [Concourse][cc], AWS, GCP, Azure, vSphere; Facilitation, Interviewing, People Management, Peer organization interactions. 
 
 #### Senior Engineering Manager, Cloud Foundry <span class="duration"> 2018 April - 2018 October </span>
 
-Pivotal was the primary sponsor of the [Cloud Foundry][cf] project, a multi-cloud Platform-as-a-Service (PaaS) for deployment of web apps and services. Pivotal sold its own version of CF, now known as [Tanzu Application Service][tas].
+Pivotal was the primary sponsor of the [Cloud Foundry][cf] project, a multi-cloud Platform-as-a-Service (PaaS) for deployment of web apps and services. Pivotal sold its own version of CF, Pivotal Cloud Foundry, now known as [Tanzu Application Service][tas].
 
 - Developer on Open Source CF Cloud API team.
 - Managed 4 engineers on other teams.
 - Facilitated weekly working sessions to improve managers' skills across the San Francisco office. 
-- Rebuilt the summer intern experience, starting a weekly "intern roundtable," with Pivotal leaders.
-- Tech Stacks: Ruby on Rails, Sinatra
+- Rebuilt the summer intern experience, starting a weekly "intern round table," with Pivotal leaders.
+- __Stacks & Skills:__ Ruby on Rails, Sinatra; Facilitation, Manager skills training.
 
 #### Director of Engineering, Internal Application Development <span class="duration"> 2015 March - 2018 March </span>
 
 I advocated for and created this team within IT to improve the development &amp; maintenance of our business-critical, internal software projects.
 
-- Staffed team to 15 engineers, product managers, and designers in San Francisco, CA, and Toronto, CA.
-- Drove budgeting and prioritization exercises with executive staff and other organzation leaders.
-- Key projects: Employee Feedback app, Staff Allocations app + integrations with back office, reporting infrastructure for sales reporting, Discovery for SAP-to-Workday transition, Discovery for support tooling.
-- Tech Stacks: Ruby on Rails, Javascript, React, Java, Kotlin, Spring, Cloud Foundry
+- Staffed team to 15 engineers, product managers, and designers in San Francisco and Toronto.
+- Drove budgeting and prioritization exercises with executive staff and other organization leaders.
+- Key projects: Employee Feedback app, Staff Allocations app + integrations with back office, reporting infrastructure for sales reporting, Discovery for SAP-to-Workday transition, Discovery for Customer Support tooling.
+- __Stacks & Skills:__ Ruby on Rails, Javascript, React, Java, Kotlin, Spring, Cloud Foundry, SalesForce, Zendesk; Facilitation, internal client management, people management, remote team collaboration, Executive management, Managing external management consultants.
 
 #### Associate Director, Pivotal Labs <span class="duration">2013 February - 2015 March </span>
 
+Pivotal Labs was a consultancy that build web and mobile applications _with_ clients as a way of teaching [XP][xp] skills. Pivotal Labs was acquired by EMC in 2012, then spun out as part of Pivotal Software in 2013. They operate now as [VMware Tanzu Labs][tlabs].
+
 - Managed staff of 40 developers and 5 managers, about one-third of the the San Francisco consulting practice.
 - Facilitated client scopings and wrote proposals as part of pre-sales motion.
-- Managed 3-4 active concurrent client projects, including staff adjustments and extenstions, keeping clients happy.
+- Managed 3-4 active concurrent client projects, including staff adjustments and extensions, keeping clients happy.
 - Scheduled “beach” time for 8 Pivotal Labs open source projects across multiple offices.
 - Presented at conferences, meetups, and clients about Pivotal, Extreme Programming, and testing JavaScript. 
-- Tech Stacks: Ruby on Rails, Javascript
+- __Stacks & Skills:__ Ruby on Rails, Javascript; Facilitation, RFP response and proposal writing; Presentations to audiences of all sizes, Client management, people management.
 
 #### Engineering Manager, Pivotal Labs <span class="duration">2010 February - 2013 February </span>
 
@@ -74,29 +77,29 @@ I advocated for and created this team within IT to improve the development &amp;
 - Managed 8-10 IC developers across consulting projects.
 - Continued to lead engagements as engineering "anchor" for client projects.
 - Presented at conferences, meetups, and clients about Pivotal, Extreme Programming, and testing JavaScript.
-- Tech Stacks: Ruby on Rails, Javascript
+- __Stacks & Skills:__ Ruby on Rails, Javascript; Pair-programming, TDD/BDD, Facilitation, people management.
 
 #### Software Engineer, Pivotal Labs <span class="duration">2008 April - 2010 February </span>
 
 - Lead engagements as engineering "anchor" for numerous client projects.
 - Taught client developers Ruby on Rails and [XP][xp] practices.
 - Co-authored [Jasmine][jasmine], a BDD framework for JavaScript testing.
-- Tech Stacks: Ruby on Rails, Javascript
+- __Stacks & Skills:__ Ruby on Rails, Javascript, Palm webOS; Pair-programming, TDD/BDD.
 
-### [Real Girls Media][rgm]  <span class="duration">2007 February - 2008 April </span>
+### [Real Girls Media][rgm]  <span class="duration"> 2007 February - 2008 April </span>
 
 #### Senior Software Engineer
 
 RGM was building a custom CMS in Ruby on Rails, intended to back a family of web-only magazines. They were acquired in 2009.
 
-- Led engineer the development team of 6-8 for <i>Divine Caroline</i>, a women's interest magazine. 
-- Worked with internal Product Management on feature feasibility.
+- Lead engineer on the development team of 6-8 for _Divine Caroline_, a women's interest magazine. 
+- Worked with internal Product Management on feature feasibility and estimation.
 - Improved CI run from 2 hours to under 45 minutes over 6 weeks.
-- Tech Stacks: Ruby on Rails
+- __Stacks & Skills:__ Ruby on Rails, Javascript; Pair-programming, TDD/BDD.
 
-### Personal Sabbatical <span class="duration">2006 June - 2007 February </span>
+### Personal Sabbatical <span class="duration"> 2006 June - 2007 February </span>
 
-- Taught myself Ruby, Ruby on Rails, and SQL in order to keep sharp
+- Taught myself Ruby, Ruby on Rails, and SQL
 
 ### Handspring & Palm <span class="duration"> 2001 November - 2006 June </span>
 
@@ -107,13 +110,14 @@ Handspring was acquired by PalmSource and renamed to palmOne in 2003. They renam
   - Designed & managed implementation of new XML-based carrier customization system. 
   - Moved In-box shared MacOS/Windows CD installer to daily builds.
   - Managed staff of 8 engineers.
-- Engineering Program Messaging & Photos
-  - Led prioritization and implementation for Treo 600 and Treo 650 smartphones
+- Engineering Program Manager, Messaging & Photos
+  - Led prioritization and implementation for Messaging & Photos apps for Treo 600 and Treo 650 smartphones
+  - Managed external vendors for MMS, Imaging, and Photo driver libraries for necessary enhancements.
   - Reduced "click-to-1st-photo" time from 3.5 seconds to under 1 second
 - Engineering Manager, Tools
-  - Managed team of 5 developers who developed internal SDK for all of Handspring software devices.
+  - Managed team of 5 developers who developed PalmOS SDK for all of Handspring software devices.
   - Managed migration from custom bug database to Mozilla/Bugzilla-based web app.
-- Tech Stacks: PalmOS, C, InstallShield (cross-platform), XML
+- __Stacks & Skills:__ PalmOS, C, InstallShield (cross-platform), Perl, XML; People management, vendor management.
 
 ## Prior Experience
 
