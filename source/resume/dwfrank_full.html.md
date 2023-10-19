@@ -8,27 +8,27 @@ title: Davis W. Frank Resume - Full
 I am an experienced senior software engineering leader with a demonstrated history of helping software teams shorten feedback loops, ship software, and stay happy. I can manage developers, designers, product managers, and people managers. I can build and re-staff teams. I can own critical business systems and start open source projects. I can present to meetups, conferences, customers, and executives about Ruby, JavaScript, YAML, Web Applications, early history of PC game development, low-level processor optimization, Pair Programming, and Test-driven Development.
 
 <div class="tabs-panels">
-<input type="radio" name="tabs" id="tab1" checked="checked">
-<input type="radio" name="tabs" id="tab2">
-<input type="radio" name="tabs" id="tab3">
+  <input type="radio" name="tabs" id="tab1" checked="checked">
+  <input type="radio" name="tabs" id="tab2">
+  <input type="radio" name="tabs" id="tab3">
 
-<div class="tabs">
-  <label for="tab1" class="tab" id="icon1">
-    <i class="fa-solid fa-people-arrows"></i>
-    <span class="tab-text">Management Skills</span>
-  </label>
-  <label for="tab2" class="tab" id="icon2">
-    <i class="fa-solid fa-computer"></i>
-    <span class="tab-text">Technical Skills</span>
-  </label>
-  <label for="tab3" class="tab" id="icon3">
-    <i class="fa-solid fa-calendar-days"></i>
-    <span class="tab-text">Professional Experience</span>
-  </label>
-</div>
+  <div class="tabs">
+    <label for="tab1" class="tab" id="icon1">
+      <i class="fa-solid fa-people-arrows"></i>
+      <span class="tab-text">Management Skills</span>
+    </label>
+    <label for="tab2" class="tab" id="icon2">
+      <i class="fa-solid fa-computer"></i>
+      <span class="tab-text">Technical Skills</span>
+    </label>
+    <label for="tab3" class="tab" id="icon3">
+      <i class="fa-solid fa-calendar-days"></i>
+      <span class="tab-text">Professional Experience</span>
+    </label>
+  </div>
 
-<div class="panels">
-<div class="panel" id="panel1" markdown="1">
+  <div class="panels">
+    <div class="panel" id="panel1" markdown="1">
 
 ## Management Skills
 
@@ -52,6 +52,7 @@ Leading Distributed Teams
 
 Stakeholder Management
 : I have built trust with internal customers and clients across industries. I have helped them manage budgets from five to seven figures. I have set their expectations and managed teams to meet and exceed them.
+  
 </div>
 
 <div class="panel" id="panel2" markdown="1">
@@ -95,7 +96,6 @@ Legacy Technology Skills
 : I spent my early career working with digital desktop video and graphics on Microsoft Windows. I wrote low-level assembly routines, C/C++ application and driver code, spelunked in graphics sub-systems, and helped make Windows a viable video and game platform.
 
 </div>
-
 <div class="panel" id="panel3" markdown="1">
 
 ## Professional Experience Timeline
@@ -214,7 +214,9 @@ I was a developer on the DCI project, which proved that direct-to-frame-buffer a
 
 _Learned how to write production code in the real world, how to build an SDK to teach developers to use your API, and how to travel internationally on 4 hours notice._
 
+</div> 
 </div>
+
 </div>
 
 ## Education
