@@ -32,5 +32,5 @@
     %main{class: wrapper_classes_for(current_page.data)}
       = yield
     %footer.site
-      %p.small= "© #{config[:site_author]} #{Time.now.year}"
+      %p.small= "© #{Time.now.year} #{config[:site_author]}"
     = component "google_analytics"
