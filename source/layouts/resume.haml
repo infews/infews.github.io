@@ -37,6 +37,6 @@
     = yield
     %hr
     %span.version
-      - prefix = (current_resource.path =~ /full/) ? "full - " : "std - "
-      = prefix + "v#{updated_date("source#{current_resource.path}.html.md")}"
+      - prefix = (current_resource.path =~ /full/) ? "f" : "s"
+      = prefix + ".v#{updated_date("source#{current_resource.path}.html.md")}"
     = component "google_analytics"
