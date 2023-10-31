@@ -117,7 +117,7 @@ Handspring was acquired by PalmSource and renamed to palmOne in 2003. They renam
   - Reduced "click-to-1st-photo" time from 3.5 seconds to under 1 second
 - Engineering Manager, Tools
   - Managed team of 5 developers who developed PalmOS SDK for all of Handspring software devices.
-  - Managed migration from custom bug database to Mozilla/Bugzilla-based web app.
+  - Completed implementation of Mozilla/Bugzilla-based web app & migrated Development from custom bug database.
 - __Stacks & Skills:__ PalmOS, C, InstallShield (cross-platform), Perl, XML; People management, vendor management.
 
 ## Prior Experience
