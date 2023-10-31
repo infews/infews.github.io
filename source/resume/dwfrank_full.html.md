@@ -52,6 +52,9 @@ Leading Distributed Teams
 
 Stakeholder Management
 : I have built trust with internal customers and clients across industries. I have helped them manage budgets from five to seven figures. I have set their expectations and managed teams to meet and exceed them.
+
+Vendor Management 
+: I have renegotiated contracts, spun down vendors, and reduced cost spending across in order to optimize the ROI of using MSPs for key software team enablement.
   
 </div>
 

@@ -9,15 +9,16 @@ I am an experienced senior software engineering leader with a demonstrated histo
 
 ## Professional Experience Timeline
 
-### [Fountain](https://www.fountain.com) <span class="duration"> 2021 October - 2023 May </span> 
+### [Fountain][fntn] <span class="duration"> 2021 October - 2023 May </span> 
 
 #### Director of Engineering
 
 - Improved release frequency from 3 times per month to 4 times per week.
+- Rebuilt, centralized, and standardized engineer hiring process.
 - Managed 2-3 various teams of 20-25 engineers and managers across assessment cycles, re-orgs, and layoffs.
   - Teams included Product Development teams, Data Engineering, Release Engineering, and Cloud Engineering.
-- Rebuilt, centralized, and standardized engineer hiring process.
-- __Stacks & Skills:__ Ruby on Rails, Javascript/Typescript, React, Kubernetes, Heroku, AWS, GCP, Looker; Facilitation, Management of managers, Cost management, Remote team management, Staff & Software strategy.
+- Managed cost and contracts with Cloud Service vendors (e.g., AWS, Azure, Heroku, [CircleCI][circle], GCP/Looker, and others).
+- __Stacks & Skills:__ Ruby on Rails, Javascript/Typescript, React, Kubernetes, Heroku, AWS, Azure, GCP, Looker; Facilitation, Management of managers, Cost management, Remote team management, Staff & Software strategy.
 
 ### Personal Sabbatical &amp; Product Advising <span class="duration">2020 January - 2021 October </span>
 
@@ -180,3 +181,5 @@ B.S., Computer Science, July 1992
 [p2]: https://patents.google.com/patent/US5572232A/
 [p3]: https://patents.google.com/patent/US5546103A/z1
 [rgm]: https://www.crunchbase.com/organization/real-girls-media-network-inc
+[fntn]: https://www.fountain.com
+[circle]: https://circleci.com
