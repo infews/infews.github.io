@@ -182,4 +182,4 @@ B.S., Computer Science, July 1992
 [tlabs]: https://tanzu.vmware.com/labs
 [travis]: https://www.travis-ci.com/
 [uga]: https://uga.edu
-[xp]: https://www.extremeprogramming.org/
+[xp]: http://www.extremeprogramming.org/
