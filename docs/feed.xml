@@ -5,11 +5,207 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2023-10-31T16:23:32-07:00</updated>
+  <updated>2023-11-15T09:53:15-08:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
   <rights>© Davis W. Frank 2023</rights>
+  <entry>
+    <title>Dynamic Polymorphic Forms in Rails 7</title>
+    <link href="https://dwf.bigpencil.net/rails-dynamic-polymorphic-forms/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">Relearning Rails modeling, polymorphism, and dynamic forms.</summary>
+    <content type="html">
+&lt;p&gt;It was time to move &lt;a href="/covid-19-inspired-meal-planning/"&gt;my Meal Planning app&lt;/a&gt; from AirTable to a custom application. AirTable’s pricing for the size of the database wasn’t awful, but I’d moved past the free account limits. And there were some features I wanted to add that were hard with the basic AirTable features.&lt;/p&gt;
+
+&lt;p&gt;It’s been a while, so let’s write a Rails app!&lt;/p&gt;
+
+&lt;p&gt;I exported CSVs from AirTable, ran &lt;code&gt;bundle &amp;amp;&amp;amp; rails new&lt;/code&gt; and got to test-driving. Rails 7 and Resource scaffolding just worked as I expected. &lt;code&gt;Recipes&lt;/code&gt; and &lt;code&gt;Restaurants&lt;/code&gt; came together very quickly.&lt;/p&gt;
+
+&lt;p&gt;As soon as I tried to model a calendar of days, where days could have one or more restaurants and one or more recipes (a key feature of the current solution), things got complex.&lt;/p&gt;
+
+&lt;p&gt;I ran into three problems:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Rails and forms with &lt;code&gt;has_many&lt;/code&gt; associations&lt;/li&gt;
+  &lt;li&gt;But the association is polymorphic&lt;/li&gt;
+  &lt;li&gt;But the form really needs to be dynamic in order to add/remove things from the association&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Complex Forms&lt;/h2&gt;
+
+&lt;p&gt;I had my &lt;code&gt;Recipe&lt;/code&gt; and &lt;code&gt;Restaurant&lt;/code&gt; models and full controllers. Now I wanted to add a &lt;code&gt;Day&lt;/code&gt; model that has a date as well has &lt;code&gt;has_many :recipes&lt;/code&gt; as a starting point.&lt;/p&gt;
+
+&lt;p&gt;Rails has gotten pretty mature when it comes to the &lt;code&gt;fields_for&lt;/code&gt; helper that basically gives you a nested form that includes your association. The &lt;a href="https://guides.rubyonrails.org/form_helpers.html#building-complex-forms"&gt;Complex Forms&lt;/a&gt; section of the Action View Form Helpers Rails Guide talks about People with more than one address. This is great for explaining how &lt;code&gt;form_with&lt;/code&gt; and &lt;code&gt;fields_for&lt;/code&gt; work together.&lt;/p&gt;
+
+&lt;p&gt;To keep things simple, I only tried to add and edit one &lt;code&gt;Recipe&lt;/code&gt; on a &lt;code&gt;Day&lt;/code&gt;. It was working great. Now it was time to make the association polymorphic.&lt;/p&gt;
+
+&lt;h2&gt;Polymorphic has-and-belongs-to-many&lt;/h2&gt;
+
+&lt;p&gt;I needed to be able to add one recipe &lt;em&gt;or&lt;/em&gt; one restaurant. I tried several different modelings of the associations to get a polymorphic &lt;code&gt;has_many&lt;/code&gt; to work and couldn’t get all the tests passing. Then I found &lt;a href="https://stackoverflow.com/questions/51564463/polymorphic-has-and-belongs-to-many"&gt;this StackOverflow post&lt;/a&gt; that was. I needed a separate join table with some &lt;code&gt;has_many through&lt;/code&gt;’s’.&lt;/p&gt;
+
+&lt;p&gt;Of course! I needed something that looked more like:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Day &amp;lt;-&amp;gt; Meal (Course &amp;lt;-&amp;gt; [Recipe | Restaurant])&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Which got me to these models:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-ruby"&gt;class Day &amp;lt; ApplicationRecord  
+  validates :date, uniqueness: true  
+  validates :date, presence: true  
+  
+  has_many :meals, dependent: :destroy  
+end
+
+class Meal &amp;lt; ApplicationRecord  
+  belongs_to :day  
+  belongs_to :course, polymorphic: true  
+end
+
+class Recipe &amp;lt; ApplicationRecord  
+  validates :name, presence: true  
+  
+  has_many :meals, as: :course  
+  has_many :days, through: :meals  
+end
+
+class Restaurant &amp;lt; ApplicationRecord  
+  validates :name, presence: true  
+  
+  has_many :meals, as: :course  
+  has_many :days, through: :meals  
+end
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(Note: I’m not thrilled with the name of &lt;code&gt;course&lt;/code&gt;, but it’s close enough.)&lt;/p&gt;
+
+&lt;p&gt;Now with the form, I could put one &lt;code&gt;Recipe&lt;/code&gt; select and one &lt;code&gt;Restaurant&lt;/code&gt; select and be able to have one or the other. There were some bugs, sure. But I was creating, updating, and saving &lt;code&gt;Day&lt;/code&gt;s. Progress!&lt;/p&gt;
+
+&lt;p&gt;Next question - how do I get the form properly dynamic, adding as many recipes and restaurants as I wanted?&lt;/p&gt;
+
+&lt;h2&gt;Dynamic Complex Polymorphic Forms&lt;/h2&gt;
+
+&lt;p&gt;There’s a nice caveat at the Rails Guide for forms:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Rather than rendering multiple sets of fields ahead of time you may wish to add them only when a user clicks on an “Add new address” button. Rails does not provide any built-in support for this.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Whoops. I’m on my own.&lt;/p&gt;
+
+&lt;p&gt;To recap, I knew that what I wanted was for a &lt;code&gt;Day&lt;/code&gt; form to start with no Meals, but then be able to add or delete many &lt;code&gt;Recipes&lt;/code&gt; and &lt;code&gt;Restaurants&lt;/code&gt; and submit that form at the end to create or update the &lt;code&gt;Day&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Time to learn Turbo and Hotwire.&lt;/p&gt;
+
+&lt;p&gt;I found two great pages that helped immensely. First, was &lt;a href="https://medium.com/@alexischvez"&gt;Alexis Chávez’s&lt;/a&gt; guide to &lt;a href="https://medium.com/@alexischvez/hotwire-supercharged-rails-forms-with-turbo-6de79bb9e374"&gt;Turbo &amp;amp; Hotwire&lt;/a&gt;. The concepts were clear - it’s a bit like old RJS, but more formal thanks to how Controllers have evolved. But how do I structure the form?&lt;/p&gt;
+
+&lt;p&gt;Back to StackOverflow, and a nicely detailed question &lt;a href="https://stackoverflow.com/questions/71713303/rails-7-dynamic-nested-forms-with-hotwire-turbo-frames"&gt;Rails 7 Dynamic Nested Forms with hotwire/turbo frames&lt;/a&gt;. It models cocktails with ingredients and looked a lot like what I needed.&lt;/p&gt;
+
+&lt;p&gt;I had some patterns! Time for some code.&lt;/p&gt;
+
+&lt;h2&gt;DaysController gets new methods&lt;/h2&gt;
+
+&lt;p&gt;First, a couple of new routes:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-ruby"&gt;resources :days do  
+  get :new_meal, on: :collection, path: "new_meal/:course_type"  
+  delete :destroy_meal, on: :collection, path: "destroy_meal/(:id)"  
+end
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then in the &lt;code&gt;Day&lt;/code&gt; form I added two Turbo links that call the &lt;code&gt;#new_meal&lt;/code&gt; method: one to add a &lt;code&gt;Recipe&lt;/code&gt; and one to add a &lt;code&gt;Restaurant&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-ruby"&gt;.meals
+  ...
+  = link_to new_meal_days_path("Recipe"), data: { turbo_method: :get } do  
+    %i.fa-regular.fa-square-plus  
+    = "Add Recipe"  
+  = link_to new_meal_days_path("Restaurant"), data: { turbo_method: :get } do  
+    %i.fa-regular.fa-square-plus  
+    = "Add Restaurant"
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then in &lt;code&gt;DaysController&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-ruby"&gt;def new_meal  
+  helpers.fields model: Day.new do |f| 
+    f.fields_for :meals,  
+                 Meal.new,  
+                 child_index: 
+                   Process.clock_gettime(Process::CLOCK_REALTIME, :millisecond) do |ff|  
+      render turbo_stream: 
+               turbo_stream.append("meals", 
+                                   partial: "meal_fields", 
+                                   locals: {f: ff, klass: params[:course_type] })  
+    end  
+  end
+end  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Copying from the “Cocktails” post, this method:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Creates a form helper that will build the tags for a &lt;code&gt;Day&lt;/code&gt; and then one &lt;code&gt;Meal&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Passes the &lt;code&gt;fields_for&lt;/code&gt; form helper (&lt;code&gt;ff&lt;/code&gt;) to the view, along with the &lt;code&gt;course_type&lt;/code&gt; that came in from the &lt;code&gt;GET&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And then the &lt;code&gt;meals_fields&lt;/code&gt; view…&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-ruby"&gt;- div_id = "meal_#{f.index}"  
+  
+%div{id: div_id}  
+  = f.hidden_field :id  
+  = f.hidden_field :course_type, value: course_type  
+  .course_edits  
+    = f.collection_select :course_id, 
+                          course_type.constantize.order(:name), 
+                          :id, 
+                          :name, 
+                          prompt: "Select a #{course_type}..."  
+    = link_to destroy_meal_days_path(id: f.object.id, div_id: div_id), 
+              data: { turbo_method: :delete } do  
+      %i.fa-regular.fa-square-minus
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This builds a &lt;code&gt;div&lt;/code&gt; with a unique ID (from the timestamp in the controller method) that renders:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Hidden fields for the &lt;code&gt;Meal&lt;/code&gt; &lt;code&gt;id&lt;/code&gt; and &lt;code&gt;course_type&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;A select with that type’s list (yay, &lt;code&gt;String#constantize&lt;/code&gt;!)&lt;/li&gt;
+  &lt;li&gt;A link to destroy this section of the form, if the user so chooses&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And that link routes back to &lt;code&gt;DaysController#destory_meal&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-ruby"&gt;def destroy_meal  
+  Meal.find(params[:id]).destroy! if params[:id]  
+  
+  render turbo_stream: turbo_stream.remove(params[:div_id])  
+end
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Which will…&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Find and destroy the &lt;code&gt;Meal&lt;/code&gt; if this is a &lt;code&gt;Day#edit&lt;/code&gt; and so an &lt;code&gt;id&lt;/code&gt; is provided; but ignores it if not&lt;/li&gt;
+  &lt;li&gt;Removes this &lt;code&gt;Meal&lt;/code&gt;’s &lt;code&gt;div&lt;/code&gt; inside the &lt;code&gt;Day&lt;/code&gt; form&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;It’s Alive!&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src="/images/editing_day-e7952cd8.png" alt="completed form" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Phew! Thanks, Internet!&lt;/p&gt;
+
+&lt;h2&gt;Links&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://guides.rubyonrails.org/form_helpers.html#building-complex-forms"&gt;Rails Guide - Active View Form Helpers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://stackoverflow.com/questions/51564463/polymorphic-has-and-belongs-to-many"&gt;StackOverflow - Polymorphic Has and Belongs to Many&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://medium.com/@alexischvez/hotwire-supercharged-rails-forms-with-turbo-6de79bb9e374"&gt;Medium - Hotwire: Supercharged Rails forms with Turbo&lt;/a&gt; by &lt;a href="https://medium.com/@alexischvez"&gt;Alexis Chávez&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://stackoverflow.com/questions/71713303/rails-7-dynamic-nested-forms-with-hotwire-turbo-frames"&gt;StackOverflow - Rails 7 Dynamic Nested Forms with hotwire/turbo frames&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+    <published>2023-11-15T08:18:00-08:00</published>
+  </entry>
   <entry>
     <title>Guest on Radio Free XP Podcast</title>
     <link href="https://dwf.bigpencil.net/radio-free-xp/" rel="alternate"/>
@@ -129,7 +325,7 @@
 &lt;/div&gt;
 </content>
     <published>2023-10-04T17:00:00-07:00</published>
-    <updated>2023-10-11T00:00:00-07:00</updated>
+    <updated>2023-11-15T00:00:00-08:00</updated>
   </entry>
   <entry>
     <title>The Team is the Agent of Work</title>
@@ -378,7 +574,7 @@ set :markdown,
 &lt;p&gt;That’s enough blog yak shaving for a while. Back to writing…&lt;/p&gt;
 </content>
     <published>2023-07-15T14:45:00-07:00</published>
-    <updated>2023-07-16T00:00:00-07:00</updated>
+    <updated>2023-11-15T00:00:00-08:00</updated>
   </entry>
   <entry>
     <title>Anchor's Away</title>
@@ -482,6 +678,7 @@ set :markdown,
 &lt;p&gt;Was this yak shaving? Absolutely. Was it fun? Also absolutely.&lt;/p&gt;
 </content>
     <published>2023-07-11T09:43:00-07:00</published>
+    <updated>2023-11-15T00:00:00-08:00</updated>
   </entry>
   <entry>
     <title>GoGaRuCo 2013 Storytime</title>

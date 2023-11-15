@@ -20,13 +20,13 @@
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/resume/dwfrank/</loc>
-    <lastmod>2023-10-31T16:23:24-07:00</lastmod>
+    <lastmod>2023-11-15T09:52:30-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/resume/dwfrank_full/</loc>
-    <lastmod>2023-10-31T07:45:00-07:00</lastmod>
+    <lastmod>2023-11-15T09:40:34-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -85,6 +85,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://dwf.bigpencil.net/rails-dynamic-polymorphic-forms/</loc>
+    <lastmod>2023-11-15T09:50:27-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://dwf.bigpencil.net/drake-your-job/</loc>
     <lastmod>2023-08-28T12:15:01-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -134,7 +140,7 @@
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/more-blog-yakking/</loc>
-    <lastmod>2023-07-16T09:01:49-07:00</lastmod>
+    <lastmod>2023-11-15T09:40:45-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -212,7 +218,7 @@
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/balanced-and-empowered/</loc>
-    <lastmod>2023-10-11T13:34:37-07:00</lastmod>
+    <lastmod>2023-11-15T09:50:27-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -224,7 +230,7 @@
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/shaving-the-blog-yak/</loc>
-    <lastmod>2023-07-11T09:51:18-07:00</lastmod>
+    <lastmod>2023-11-15T09:40:45-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -337,6 +343,30 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://dwf.bigpencil.net/tags/web-development/</loc>
+    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/tags/ruby/</loc>
+    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/tags/rails/</loc>
+    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/tags/forms/</loc>
+    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://dwf.bigpencil.net/tags/career/</loc>
     <lastmod>2023-07-16T10:05:01-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -427,13 +457,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dwf.bigpencil.net/tags/software/</loc>
+    <loc>https://dwf.bigpencil.net/tags/blog/</loc>
     <lastmod>2023-07-16T10:05:01-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dwf.bigpencil.net/tags/blog/</loc>
+    <loc>https://dwf.bigpencil.net/tags/software/</loc>
     <lastmod>2023-07-16T10:05:01-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
