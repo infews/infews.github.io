@@ -2,8 +2,10 @@
 title: A Little More Yak Trimming
 date: 2023-07-15 21:45 UTC
 tags:
-  - software
+  - ruby
+  - web development
   - blog
+  - software
 keywords:
   - ruby
   - Middleman

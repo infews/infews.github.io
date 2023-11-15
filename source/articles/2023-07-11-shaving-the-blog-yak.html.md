@@ -2,8 +2,10 @@
 title: Shaving The Blog Yak
 date: 2023-07-11 16:43 UTC
 tags:
-  - software
+  - ruby
+  - web development
   - blog
+  - software
 keywords:
   - ruby
   - Middleman
