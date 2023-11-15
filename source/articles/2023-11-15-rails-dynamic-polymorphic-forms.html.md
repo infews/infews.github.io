@@ -12,7 +12,9 @@ keywords:
   - dynamic forms
   - polymorphism
 teaser: "Relearning Rails modeling, polymorphism, and dynamic forms."
-unsplash: https://images.unsplash.com/photo-1589010588553-46e8e7c21788?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NjkxMjJ8MHwxfGFsbHx8fHx8fHx8fDE3MDAwNjg4Nzh8&ixlib=rb-4.0.3&q=80&w=1080&utm_source=dwfs_journal_big_pencil&utm_medium=referral&utm_campaign=api-credit
+unsplash: 
+  url: https://images.unsplash.com/photo-1589010588553-46e8e7c21788?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NjkxMjJ8MHwxfGFsbHx8fHx8fHx8fDE3MDAwNjg4Nzh8&ixlib=rb-4.0.3&q=80&w=1080&utm_source=dwfs_journal_big_pencil&utm_medium=referral&utm_campaign=api-credit
+  title: "Colourful food 🍱"
 ---
 [planning]: /covid-19-inspired-meal-planning/
 [forms]: https://guides.rubyonrails.org/form_helpers.html#building-complex-forms

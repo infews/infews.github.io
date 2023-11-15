@@ -4,8 +4,9 @@
 = wrap_layout "layout" do
 
   - if current_resource.data.unsplash
+    - unsplash = current_resource.data.unsplash
     %picture
-      %img{src: current_resource.data.unsplash }
+      %img{src: unsplash.url, alt: unsplash.title }
 
   %article
     %section.headline
