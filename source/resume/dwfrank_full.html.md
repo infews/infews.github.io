@@ -185,7 +185,7 @@ I managed the team of 5 developers that produced daily builds of the internal SD
 
 _Learned how to start managing software engineers, how to inherit a team and improve its throughput, how to think about user outcomes first before jumping to solutions, and how to manage through layoffs and acquisitions. Also had my first exposure to web development and Extreme Programming, separately._
 
-### Intel Corp <span class="duration"> 1999 February - 2001 November </span>
+### Intel <span class="duration"> 1999 February - 2001 November </span>
 
 #### Senior Software Engineer
 
@@ -209,7 +209,7 @@ I maintained an animation codec, including combining two separate codebases in o
 
 _Learned how to code for a real-world consumer application deadline, how to simplify legacy code, how to work with Customer Support regarding high-cost bugs, and how to use personal contacts to establish a new business relationship. I never learned where in the world Carmen Sandiego was._
 
-### Intel Corp. <span class="duration"> 1992 July - 1995 December </span>
+### Intel <span class="duration"> 1992 July - 1995 December </span>
 
 #### Software Engineer
 
