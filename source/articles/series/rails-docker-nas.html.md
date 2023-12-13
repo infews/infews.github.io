@@ -1,0 +1,3 @@
+When it came to moving my meal planning app to Rails, I had no need to deploy it publicly. So why not run it from my Synology NAS? Because I didn't know enough about Docker and containers to make that all work.
+
+But I figured it out. And here's the record of it all so that maybe it helps you, or me in the future. Most of these details are scattered around several different sites and YouTube videos. But here's how I took all of this information and stitched it all together. 
