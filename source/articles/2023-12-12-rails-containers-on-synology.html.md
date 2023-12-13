@@ -53,7 +53,7 @@ First, I needed an image.
 
 I installed the Homebrew Cask version of Docker
 
-```sh
+```bash
 $ brew install --cask docker
 ```
 
@@ -68,7 +68,7 @@ Rails 7.1 ships with a Dockerfile. I built the app with Rails 7.0, but have sinc
 
 I'm using `cssbuild` to turn my SASS into CSS. I decided to keep Node and Yarn out of the container for size, which means I made this change to the Dockerfile to comment out the asset compilation:
 
-```sh
+```bash
 # Precompiling assets for production without requiring secret RAILS_MASTER_KEY 
 #RUN SECRET_KEY_BASE_DUMMY=1 ./bin/rails assets:precompile
 ```
@@ -79,13 +79,13 @@ I'll deal with assets later.
 
 It's possible to build an Intel-targeted container on Apple silicon. Very simple:
 
-```sh
+```bash
 $ docker buildx build --platform linux-amd64 -t <tag-name>
 ```
 
 However, the when bundling, Bundler complained that the Gemfile needed to support Intel processors.  This line adds this support:
 
-```sh
+```bash
 $ bundle lock --add-platform x86_64-linux
 ```
 
@@ -150,8 +150,8 @@ Rails still wouldn't start. This time it was because the `rails` user, which the
 # Run and own only the runtime files as a non-root user for security  
 # Synology DSM - make a user called 'rails' and save its id (will need to ssh/terminal for this)  
 
-ARG UID=<"rails" user ID>  
-ARG GID=<users group ID, likely 100>  
+ARG UID=132 # sudo and find this  
+ARG GID=100 # likely this value, but sudo and set properly  
 
 RUN useradd -m -u $UID -g $GID --create-home --shell /bin/bash rails && \  
     chown -R rails:users db log storage tmp public
