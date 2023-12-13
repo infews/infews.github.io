@@ -5,7 +5,7 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2023-12-12T16:51:45-08:00</updated>
+  <updated>2023-12-13T13:12:48-08:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
@@ -49,7 +49,7 @@
 
 &lt;p&gt;I installed the Homebrew Cask version of Docker&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class="language-sh"&gt;$ brew install --cask docker
+&lt;pre&gt;&lt;code class="language-bash"&gt;$ brew install --cask docker
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;I ran Docker, keeping the Docker daemon running in the background on MacOS.&lt;/p&gt;
@@ -65,7 +65,7 @@
 
 &lt;p&gt;I’m using &lt;code&gt;cssbuild&lt;/code&gt; to turn my SASS into CSS. I decided to keep Node and Yarn out of the container for size, which means I made this change to the Dockerfile to comment out the asset compilation:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class="language-sh"&gt;# Precompiling assets for production without requiring secret RAILS_MASTER_KEY 
+&lt;pre&gt;&lt;code class="language-bash"&gt;# Precompiling assets for production without requiring secret RAILS_MASTER_KEY 
 #RUN SECRET_KEY_BASE_DUMMY=1 ./bin/rails assets:precompile
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -75,12 +75,12 @@
 
 &lt;p&gt;It’s possible to build an Intel-targeted container on Apple silicon. Very simple:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class="language-sh"&gt;$ docker buildx build --platform linux-amd64 -t &amp;lt;tag-name&amp;gt;
+&lt;pre&gt;&lt;code class="language-bash"&gt;$ docker buildx build --platform linux-amd64 -t &amp;lt;tag-name&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;However, the when bundling, Bundler complained that the Gemfile needed to support Intel processors.  This line adds this support:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class="language-sh"&gt;$ bundle lock --add-platform x86_64-linux
+&lt;pre&gt;&lt;code class="language-bash"&gt;$ bundle lock --add-platform x86_64-linux
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Then the image build just worked and was in Docker locally. Then I was able to push the image to Docker Hub in the GUI.&lt;/p&gt;
@@ -158,8 +158,8 @@
 &lt;pre&gt;&lt;code class="language-docker"&gt;# Run and own only the runtime files as a non-root user for security  
 # Synology DSM - make a user called 'rails' and save its id (will need to ssh/terminal for this)  
 
-ARG UID=&amp;lt;"rails" user ID&amp;gt;  
-ARG GID=&amp;lt;users group ID, likely 100&amp;gt;  
+ARG UID=132 # sudo and find this  
+ARG GID=100 # likely this value, but sudo and set properly  
 
 RUN useradd -m -u $UID -g $GID --create-home --shell /bin/bash rails &amp;amp;&amp;amp; \  
     chown -R rails:users db log storage tmp public
@@ -178,6 +178,7 @@ USER rails:users
 
 </content>
     <published>2023-12-12T12:35:00-08:00</published>
+    <updated>2023-12-13T00:00:00-08:00</updated>
   </entry>
   <entry>
     <title>Dynamic Polymorphic Forms in Rails 7</title>
