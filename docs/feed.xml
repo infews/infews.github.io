@@ -5,11 +5,180 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2023-11-15T09:53:15-08:00</updated>
+  <updated>2023-12-12T16:51:45-08:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
   <rights>© Davis W. Frank 2023</rights>
+  <entry>
+    <title>Synology on Rails Part I: Running</title>
+    <link href="https://dwf.bigpencil.net/rails-containers-on-synology/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">How finally learned containers and got my Rails Meal Planning app up on running on my Synology NAS.</summary>
+    <content type="html">
+&lt;p&gt;Following my &lt;a href="/rails-dynamic-polymorphic-forms/"&gt;last post&lt;/a&gt;, I was ready to deploy an early version of my Meal Planning/Recording Rails app. Given this is a small app, with really only two users, I didn’t feel it necessary to pay to deploy it to the cloud and to do the work needed to secure it for cloud hosting.&lt;/p&gt;
+
+&lt;p&gt;I knew that I could run containerized apps on my Synology NAS. So I just needed to figure out howto get Rails and my app containerized and deployed.&lt;/p&gt;
+
+&lt;h2&gt;What I Wanted&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Rails app running in a container on the NAS&lt;/li&gt;
+  &lt;li&gt;The SQLite file &lt;em&gt;not&lt;/em&gt; in the container&lt;/li&gt;
+  &lt;li&gt;Access inside my home network&lt;/li&gt;
+  &lt;li&gt;Autmoatable deployment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;What I Had&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A Rails app using a SQLite database&lt;/li&gt;
+  &lt;li&gt;A Mac Mini M2 for development&lt;/li&gt;
+  &lt;li&gt;A Synology NAS with an Intel processor running DSM 7.2&lt;/li&gt;
+  &lt;li&gt;Me, who despite working at Pivotal on container-based technology, only had a conceptual understanding of all of these pieces working together.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;What I Did&lt;/h2&gt;
+
+&lt;p&gt;First, I needed an image.&lt;/p&gt;
+
+&lt;h3&gt;1. Install Docker on MacOS&lt;/h3&gt;
+
+&lt;p&gt;I installed the Homebrew Cask version of Docker&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-sh"&gt;$ brew install --cask docker
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I ran Docker, keeping the Docker daemon running in the background on MacOS.&lt;/p&gt;
+
+&lt;h3&gt;2. Getting The Rails 7.1 Dockerfile&lt;/h3&gt;
+
+&lt;p&gt;Rails 7.1 ships with a Dockerfile. I built the app with Rails 7.0, but have since upgraded to 7.1, so I generated a new app and copied these two key files:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;./Dockerfile&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;./bin/docker-entrypoint&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’m using &lt;code&gt;cssbuild&lt;/code&gt; to turn my SASS into CSS. I decided to keep Node and Yarn out of the container for size, which means I made this change to the Dockerfile to comment out the asset compilation:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-sh"&gt;# Precompiling assets for production without requiring secret RAILS_MASTER_KEY 
+#RUN SECRET_KEY_BASE_DUMMY=1 ./bin/rails assets:precompile
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I’ll deal with assets later.&lt;/p&gt;
+
+&lt;h3&gt;3. Building the Image&lt;/h3&gt;
+
+&lt;p&gt;It’s possible to build an Intel-targeted container on Apple silicon. Very simple:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-sh"&gt;$ docker buildx build --platform linux-amd64 -t &amp;lt;tag-name&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;However, the when bundling, Bundler complained that the Gemfile needed to support Intel processors.  This line adds this support:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-sh"&gt;$ bundle lock --add-platform x86_64-linux
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then the image build just worked and was in Docker locally. Then I was able to push the image to Docker Hub in the GUI.&lt;/p&gt;
+
+&lt;h3&gt;4. Running the Image on Synology DSM&lt;/h3&gt;
+
+&lt;p&gt;I followed &lt;a href="https://www.youtube.com/watch?v=aUFpdjfDI6c"&gt;this guide&lt;/a&gt; to better understand how containers, and the Container Manager, work on Synology. I applied this knowledge by:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Updated Synology DSM to 7.2+&lt;/li&gt;
+  &lt;li&gt;Installed the Container Manager package&lt;/li&gt;
+  &lt;li&gt;Installed the Web Station package&lt;/li&gt;
+  &lt;li&gt;Imported my image from Docker Hub&lt;/li&gt;
+  &lt;li&gt;Ran that image to get a booted container&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This &lt;em&gt;almost&lt;/em&gt; worked. Everything was good until step 5. The Container Manager had all of the environment variables. Port 3000 was exposed.&lt;/p&gt;
+
+&lt;p&gt;I followed the prompts in the UI and made a named Web Station Web Portal - I called it &lt;code&gt;meals.local&lt;/code&gt; that pointed to the Container. I also updated my local DNS - I use a &lt;a href="https://firewalla.com"&gt;Firewalla&lt;/a&gt; at home - so that &lt;code&gt;meals.local&lt;/code&gt; pointed to my NAS’s IP address.&lt;/p&gt;
+
+&lt;h3&gt;5. Whoops - RAILS_MASTER_KEY&lt;/h3&gt;
+
+&lt;p&gt;But Rails wouldn’t start because I didn’t have the master key. This was a simple setting in the Container Manager app, adding a &lt;code&gt;RAILS_MASTER_KEY&lt;/code&gt; environment variable and manually copying the key over from &lt;code&gt;config/master.key&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;I saved and restarted the container.&lt;/p&gt;
+
+&lt;h3&gt;6. Whoops - The Database&lt;/h3&gt;
+
+&lt;p&gt;Now Rails wouldn’t start because there was no database.  I did the following:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Created and migrated the production database file in &lt;code&gt;db/production/production.sqlite3&lt;/code&gt; on my dev machine&lt;/li&gt;
+  &lt;li&gt;Updated &lt;code&gt;config/database.yml&lt;/code&gt;:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class="language-yaml"&gt;production:  
+  &amp;lt;&amp;lt;: *default  
+  database: db/production/production.sqlite3
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Downloaded a Rails &lt;code&gt;.dockerignore&lt;/code&gt; (thanks &lt;a href="https://gist.github.com/yizeng/eeeb48d6823801061791cc5581f7e1fc"&gt;yizeng&lt;/a&gt;!) and added &lt;code&gt;db/production&lt;/code&gt; to it
+    &lt;ul&gt;
+      &lt;li&gt;This keeps the production SQLite file out of the container&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Created a directory for my app on the NAS
+    &lt;ul&gt;
+      &lt;li&gt;Synology Container Manager makes a directory called &lt;code&gt;/docker&lt;/code&gt;, so I made &lt;code&gt;/docker/meals&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Shared &lt;code&gt;/docker&lt;/code&gt; so I could see it on my network, thus able to copy files from my development machine&lt;/li&gt;
+  &lt;li&gt;Copied &lt;code&gt;production.sqlite&lt;/code&gt; to &lt;code&gt;/docker/meals/db/production.sqlite3&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Rebuilt the image and uploaded to Docker Hub&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;From there I was able to stop and delete the container, then update the image from Docker Hub. Before I started it I had to make a container Settings change in Container Manager:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Map a mount point in Container Manager (Container - Settings - Volume Settings in the GUI) for the container so that &lt;code&gt;/rails/db/production&lt;/code&gt; in the container pointed to &lt;code&gt;/docker/meals/db&lt;/code&gt; on the NAS.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I rebuilt and restarted again.&lt;/p&gt;
+
+&lt;h3&gt;7. Whoops - Users and File Permissions&lt;/h3&gt;
+
+&lt;p&gt;Rails still wouldn’t start. This time it was because the &lt;code&gt;rails&lt;/code&gt; user, which the Dockerfile creates, didn’t exist. Back to Synology DSM.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Created a user named &lt;code&gt;rails&lt;/code&gt; in the &lt;code&gt;users&lt;/code&gt; group&lt;/li&gt;
+  &lt;li&gt;Fount the &lt;code&gt;rails&lt;/code&gt; user id and group id - I had to &lt;code&gt;sudo&lt;/code&gt; to the NAS for this&lt;/li&gt;
+  &lt;li&gt;Updated the Dockerfile’s “&lt;code&gt;useradd&lt;/code&gt;” area like this:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class="language-docker"&gt;# Run and own only the runtime files as a non-root user for security  
+# Synology DSM - make a user called 'rails' and save its id (will need to ssh/terminal for this)  
+
+ARG UID=&amp;lt;"rails" user ID&amp;gt;  
+ARG GID=&amp;lt;users group ID, likely 100&amp;gt;  
+
+RUN useradd -m -u $UID -g $GID --create-home --shell /bin/bash rails &amp;amp;&amp;amp; \  
+    chown -R rails:users db log storage tmp public
+
+# Switch to this user
+USER rails:users
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then I had to do the manual cycle of build image, push image, stop container, delete container, update image, run image, change container settings.&lt;/p&gt;
+
+&lt;p&gt;But the app booted and worked! I could visit &lt;code&gt;https://meals.local&lt;/code&gt; and see my app. Victory!&lt;/p&gt;
+
+&lt;p&gt;This was a lot of trial and error. And I was tired of all the manual building, copying, and GUI work.&lt;/p&gt;
+
+&lt;p&gt;Next post: automating the deploy.&lt;/p&gt;
+
+</content>
+    <published>2023-12-12T12:35:00-08:00</published>
+  </entry>
   <entry>
     <title>Dynamic Polymorphic Forms in Rails 7</title>
     <link href="https://dwf.bigpencil.net/rails-dynamic-polymorphic-forms/" rel="alternate"/>
@@ -1168,21 +1337,6 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
-    <title>Community Plugin: Calendar</title>
-    <link href="https://dwf.bigpencil.net/community-plugin-calendar/" rel="alternate"/>
-    <id/>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <summary type="html">The calendar helps you build the daily journal habit.</summary>
-    <content type="html">&lt;p&gt;This plug-in works with the Daily Notes plug-in. It adds a new tab in the right pane that gives a single-month view. Each date links to that day’s daily note, with a cute dot notation for the length of that note. You can also browse back and forth between months.&lt;/p&gt;
-
-&lt;p&gt;I find this is faster for zeroing in on historical notes. And sometimes you just need another calendar right in front of you during the day.&lt;/p&gt;
-</content>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
-  </entry>
-  <entry>
     <title>Thoughts on Vaults</title>
     <link href="https://dwf.bigpencil.net/thoughts-on-vaults/" rel="alternate"/>
     <id/>
@@ -1338,6 +1492,39 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
+    <title>Community Plugin: Calendar</title>
+    <link href="https://dwf.bigpencil.net/community-plugin-calendar/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">The calendar helps you build the daily journal habit.</summary>
+    <content type="html">&lt;p&gt;This plug-in works with the Daily Notes plug-in. It adds a new tab in the right pane that gives a single-month view. Each date links to that day’s daily note, with a cute dot notation for the length of that note. You can also browse back and forth between months.&lt;/p&gt;
+
+&lt;p&gt;I find this is faster for zeroing in on historical notes. And sometimes you just need another calendar right in front of you during the day.&lt;/p&gt;
+</content>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
+  </entry>
+  <entry>
+    <title>Using Tags</title>
+    <link href="https://dwf.bigpencil.net/using-tags/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">Tag it for easier search.</summary>
+    <content type="html">&lt;p&gt;I am not a huge tag user. I find the search very good and the Linked/Unlinked mentions tab enlightening.&lt;/p&gt;
+
+&lt;p&gt;However, I do have a few categories of notes I want called out. So I will drop a hashtag at the bottom of the file, below a Horizontal Rule, where it is out of the way. I’ve found I like this better than using YAML front matter.&lt;/p&gt;
+
+&lt;p&gt;As I type this, I realize that all of the tags I care about are types of notes and thus have templates associated with them. So each template includes the tag. I barely even think about them except when searching.&lt;/p&gt;
+
+</content>
+    <published>2021-03-21T09:13:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
+  </entry>
+  <entry>
     <title>Using Links</title>
     <link href="https://dwf.bigpencil.net/using-links/" rel="alternate"/>
     <id/>
@@ -1359,24 +1546,6 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 </content>
     <published>2021-03-21T09:13:00-07:00</published>
     <updated>2023-07-17T00:00:00-07:00</updated>
-  </entry>
-  <entry>
-    <title>Using Tags</title>
-    <link href="https://dwf.bigpencil.net/using-tags/" rel="alternate"/>
-    <id/>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <summary type="html">Tag it for easier search.</summary>
-    <content type="html">&lt;p&gt;I am not a huge tag user. I find the search very good and the Linked/Unlinked mentions tab enlightening.&lt;/p&gt;
-
-&lt;p&gt;However, I do have a few categories of notes I want called out. So I will drop a hashtag at the bottom of the file, below a Horizontal Rule, where it is out of the way. I’ve found I like this better than using YAML front matter.&lt;/p&gt;
-
-&lt;p&gt;As I type this, I realize that all of the tags I care about are types of notes and thus have templates associated with them. So each template includes the tag. I barely even think about them except when searching.&lt;/p&gt;
-
-</content>
-    <published>2021-03-21T09:13:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Core Plugin: Templates</title>

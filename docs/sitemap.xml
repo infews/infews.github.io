@@ -7,10 +7,10 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dwf.bigpencil.net/tags/parenting/</loc>
-    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
+    <loc>https://dwf.bigpencil.net/series/rails-docker-nas/</loc>
+    <lastmod>2023-07-22T12:22:31-07:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/series/the-cd-test/</loc>
@@ -33,6 +33,12 @@
   <url>
     <loc>https://dwf.bigpencil.net/articles/series/obsidian/</loc>
     <lastmod>2023-07-18T07:54:49-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/articles/series/rails-docker-nas/</loc>
+    <lastmod>2023-12-12T16:51:36-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -117,6 +123,12 @@
   <url>
     <loc>https://dwf.bigpencil.net/what-brown-mms-taught-me-about-software/</loc>
     <lastmod>2023-07-17T14:45:13-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/rails-containers-on-synology/</loc>
+    <lastmod>2023-12-12T16:51:36-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -361,6 +373,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://dwf.bigpencil.net/tags/software-engineering/</loc>
+    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/tags/deployment/</loc>
+    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://dwf.bigpencil.net/tags/forms/</loc>
     <lastmod>2023-07-16T10:05:01-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -488,6 +512,12 @@
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/tags/rock/</loc>
+    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/tags/parenting/</loc>
     <lastmod>2023-07-16T10:05:01-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
