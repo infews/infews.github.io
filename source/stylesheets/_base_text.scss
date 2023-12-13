@@ -65,6 +65,7 @@ h6 {
 
 code {
   font-family: $font-family-mono;
+  font-size: 0.9rem; // This could/should change as apparent font sizes change. This works for IBM Flex Sans
   padding: 0;
 }
 
