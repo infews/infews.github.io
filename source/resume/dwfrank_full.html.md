@@ -19,7 +19,7 @@ I am an experienced senior software engineering leader with a demonstrated histo
     </label>
     <label for="tab2" class="tab" id="icon2">
       <i class="fa-solid fa-computer"></i>
-      <span class="tab-text">Technical Skills</span>
+      <span class="tab-text">Technology Skills</span>
     </label>
     <label for="tab3" class="tab" id="icon3">
       <i class="fa-solid fa-calendar-days"></i>
