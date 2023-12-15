@@ -277,6 +277,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://dwf.bigpencil.net/deploying-containers-synology/</loc>
+    <lastmod>2023-12-15T14:42:49-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://dwf.bigpencil.net/goodbye-jonathan-demme/</loc>
     <lastmod>2023-07-12T09:31:48-07:00</lastmod>
     <changefreq>weekly</changefreq>

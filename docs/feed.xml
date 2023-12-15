@@ -5,11 +5,276 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2023-12-15T08:18:07-08:00</updated>
+  <updated>2023-12-15T14:42:56-08:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
   <rights>© Davis W. Frank 2023</rights>
+  <entry>
+    <title>Synology on Rails Part II: Deploying</title>
+    <link href="https://dwf.bigpencil.net/deploying-containers-synology/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">Digging deep in the terminal and figuring out how to use rake to deploy my containerized Rails app to my Synology NAS.</summary>
+    <content type="html">
+&lt;p&gt;&lt;em&gt;This is part II. Visit &lt;a href="/series/rails-docker-nas"&gt;rest of this series&lt;/a&gt; to find out how we got here.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Now that I had a &lt;em&gt;very&lt;/em&gt; &lt;a href="/rails-containers-on-synology/"&gt;manual set of steps&lt;/a&gt; to get my Meal Planning app to run on Synology DSM, I wanted a more automated set of deployment steps - something I could deploy with a single rake task.&lt;/p&gt;
+
+&lt;h2&gt;What I Wanted&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;No DockerHub round tripping
+    &lt;ul&gt;
+      &lt;li&gt;Why send 1GB up to the cloud just to come back down again?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Local image building
+    &lt;ul&gt;
+      &lt;li&gt;MacOS/M2 build times were under 3 minutes vs. over 20+ minutes on the NAS&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;One rake task to do it all from clean git to new version of the app up and running&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;What I Had&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Only a partial understanding of how the Synology GUI maps to Docker underneath&lt;/li&gt;
+  &lt;li&gt;Zero clue if this was possible&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;What I Did&lt;/h2&gt;
+
+&lt;p&gt;Let’s see what happened.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; Here’s &lt;a href="https://github.com/infews/synology_on_rails"&gt;a repo of the final files&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;1. Get the Image to the NAS&lt;/h3&gt;
+
+&lt;p&gt;Once I made the decision to not involve Docker Hub, or any registry, I figured this was going to be simple enough copy across my network, right? I had a folder on the NAS that was accessible.&lt;/p&gt;
+
+&lt;p&gt;I just needed to save the image out to a .tar file and then copy it to the server.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-sh"&gt;$ docker save dwfrank/meals &amp;gt; tmp/dwfrank-meals.tar
+$ cp tmp/dwfrank-meals.tar /Volumes/docker/meals
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There are two key things here:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;I used &lt;code&gt;docker save&lt;/code&gt; to get the built image from local Docker. Export also worked, but caused problems later.&lt;/li&gt;
+  &lt;li&gt;I saved the tar file in &lt;code&gt;./tmp&lt;/code&gt;, which is in the &lt;code&gt;.dockerignore&lt;/code&gt; file, which means it’s in the development file system, but not the container image.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;2. Get the Container Loaded&lt;/h3&gt;
+
+&lt;p&gt;The Synology Container Manager GUI will let you import an image in a tar file. That way was easy. But how could I do this from the command line?&lt;/p&gt;
+
+&lt;p&gt;I learned two things:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The Container Manager GUI is really just running &lt;code&gt;docker&lt;/code&gt; under the hood.&lt;/li&gt;
+  &lt;li&gt;The &lt;code&gt;docker&lt;/code&gt; and &lt;code&gt;docker-compose&lt;/code&gt; executables are installed, but only for root or sudo access.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I enabled the Synology’s SSH service, on an alternate port, and made sure my NAS’s deploy user had administrator rights. Then I set up a key pair so I could ssh without a password.&lt;/p&gt;
+
+&lt;p&gt;After some trial and error, I found that I needed to use Docker’s &lt;code&gt;load&lt;/code&gt; command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-sh"&gt;$ sudo docker load --input /volume1/docker/meals/dwfrank-meals.tar
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;…and that I had to have the full path to the image.&lt;sup id="fnref:1" role="doc-noteref"&gt;&lt;a href="#fn:1" class="footnote" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;The image showed up in Container Manager as expected. Progress!&lt;/p&gt;
+
+&lt;h3&gt;3. Injecting Values into the Dockerfile&lt;/h3&gt;
+
+&lt;p&gt;I decided that the most appropriate place to add the &lt;code&gt;RAILS_MASTER_KEY&lt;/code&gt; environment variable was when the image is built. It keeps all the environment vars together, after all.&lt;/p&gt;
+
+&lt;p&gt;So back to the &lt;code&gt;Dockerfile&lt;/code&gt; and its env vars section:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-Docker"&gt;ARG MASTER_KEY=""  
+  
+# Set production environment  
+ENV RAILS_ENV="production" \  
+    BUNDLE_DEPLOYMENT="1" \  
+    BUNDLE_PATH="/usr/local/bundle" \  
+    BUNDLE_WITHOUT="development" \  
+    RAILS_MASTER_KEY=$MASTER_KEY
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I added the empty Docker ARG for the master key, and then pass it in at build time.&lt;sup id="fnref:2" role="doc-noteref"&gt;&lt;a href="#fn:2" class="footnote" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt; This meant writing the first rake task that does any of this work so I could read the key from the Rails config directory:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-ruby"&gt;key = File.read("config/master.key")  
+system "docker buildx build --build-arg=\"MASTER_KEY=#{key}\" --platform linux/amd64 -t dwfrank/meals ."
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I round-tripped the build again, and after running &lt;code&gt;sudo docker load&lt;/code&gt;, the &lt;code&gt;RAILS_MASTER_KEY&lt;/code&gt; was right there with the rest of the variables.&lt;/p&gt;
+
+&lt;h3&gt;4. Adding the Database Volume Mount Point&lt;/h3&gt;
+
+&lt;p&gt;It looked like &lt;code&gt;docker-compose&lt;/code&gt; was the right way to add volumes. So I  created a &lt;code&gt;docker-compose.yml&lt;/code&gt; in my app’s root with the image name, the name for the container when it’s running, and the database mount point:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-yaml"&gt;services:  
+  web:  
+    image: dwfrank/meals  
+    container_name: balboa-meals  
+    command: bash -c "rm -f tmp/pids/server.pid &amp;amp;&amp;amp; ./bin/rails server"  
+    volumes:  
+      - /volume1/docker/meals/db:/rails/db/production
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then I copied this file to the NAS, ssh’d over, and then called &lt;code&gt;docker-compse&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-bash"&gt;$ cp docker-compose.yml /Volumes/docker/meals
+$ ssh deploy@192.168.1.100:822
+$ # Now on the NAS
+$ cd /volume1/docker/meals
+$ sudo docker-compose create .
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;…and I had the container loaded but not running. And all of the environment variables were there as I expected.&lt;/p&gt;
+
+&lt;h3&gt;5. Connecting the Container to the Web Station&lt;/h3&gt;
+
+&lt;p&gt;The last step was going to have to be manual for now. In the DSM GUI:&lt;sup id="fnref:3" role="doc-noteref"&gt;&lt;a href="#fn:3" class="footnote" rel="footnote"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Container Manager - run the container&lt;/li&gt;
+  &lt;li&gt;Web Station - reconnect the &lt;code&gt;meals.local&lt;/code&gt; portal, which won’t have a container associated with it, to the container I just ran.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So let’s stitch this all together!&lt;/p&gt;
+
+&lt;h3&gt;6. Rake All the Things!&lt;/h3&gt;
+
+&lt;p&gt;To recap the work so far, I did the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Built a &lt;code&gt;production.sqlite3&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Moved to a subdirectory under &lt;code&gt;./db&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Fixed &lt;code&gt;./config/database.yml&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Added a &lt;code&gt;./.dockerignore&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Excluded &lt;code&gt;./tmp&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Excluded &lt;code&gt;./db/production/&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Updated the Rails &lt;code&gt;./Dockerfile&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Commented out asset builds&lt;/li&gt;
+      &lt;li&gt;Added NAS user and group IDs to the &lt;code&gt;chown&lt;/code&gt; commands&lt;/li&gt;
+      &lt;li&gt;Added injecting the &lt;code&gt;RAILS_MASTER_KEY&lt;/code&gt; during the image build&lt;/li&gt;
+      &lt;li&gt;Used this &lt;code&gt;Dockerfile&lt;/code&gt; to build the container image from the command line&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Added a &lt;code&gt;./docker-compose.yml&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Picks the image name&lt;/li&gt;
+      &lt;li&gt;Sets a container name&lt;/li&gt;
+      &lt;li&gt;Sets the database volume mount point&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The remaining work that needed to be done on the NAS, via &lt;code&gt;sudo&lt;/code&gt;, to deploy the app was to load the image, with &lt;code&gt;docker&lt;/code&gt;, and then execute &lt;code&gt;docker-compose&lt;/code&gt;. Local commands are easy. But what about the &lt;code&gt;sudo&lt;/code&gt; commands?&lt;/p&gt;
+
+&lt;p&gt;Enter &lt;a href="https://github.com/capistrano/sshkit"&gt;SSHKit&lt;/a&gt;. This is what Capistrano and Kamal use under the hood in order to do their work. And SSHKit &lt;a href="https://github.com/kentaroi/sshkit-sudo"&gt;has a Sudo module&lt;/a&gt;. So I was able to use all this for the last remote commands.&lt;/p&gt;
+
+&lt;p&gt;I made two additions to the &lt;code&gt;Gemfile&lt;/code&gt; development group:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-ruby"&gt;gem "sshkit"  
+gem "sshkit-sudo"
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And then these commands are in a Rake task:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-ruby"&gt;require "sshkit"
+require "sshkit/dsl"
+require "sshkit/sudo"
+
+desc "Loads the built image into Docker on Filgate"  
+task :deploy_to_synology do
+ include SSHKit::DSL
+
+  pw = "kwijibo" # get your password from a password manager, etc.
+  send_password = SSHKit::MappingInteractionHandler.new("Password: " =&amp;gt; pw)
+
+  bin = "/usr/local/bin"
+  docker_compose = "#{bin}/docker-compose"
+  docker = "#{bin}/docker"
+
+  on "deployuser@192.168.10.124:622" do
+    # acutal mounted path for the docker folder
+    within "/volume1/docker/meals" do
+      sudo "#{docker_compose} down",
+        interaction_handler: send_password
+      sudo "#{docker} image rm --force dwfrank/meals",
+        interaction_handler: send_password
+      sudo "#{docker} load --input /volume1/docker/meals/dwfrank-meals.tar",
+        interaction_handler: send_password
+      sudo "#{docker_compose} create",
+        interaction_handler: send_password
+    end
+  end
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Of note above:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;SSHKit wasn’t loading the &lt;code&gt;PATH&lt;/code&gt; as expected, so I used absolute paths to the executables&lt;/li&gt;
+  &lt;li&gt;It stops the running container down and then deletes its image&lt;/li&gt;
+  &lt;li&gt;Then it uses &lt;code&gt;docker load&lt;/code&gt; to add the image to Container Manager/Docker
+    &lt;ul&gt;
+      &lt;li&gt;The assumption is that the image tar is present&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Then it uses &lt;code&gt;docker-compose&lt;/code&gt; to &lt;em&gt;create&lt;/em&gt; the new container from that image&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So when you look at the &lt;a href="https://github.com/infews/synology_on_rails"&gt;repo&lt;/a&gt;, you’ll see these tasks:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ensure that git is clean and everything is committed.&lt;/li&gt;
+  &lt;li&gt;Rebuild the Rails assets in &lt;code&gt;./public&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Build the image.&lt;/li&gt;
+  &lt;li&gt;Copy the image and &lt;code&gt;docker-compose.yml&lt;/code&gt; to the NAS.&lt;/li&gt;
+  &lt;li&gt;Do the Docker work on the NAS:
+    &lt;ul&gt;
+      &lt;li&gt;Top the current container&lt;/li&gt;
+      &lt;li&gt;Remove its image&lt;/li&gt;
+      &lt;li&gt;Load the new image&lt;/li&gt;
+      &lt;li&gt;Create the new container&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Phew! And now I’m wondering how I can get the last manual steps into Rake tasks. Stay Tuned!&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+  &lt;ol&gt;
+    &lt;li id="fn:1" role="doc-endnote"&gt;
+      &lt;p&gt;My Synology NAS mounts most of the file system to &lt;code&gt;/volume1&lt;/code&gt;. Your mileage will vary and will be different from what you see in the DSM File Station. &lt;a href="#fnref:1" class="reversefootnote" role="doc-backlink"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id="fn:2" role="doc-endnote"&gt;
+      &lt;p&gt;I also went back and uses the same technique for the UserID and GroupID for the &lt;code&gt;chown&lt;/code&gt; command. You can see that in the code in the GIST. &lt;a href="#fnref:2" class="reversefootnote" role="doc-backlink"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id="fn:3" role="doc-endnote"&gt;
+      &lt;p&gt;I’m guessing that Web Station sits on top nginx configuration files, but I’ve not found them or the right mix of commands yet. I will update this post, and/or add a Part III, once I figure this out. &lt;a href="#fnref:3" class="reversefootnote" role="doc-backlink"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</content>
+    <published>2023-12-15T12:34:00-08:00</published>
+  </entry>
   <entry>
     <title>Synology on Rails Part I: Running</title>
     <link href="https://dwf.bigpencil.net/rails-containers-on-synology/" rel="alternate"/>
