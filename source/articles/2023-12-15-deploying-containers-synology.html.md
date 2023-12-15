@@ -1,6 +1,6 @@
 ---
 title: "Synology on Rails Part II: Deploying"
-date: 2023-12-18 20:34 UTC
+date: 2023-12-15 20:34 UTC
 tags:
 - web development
 - ruby
@@ -23,7 +23,7 @@ teaser: "Digging deep in the terminal and figuring out how to use rake to deploy
 
 [series]: /series/rails-docker-nas
 [partI]: /rails-containers-on-synology/
-[gist]: https://gist.github.com/infews/4852e0c15795e5bbee4653d5a0f1deee
+[repo]: https://github.com/infews/synology_on_rails
 [sshkit]: https://github.com/capistrano/sshkit
 [sshkit-sudo]: https://github.com/kentaroi/sshkit-sudo
 
@@ -48,7 +48,7 @@ Now that I had a _very_ [manual set of steps][partI] to get my Meal Planning app
 
 Let's see what happened.
 
-__TL;DR__ Here's [a gist of the final files][gist].
+__TL;DR__ Here's [a repo of the final files][repo].
 
 ### 1. Get the Image to the NAS
 
@@ -221,7 +221,7 @@ Of note above:
     - The assumption is that the image tar is present
 - Then it uses `docker-compose` to _create_ the new container from that image
 
-So when you look at the [Gist][gist], you'll see these tasks:
+So when you look at the [repo][repo], you'll see these tasks:
 
 - Ensure that git is clean and everything is committed.
 - Rebuild the Rails assets in `./public`.
