@@ -18,7 +18,7 @@ My high-level paraphrasing is that every "project" goes through three phases, in
 - **Expand** - you found a problem/solution fit, it working well enough that everyone wants it and you're scrambling to scale it
 - **Extract** - you have scaled, now you need to take a deep breath and extract all the value you can from it
 
-Laterr, Rinse, repeat.
+Lather, Rinse, repeat.
 
 I put projects in quotes because the model scales from a work ticket all the way up to a startup business. As Kent says, it's fractal - 3Xs all the way down. Pick your altitude(s) when applying to your own context.
 
