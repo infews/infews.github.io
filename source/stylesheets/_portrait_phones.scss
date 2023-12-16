@@ -41,23 +41,9 @@
   }
 
   // sharing nav
-  nav.sharing {
-    // turns off holiday.css hamburger menu
-    padding-top: 0;
-    background-image: none;
-
-    // mobile sharing nav cleanup
-    ul {
-      display: flex;
-      list-style-type: none;
-      padding-inline-start: 0;
-      justify-content: space-evenly;
-      flex-direction: row;
-      align-content: center;
-
-      li i {
-        font-size: 24px;
-      }
+  .sharing {
+    i {
+      font-size: 1.5rem;
     }
   }
 
@@ -79,6 +65,7 @@
   .resume {
     h3, h4 {
       flex-direction: column;
+
       .duration {
         font-size: 85%;
         margin-top: 0.5rem;
@@ -99,4 +86,5 @@
       font-size: 100%;
     }
   }
+
 }

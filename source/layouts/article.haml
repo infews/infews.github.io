@@ -19,30 +19,42 @@
     %section.text
       = yield
 
-    %footer
-      %nav.sharing
-        %ul
-          %li
-            %i.fa-solid.fa-arrow-up-from-bracket
-          %li
-            %a{href: "mailto:?subject=#{title}&body=#{url}", title: "Email this article"}
-              %i.fa-solid.fa-square-envelope
-          %li
-            %a{href: "https://www.linkedin.com/sharing/share-offsite/?url=#{url}", title: "Share article on LinkedIn"}
-              %i.fa-brands.fa-linkedin
-          %li
-            %a{href: "https://www.facebook.com/sharer/sharer.php?u=#{url}", title: "Post article to Facebook"}
-              %i.fa-brands.fa-square-facebook
-          %li
-            %a{href: "https://twitter.com/share?text=#{title}&url=#{url}&via=#{config[:twitter_username]}", title: "Tweet this article"}
-              %i.fa-brands.fa-twitter-square
-
     - if current_article.tags
       %hr
 
-      %p.tags
+      %section.tags
         - if current_article.data.series
           - series_name = current_article.data.series
           - series_title = data.series[series_name].title
-
         != tag_sentence_for(current_article.tags, series_name, series_title)
+
+    %footer.sharing
+      %span.icon
+        %i.fa-solid.fa-arrow-up-from-bracket.share
+      %span.icon
+        %a{href: "mailto:?subject=#{title}&body=#{url}", title: "Email this article"}
+          %i.fa-solid.fa-square-envelope
+      %span.icon
+        %a{href: "https://www.linkedin.com/sharing/share-offsite/?url=#{url}", title: "Share article on LinkedIn"}
+          %i.fa-brands.fa-linkedin
+      %span.icon
+        %a{href: "https://www.facebook.com/sharer/sharer.php?u=#{url}", title: "Post article to Facebook"}
+          %i.fa-brands.fa-square-facebook
+      %span.icon
+        %a{href: "https://twitter.com/share?text=#{title}&url=#{url}&via=#{config[:twitter_username]}", title: "Tweet this article"}
+          %i.fa-brands.fa-twitter-square
+    :javascript
+      share = function share() {
+        if (!navigator.share) {
+          return;
+        }
+        share_data = {
+             url: window.location.href,
+             title: "Sharing - #{current_article.title}",
+             text: "I found this article at DWF's Journal and thought you might like it."
+            };
+        document.querySelector(".share").addEventListener("click", function (e) { navigator.share(share_data); })
+      }
+      share();
+
+

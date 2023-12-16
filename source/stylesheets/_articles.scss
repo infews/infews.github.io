@@ -10,22 +10,27 @@ article {
     display: inline-block;
   }
 
-  footer {
-    display: flex;
-    justify-content: center;
-
-    nav {
-      border-bottom: none;
-    }
-
-    i {
-      font-size: 1rem;
-    }
-  }
-
   .tags {
     font-style: italic;
   }
+
+  .sharing {
+    display: flex;
+    justify-content: space-around;
+
+    .icon {
+      margin: 0 1rem;
+    }
+
+    i {
+      font-size: 1.25rem;
+    }
+
+    .share {
+      color: var(--icon-tab-color)
+    }
+  }
+
 }
 
 // Article Lists
