@@ -1,11 +1,6 @@
 // Portrait Phones
 @media screen and (max-width: 766px) and (orientation: portrait) {
 
-  // bump up body text & text menus/links
-  html {
-    font-size: 18px;
-  }
-
   nav.menu {
     padding-top: 3rem;
     font-size: 125%;
@@ -40,10 +35,23 @@
     font-size: 110%;
   }
 
-  // sharing nav
-  .sharing {
-    i {
-      font-size: 1.5rem;
+  article {
+    .headline {
+      .info {
+        display: flex;
+        flex-direction: column;
+
+        .dash {
+          display: none;
+        }
+      }
+    }
+
+    ul {
+      padding-inline-start: 1.25rem;
+      ul {
+        padding-inline-start: 1.25rem;
+      }
     }
   }
 

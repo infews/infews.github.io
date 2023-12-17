@@ -9,13 +9,16 @@
       %img{src: unsplash.url, alt: unsplash.title }
 
   %article
+    %h1
+      = current_article.title
     %section.headline
-      %h1
-        = current_article.title
       .info
-        = current_article.date.strftime('%e %B %Y')
-        &#8212;
-        = reading_time_for current_article.body
+        %span.date= current_article.date.strftime('%e %B %Y')
+        %span.dash &#8212;
+        %span.duration= reading_time_for current_article.body
+      .sharing
+        %i.fa-solid.fa-arrow-up-right-from-square.share{title: "Share This Article"}
+
     %section.text
       = yield
 
@@ -28,21 +31,6 @@
           - series_title = data.series[series_name].title
         != tag_sentence_for(current_article.tags, series_name, series_title)
 
-    %footer.sharing
-      %span.icon
-        %i.fa-solid.fa-arrow-up-from-bracket.share
-      %span.icon
-        %a{href: "mailto:?subject=#{title}&body=#{url}", title: "Email this article"}
-          %i.fa-solid.fa-square-envelope
-      %span.icon
-        %a{href: "https://www.linkedin.com/sharing/share-offsite/?url=#{url}", title: "Share article on LinkedIn"}
-          %i.fa-brands.fa-linkedin
-      %span.icon
-        %a{href: "https://www.facebook.com/sharer/sharer.php?u=#{url}", title: "Post article to Facebook"}
-          %i.fa-brands.fa-square-facebook
-      %span.icon
-        %a{href: "https://twitter.com/share?text=#{title}&url=#{url}&via=#{config[:twitter_username]}", title: "Tweet this article"}
-          %i.fa-brands.fa-twitter-square
     :javascript
       share = function share() {
         if (!navigator.share) {
@@ -53,7 +41,7 @@
              title: "Sharing - #{current_article.title}",
              text: "I found this article at DWF's Journal and thought you might like it."
             };
-        document.querySelector(".share").addEventListener("click", function (e) { navigator.share(share_data); })
+        document.querySelector("i.share").addEventListener("click", function (e) { navigator.share(share_data); })
       }
       share();
 
