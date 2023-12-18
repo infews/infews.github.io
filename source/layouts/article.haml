@@ -17,7 +17,7 @@
         %span.dash &#8212;
         %span.duration= reading_time_for current_article.body
       .sharing
-        %i.fa-solid.fa-arrow-up-right-from-square.share{title: "Share This Article"}
+        %i.fa-solid.fa-arrow-up-right-from-square.share{title: "Share This Article", article: current_article.title}
 
     %section.text
       = yield
@@ -30,19 +30,3 @@
           - series_name = current_article.data.series
           - series_title = data.series[series_name].title
         != tag_sentence_for(current_article.tags, series_name, series_title)
-
-    :javascript
-      share = function share() {
-        if (!navigator.share) {
-          return;
-        }
-        share_data = {
-             url: window.location.href,
-             title: "Sharing - #{current_article.title}",
-             text: "I found this article at DWF's Journal and thought you might like it."
-            };
-        document.querySelector("i.share").addEventListener("click", function (e) { navigator.share(share_data); })
-      }
-      share();
-
-
