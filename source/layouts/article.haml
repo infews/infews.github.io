@@ -11,13 +11,12 @@
   %article
     %h1
       = current_article.title
-    %section.headline
+    %section.header.with_sharing
       .info
         %span.date= current_article.date.strftime('%e %B %Y')
         %span.dash &#8212;
         %span.duration= reading_time_for current_article.body
-      .sharing
-        %i.fa-solid.fa-arrow-up-right-from-square.share{title: "Share This Article", article: current_article.title}
+      = component "sharing"
 
     %section.text
       = yield
@@ -25,8 +24,10 @@
     - if current_article.tags
       %hr
 
-      %section.tags
-        - if current_article.data.series
-          - series_name = current_article.data.series
-          - series_title = data.series[series_name].title
-        != tag_sentence_for(current_article.tags, series_name, series_title)
+      %section.about.with_sharing
+        .tags
+          - if current_article.data.series
+            - series_name = current_article.data.series
+            - series_title = data.series[series_name].title
+          != tag_sentence_for(current_article.tags, series_name, series_title)
+        = component "sharing"

@@ -36,7 +36,7 @@
   }
 
   article {
-    .headline {
+    .header {
       .info {
         display: flex;
         flex-direction: column;
@@ -44,6 +44,12 @@
         .dash {
           display: none;
         }
+      }
+    }
+
+    .about {
+      .tags {
+        flex-basis: 65%;
       }
     }
 

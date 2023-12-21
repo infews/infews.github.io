@@ -1,11 +1,16 @@
 // Single Article
 
 article {
-  .headline {
+  .with_sharing {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+  }
+
+  .header {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+
     .info {
       font-weight: normal;
       color: var(--info-color);
@@ -14,17 +19,25 @@ article {
       letter-spacing: 2px;
       display: inline-block;
     }
-    .share {
-      color: var(--icon-tab-color)
+  }
+
+  .about {
+    display: flex;
+    justify-content: space-evenly;
+
+    .tags {
+      font-style: italic;
+      flex-basis: 75%;
     }
   }
 
-  .tags {
-    font-style: italic;
+  .share {
+    color: var(--icon-tab-color)
   }
 
   ul {
     padding-inline-start: 2rem;
+
     ul {
       padding-inline-start: 1.25rem;
     }

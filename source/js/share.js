@@ -1,24 +1,18 @@
-enableSharing = function() {
-    target = document.querySelector("i.share");
+enableSharing = function () {
 
-    if (!target) {
+    if (!navigator.share) {
         return;
     }
 
-    addShareEvent = function() {
-        share_data = {
-            url: window.location.href,
-            title: "Sharing - " + target.getAttribute("article"),
-            text: "I found this article at DWF's Journal and thought you might like it."
-        };
-        target.addEventListener("click", function (e) {
-            if (!navigator.share) {
-                window.alert("Please enable web sharing to share this article");
-                return;
-            }
-            navigator.share(share_data);
+    document.querySelectorAll(".share").forEach((t) => {
+        t.addEventListener("click", (e) => {
+            t.style.display = "block;";
+            navigator.share({
+                url: window.location.href,
+                title: "Sharing - " + t.getAttribute("article"),
+                text: "I found this article at DWF's Journal and thought you might like it."
+            });
         });
-    }
-    addShareEvent();
+    });
 }
 enableSharing();
