@@ -4,8 +4,8 @@ enableSharing = function () {
         return;
     }
 
-    document.querySelectorAll(".share").forEach((t) => {
-        t.addEventListener("click", (e) => {
+    document.querySelectorAll(".share").forEach(function(t) {
+        t.addEventListener("click", function(e) {
             t.style.display = "block;";
             navigator.share({
                 url: window.location.href,
