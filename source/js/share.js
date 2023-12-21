@@ -6,9 +6,10 @@ enableSharing = function () {
     }
 
     document.querySelectorAll(".share").forEach(function(t) {
+        console.log("Showing share button");
+        t.style.display = "block";
         console.log("Adding onclick");
         t.addEventListener("click", function(e) {
-            t.style.display = "block";
             navigator.share({
                 url: window.location.href,
                 title: "Sharing - " + t.getAttribute("article"),
