@@ -5,11 +5,11 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2023-12-20T18:02:17-08:00</updated>
+  <updated>2024-01-24T18:16:51-08:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
-  <rights>© Davis W. Frank 2023</rights>
+  <rights>© Davis W. Frank 2024</rights>
   <entry>
     <title>Synology on Rails Part II: Deploying</title>
     <link href="https://dwf.bigpencil.net/deploying-containers-synology/" rel="alternate"/>
