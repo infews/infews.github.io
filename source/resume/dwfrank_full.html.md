@@ -103,9 +103,9 @@ Legacy Technology Skills
 
 ## Professional Experience Timeline
 
-### [Fountain](https://www.fountain.com) <span class="duration"> 2021 October - 2023 May </span>
+### [Fountain](https://www.fountain.com) <span class="duration"> 2021 October - 2023 June </span>
 
-#### Director of Engineering
+#### Director of Software Engineering
 
 I drove efforts to improve Continuous Delivery chops, rebuild the engineer hiring process, optimize cloud services spending, rethink our approach to data engineering, and mature engineering practices.
 
@@ -117,7 +117,7 @@ I recharged while writing about my career experience, getting involved with the 
 
 ### Pivotal <span class="duration"> 2015 March - 2020 January </span>
 
-#### Senior Engineering Manager, PKS <span class="duration">2018 October - 2020 January </span>
+#### Senior Software Engineering Manager, PKS <span class="duration">2018 October - 2020 January </span>
 
 PKS (now known as [TKGI][tkgi]) was a jointly-developed Kubernetes distribution from Pivotal & VMware that was a service for Pivotal Cloud Foundry (now known as [Tanzu Application Service][tas]). Pivotal was acquired by VMware in late 2019.
 
@@ -127,7 +127,7 @@ As a member of the leadership team reporting to our VP of Engineering, we restaf
 
 _Learned how to navigate conflicting management styles to a common goal, how to manage an entire team transition across 8 time zones, how to DRY up hundreds of YAML files with shared components._
 
-#### Senior Engineering Manager - Cloud Foundry <span class="duration"> 2018 April - 2018 October </span>
+#### Senior Software Engineering Manager - Cloud Foundry <span class="duration"> 2018 April - 2018 October </span>
 
 Pivotal was the primary sponsor of the [Cloud Foundry][cf] project, a multi-cloud Platform-as-a-Service (PaaS) for deployment of web apps and services. Pivotal sold its own version of CF, now known as [Tanzu Application Service][tas].
 
@@ -135,7 +135,7 @@ I was an engineer on the Open Source CF Cloud API team and managed 4 engineers o
 
 _Learned how to mentor a staff of new engineering managers, how to build a better intern experience, and how to refresh my Ruby on Rails skills._
 
-#### Director of Engineering, Internal Application Development <span class="duration"> 2015 March - 2018 March </span> 
+#### Director of Software Engineering, Internal Application Development <span class="duration"> 2015 March - 2018 March </span> 
 
 I created this team out of a need to improve the development &amp; maintenance of our business-critical, internal software projects. I grew this team from zero to 15 developers, product managers, and designers across two sites - San Francisco and Toronto. I drove budgeting and prioritization exercises with executive staff for our work. I also coached other IT teams regarding Pivotal's agile practices.
 
@@ -147,15 +147,15 @@ _Learned how to make a business case for a team, staff that team, how to manage 
 
 I managed a staff of 40 developers and 5 managers, about one-third of the San Francisco consulting practice. I scoped projects, wrote proposals, and managed the business relationship for clients. I scheduled “beach” time for 8 Pivotal Labs open source projects across multiple offices. I continued to present at conferences, meetups, and clients about Pivotal, Extreme Programming, and testing JavaScript. Pivotal Labs is now known as [VMware Tanzu Labs][tlabs].
 
-#### Engineering Manager <span class="duration">2010 February - 2013 February </span>
+#### Sofware Engineering Manager <span class="duration">2010 February - 2013 February </span>
 
 I was a member of the first manager cohort when Pivotal grew to need managers. I managed ten individual developers. I continued to lead consulting projects for clients. I also presented at conferences, meetups, and clients about Pivotal, Extreme Programming, and testing JavaScript.
 
 #### Software Engineer <span class="duration">2008 April - 2010 February </span>
 
-I was a engineer on dozens of consulting projects, all Ruby on Rails or JavaScript web-mobile applications. Co-authored Jasmine, a BDD framework for JavaScript testing.
+I was a engineer on dozens of consulting projects, all Ruby on Rails or JavaScript web-mobile applications. I co-created Jasmine, a BDD framework for JavaScript testing, to enable our teams to work more efficiently with front-end development.
 
-_Learned how to be a software consultant, how to practice agile software development every day, and how to build feedback-oriented management skills across an organization._
+_Learned how to be a software consultant, how to practice agile software development every day, how to start an open source project, and how to build feedback-oriented management skills across an organization._
 
 ### [Real Girls Media][rgm] <span class="duration">2007 February - 2008 April </span>
 
@@ -171,15 +171,15 @@ _Taught myself Ruby, Ruby on Rails, and SQL in order to keep sharp. Also learned
 
 ### Handspring & Palm <span class="duration"> 2001 November - 2006 June </span>
 
-#### Engineering Manager, Customization and In-box
+#### Software Engineering Manager, Customization and In-box
 
 I designed and managed implementation of software that updated the OS and applied carrier customization for every Treo phone at the end of the manufacturing line. This reduced the elapsed time to manufacture a phone from hours to minutes. Also managed the team that built the in-box CD for every Palm product.
 
-#### Engineering Program Manager, Messaging & Photos
+#### Engineering Program Manager, Messaging & Photos Applications
 
 I led prioritization and implementation for the Messaging and Photos applications for Treo 600 and Treo 650. I managed remote partners for app libraries.
 
-#### Engineering Manager, Software Tools
+#### Software Engineering Manager, Software Tools
 
 I managed the team of 5 developers that produced daily builds of the internal SDKs for application developers. I inherited, re-prioritized work for, and shipped a new internal bug database, based on [Bugzilla][bugs].
 
