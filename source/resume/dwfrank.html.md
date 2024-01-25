@@ -9,7 +9,7 @@ I am an experienced senior software engineering leader with a demonstrated histo
 
 ## Professional Experience Timeline
 
-### [Fountain][fntn] <span class="duration"> 2021 October - 2023 June </span> 
+### [Fountain][fntn] <span class="duration"> October 2021 - June 2023 </span> 
 
 #### Director of Software Engineering
 
@@ -20,16 +20,16 @@ I am an experienced senior software engineering leader with a demonstrated histo
 - Managed cost and contracts with Cloud Service vendors (e.g., AWS, Azure, Heroku, [CircleCI][circle], GCP/Looker, and others).
 - __Stacks & Skills:__ Ruby on Rails, Javascript/Typescript, React, Kubernetes, Heroku, AWS, Azure, GCP, Looker; Facilitation, Management of managers, Cost management, Remote team management, Staff & Software strategy.
 
-### Personal Sabbatical &amp; Product Advising <span class="duration">2020 January - 2021 October </span>
+### Personal Sabbatical &amp; Product Advising <span class="duration">January 2020 - October 2021</span>
 
 - Collaborated on the software engineering simulation at [Curious Duck][duck].
 - Advised [Bigger Bolder Baking][bake] on vendor selection for improving their CMS.
 - Rebuilt my personal website and blogged on software engineering topics.
 - __Stacks & Skills:__ Ruby, Ruby on Rails, Wordpress; Negotiation, Estimation, Client management.
 
-### Pivotal Software & Pivotal Labs <span class="duration">2008 April - 2020 January </span>
+### Pivotal Software & Pivotal Labs <span class="duration">April 2008 - January 2020</span>
 
-#### Senior Software Engineering Manager, PKS <span class="duration">2018 October - 2020 January </span>
+#### Senior Software Engineering Manager, PKS <span class="duration">October 2018 - January 2020</span>
 
 PKS (now known as [TKGI][tkgi]) is a jointly-developed Kubernetes distribution from Pivotal & VMware that is a service for Pivotal Cloud Foundry/[Tanzu Application Service][tas]. Pivotal was acquired by VMware in late 2019.
 
@@ -42,7 +42,7 @@ PKS (now known as [TKGI][tkgi]) is a jointly-developed Kubernetes distribution f
   - Reduced pull request cycle time from 4 days to less than 1.
 - __Stacks & Skills:__ Ruby, Kubernetes, [Concourse][cc], AWS, GCP, Azure, vSphere; Facilitation, Interviewing, People Management, Peer organization interactions. 
 
-#### Senior Software Engineering Manager, Cloud Foundry <span class="duration"> 2018 April - 2018 October </span>
+#### Senior Software Engineering Manager, Cloud Foundry <span class="duration"> April 2018 - October 2018 </span>
 
 Pivotal was the primary sponsor of the [Cloud Foundry][cf] project, a multi-cloud Platform-as-a-Service (PaaS) for deployment of web apps and services. Pivotal sold its own version of CF, Pivotal Cloud Foundry, now known as [Tanzu Application Service][tas].
 
@@ -52,7 +52,7 @@ Pivotal was the primary sponsor of the [Cloud Foundry][cf] project, a multi-clou
 - Rebuilt the summer intern experience, starting a weekly "intern round table," with Pivotal leaders.
 - __Stacks & Skills:__ Ruby on Rails, Sinatra; Facilitation, Manager skills training.
 
-#### Director of Software Engineering, Internal Application Development <span class="duration"> 2015 March - 2018 March </span>
+#### Director of Software Engineering, Internal Application Development <span class="duration"> March 2015 - March 2018 </span>
 
 I advocated for and created this team within IT to improve the development &amp; maintenance of our business-critical, internal software projects.
 
@@ -61,7 +61,7 @@ I advocated for and created this team within IT to improve the development &amp;
 - Key projects: Employee Feedback app, Staff Allocations app + integrations with back office, Software apis and infrastructure for sales reporting, Discovery for SAP-to-Workday transition, Discovery for Customer Support tooling.
 - __Stacks & Skills:__ Ruby on Rails, Javascript, React, Java, Kotlin, Spring, Cloud Foundry, SalesForce, Zendesk; Facilitation, internal client management, people management, remote team collaboration, Executive management, Managing external management consultants.
 
-#### Associate Director, Pivotal Labs <span class="duration">2013 February - 2015 March </span>
+#### Associate Director, Pivotal Labs <span class="duration">February 2013 - March 2015 </span>
 
 Pivotal Labs was a consultancy that build web and mobile applications _with_ clients as a way of teaching [XP][xp] skills. Pivotal Labs was acquired by EMC in 2012, then spun out as part of Pivotal Software in 2013. They operate now as [VMware Tanzu Labs][tlabs].
 
@@ -72,7 +72,7 @@ Pivotal Labs was a consultancy that build web and mobile applications _with_ cli
 - Presented at conferences, meetups, and clients about Pivotal, Extreme Programming, and testing JavaScript. 
 - __Stacks & Skills:__ Ruby on Rails, Javascript; Facilitation, RFP response and proposal writing; Presentations to audiences of all sizes, Client management, people management.
 
-#### Software Engineering Manager, Pivotal Labs <span class="duration">2010 February - 2013 February </span>
+#### Software Engineering Manager, Pivotal Labs <span class="duration">February 2010 - February 2013 </span>
 
 - Founding member of Pivotal Labs' first manager cohort as we grew to 70+ staff in the San Francisco office; established and modeled initial management practices. 
 - Managed 10 IC developers across consulting projects.
@@ -80,14 +80,14 @@ Pivotal Labs was a consultancy that build web and mobile applications _with_ cli
 - Presented at conferences, meetups, and clients about Pivotal, Extreme Programming, and testing JavaScript.
 - __Stacks & Skills:__ Ruby on Rails, Javascript; Pair-programming, TDD/BDD, Facilitation, people management.
 
-#### Software Engineer, Pivotal Labs <span class="duration">2008 April - 2010 February </span>
+#### Software Engineer, Pivotal Labs <span class="duration">April 2008 - February 2010 </span>
 
 - Lead engagements as engineering "anchor" for numerous client projects.
 - Taught client developers Ruby on Rails and [XP][xp] practices, including pair programming and test-driven development.
 - Co-created [Jasmine][jasmine], an innovative BDD framework for JavaScript testing to improve front-end development.
 - __Stacks & Skills:__ Ruby on Rails, JavaScript, Jasmine, Palm webOS; Pair-programming, TDD/BDD.
 
-### [Real Girls Media][rgm]  <span class="duration"> 2007 February - 2008 April </span>
+### [Real Girls Media][rgm]  <span class="duration"> February 2007 - April 2008 </span>
 
 #### Senior Software Engineer
 
@@ -98,11 +98,11 @@ RGM was building a custom CMS in Ruby on Rails, intended to back a family of web
 - Improved CI run from 2 hours to under 45 minutes over 4 weeks while still shipping new features.
 - __Stacks & Skills:__ Ruby on Rails, Javascript; Pair-programming, TDD/BDD.
 
-### Personal Sabbatical <span class="duration"> 2006 June - 2007 February </span>
+### Personal Sabbatical <span class="duration"> June 2006 - February 2007 </span>
 
 - Taught myself Ruby, Ruby on Rails, and just enough SQL.
 
-### Handspring & Palm <span class="duration"> 2001 November - 2006 June </span>
+### Handspring & Palm <span class="duration"> November 2001 - June 2006 </span>
 
 Handspring was acquired by PalmSource and renamed to palmOne in 2003. They renamed again to Palm in 2004.
 

@@ -103,7 +103,7 @@ Legacy Technology Skills
 
 ## Professional Experience Timeline
 
-### [Fountain](https://www.fountain.com) <span class="duration"> 2021 October - 2023 June </span>
+### [Fountain](https://www.fountain.com) <span class="duration"> October 2021 - June 2023 </span>
 
 #### Director of Software Engineering
 
@@ -111,13 +111,13 @@ I drove efforts to improve Continuous Delivery chops, rebuild the engineer hirin
 
 _Learned how, and how not, to grow the engineering discipline of a team to match the Series C funding; Learned how to manage teams through two layoff cycles._
 
-### Personal Sabbatical &amp; Product Advising <span class="duration">2020 January - 2021 October </span>
+### Personal Sabbatical &amp; Product Advising <span class="duration">January 2020 - October 2021 </span>
 
 I recharged while writing about my career experience, getting involved with the Pivotal Alumni network, optimizing our home meal planning, and improving our household operations to accommodate working and schooling from home. I helped a few companies in my network. I have aided architecture, design, and development for [Curious Duck][duck]  and advised about web content application development for [Bigger Bolder Baking][bake].
 
-### Pivotal <span class="duration"> 2015 March - 2020 January </span>
+### Pivotal <span class="duration"> March 2015 - January 2020 </span>
 
-#### Senior Software Engineering Manager, PKS <span class="duration">2018 October - 2020 January </span>
+#### Senior Software Engineering Manager, PKS <span class="duration">October 2018 - January 2020 </span>
 
 PKS (now known as [TKGI][tkgi]) was a jointly-developed Kubernetes distribution from Pivotal & VMware that was a service for Pivotal Cloud Foundry (now known as [Tanzu Application Service][tas]). Pivotal was acquired by VMware in late 2019.
 
@@ -127,7 +127,7 @@ As a member of the leadership team reporting to our VP of Engineering, we restaf
 
 _Learned how to navigate conflicting management styles to a common goal, how to manage an entire team transition across 8 time zones, how to DRY up hundreds of YAML files with shared components._
 
-#### Senior Software Engineering Manager - Cloud Foundry <span class="duration"> 2018 April - 2018 October </span>
+#### Senior Software Engineering Manager - Cloud Foundry <span class="duration"> April 2018 - October 2018 </span>
 
 Pivotal was the primary sponsor of the [Cloud Foundry][cf] project, a multi-cloud Platform-as-a-Service (PaaS) for deployment of web apps and services. Pivotal sold its own version of CF, now known as [Tanzu Application Service][tas].
 
@@ -135,29 +135,29 @@ I was an engineer on the Open Source CF Cloud API team and managed 4 engineers o
 
 _Learned how to mentor a staff of new engineering managers, how to build a better intern experience, and how to refresh my Ruby on Rails skills._
 
-#### Director of Software Engineering, Internal Application Development <span class="duration"> 2015 March - 2018 March </span> 
+#### Director of Software Engineering, Internal Application Development <span class="duration"> March 2015 - March 2018 </span> 
 
 I created this team out of a need to improve the development &amp; maintenance of our business-critical, internal software projects. I grew this team from zero to 15 developers, product managers, and designers across two sites - San Francisco and Toronto. I drove budgeting and prioritization exercises with executive staff for our work. I also coached other IT teams regarding Pivotal's agile practices.
 
 _Learned how to make a business case for a team, staff that team, how to manage across multiple sites, how internal back office customers are not quite like end consumers, and how to present to exec staff._
 
-### Pivotal Labs <span class="duration">2008 April - 2015 March </span>
+### Pivotal Labs <span class="duration">April 2008 - March 2015 </span>
 
-#### Associate Director <span class="duration">2013 February - 2015 March </span>
+#### Associate Director <span class="duration">February 2013 - March 2015 </span>
 
 I managed a staff of 40 developers and 5 managers, about one-third of the San Francisco consulting practice. I scoped projects, wrote proposals, and managed the business relationship for clients. I scheduled “beach” time for 8 Pivotal Labs open source projects across multiple offices. I continued to present at conferences, meetups, and clients about Pivotal, Extreme Programming, and testing JavaScript. Pivotal Labs is now known as [VMware Tanzu Labs][tlabs].
 
-#### Sofware Engineering Manager <span class="duration">2010 February - 2013 February </span>
+#### Sofware Engineering Manager <span class="duration">February 2010 - February 2013 </span>
 
 I was a member of the first manager cohort when Pivotal grew to need managers. I managed ten individual developers. I continued to lead consulting projects for clients. I also presented at conferences, meetups, and clients about Pivotal, Extreme Programming, and testing JavaScript.
 
-#### Software Engineer <span class="duration">2008 April - 2010 February </span>
+#### Software Engineer <span class="duration">April 2008 - February 2010 </span>
 
 I was a engineer on dozens of consulting projects, all Ruby on Rails or JavaScript web-mobile applications. I co-created Jasmine, a BDD framework for JavaScript testing, to enable our teams to work more efficiently with front-end development.
 
 _Learned how to be a software consultant, how to practice agile software development every day, how to start an open source project, and how to build feedback-oriented management skills across an organization._
 
-### [Real Girls Media][rgm] <span class="duration">2007 February - 2008 April </span>
+### [Real Girls Media][rgm] <span class="duration">February 2007 - April 2008 </span>
 
 #### Senior Software Engineer
 
@@ -165,11 +165,11 @@ I led the development team for _Divine Caroline_, a web-only women’s interest 
 
 _Learned that every startup is different, that sometimes indirect management of people is more impactful than direct, and that surrounding yourself with people in diverse roles makes for a much more fulfilling day._
 
-### Personal Sabbatical <span class="duration">2006 June - 2007 February </span>
+### Personal Sabbatical <span class="duration">June 2006 - February 2007 </span>
 
 _Taught myself Ruby, Ruby on Rails, and SQL in order to keep sharp. Also learned that I liked both object oriented programming and web development._
 
-### Handspring & Palm <span class="duration"> 2001 November - 2006 June </span>
+### Handspring & Palm <span class="duration"> November 2001 - June 2006 </span>
 
 #### Software Engineering Manager, Customization and In-box
 
@@ -185,7 +185,7 @@ I managed the team of 5 developers that produced daily builds of the internal SD
 
 _Learned how to start managing software engineers, how to inherit a team and improve its throughput, how to think about user outcomes first before jumping to solutions, and how to manage through layoffs and acquisitions. Also had my first exposure to web development and Extreme Programming, separately._
 
-### Intel <span class="duration"> 1999 February - 2001 November </span>
+### Intel <span class="duration"> February 1999 - November 2001 </span>
 
 #### Senior Software Engineer
 
@@ -193,7 +193,7 @@ I was the architect for high performance image processing, signal processing, an
 
 _Learned how to release software via the web, how to manage a remote team in another timezone, and how to appreciate Russian caviar._
 
-### Netstudio <span class="duration"> 1997 May - 1998 December </span>
+### Netstudio <span class="duration"> May 1997 - December 1998 </span>
 
 #### Software Engineer
 
@@ -201,7 +201,7 @@ I was one of the first engineers hired, developing an object oriented web graphi
 
 _Learned about startup craziness, the benefits of a good software development process, and how to present at a sales conference._
 
-### [Brøderbund][bb] <span class="duration"> 1995 December - 1997 May </span>
+### [Brøderbund][bb] <span class="duration"> December 1995 - May 1997 </span>
 
 #### Software Engineer, Systems
 
@@ -209,7 +209,7 @@ I maintained an animation codec, including combining two separate codebases in o
 
 _Learned how to code for a real-world consumer application deadline, how to simplify legacy code, how to work with Customer Support regarding high-cost bugs, and how to use personal contacts to establish a new business relationship. I never learned where in the world Carmen Sandiego was._
 
-### Intel <span class="duration"> 1992 July - 1995 December </span>
+### Intel <span class="duration"> July 1992 - December 1995 </span>
 
 #### Software Engineer
 
