@@ -27,8 +27,11 @@ unsplash:
 [linear]: https://linear.app
 [short]: https://shortcut.com
 [jira]: https://jira.com
+[st]: https://talk.storytime.solutions/
 
+_UPDATE:_ Some folks have started [StoryTime][st], a forum to talk about the transition away from Pivotal Tracker. It's free to join.
 
+---
 Among my favorite stories about the "early" days of Pivotal Tracker was the argument of whether or not Bugs and Chores should have (story) points. Tracker originally said no.
 
 [Parker Thompson][pt] had a different take. At the time, his client thought in terms of capacity planning - not velocity volatility - and so he wanted points, dammit. After weeks of this being a persistent breakfast and lunch topic, he escalated to Rob Mee. Which led to a semi-intense argument.
