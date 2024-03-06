@@ -205,6 +205,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://dwf.bigpencil.net/why-do-we-miss-pivotal-tracker/</loc>
+    <lastmod>2024-03-06T08:35:02-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://dwf.bigpencil.net/obsidian-links/</loc>
     <lastmod>2023-07-12T09:31:48-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -361,6 +367,42 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://dwf.bigpencil.net/tags/agile/</loc>
+    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/tags/xp/</loc>
+    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/tags/pivotal/</loc>
+    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/tags/pivotal-tracker/</loc>
+    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/tags/project-management/</loc>
+    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/tags/backlog/</loc>
+    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://dwf.bigpencil.net/tags/web-development/</loc>
     <lastmod>2023-07-16T10:05:01-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -409,25 +451,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dwf.bigpencil.net/tags/agile/</loc>
-    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://dwf.bigpencil.net/tags/xp/</loc>
-    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://dwf.bigpencil.net/tags/pair-programming/</loc>
-    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://dwf.bigpencil.net/tags/pivotal/</loc>
     <lastmod>2023-07-16T10:05:01-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
