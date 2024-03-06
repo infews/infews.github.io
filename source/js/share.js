@@ -1,14 +1,24 @@
-enableSharing = function () {
+
+const enableSharing = function () {
+    function showIcon(e, sel) {
+        const icon = e.querySelector(sel);
+        if (icon) {
+            icon.style.display = "block";
+        }
+    }
 
     if (!navigator.share) {
-        console.log("navigator.share not found");
         return;
     }
 
     document.querySelectorAll(".share").forEach(function(t) {
-        console.log("Showing share button");
+        if (navigator.userAgent.includes("Android")) {
+            showIcon(t, ".aos");
+        } else {
+            showIcon(t, ".ios");
+        }
+
         t.style.display = "block";
-        console.log("Adding onclick");
         t.addEventListener("click", function(e) {
             navigator.share({
                 url: window.location.href,
