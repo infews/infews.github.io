@@ -3,7 +3,7 @@ const enableSharing = function () {
     function showIcon(e, sel) {
         const icon = e.querySelector(sel);
         if (icon) {
-            icon.style.display = "block";
+            icon.style.display = "inline";
         }
     }
 
