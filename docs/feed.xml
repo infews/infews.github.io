@@ -5,7 +5,7 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2024-03-06T11:29:08-08:00</updated>
+  <updated>2024-03-06T15:49:07-08:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
@@ -19,6 +19,9 @@
     </author>
     <summary type="html">These two key features made your project run more smoothly thanks to Pivotal Tracker.</summary>
     <content type="html">
+&lt;p&gt;&lt;em&gt;UPDATE:&lt;/em&gt; Some folks have started &lt;a href="https://talk.storytime.solutions/"&gt;StoryTime&lt;/a&gt;, a forum to talk about the transition away from Pivotal Tracker. It’s free to join.&lt;/p&gt;
+
+&lt;hr /&gt;
 &lt;p&gt;Among my favorite stories about the “early” days of Pivotal Tracker was the argument of whether or not Bugs and Chores should have (story) points. Tracker originally said no.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href="https://www.threads.net/@parkert"&gt;Parker Thompson&lt;/a&gt; had a different take. At the time, his client thought in terms of capacity planning - not velocity volatility - and so he wanted points, dammit. After weeks of this being a persistent breakfast and lunch topic, he escalated to Rob Mee. Which led to a semi-intense argument.&lt;/p&gt;
