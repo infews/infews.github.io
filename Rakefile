@@ -22,7 +22,8 @@ desc "Validate all the HTML, including links"
 task html_proof: :build do
   options = {
     ignore_empty_mailto: true,
-    ignore_status_codes: [302, 307, 403, 429, 503, 999]
+    ignore_status_codes: [302, 307, 403, 429, 503, 999],
+    ignore_urls: [/extremeprogramming/, /^\//] # XP.org is still http; relative links don't really work
   }
   HTMLProofer.check_directory("./build", options).run
 end
@@ -71,7 +72,6 @@ namespace :unsplash do
       config.application_secret = "VGOWjQ5VDGc2iG-vUAowPu0hGVoCUxeASa1zq7dT3fw"
       config.utm_source = "dwfs_journal_big_pencil"
     end
-
 
     photo = Unsplash::Photo.find(ENV["ID"])
     puts photo[:urls][:regular]
