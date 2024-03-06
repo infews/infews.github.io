@@ -1,6 +1,6 @@
 ---
 title: Why Do We Miss Pivotal Tracker?
-date: 2024-03-05 20:35 UTC
+date: 2024-03-06 20:35 UTC
 tags: 
     - agile
     - xp
@@ -15,7 +15,10 @@ keywords:
     - pivotal tracker
     - project management
     - backlog
-teaser: Two key things that make your project run more smoothly thanks to Pivotal Tracker.
+teaser: These two key features made your project run more smoothly thanks to Pivotal Tracker.
+unsplash:
+  url: https://www.pivotaltracker.com/marketing_assets/blog/2018/Customize_Your_Tracker_experience_1-36f1155592bc77922661a6671f47e43b0ef6a910518c8b1183c678ebd95b99c2.png
+  title: Example Pivotal Tracker UI
 ---
 
 [pt]: https://www.threads.net/@parkert
