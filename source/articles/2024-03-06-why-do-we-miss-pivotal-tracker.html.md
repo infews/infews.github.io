@@ -1,6 +1,6 @@
 ---
 title: Why Do We Miss Pivotal Tracker?
-date: 2024-03-06 20:35 UTC
+date: 2024-03-06 00:00 UTC
 tags: 
     - agile
     - xp
