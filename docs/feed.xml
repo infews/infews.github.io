@@ -5,11 +5,78 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2024-03-06T15:49:07-08:00</updated>
+  <updated>2024-04-19T11:06:05-07:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
   <rights>© Davis W. Frank 2024</rights>
+  <entry>
+    <title>Interestings for Iterators 2024.04.19</title>
+    <link href="https://dwf.bigpencil.net/iterators-1-1/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">Issue No. 1 of interesting links I found this week</summary>
+    <content type="html">
+&lt;p&gt;First, this is a newsletter experiment. My sourdough starter is long dead and my exercise routine is solid. So that means it’s time for an attempt at a newsletter. This experiment won’t have a subscription feature just yet. But if this gets some traction, I’ll move in that direction.&lt;/p&gt;
+
+&lt;p&gt;Second, this will be a “link dump” style series. I’ll keep the rants and ramblings as normal, maybe with a link to them here. This series’ contents will be things that I would bring up during the &lt;strong&gt;Interestings&lt;/strong&gt; section of our Standup.&lt;/p&gt;
+
+&lt;p&gt;Last, I’ve been looking for a term to use for those of us in the Software Products domain who believe in short feedback loops and improving our practices based on evidence. At Pivotal this started with &lt;a href="https://en.wikipedia.org/wiki/Extreme_programming"&gt;Extreme Programming&lt;/a&gt;, and we added &lt;a href="https://theleanstartup.com/"&gt;Lean Startup&lt;/a&gt;, then &lt;a href="https://tanzu.vmware.com/developer/learningpaths/application-development/balanced-teams/"&gt;Balanced Team&lt;/a&gt;. But Pivotal is now part of (a wonderful and challenging) history. And these principles and practices are not exclusive to Pivotal (or its customers, clients, or follow-on entiries).&lt;/p&gt;
+
+&lt;p&gt;How might we refer to ourselves, then?&lt;/p&gt;
+
+&lt;p&gt;I propose &lt;strong&gt;Iterators&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Let’s see if it sticks.&lt;/p&gt;
+
+&lt;p&gt;With that aside, here are my &lt;em&gt;Interestings for Iterators&lt;/em&gt; from the past week:&lt;/p&gt;
+
+&lt;h2&gt;Essays &amp;amp; Posts&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.linkedin.com/in/jasonfraser/"&gt;Jason Fraser&lt;/a&gt; wrote &lt;a href="https://www.linkedin.com/pulse/my-job-hunt-strategy-jason-fraser-myx7c/"&gt;My Job Hunt Strategy&lt;/a&gt; about re-thinking his job search using the principles from Richard Rumelt’s &lt;a href="https://a.co/d/8npAur8"&gt;Good Strategy/Bad Strategy&lt;/a&gt;. I found this a refreshing take on how to approach a problem all too many of us have right now.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Tools&lt;/h2&gt;
+
+&lt;h3&gt;Window Managers for Apple Silicon&lt;/h3&gt;
+
+&lt;p&gt;If you’re a fan of keyboard-based window managers so that you can shortcut your way to moving all of your windows around, you may be sad. The Apple Silicon transition has rendered some of these tools useless. This comes up quarterly on the Pivotal Alumni Slack, so I’m sharing some of the solutions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ShiftIt’s - one of the moribund solutions - recommends to &lt;a href="https://github.com/fikovnik/ShiftIt/wiki/The-Hammerspoon-Alternative"&gt;use Hammerspoon and a script&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Onsi Fakhouri forked a fork to give us &lt;a href="https://github.com/onsi/mosaic"&gt;Mosaic&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/kasper/phoenix"&gt;Phoenix&lt;/a&gt; is another one&lt;/li&gt;
+  &lt;li&gt;Personally, I was a big fan of Slate (untoched for 12 years!). Fertigt forked and recompiled it for arm-64 at &lt;a href="https://github.com/fertigt/slate_arm64"&gt;Slate&lt;/a&gt;. There’s even an homebrew cask for it.
+    &lt;ul&gt;
+      &lt;li&gt;And here’s &lt;a href="https://github.com/infews/workstation_repave/blob/main/dotfiles/slate"&gt;my config file for Slate&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Experimentation Cheat Sheet &amp;amp; Template&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="https://cutlefish.substack.com/"&gt;John Cutler’s&lt;/a&gt; done it again with a &lt;a href="https://www.linkedin.com/posts/johnpcutler_a-simple-experiment-template-describe-the-activity-7184843853617672192-U6c2/"&gt;straightforward experiment template&lt;/a&gt;. I’ve already used this twice this week!&lt;/p&gt;
+
+&lt;h2&gt;Software Development&lt;/h2&gt;
+
+&lt;h3&gt;Yet Another CSS Reset &amp;amp; Starter&lt;/h3&gt;
+
+&lt;p&gt;There are so very many of these out there. I’m a big fan of &lt;a href="https://holidaycss.js.org/"&gt;Holiday.css&lt;/a&gt;. Our fam at &lt;a href="https://initialcapacity.io/"&gt;Initial Capacity&lt;/a&gt; have an HTML/CSS reset project called &lt;a href="https://www.starterapp.style/"&gt;CSS Starter&lt;/a&gt;. It’s not just a great set of CSS defaults, it also has links to key CSS education and a set of patterns on how to grow your CSS sustainably and maintainably over time.&lt;/p&gt;
+
+&lt;h3&gt;My favorite SOLID talk&lt;/h3&gt;
+
+&lt;p&gt;When complex software problems come up, I almost always refer folks to the talk &lt;a href="https://youtu.be/RtqKN9xEK0c?si=6sXlBT941P8WNXp1"&gt;SOLID in the Wild&lt;/a&gt; from SpringOne Platform 2017. Pivots David, Mike, and Zoe knock out of the park with a real-world example utilizing SOLID principles to make software adapt. It’s very much in the spirit of Kent Beck’s “make the hard change easy, then make the easy change.” I shared this again this week and it saved someone about a week’s worth of work on a refactor.&lt;/p&gt;
+
+&lt;h2&gt;Feedback&lt;/h2&gt;
+
+&lt;p&gt;Thanks for reading! And thanks to &lt;a href="https://www.simplermachines.com/"&gt;Nat Bennett&lt;/a&gt; for the inspiration. Let me know what you think about this (see &lt;a href="/about_me"&gt;my about page&lt;/a&gt;).&lt;/p&gt;
+
+</content>
+    <published>2024-04-18T17:00:00-07:00</published>
+  </entry>
   <entry>
     <title>Why Do We Miss Pivotal Tracker?</title>
     <link href="https://dwf.bigpencil.net/why-do-we-miss-pivotal-tracker/" rel="alternate"/>
@@ -1690,44 +1757,6 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
-    <title>Obsidian URLs</title>
-    <link href="https://dwf.bigpencil.net/obsidian-links/" rel="alternate"/>
-    <id/>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <summary type="html">Linking to Obs from other apps is power.</summary>
-    <content type="html">
-&lt;p&gt;Obsidian’s URL scheme is fabulous. A link of this form:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;obsidian://open?vault=&amp;lt;vault_name&amp;gt;&amp;amp;file=&amp;lt;note_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;..will open Obsidian with that vault and that note selected.&lt;/p&gt;
-
-&lt;p&gt;I use this a lot with my task manager, linking back from projects and tasks to longer thoughts on the topic. I also link to notes &lt;a href="/series/obsidian/thoughts-on-vaults"&gt;other vaults&lt;/a&gt; as needed.&lt;/p&gt;
-
-&lt;p&gt;With any note open, “Copy Obsidian URL” is available via the Command Palette and the note menu.&lt;/p&gt;
-
-</content>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
-  </entry>
-  <entry>
-    <title>Community Plugin: Calendar</title>
-    <link href="https://dwf.bigpencil.net/community-plugin-calendar/" rel="alternate"/>
-    <id/>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <summary type="html">The calendar helps you build the daily journal habit.</summary>
-    <content type="html">&lt;p&gt;This plug-in works with the Daily Notes plug-in. It adds a new tab in the right pane that gives a single-month view. Each date links to that day’s daily note, with a cute dot notation for the length of that note. You can also browse back and forth between months.&lt;/p&gt;
-
-&lt;p&gt;I find this is faster for zeroing in on historical notes. And sometimes you just need another calendar right in front of you during the day.&lt;/p&gt;
-</content>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
-  </entry>
-  <entry>
     <title>Don't Sleep on the Command Palette</title>
     <link href="https://dwf.bigpencil.net/love-the-command-palette/" rel="alternate"/>
     <id/>
@@ -1855,6 +1884,44 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 
 &lt;p&gt;I keep the all of my vaults as subdirectories in one directory that lives online for ease of access from different computers and mobile devices. At the moment this is on Dropbox.&lt;/p&gt;
 
+</content>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
+  </entry>
+  <entry>
+    <title>Obsidian URLs</title>
+    <link href="https://dwf.bigpencil.net/obsidian-links/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">Linking to Obs from other apps is power.</summary>
+    <content type="html">
+&lt;p&gt;Obsidian’s URL scheme is fabulous. A link of this form:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;obsidian://open?vault=&amp;lt;vault_name&amp;gt;&amp;amp;file=&amp;lt;note_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;..will open Obsidian with that vault and that note selected.&lt;/p&gt;
+
+&lt;p&gt;I use this a lot with my task manager, linking back from projects and tasks to longer thoughts on the topic. I also link to notes &lt;a href="/series/obsidian/thoughts-on-vaults"&gt;other vaults&lt;/a&gt; as needed.&lt;/p&gt;
+
+&lt;p&gt;With any note open, “Copy Obsidian URL” is available via the Command Palette and the note menu.&lt;/p&gt;
+
+</content>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
+  </entry>
+  <entry>
+    <title>Community Plugin: Calendar</title>
+    <link href="https://dwf.bigpencil.net/community-plugin-calendar/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">The calendar helps you build the daily journal habit.</summary>
+    <content type="html">&lt;p&gt;This plug-in works with the Daily Notes plug-in. It adds a new tab in the right pane that gives a single-month view. Each date links to that day’s daily note, with a cute dot notation for the length of that note. You can also browse back and forth between months.&lt;/p&gt;
+
+&lt;p&gt;I find this is faster for zeroing in on historical notes. And sometimes you just need another calendar right in front of you during the day.&lt;/p&gt;
 </content>
     <published>2021-03-21T09:14:00-07:00</published>
     <updated>2023-07-12T00:00:00-07:00</updated>
