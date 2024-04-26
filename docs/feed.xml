@@ -5,7 +5,7 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2024-04-26T08:17:44-07:00</updated>
+  <updated>2024-04-26T08:48:31-07:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
@@ -17,7 +17,7 @@
     <author>
       <name>Davis W. Frank</name>
     </author>
-    <summary type="html">Issue No. 1 of interesting links I found this week</summary>
+    <summary type="html">Issue No. 2 of interesting links I found this week</summary>
     <content type="html">
 &lt;p&gt;Welcome to week 2!&lt;/p&gt;
 
@@ -49,7 +49,7 @@
     <published>2024-04-25T17:00:00-07:00</published>
   </entry>
   <entry>
-    <title>Interestings for Iterators 2024.04.19</title>
+    <title>Interestings for Iterators Vol I, #1</title>
     <link href="https://dwf.bigpencil.net/iterators-1-1/" rel="alternate"/>
     <id/>
     <author>
@@ -114,6 +114,7 @@
 
 </content>
     <published>2024-04-18T17:00:00-07:00</published>
+    <updated>2024-04-26T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Why Do We Miss Pivotal Tracker?</title>
