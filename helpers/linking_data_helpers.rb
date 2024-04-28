@@ -1,9 +1,9 @@
 require "json"
-require_relative "./linking_data_helpers/linking_data"
-require_relative "./linking_data_helpers/home_ld"
-require_relative "./linking_data_helpers/article_ld"
-require_relative "./linking_data_helpers/dwf_ld"
-require_relative "./linking_data_helpers/article_list_ld"
+require_relative "linking_data_helpers/linking_data"
+require_relative "linking_data_helpers/home_ld"
+require_relative "linking_data_helpers/article_ld"
+require_relative "linking_data_helpers/dwf_ld"
+require_relative "linking_data_helpers/article_list_ld"
 
 module LinkingDataHelpers
   def full_url_for(path)
