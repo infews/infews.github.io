@@ -55,6 +55,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://dwf.bigpencil.net/iterators-1-3/</loc>
+    <lastmod>2024-05-03T12:19:45-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://dwf.bigpencil.net/core-plugin-daily-journal/</loc>
     <lastmod>2023-07-12T09:31:48-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -122,7 +128,7 @@
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/iterators-1-1/</loc>
-    <lastmod>2024-04-26T08:48:24-07:00</lastmod>
+    <lastmod>2024-05-03T12:19:45-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -314,7 +320,7 @@
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/iterators-1-2/</loc>
-    <lastmod>2024-04-26T08:48:24-07:00</lastmod>
+    <lastmod>2024-05-03T12:19:45-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -391,6 +397,36 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://dwf.bigpencil.net/tags/agile/</loc>
+    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/tags/xp/</loc>
+    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/tags/interesting/</loc>
+    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/tags/links/</loc>
+    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/tags/i4i-newsletter/</loc>
+    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://dwf.bigpencil.net/tags/web-development/</loc>
     <lastmod>2023-07-16T10:05:01-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -416,30 +452,6 @@
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/tags/deployment/</loc>
-    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://dwf.bigpencil.net/tags/agile/</loc>
-    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://dwf.bigpencil.net/tags/xp/</loc>
-    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://dwf.bigpencil.net/tags/interesting/</loc>
-    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://dwf.bigpencil.net/tags/links/</loc>
     <lastmod>2023-07-16T10:05:01-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

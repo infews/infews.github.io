@@ -5,11 +5,42 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2024-05-01T08:16:34-07:00</updated>
+  <updated>2024-05-03T12:20:52-07:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
   <rights>© Davis W. Frank 2024</rights>
+  <entry>
+    <title>Interestings for Iterators Vol I, #3</title>
+    <link href="https://dwf.bigpencil.net/iterators-1-3/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">Issue No. 3 of interesting links I found this week</summary>
+    <content type="html">
+&lt;p&gt;&lt;em&gt;Editor’s Note: I’m going to be in Detroit at &lt;a href="https://railsconf.com"&gt;RailsConf&lt;/a&gt;  the week of May 6th. If you’re going to be there, let me know.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2&gt;Codex Updates&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="/iterators-1-2/"&gt;Last post&lt;/a&gt;, I mentioned the creation of the &lt;a href="https://pivotal.fun/codex"&gt;Pivotal Alumni Codex&lt;/a&gt;. Even if you’re not a Pivotal alum, it’s still a good resource for all iterators. Take a look. Pull requests welcome.&lt;/p&gt;
+
+&lt;p&gt;When there are interesting updates to the Codex, I will make sure to call them out here.&lt;br /&gt;
+This week, we added a &lt;a href="https://alumni-codex.github.io/newsletters/"&gt;Newsletters section&lt;/a&gt;, with sections pivot-authored newsletters, as well as others you might find helpful.&lt;/p&gt;
+
+&lt;h2&gt;In The Wild&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="https://lu.ma/eb3zy6xq"&gt;Finding Your Future - Session 3&lt;/a&gt; Jason Fraser is running another workshop to help you find your next job on Monday, May 13th. This will be especially helpful if you’re not sure about that next career step. Sign up at the link.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=pYKH2uSax8U"&gt;What is leadership? - With David Marquet&lt;/a&gt; This is a 10 minute sketched animation of David giving the highest-level summary of Intent-Based Leadership, the core principle he covers in one of my favorite business books, Turn This Ship Around. He posted this to Threads this week, mentioning that he traded his keynote speech fee for this animation. I agree that it was totally worth the exchange. This is a both a great primer and a quick refresh.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://cutlefish.substack.com/p/tbm-284-why-arent-we-talking-about"&gt;Why Aren’t We Talking About Continuous Improvement?&lt;/a&gt; John Cutler’s post this week helped me pause and think about why it’s so hard to get teams and orgs to even talk hypothetically about improving how they work. He has hope. So should we all.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://whatthedev.buzzsprout.com/673192/14978492-259-agile-anti-patterns-that-are-important-for-developers-to-recognize-with-vmware-tanzu-labs-mik-freedman"&gt;Mik Freedman on the WhatTheDev? Podcast&lt;/a&gt; Mik talks about detecting Agile anti-patterns. It’s short, and full of very familiar concepts. Hearing them again, and more of a “whole org” context, it provides a bit of that hope that John Cutler mentions.&lt;/p&gt;
+
+</content>
+    <published>2024-05-02T17:00:00-07:00</published>
+  </entry>
   <entry>
     <title>Synology on Rails Part IV: Simplifying Deploys</title>
     <link href="https://dwf.bigpencil.net/synology-using-docker-compose/" rel="alternate"/>
@@ -231,6 +262,7 @@ services:
 
 </content>
     <published>2024-04-25T17:00:00-07:00</published>
+    <updated>2024-05-03T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Interestings for Iterators Vol I, #1</title>
@@ -298,7 +330,7 @@ services:
 
 </content>
     <published>2024-04-18T17:00:00-07:00</published>
-    <updated>2024-04-26T00:00:00-07:00</updated>
+    <updated>2024-05-03T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Why Do We Miss Pivotal Tracker?</title>
@@ -1980,6 +2012,59 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
+    <title>Community Plugin: Calendar</title>
+    <link href="https://dwf.bigpencil.net/community-plugin-calendar/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">The calendar helps you build the daily journal habit.</summary>
+    <content type="html">&lt;p&gt;This plug-in works with the Daily Notes plug-in. It adds a new tab in the right pane that gives a single-month view. Each date links to that day’s daily note, with a cute dot notation for the length of that note. You can also browse back and forth between months.&lt;/p&gt;
+
+&lt;p&gt;I find this is faster for zeroing in on historical notes. And sometimes you just need another calendar right in front of you during the day.&lt;/p&gt;
+</content>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
+  </entry>
+  <entry>
+    <title>Obsidian URLs</title>
+    <link href="https://dwf.bigpencil.net/obsidian-links/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">Linking to Obs from other apps is power.</summary>
+    <content type="html">
+&lt;p&gt;Obsidian’s URL scheme is fabulous. A link of this form:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;obsidian://open?vault=&amp;lt;vault_name&amp;gt;&amp;amp;file=&amp;lt;note_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;..will open Obsidian with that vault and that note selected.&lt;/p&gt;
+
+&lt;p&gt;I use this a lot with my task manager, linking back from projects and tasks to longer thoughts on the topic. I also link to notes &lt;a href="/series/obsidian/thoughts-on-vaults"&gt;other vaults&lt;/a&gt; as needed.&lt;/p&gt;
+
+&lt;p&gt;With any note open, “Copy Obsidian URL” is available via the Command Palette and the note menu.&lt;/p&gt;
+
+</content>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
+  </entry>
+  <entry>
+    <title>Don't Sleep on the Command Palette</title>
+    <link href="https://dwf.bigpencil.net/love-the-command-palette/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">It takes me a while to learn new commands.</summary>
+    <content type="html">
+&lt;p&gt;While I’m still learning how to use Obsidian, I find the Command Palette amazing. &lt;code&gt;Ctrl+P/Cmd+P&lt;/code&gt; brings up a searchable list of commands. I find new actions here all the time. And it’s the fastest way to put an &lt;a href="/obsidian-links"&gt;Obsidian URL&lt;/a&gt; on your clipboard.&lt;/p&gt;
+
+</content>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
+  </entry>
+  <entry>
     <title>Note Taking in 1-1's</title>
     <link href="https://dwf.bigpencil.net/one-on-one-notes/" rel="alternate"/>
     <id/>
@@ -2077,59 +2162,6 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
-    <title>Community Plugin: Calendar</title>
-    <link href="https://dwf.bigpencil.net/community-plugin-calendar/" rel="alternate"/>
-    <id/>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <summary type="html">The calendar helps you build the daily journal habit.</summary>
-    <content type="html">&lt;p&gt;This plug-in works with the Daily Notes plug-in. It adds a new tab in the right pane that gives a single-month view. Each date links to that day’s daily note, with a cute dot notation for the length of that note. You can also browse back and forth between months.&lt;/p&gt;
-
-&lt;p&gt;I find this is faster for zeroing in on historical notes. And sometimes you just need another calendar right in front of you during the day.&lt;/p&gt;
-</content>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
-  </entry>
-  <entry>
-    <title>Obsidian URLs</title>
-    <link href="https://dwf.bigpencil.net/obsidian-links/" rel="alternate"/>
-    <id/>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <summary type="html">Linking to Obs from other apps is power.</summary>
-    <content type="html">
-&lt;p&gt;Obsidian’s URL scheme is fabulous. A link of this form:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;obsidian://open?vault=&amp;lt;vault_name&amp;gt;&amp;amp;file=&amp;lt;note_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;..will open Obsidian with that vault and that note selected.&lt;/p&gt;
-
-&lt;p&gt;I use this a lot with my task manager, linking back from projects and tasks to longer thoughts on the topic. I also link to notes &lt;a href="/series/obsidian/thoughts-on-vaults"&gt;other vaults&lt;/a&gt; as needed.&lt;/p&gt;
-
-&lt;p&gt;With any note open, “Copy Obsidian URL” is available via the Command Palette and the note menu.&lt;/p&gt;
-
-</content>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
-  </entry>
-  <entry>
-    <title>Don't Sleep on the Command Palette</title>
-    <link href="https://dwf.bigpencil.net/love-the-command-palette/" rel="alternate"/>
-    <id/>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <summary type="html">It takes me a while to learn new commands.</summary>
-    <content type="html">
-&lt;p&gt;While I’m still learning how to use Obsidian, I find the Command Palette amazing. &lt;code&gt;Ctrl+P/Cmd+P&lt;/code&gt; brings up a searchable list of commands. I find new actions here all the time. And it’s the fastest way to put an &lt;a href="/obsidian-links"&gt;Obsidian URL&lt;/a&gt; on your clipboard.&lt;/p&gt;
-
-</content>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
-  </entry>
-  <entry>
     <title>Thoughts on Vaults</title>
     <link href="https://dwf.bigpencil.net/thoughts-on-vaults/" rel="alternate"/>
     <id/>
@@ -2147,6 +2179,24 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 
 </content>
     <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
+  </entry>
+  <entry>
+    <title>Using Tags</title>
+    <link href="https://dwf.bigpencil.net/using-tags/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">Tag it for easier search.</summary>
+    <content type="html">&lt;p&gt;I am not a huge tag user. I find the search very good and the Linked/Unlinked mentions tab enlightening.&lt;/p&gt;
+
+&lt;p&gt;However, I do have a few categories of notes I want called out. So I will drop a hashtag at the bottom of the file, below a Horizontal Rule, where it is out of the way. I’ve found I like this better than using YAML front matter.&lt;/p&gt;
+
+&lt;p&gt;As I type this, I realize that all of the tags I care about are types of notes and thus have templates associated with them. So each template includes the tag. I barely even think about them except when searching.&lt;/p&gt;
+
+</content>
+    <published>2021-03-21T09:13:00-07:00</published>
     <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
@@ -2171,24 +2221,6 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 </content>
     <published>2021-03-21T09:13:00-07:00</published>
     <updated>2023-07-17T00:00:00-07:00</updated>
-  </entry>
-  <entry>
-    <title>Using Tags</title>
-    <link href="https://dwf.bigpencil.net/using-tags/" rel="alternate"/>
-    <id/>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <summary type="html">Tag it for easier search.</summary>
-    <content type="html">&lt;p&gt;I am not a huge tag user. I find the search very good and the Linked/Unlinked mentions tab enlightening.&lt;/p&gt;
-
-&lt;p&gt;However, I do have a few categories of notes I want called out. So I will drop a hashtag at the bottom of the file, below a Horizontal Rule, where it is out of the way. I’ve found I like this better than using YAML front matter.&lt;/p&gt;
-
-&lt;p&gt;As I type this, I realize that all of the tags I care about are types of notes and thus have templates associated with them. So each template includes the tag. I barely even think about them except when searching.&lt;/p&gt;
-
-</content>
-    <published>2021-03-21T09:13:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Core Plugin: Templates</title>
