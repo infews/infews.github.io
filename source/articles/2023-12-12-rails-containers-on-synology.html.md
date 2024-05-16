@@ -36,7 +36,7 @@ I knew that I could run containerized apps on my Synology NAS. So I just needed 
 - Rails app running in a container on the NAS
 - The SQLite file _not_ in the container
 - Access inside my home network
-- Autmoatable deployment
+- Automatable deployment
 
 ## What I Had
 
