@@ -5,11 +5,51 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2024-05-03T12:20:52-07:00</updated>
+  <updated>2024-05-17T12:29:04-07:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
   <rights>© Davis W. Frank 2024</rights>
+  <entry>
+    <title>Interestings for Iterators Vol I, #4</title>
+    <link href="https://dwf.bigpencil.net/iterators-1-4/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">Issue No. 4 of interesting links I found over the past two weeks</summary>
+    <content type="html">&lt;hr /&gt;
+
+&lt;p&gt;I was “off” last week as I was at &lt;a href="https://railsconf.org"&gt;RailsConf 2024&lt;/a&gt; in Detroit with several hundred other Rubyists on Rails. It was a fun and interesting time. I thought the program committee did an exceptional job this year with the technical topics and inspirational keynotes. Having a day that was &lt;em&gt;just&lt;/em&gt; workshops and OSS project hacking was genius. I hope to see this continue at RubyConf and other conferences in the future.&lt;/p&gt;
+
+&lt;p&gt;Attendees have been posting their reflections all week - check ruby.social - and the talks should be up in a month or so. I’ll be linking to my favorites then.&lt;/p&gt;
+
+&lt;p&gt;Great job, team! And thanks!&lt;/p&gt;
+
+&lt;h2&gt;Codex Updates and Highlights&lt;/h2&gt;
+
+&lt;p&gt;Not much new added to the &lt;a href="https://alumni-codex.github.io"&gt;Pivotal Alumni Codex&lt;/a&gt; in the past couple of weeks. Instead, here’s a highlight!&lt;/p&gt;
+
+&lt;p&gt;This week I’m going to point to the &lt;a href="https://labspractices.com/"&gt;Labs Practices&lt;/a&gt; site, and directory of open-sourced-resources that Pivotal Labs, and VMware Tanzu Labs gathered over the years for our clients. This is worth bookmarking for facilitation guides, technique descriptions, and learning paths.&lt;/p&gt;
+
+&lt;h2&gt;In The Wild&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="https://www.linkedin.com/pulse/how-slack-automates-deploys-abi-noda-oikrc/"&gt;How Slack Automates Deploys&lt;/a&gt; H/T to Josh Aresty for pointing me at this. It’s a good story about how Slack went from a very manual to a very automated deploy system. This felt very familiar to my recent work, yet I’ve got a few new techniques to try when advising a release team again.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/kyleneideck/BackgroundMusic"&gt;BackgroundMusic for MacOS&lt;/a&gt; A new-to-me, free homebrew-installable, audio utility. Best reason to install it: the virtual microphone that means you can use ScreenRecorder to get system audio in your video. Best reasons to keep it: independent, relative volume controls for open apps and auto-muting of music when you move to a video call.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.linkedin.com/posts/johnpcutler_20-systems-over-thinker-tips-ugcPost-7196375101116710913-ZCzm/"&gt;20 Things I’ve Learned as a Systems (Over) Thinker&lt;/a&gt; by John Cutler. Another winner from John. As I said when I re-shared this on LinkedIn - “It me.”&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://itrevolution.com/articles/a-radical-enterprise-quick-start-guide-for-business-leaders/"&gt;A Radical Enterprise Quick Start Guide for Business Leaders&lt;/a&gt; A good jumping off point before you dive into &lt;a href="https://www.linkedin.com/in/matt-k-parker/"&gt;Matt Parker&lt;/a&gt;’s book &lt;a href="https://itrevolution.com/product/a-radical-enterprise/"&gt;A Radical Enterprise&lt;/a&gt;. Which reminds me a bit of…&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://a.co/d/69ePbbz"&gt;Doing Agile Right&lt;/a&gt; by  &lt;a href="https://www.amazon.com/Darrell-Rigby/e/B0025BULBU/ref=dp_byline_cont_ebooks_1"&gt;Darrell Rigby&lt;/a&gt;, &lt;a href="https://www.amazon.com/Sarah-Elk/e/B083RYLPXB/ref=dp_byline_cont_ebooks_2"&gt;Sarah Elk&lt;/a&gt; , and  &lt;a href="https://www.amazon.com/Steve-Berez/e/B083P2WPQN/ref=dp_byline_cont_ebooks_3"&gt;Steve Berez&lt;/a&gt;. When this book came out, I attended a Q&amp;amp;A with one of the authors and was prepared to be constructively confrontational. My experience with management consultants and “Agile Transformations” was…not great. But what I learned from Sarah’s answers, and this book - much like Matt Parker’s book above - is that the Agile Software Manifesto has reflections &lt;em&gt;everywhere&lt;/em&gt;. And it’s a systems-thinking mindset, a desire to shrink feedback loops, and reminder that you’re working with &lt;em&gt;people&lt;/em&gt; that can help &lt;em&gt;any&lt;/em&gt; project move faster with less waste.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.linkedin.com/posts/jasonfraser_successjourney-leadership-innovation-activity-7195785081901207555-5QYb"&gt;Better Together!&lt;/a&gt;  &lt;a href="https://www.linkedin.com/in/jasonfraser/"&gt;Jason Fraser&lt;/a&gt; posted about &lt;a href="https://a.co/d/aUrrJ3j"&gt;Move Fast&lt;/a&gt; and how it’s a solid companion to his and Janice Fraser’s book [Farther Faster]. I’m adding Move Fast to my queue.&lt;/p&gt;
+
+&lt;p&gt;Let me know if you’re enjoying these. Feedback is much appreciated. My social links are above.&lt;/p&gt;
+</content>
+    <published>2024-05-17T12:22:00-07:00</published>
+  </entry>
   <entry>
     <title>Interestings for Iterators Vol I, #3</title>
     <link href="https://dwf.bigpencil.net/iterators-1-3/" rel="alternate"/>
@@ -703,7 +743,7 @@ end
   &lt;li&gt;Rails app running in a container on the NAS&lt;/li&gt;
   &lt;li&gt;The SQLite file &lt;em&gt;not&lt;/em&gt; in the container&lt;/li&gt;
   &lt;li&gt;Access inside my home network&lt;/li&gt;
-  &lt;li&gt;Autmoatable deployment&lt;/li&gt;
+  &lt;li&gt;Automatable deployment&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2&gt;What I Had&lt;/h2&gt;
@@ -852,7 +892,7 @@ USER rails:users
 
 </content>
     <published>2023-12-12T12:35:00-08:00</published>
-    <updated>2023-12-13T00:00:00-08:00</updated>
+    <updated>2024-05-16T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Dynamic Polymorphic Forms in Rails 7</title>
