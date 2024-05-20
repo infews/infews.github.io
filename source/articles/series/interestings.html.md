@@ -1,0 +1,3 @@
+A typical Pivotal standup meeting had three items on the agenda: Helps, Interestings, and Events. Helps was for anyone who needed help with a problem. This helped propagate knowledge and expertise across teams and around the office. Events were cross-team things happening around the office - all-hands meetings, tech talk speakers, or meet-ups.
+
+This series is for the Interestings. These are things I've found over the course of the week that I want to share with you. They might be articles, utilities, libraries, or maybe even an event that I hope helps you build software.

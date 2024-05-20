@@ -17,11 +17,20 @@ the-cd-test:
     - agile
 rails-docker-nas:
   title: Synology on Rails
-  teaser: How to get a Rails app running in a container on your Synology NAS
+  teaser: How to get a Rails app running in a container on your Synology NAS.
   keywords:
     - software development
     - software engineering
     - ruby on rails
     - synology
     - docker
-
+interestings:
+  title: Interestings for Iterators
+  teaser: Links from around the Web that Software Iterators may enjoy.
+  keywords:
+    - software development
+    - software engineering
+    - agile
+    - xp
+    - interesting
+    - links
