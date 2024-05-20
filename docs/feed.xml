@@ -5,7 +5,7 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2024-05-17T12:29:04-07:00</updated>
+  <updated>2024-05-20T07:16:41-07:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
@@ -18,8 +18,7 @@
       <name>Davis W. Frank</name>
     </author>
     <summary type="html">Issue No. 4 of interesting links I found over the past two weeks</summary>
-    <content type="html">&lt;hr /&gt;
-
+    <content type="html">
 &lt;p&gt;I was “off” last week as I was at &lt;a href="https://railsconf.org"&gt;RailsConf 2024&lt;/a&gt; in Detroit with several hundred other Rubyists on Rails. It was a fun and interesting time. I thought the program committee did an exceptional job this year with the technical topics and inspirational keynotes. Having a day that was &lt;em&gt;just&lt;/em&gt; workshops and OSS project hacking was genius. I hope to see this continue at RubyConf and other conferences in the future.&lt;/p&gt;
 
 &lt;p&gt;Attendees have been posting their reflections all week - check ruby.social - and the talks should be up in a month or so. I’ll be linking to my favorites then.&lt;/p&gt;
@@ -49,6 +48,7 @@
 &lt;p&gt;Let me know if you’re enjoying these. Feedback is much appreciated. My social links are above.&lt;/p&gt;
 </content>
     <published>2024-05-17T12:22:00-07:00</published>
+    <updated>2024-05-20T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Interestings for Iterators Vol I, #3</title>
@@ -80,6 +80,7 @@ This week, we added a &lt;a href="https://alumni-codex.github.io/newsletters/"&g
 
 </content>
     <published>2024-05-02T17:00:00-07:00</published>
+    <updated>2024-05-20T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Synology on Rails Part IV: Simplifying Deploys</title>
@@ -302,7 +303,7 @@ services:
 
 </content>
     <published>2024-04-25T17:00:00-07:00</published>
-    <updated>2024-05-03T00:00:00-07:00</updated>
+    <updated>2024-05-20T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Interestings for Iterators Vol I, #1</title>
@@ -370,7 +371,7 @@ services:
 
 </content>
     <published>2024-04-18T17:00:00-07:00</published>
-    <updated>2024-05-03T00:00:00-07:00</updated>
+    <updated>2024-05-20T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Why Do We Miss Pivotal Tracker?</title>
