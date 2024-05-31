@@ -5,11 +5,38 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2024-05-31T10:57:31-07:00</updated>
+  <updated>2024-05-31T15:34:51-07:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
   <rights>© Davis W. Frank 2024</rights>
+  <entry>
+    <title>Interestings for Iterators (i4i) Vol I, #5</title>
+    <link href="https://dwf.bigpencil.net/iterators-1-5/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">Issue No. 5 of interesting links I found over the past two weeks</summary>
+    <content type="html">
+&lt;h2&gt;Codex Updates&lt;/h2&gt;
+
+&lt;p&gt;A couple of updates on the &lt;a href="https://alumni-codex.github.io/agility-resources/practices/"&gt;Agility Resources/Practices page&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;I can confirm that Broadcom dropping their Miro subscription has not affected the Tanzu/Pivotal Labs contributions to the Miroverse. This solid set of great starter boards for various sessions live here happily.&lt;/p&gt;
+
+&lt;p&gt;New to me is the the Tanzu &lt;a href="https://miro.com/app/board/uXjVKAuy0VM=/"&gt;Library&lt;/a&gt; board: a list of recommended books, with category tags, and room for short reviews. This would be great for a team’s book club.&lt;/p&gt;
+
+&lt;p&gt;Also, Ben Christel has added his &lt;em&gt;Automated Project Management&lt;/em&gt; presentation, which shares how he talks about and uses Pivotal Tracker.&lt;/p&gt;
+
+&lt;h2&gt;In The Wild&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="https://www.npr.org/sections/money/"&gt;Planet Money&lt;/a&gt; has &lt;a href="https://www.npr.org/2024/05/17/1197959102/open-source-xz-hack"&gt;a podcast episode&lt;/a&gt; about Open Source software, told with the framing story of the &lt;a href="https://tidelift.com/resources/xz-backdoor-hack"&gt;XZ hack&lt;/a&gt; from earlier this year. If you’re reading this, the podcast episode won’t give you much new - though I didn’t know about the project mentioned as the “first” OSS project. I expect it will be a good primer on OSS for anyone you know who’s &lt;em&gt;not&lt;/em&gt; in the software business.&lt;/p&gt;
+
+&lt;p&gt;And if you’re sending this podcast to one of those folks, here’s the referenced &lt;a href="https://xkcd.com/2347/"&gt;XKCD “Jenga” comic&lt;/a&gt;, titled, appropriately, &lt;em&gt;Dependency&lt;/em&gt;. Don’t miss the hover!&lt;/p&gt;
+</content>
+    <published>2024-05-31T12:56:00-07:00</published>
+  </entry>
   <entry>
     <title>Interestings for Iterators Vol I, #4</title>
     <link href="https://dwf.bigpencil.net/iterators-1-4/" rel="alternate"/>
