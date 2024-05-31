@@ -34,7 +34,7 @@ This is how Anchor Steam became my favorite beer. It was pretty easy to get. It 
 ![Anchor Steam beer bottle label](https://www.lawlersliquorsonline.com/wp-content/uploads/2018/09/Steam_6Pack_Label_042715-600.png)
 _The Anchor Steam beer label up until the rebrand of 2021._
 
-A classmate had a t-shirt of this (now) "old" label. I tried to buy, con, but never quite managed to steal that shirt from him. It took until 1995, on the one time I made it to the brewery, for me to get my own shirt. And I wore it to threads a few years ago.
+A classmate had a t-shirt of this (now) "old" label. He never would sell it to me. And I never managed to steal that shirt from him. It took until 1995, on the one time I made it to the brewery, for me to get my own shirt. And I wore it to threads a few years ago.
 
 I've fondly enjoyed just about every Anchor style - Liberty Pale Ale just never worked for me. The California Lager was really nice in the summer. Especially after they stopped brewing Anchor Wheat, after the rebranding of it to Anchor Summer. I still have a magnum of the 2019 Anchor Christmas Ale and a six-pack of Christmas 2021. Wow those are good. I'll save them even longer now - they keep and age well.
 
