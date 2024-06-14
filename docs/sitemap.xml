@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dwf.bigpencil.net/how-one-funny-email-almost-changed-my-career/</loc>
-    <lastmod>2023-07-06T08:02:09-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://dwf.bigpencil.net/</loc>
     <lastmod>2023-07-22T12:13:12-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -68,12 +62,6 @@
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/tags/i4i-newsletter/</loc>
-    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://dwf.bigpencil.net/tags/web-development/</loc>
     <lastmod>2023-07-16T10:05:01-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -151,6 +139,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://dwf.bigpencil.net/iterators-1-7/</loc>
+    <lastmod>2024-06-14T12:19:30-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://dwf.bigpencil.net/improved-1-1-note-taking/</loc>
     <lastmod>2023-09-13T12:26:01-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -159,6 +153,12 @@
   <url>
     <loc>https://dwf.bigpencil.net/start-with-retrospectives/</loc>
     <lastmod>2023-09-18T15:32:01-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/tags/web-development/</loc>
+    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -439,8 +439,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dwf.bigpencil.net/how-we-xp/</loc>
-    <lastmod>2021-05-15T13:04:47-07:00</lastmod>
+    <loc>https://dwf.bigpencil.net/managing-agile-teams/</loc>
+    <lastmod>2023-07-12T09:31:48-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -541,8 +541,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dwf.bigpencil.net/managing-agile-teams/</loc>
-    <lastmod>2023-07-12T09:31:48-07:00</lastmod>
+    <loc>https://dwf.bigpencil.net/how-one-funny-email-almost-changed-my-career/</loc>
+    <lastmod>2023-07-06T08:02:09-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -621,6 +621,12 @@
   <url>
     <loc>https://dwf.bigpencil.net/more-blog-yakking/</loc>
     <lastmod>2023-11-15T09:40:45-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/how-we-xp/</loc>
+    <lastmod>2021-05-15T13:04:47-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
