@@ -78,7 +78,7 @@ _Crowd howls and applauds. Davis and Pat shake hands, leave the stage triumphant
 
 ## The Aftermath
 
-We totally killed! The crowd _loved_ us! We had the best reaction of the day. Instead of hinging on inside-to-the-team jokes that got a dozen laughs, we had a premise that was for the _whole_ audience - not just one team. We unified the new org under a now-more-familiar leader. We were ready to call caterers for a team party on our vacation day.
+We totally killed! The crowd _loved_ us! We had the best reaction of the day. Instead of hinging on inside-to-the-team jokes that got a dozen laughs, we had a premise that was for the _whole_ audience. We unified the new org under a now-more-familiar leader. We were ready to call caterers for a team party on our vacation day.
 
 But like all tragic stories, there was one skit left to go.
 
