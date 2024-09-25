@@ -24,6 +24,11 @@ teaser: Manual deploy steps are maddening. Let's fix it.
 [p1]: /rails-containers-on-synology/
 [p2]: /deploying-containers-synology/
 [fw]: https://www.firewalla.com
+[vi]: /synology-improved-registry/
+
+### 2024.09.25 UPDATE
+
+_**This article is superseded by [Part VI][vi], which starts up a registry and UI for that registry. This article is mostly useful for context.**_
 
 Well, my app is deployed and running. But after several months of continued development and maintenance, I'm not happy with how I deploy this app. The required manual steps in the Synology DSM UI have proven error prone. I often forget what the steps are and have to click around until it's working. How might we improve deploying my containerized Rails app? 
 
