@@ -18,7 +18,7 @@ keywords:
   - synology
   - nas
 series: rails-docker-nas
-teaser: "How finally learned containers and got my Rails Meal Planning app up on running on my Synology NAS."
+teaser: "How I finally learned containers and got my Rails Meal Planning app up on running on my Synology NAS."
 ---
 
 [planning]: /covid-19-inspired-meal-planning/
