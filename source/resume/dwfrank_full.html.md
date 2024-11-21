@@ -119,7 +119,7 @@ I recharged while writing about my career experience, getting involved with the 
 
 #### Senior Software Engineering Manager, PKS <span class="duration">October 2018 - January 2020 </span>
 
-PKS (now known as [TKGI][tkgi]) was a jointly-developed Kubernetes distribution from Pivotal & VMware that was a service for Pivotal Cloud Foundry (now known as [Tanzu Application Service][tas]). Pivotal was acquired by VMware in late 2019.
+PKS (now known as [TKGI][tkgi]) was a jointly-developed Kubernetes distribution from Pivotal & VMware that was a service for Pivotal Cloud Foundry (now known as [Tanzu Application Service][tas]).
 
 I was the Engineering Lead on the PKS Release Engineering team. I defined, prioritized, and accepted the work for this team of 10 developers from Pivotal and VMware. We optimized CI/CD, doubling the number of concurrent releases from 2 to 4 while reducing the cycle-time-per-change by 75% - from 4 days to 1.
 
@@ -145,7 +145,7 @@ _Learned how to make a business case for a team, staff that team, how to manage 
 
 #### Associate Director <span class="duration">February 2013 - March 2015 </span>
 
-I managed a staff of 40 developers and 5 managers, about one-third of the San Francisco consulting practice. I scoped projects, wrote proposals, and managed the business relationship for clients. I scheduled “beach” time for 8 Pivotal Labs open source projects across multiple offices. I continued to present at conferences, meetups, and clients about Pivotal, Extreme Programming, and testing JavaScript. Pivotal Labs is now known as [VMware Tanzu Labs][tlabs].
+I managed a staff of 40 developers and 5 managers, about one-third of the San Francisco consulting practice. I scoped projects, wrote proposals, and managed the business relationship for clients. I scheduled “beach” time for 8 Pivotal Labs open source projects across multiple offices. I continued to present at conferences, meetups, and clients about Pivotal, Extreme Programming, and testing JavaScript.
 
 #### Sofware Engineering Manager <span class="duration">February 2010 - February 2013 </span>
 

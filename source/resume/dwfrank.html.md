@@ -51,19 +51,19 @@ Pivotal was the primary sponsor of the [Cloud Foundry][cf] project, a multi-clou
 
 #### Director of Software Engineering, Internal Application Development <span class="duration"> March 2015 - March 2018 </span>
 
-I advocated for and created this team within IT to improve the development &amp; maintenance of our business-critical, internal software projects.
+I advocated for and created this team within IT to improve the development &amp; maintenance of our business-critical, internal software projects. Work in Ruby on Rails and Kotlin/Spring.
 
 - Staffed team to 15 engineers, product managers, and designers in San Francisco and Toronto.
 - Drove budgeting and prioritization exercises with executive staff and other organization leaders.
-- Key projects: Employee Feedback app, Staff Allocations app + integrations with back office, Software APIs and infrastructure for sales reporting, Discovery for corporate SAP-to-Workday transition prior to IPO, Discovery for Customer Support tooling.
+- Key projects: Employee Feedback app, Staff Allocations app + integrations with back office systems, Software APIs and infrastructure for sales reporting, Discovery for corporate SAP-to-Workday transition prior to IPO, Discovery for Customer Support tooling.
 
 #### Associate Director, Pivotal Labs <span class="duration">February 2013 - March 2015 </span>
 
-Pivotal Labs was a consultancy that build web and mobile applications _with_ clients as a way of teaching [XP][xp] skills. Pivotal Labs was acquired by EMC in 2012, then spun out as part of Pivotal Software in 2013. They operate now as [VMware Tanzu Labs][tlabs].
+Pivotal Labs was a consultancy that build web and mobile applications _with_ clients as a way of teaching [XP][xp] skills, using Ruby on Rails and mobile platforms.
 
 - Managed staff of 40 developers and 5 managers, about one-third of the the San Francisco consulting practice.
-- Facilitated client scopings and wrote proposals as part of pre-sales motion.
-- Managed 3-5 concurrent client projects, including staff adjustments and extensions, keeping clients happy.
+- Facilitated client scoping sessions and wrote proposals as part of pre-sales efforts.
+- Managed up to 5 concurrent client projects, including staff adjustments and extensions, keeping clients happy.
 - Scheduled “beach” time for 8 Pivotal Labs open source projects across multiple offices.
 - Presented at conferences, meetups, and clients about Pivotal, Extreme Programming, and testing JavaScript.
 
@@ -103,7 +103,7 @@ Handspring was acquired by PalmSource and renamed to palmOne in 2003. They renam
   - Designed & managed implementation of new XML-based carrier customization system. 
   - Moved In-box shared MacOS/Windows CD from weekly to daily builds.
   - Managed team of 8 engineers.
-- __Engineering Program Manager, Messaging & Photos Applications__
+- __Engineering Program Manager, Messaging & Photos__
   - Led prioritization and implementation for these apps for Treo 600 and Treo 650 smartphones.
   - Managed external vendors for MMS, Imaging, and Photo driver libraries.
   - Reduced "click-to-1st-photo" time from 3.5 seconds to under 1 second.

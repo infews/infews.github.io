@@ -97,6 +97,7 @@ set :github_username, "infews"
 set :twitter_username, "dwfrank"
 set :linkedin_username, "daviswfrank"
 set :mastodon_url, "ruby.social/@dwfrank"
+set :bluesky_url, "bsky.app/profile/dwf.bigpencil.net"
 set :email, "dwfrank+blog@gmail.com"
 set :threads_url, "threads.net/dwfrank"
 
