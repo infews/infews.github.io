@@ -9,11 +9,10 @@ keywords:
 teaser: "In which I use math to evaluate if I should switch jobs and which job I should accept."
 ---
 
-[medium]: https://blog.usejournal.com/drake-your-job-5c55b706bb18
 [video]: https://www.harrisonmetal.com/library/drake-s-equation
 [blog]: https://medium.com/@mcgd/drakes-equation-e967535a76ac 
 
-_I originally published this on [Medium][medium] in 2018. I've made a few copy edits, but the content and intent is the same. 
+_I originally published this on Medium in 2018. I've made a few copy edits, but the content and intent is the same. 
 <br/><br/>--dwf_
 
 --- 
