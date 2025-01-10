@@ -37,12 +37,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dwf.bigpencil.net/tags/web-development/</loc>
-    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://dwf.bigpencil.net/tags/ruby/</loc>
     <lastmod>2023-07-16T10:05:01-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -61,14 +55,20 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dwf.bigpencil.net/tags/notion/</loc>
+    <loc>https://dwf.bigpencil.net/tags/interviewing/</loc>
     <lastmod>2023-07-16T10:05:01-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dwf.bigpencil.net/how-one-funny-email-almost-changed-my-career/</loc>
-    <lastmod>2023-07-06T08:02:09-07:00</lastmod>
+    <loc>https://dwf.bigpencil.net/tags/hiring/</loc>
+    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/tags/management/</loc>
+    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -169,7 +169,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dwf.bigpencil.net/tags/management/</loc>
+    <loc>https://dwf.bigpencil.net/tags/obsidian/</loc>
+    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/tags/notion/</loc>
     <lastmod>2023-07-16T10:05:01-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -263,6 +269,12 @@
     <lastmod>2023-07-22T12:22:31-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/tags/web-development/</loc>
+    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/tags/deployment/</loc>
@@ -361,18 +373,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dwf.bigpencil.net/tags/obsidian/</loc>
-    <lastmod>2023-07-16T10:05:01-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://dwf.bigpencil.net/resume/dwfrank/</loc>
-    <lastmod>2024-11-21T08:30:18-08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://dwf.bigpencil.net/resume/dwfrank_full/</loc>
     <lastmod>2024-11-21T08:30:18-08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -404,7 +404,7 @@
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/iterators-1-3/</loc>
-    <lastmod>2024-05-20T07:16:34-07:00</lastmod>
+    <lastmod>2025-01-10T13:32:40-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -457,16 +457,22 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dwf.bigpencil.net/covid-19-inspired-meal-planning/</loc>
-    <lastmod>2021-05-15T13:04:47-07:00</lastmod>
+    <loc>https://dwf.bigpencil.net/rails-dynamic-polymorphic-forms/</loc>
+    <lastmod>2023-11-15T09:50:27-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dwf.bigpencil.net/the-continuous-delivery-test/</loc>
-    <lastmod>2023-09-18T15:32:01-07:00</lastmod>
+    <loc>https://dwf.bigpencil.net/synology-using-docker-compose/</loc>
+    <lastmod>2024-04-29T13:06:09-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/resume/dwfrank/</loc>
+    <lastmod>2025-01-10T13:27:59-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/my-obsidian-for-a-job-search/</loc>
@@ -489,6 +495,12 @@
   <url>
     <loc>https://dwf.bigpencil.net/anchors-away/</loc>
     <lastmod>2024-05-31T10:57:21-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/on-hiring/</loc>
+    <lastmod>2025-01-10T13:28:10-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -542,7 +554,7 @@
   </url>
   <url>
     <loc>https://dwf.bigpencil.net/iterators-1-5/</loc>
-    <lastmod>2024-05-31T15:30:14-07:00</lastmod>
+    <lastmod>2025-01-10T13:32:40-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -559,14 +571,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dwf.bigpencil.net/rails-dynamic-polymorphic-forms/</loc>
-    <lastmod>2023-11-15T09:50:27-08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://dwf.bigpencil.net/synology-using-docker-compose/</loc>
-    <lastmod>2024-04-29T13:06:09-07:00</lastmod>
+    <loc>https://dwf.bigpencil.net/how-one-funny-email-almost-changed-my-career/</loc>
+    <lastmod>2023-07-06T08:02:09-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -645,6 +651,18 @@
   <url>
     <loc>https://dwf.bigpencil.net/how-we-xp/</loc>
     <lastmod>2021-05-15T13:04:47-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/covid-19-inspired-meal-planning/</loc>
+    <lastmod>2021-05-15T13:04:47-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dwf.bigpencil.net/the-continuous-delivery-test/</loc>
+    <lastmod>2023-09-18T15:32:01-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

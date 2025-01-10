@@ -5,11 +5,113 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2024-11-21T08:34:35-08:00</updated>
+  <updated>2025-01-10T13:34:04-08:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
-  <rights>© Davis W. Frank 2024</rights>
+  <rights>© Davis W. Frank 2025</rights>
+  <entry>
+    <title>On Interviewing and Hiring Software Engineers</title>
+    <link href="https://dwf.bigpencil.net/on-hiring/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">How to avoid the common traps when hiring engineers</summary>
+    <content type="html">
+&lt;p&gt;I didn’t understand why one of the hiring managers on my staff had turned down the candidate.&lt;/p&gt;
+
+&lt;p&gt;The interviewee had 10+ years of experience with Ruby on Rails. He was a referral from a recent hire, who was already a strong contributor. The candidate had worked on interesting projects. At his most recent, quite large, employer, he’d been promoted over the past few years from a senior engineer all the way to a senior manager, taking care of multiple teams. If he could code well, I suspected he was going to be a good fit for the team. Why was making an offer not the obvious next step?&lt;/p&gt;
+
+&lt;p&gt;Hiring is hard. I often say that the only thing harder than hiring is firing. But that’s another post.&lt;/p&gt;
+
+&lt;p&gt;There should be reluctance when you see risks with a candidate. So how do you minimize those risks when interviewing?&lt;/p&gt;
+
+&lt;p&gt;First, let’s acknowledge that today your candidate funnel is clogged&lt;sup id="fnref:1" role="doc-noteref"&gt;&lt;a href="#fn:1" class="footnote" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;. There are enough people looking for software engineering roles that as a hiring manager you no doubt have several good resumés and you’ve only reviewed a subset of your queue.&lt;/p&gt;
+
+&lt;p&gt;So what does your interview cycle look like?&lt;/p&gt;
+
+&lt;h2&gt;Hiring Today&lt;/h2&gt;
+
+&lt;p&gt;Others are writing about the problems with interviewing, so I won’t go too deep here. But I think these are the most important anti-patterns to avoid.&lt;/p&gt;
+
+&lt;h3&gt;L33tCode as a Filter&lt;/h3&gt;
+
+&lt;p&gt;Why put a candidate through the gauntlet of mystical computer science problems that are known to be “hard”? When so much programming information and/or AI coding assistants are free, what are you learning about the candidate from “good” solutions to these problems? Many of these exercises use problems that your developers will never run into on the job. After all, &lt;a href="https://www.instagram.com/alberta.tech/reel/DEgk9XzNz1t/"&gt;Linked Lists Aren’t Real&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Ignoring Referrals&lt;/h3&gt;
+
+&lt;p&gt;We used to say, “the front door is a brick wall,” and so as an applicant you would find any way to get an employee to submit your resume for a job. For recruiters, referrals were a welcome blessing. Referrals got at least a short phone call. Real experiences about the candidate from existing employees have enormous value.&lt;/p&gt;
+
+&lt;p&gt;Today, it seems like a referral might get your application closer to the top of the stack, but doesn’t guarantee any contact. In the past year, I’ve had my referred application auto-rejected or worse, flat-out ghosted. Don’t rest on a candidate who comes highly recommended.&lt;/p&gt;
+
+&lt;h3&gt;Over-valuing Complex Problems and Solutions&lt;/h3&gt;
+
+&lt;p&gt;YAGRII (You Ain’t Gonna Run Into It) might as well be a corollary to YAGNI. Measuring one person on how well they can design a massively distributed, micro-serviced-out-the-yin-yang, multi-cloud solution in an hour is unfair to everyone involved. Your product is very, very unlikely to run into that as relevant situation. Why are you evaluating on them?&lt;/p&gt;
+
+&lt;p&gt;If your product does run into such a scaling problem, you’re deep in the &lt;a href="https://medium.com/@kentbeck_7670/the-product-development-triathlon-6464e2763c46"&gt;Expand phase&lt;/a&gt; of 3X and won’t have enough capacity to interview a new person to solve that problem for you. If you &lt;em&gt;are&lt;/em&gt; at YouTube or Twitter or Facebook, you’ve already solved these problems and have entirely new ones.&lt;/p&gt;
+
+&lt;h2&gt;What are the Desired Outcomes?&lt;/h2&gt;
+
+&lt;p&gt;So interview cycles are a mess. How can you change yours to avoid these traps? Let’s take some pointers from Product. What is the desired outcome of a hiring process?&lt;/p&gt;
+
+&lt;p&gt;I contend that the outcome you want is a new team member who’s going to increase the team’s ability to execute. That’s a pretty broad statement. To meet this outcome, the measurable characteristics and behaviors I look for are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ability to code and &lt;em&gt;reason&lt;/em&gt; about code.&lt;/li&gt;
+  &lt;li&gt;Ability to work with other people.&lt;/li&gt;
+  &lt;li&gt;Knowledge acquisition skills.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Screen for Coding Skills&lt;/h3&gt;
+
+&lt;p&gt;Yes, you do need to have candidates code during an interview. I’ve personally screened candidates with good looking web development resumés with JavaScript projects that couldn’t write a function that would even run.&lt;/p&gt;
+
+&lt;p&gt;Pick an interesting, but not architecturally puzzling, problem. Pick a language and domain that’s easy to work in and with over a video call. Have your screeners pair &lt;em&gt;with&lt;/em&gt; the candidate on the exercise. Keep a strict time limit. Don’t expect or measure solutions. Instead measure if they &lt;em&gt;can&lt;/em&gt; code, ask good questions, and then talk about why they suggested or wrote the code they did.&lt;/p&gt;
+
+&lt;p&gt;Stick with this setup. Keep it consistent across candidates. Keep your screener pool small. Strive to make the results more comparable and thus help you compare candidates more fairly.&lt;/p&gt;
+
+&lt;h3&gt;Live Work Experience on a Real Problem with Others&lt;/h3&gt;
+
+&lt;p&gt;If a candidate passes the screen, you want to evaluate them with other team members on a problem that’s closer to your real work. You want to see how the candidate will work in an environment closer to the team’s day-to-day.&lt;/p&gt;
+
+&lt;p&gt;This could be a story from the team’s backlog - but that could be inconsistent and might lead to IP risks.  More practically, build a sample project that is using (some of) the stack your team uses. Pick the language and framework they use every day. The work should &lt;em&gt;feel&lt;/em&gt; like a story from the backlog, even if the domain is not exactly the same as your product work. Have there be an obvious end point with real results.&lt;/p&gt;
+
+&lt;p&gt;Have them work with another team member on this exercise - just as if they were pairing on normal work. Let the candidate lead on the solutions while they are being guided on context and style with the interviewer. This should be longer than the screen, but still time limited. This exercise is less about coding, and more about how well they work with others. You want to evaluate them working as part of the team. Software product development remains a team sport.&lt;/p&gt;
+
+&lt;h3&gt;Knowledge Acquisition&lt;/h3&gt;
+
+&lt;p&gt;My key thesis with interviewing is that you should, nearly above all else, be hiring for knowledge acquisition skills. Software development is dynamic; new problems or context show up all the time. Information about your language, dependencies, and frameworks is all readily available. How are they building on their knowledge to make themselves and the team better? How well can they work with others to figure out to even start solving a seemingly random, new problem? How are they going to learn when an unexpected complication hits the business (which is inevitable) and increase the overall knowledge of the team?&lt;/p&gt;
+
+&lt;p&gt;If you hire people that are continuously learning, and also continuously teaching&lt;sup id="fnref:2" role="doc-noteref"&gt;&lt;a href="#fn:2" class="footnote" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt;, you’re hiring force multipliers onto your team.&lt;/p&gt;
+
+&lt;h3&gt;Iterate&lt;/h3&gt;
+
+&lt;p&gt;From here? Iterate. Tweak metrics. Train your interviewers. Do what works and toss the rest. Adjust the process until you get something that’s repeatable in execution and consistent in measurement. Do this and your team will get stronger. And stronger.&lt;/p&gt;
+
+&lt;h2&gt;Back to the Candidate&lt;/h2&gt;
+
+&lt;p&gt;We didn’t have a candidate problem. We had an interviewing problem. I worked over a few months to rebuild our interviewing rounds along the lines of I’ve mentioned above. Over time, with some measuring, we interviewed more consistently, increased our offer/hire ratio, and built stronger teams overall.&lt;/p&gt;
+
+&lt;p&gt;Meanwhile, we had open reqs and plenty of work to do. I got back to the candidate and did a tech screen. He did well. We talked more about the company and our needs. He had the relevant experience. He talked about his goals. He was looking to get closer to execution, wanting to code as an individual contributor for a while before considering managing again. The process said he was going to be a good hire.&lt;/p&gt;
+
+&lt;p&gt;I hired him. He did hit the ground running and didn’t stop. He referred a couple of other engineers and we hired one of them. He moved back up into management within a year, led one of the more productive teams, and led a strategic technical spike.&lt;/p&gt;
+
+&lt;p&gt;Reader, he was a good hire.&lt;/p&gt;
+
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+  &lt;ol&gt;
+    &lt;li id="fn:1" role="doc-endnote"&gt;
+      &lt;p&gt;This too, is another post. But for now, it’s clear that available AI resume and application tooling is flooding application tracking systems and the poor recruiters stuck using them. It’s not just you. &lt;a href="#fnref:1" class="reversefootnote" role="doc-backlink"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id="fn:2" role="doc-endnote"&gt;
+      &lt;p&gt;Yup. Yet another post. &lt;a href="#fnref:2" class="reversefootnote" role="doc-backlink"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</content>
+    <published>2025-01-09T16:00:00-08:00</published>
+  </entry>
   <entry>
     <title>Synology on Rails Part VI: An Improved Docker Registry</title>
     <link href="https://dwf.bigpencil.net/synology-improved-registry/" rel="alternate"/>
@@ -244,7 +346,7 @@
     <content type="html">
 &lt;h2&gt;Codex Updates&lt;/h2&gt;
 
-&lt;p&gt;A couple of updates on the &lt;a href="https://alumni-codex.github.io/agility-resources/practices/"&gt;Agility Resources/Practices page&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;A couple of updates on the &lt;a href="https://alumni-codex.github.io/agile-resources/practices.html"&gt;Agility Resources/Practices page&lt;/a&gt;:&lt;/p&gt;
 
 &lt;p&gt;I can confirm that Broadcom dropping their Miro subscription has not affected the Tanzu/Pivotal Labs contributions to the Miroverse. This solid set of great starter boards for various sessions live here happily.&lt;/p&gt;
 
@@ -259,6 +361,7 @@
 &lt;p&gt;And if you’re sending this podcast to one of those folks, here’s the referenced &lt;a href="https://xkcd.com/2347/"&gt;XKCD “Jenga” comic&lt;/a&gt;, titled, appropriately, &lt;em&gt;Dependency&lt;/em&gt;. Don’t miss the hover!&lt;/p&gt;
 </content>
     <published>2024-05-31T12:56:00-07:00</published>
+    <updated>2025-01-10T00:00:00-08:00</updated>
   </entry>
   <entry>
     <title>Interestings for Iterators Vol I, #4</title>
@@ -316,7 +419,7 @@
 &lt;p&gt;&lt;a href="/iterators-1-2/"&gt;Last post&lt;/a&gt;, I mentioned the creation of the &lt;a href="https://pivotal.fun/codex"&gt;Pivotal Alumni Codex&lt;/a&gt;. Even if you’re not a Pivotal alum, it’s still a good resource for all iterators. Take a look. Pull requests welcome.&lt;/p&gt;
 
 &lt;p&gt;When there are interesting updates to the Codex, I will make sure to call them out here.&lt;br /&gt;
-This week, we added a &lt;a href="https://alumni-codex.github.io/newsletters/"&gt;Newsletters section&lt;/a&gt;, with sections pivot-authored newsletters, as well as others you might find helpful.&lt;/p&gt;
+This week, we added a &lt;a href="https://alumni-codex.github.io/agile-resources/newsletters.html"&gt;Newsletters section&lt;/a&gt;, with sections pivot-authored newsletters, as well as others you might find helpful.&lt;/p&gt;
 
 &lt;h2&gt;In The Wild&lt;/h2&gt;
 
@@ -330,7 +433,7 @@ This week, we added a &lt;a href="https://alumni-codex.github.io/newsletters/"&g
 
 </content>
     <published>2024-05-02T17:00:00-07:00</published>
-    <updated>2024-05-20T00:00:00-07:00</updated>
+    <updated>2025-01-10T00:00:00-08:00</updated>
   </entry>
   <entry>
     <title>Synology on Rails Part IV: Simplifying Deploys</title>
@@ -2308,6 +2411,44 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
+    <title>Don't Sleep on the Command Palette</title>
+    <link href="https://dwf.bigpencil.net/love-the-command-palette/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">It takes me a while to learn new commands.</summary>
+    <content type="html">
+&lt;p&gt;While I’m still learning how to use Obsidian, I find the Command Palette amazing. &lt;code&gt;Ctrl+P/Cmd+P&lt;/code&gt; brings up a searchable list of commands. I find new actions here all the time. And it’s the fastest way to put an &lt;a href="/obsidian-links"&gt;Obsidian URL&lt;/a&gt; on your clipboard.&lt;/p&gt;
+
+</content>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
+  </entry>
+  <entry>
+    <title>Obsidian URLs</title>
+    <link href="https://dwf.bigpencil.net/obsidian-links/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">Linking to Obs from other apps is power.</summary>
+    <content type="html">
+&lt;p&gt;Obsidian’s URL scheme is fabulous. A link of this form:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;obsidian://open?vault=&amp;lt;vault_name&amp;gt;&amp;amp;file=&amp;lt;note_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;..will open Obsidian with that vault and that note selected.&lt;/p&gt;
+
+&lt;p&gt;I use this a lot with my task manager, linking back from projects and tasks to longer thoughts on the topic. I also link to notes &lt;a href="/series/obsidian/thoughts-on-vaults"&gt;other vaults&lt;/a&gt; as needed.&lt;/p&gt;
+
+&lt;p&gt;With any note open, “Copy Obsidian URL” is available via the Command Palette and the note menu.&lt;/p&gt;
+
+</content>
+    <published>2021-03-21T09:14:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
+  </entry>
+  <entry>
     <title>Community Plugin: Calendar</title>
     <link href="https://dwf.bigpencil.net/community-plugin-calendar/" rel="alternate"/>
     <id/>
@@ -2440,62 +2581,6 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
     <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
-    <title>Obsidian URLs</title>
-    <link href="https://dwf.bigpencil.net/obsidian-links/" rel="alternate"/>
-    <id/>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <summary type="html">Linking to Obs from other apps is power.</summary>
-    <content type="html">
-&lt;p&gt;Obsidian’s URL scheme is fabulous. A link of this form:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;obsidian://open?vault=&amp;lt;vault_name&amp;gt;&amp;amp;file=&amp;lt;note_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;..will open Obsidian with that vault and that note selected.&lt;/p&gt;
-
-&lt;p&gt;I use this a lot with my task manager, linking back from projects and tasks to longer thoughts on the topic. I also link to notes &lt;a href="/series/obsidian/thoughts-on-vaults"&gt;other vaults&lt;/a&gt; as needed.&lt;/p&gt;
-
-&lt;p&gt;With any note open, “Copy Obsidian URL” is available via the Command Palette and the note menu.&lt;/p&gt;
-
-</content>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
-  </entry>
-  <entry>
-    <title>Don't Sleep on the Command Palette</title>
-    <link href="https://dwf.bigpencil.net/love-the-command-palette/" rel="alternate"/>
-    <id/>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <summary type="html">It takes me a while to learn new commands.</summary>
-    <content type="html">
-&lt;p&gt;While I’m still learning how to use Obsidian, I find the Command Palette amazing. &lt;code&gt;Ctrl+P/Cmd+P&lt;/code&gt; brings up a searchable list of commands. I find new actions here all the time. And it’s the fastest way to put an &lt;a href="/obsidian-links"&gt;Obsidian URL&lt;/a&gt; on your clipboard.&lt;/p&gt;
-
-</content>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
-  </entry>
-  <entry>
-    <title>Using Tags</title>
-    <link href="https://dwf.bigpencil.net/using-tags/" rel="alternate"/>
-    <id/>
-    <author>
-      <name>Davis W. Frank</name>
-    </author>
-    <summary type="html">Tag it for easier search.</summary>
-    <content type="html">&lt;p&gt;I am not a huge tag user. I find the search very good and the Linked/Unlinked mentions tab enlightening.&lt;/p&gt;
-
-&lt;p&gt;However, I do have a few categories of notes I want called out. So I will drop a hashtag at the bottom of the file, below a Horizontal Rule, where it is out of the way. I’ve found I like this better than using YAML front matter.&lt;/p&gt;
-
-&lt;p&gt;As I type this, I realize that all of the tags I care about are types of notes and thus have templates associated with them. So each template includes the tag. I barely even think about them except when searching.&lt;/p&gt;
-
-</content>
-    <published>2021-03-21T09:13:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
-  </entry>
-  <entry>
     <title>Using Links</title>
     <link href="https://dwf.bigpencil.net/using-links/" rel="alternate"/>
     <id/>
@@ -2517,6 +2602,24 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 </content>
     <published>2021-03-21T09:13:00-07:00</published>
     <updated>2023-07-17T00:00:00-07:00</updated>
+  </entry>
+  <entry>
+    <title>Using Tags</title>
+    <link href="https://dwf.bigpencil.net/using-tags/" rel="alternate"/>
+    <id/>
+    <author>
+      <name>Davis W. Frank</name>
+    </author>
+    <summary type="html">Tag it for easier search.</summary>
+    <content type="html">&lt;p&gt;I am not a huge tag user. I find the search very good and the Linked/Unlinked mentions tab enlightening.&lt;/p&gt;
+
+&lt;p&gt;However, I do have a few categories of notes I want called out. So I will drop a hashtag at the bottom of the file, below a Horizontal Rule, where it is out of the way. I’ve found I like this better than using YAML front matter.&lt;/p&gt;
+
+&lt;p&gt;As I type this, I realize that all of the tags I care about are types of notes and thus have templates associated with them. So each template includes the tag. I barely even think about them except when searching.&lt;/p&gt;
+
+</content>
+    <published>2021-03-21T09:13:00-07:00</published>
+    <updated>2023-07-12T00:00:00-07:00</updated>
   </entry>
   <entry>
     <title>Core Plugin: Templates</title>
