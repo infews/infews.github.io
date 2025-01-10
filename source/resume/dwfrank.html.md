@@ -13,10 +13,10 @@ I am an experienced senior software engineering leader with a demonstrated histo
 
 #### Director of Software Engineering
 
-- Improved release frequency of main Rails application from 3x/month to 4x/week, a more resilient process that reduced hotfixes from 3x/week to under 2x/month.
-- Rebuilt, centralized, and standardized engineer hiring process: improved hired ratio, increased staff diversity, and raised talent bar.
-- Managed teams of ~25 remote engineers and managers across review cycles, re-orgs, and layoffs.
-  - Teams included Product Development, Data Engineering, Release Engineering, and Cloud Engineering.
+- Managed different Product and Infrastructure teams of ~25 remote engineers and managers across review cycles, re-orgs, and layoffs.
+- Increased main Rails application release frequency by over 5x, reducing hotfix frequency by 6x.
+- Redesigned and planned new Data pipelines to improve data quality and reduce data risk, while decreasing costs.
+- Rebuilt, centralized, and standardized engineer hiring process: improved interviewed-to-hired ratio while raising talent bar.
 - Managed cost and contracts with vendors (e.g., AWS, Azure, Heroku, [CircleCI][circle], GCP/Looker, and others).
 
 ### Personal Sabbatical &amp; Product Advising <span class="duration">January 2020 - October 2021</span>
@@ -29,24 +29,23 @@ I am an experienced senior software engineering leader with a demonstrated histo
 
 #### Senior Software Engineering Manager, PKS <span class="duration">October 2018 - January 2020</span>
 
-PKS (now known as [TKGI][tkgi]) is a jointly-developed Kubernetes distribution from Pivotal & VMware that is a service for Pivotal Cloud Foundry/[Tanzu Application Service][tas]. Pivotal was acquired by VMware in late 2019.
+PKS (also known as VMware's [TKGI][tkgi]) was a jointly-developed Kubernetes distribution from Pivotal & VMware that was a service for Pivotal Cloud Foundry/[Tanzu Application Service][tas].
 
 - Reported to VP of Engineering as part of leadership and management team.
-  - Staffed team of 12 developers in the US as we moved the project from Ireland.
+  - Moved engineering from Dublin, Ireland, to Palo Alto, CA, hiring a team of 12 engineers.
   - Lead summer intern round table.
   - Managed team through VMware acquisition uncertainty.
 - Defined and prioritized CI/CD work for the Release Engineering team of 10 developers.
-  - Doubled the number of concurrent releases from 2 to 4. 
-  - Reduced pull request cycle time from 4 days to less than 1.
+  - Doubled the number of concurrently managed releases from 2 to 4. 
+  - Reduced pull request cycle time by 70%.
   - Team worked in Ruby and YAML across AWS, GCP, Azure, and vSphere.
 
 #### Senior Software Engineering Manager, Cloud Foundry <span class="duration"> April 2018 - October 2018 </span>
 
 Pivotal was the primary sponsor of the [Cloud Foundry][cf] project, a multi-cloud Platform-as-a-Service (PaaS) for deployment of web apps and services. Pivotal sold its own version of CF, Pivotal Cloud Foundry, now known as [Tanzu Application Service][tas].
 
-- Developer on OSS "Cloud API" team; Ruby on Rails and Sinatra codebase.
-- Managed 4 engineers on other teams.
-- Facilitated weekly managers' skills coaching sessions. 
+- Developer on Cloud API (Open source) team; Coded in Ruby in a Rails and Sinatra codebase.
+- Managed 4 engineers on other teams. Facilitated weekly managers' skills coaching sessions. 
 - Rebuilt the summer intern experience in San Francisco, hosting a weekly intern round table with Pivotal leaders.
 
 #### Director of Software Engineering, Internal Application Development <span class="duration"> March 2015 - March 2018 </span>
@@ -55,11 +54,11 @@ I advocated for and created this team within IT to improve the development &amp;
 
 - Staffed team to 15 engineers, product managers, and designers in San Francisco and Toronto.
 - Drove budgeting and prioritization exercises with executive staff and other organization leaders.
-- Key projects: Employee Feedback app, Staff Allocations app + integrations with back office systems, Software APIs and infrastructure for sales reporting, Discovery for corporate SAP-to-Workday transition prior to IPO, Discovery for Customer Support tooling.
+- Key projects included Employee Feedback app, Staff Allocations app + integrations with back office systems, Software APIs and infrastructure for sales reporting, Discovery for corporate SAP-to-Workday transition prior to IPO, Discovery for Customer Support tooling.
 
 #### Associate Director, Pivotal Labs <span class="duration">February 2013 - March 2015 </span>
 
-Pivotal Labs was a consultancy that build web and mobile applications _with_ clients as a way of teaching [XP][xp] skills, using Ruby on Rails and mobile platforms.
+Pivotal Labs was a consultancy that build web and mobile applications _with_ clients as a way of teaching [XP][xp] skills, using Ruby on Rails, iOS, Android, and mobile-oriented JavaScript platforms.
 
 - Managed staff of 40 developers and 5 managers, about one-third of the the San Francisco consulting practice.
 - Facilitated client scoping sessions and wrote proposals as part of pre-sales efforts.
