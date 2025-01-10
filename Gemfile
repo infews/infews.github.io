@@ -11,6 +11,8 @@ source "https://rubygems.org"
 # Middleman Gems
 gem "middleman"
 gem "middleman-blog"
+gem "mutex_m" # added b/c of Ruby 3.4
+
 # gem 'middleman-syntax'
 gem "middleman-livereload", "~> 3.4"
 gem "middleman-minify-html", "~> 3.4", ">= 3.4.1"
