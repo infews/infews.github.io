@@ -5,7 +5,7 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2025-01-10T13:34:04-08:00</updated>
+  <updated>2025-01-11T08:58:44-08:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
@@ -91,7 +91,7 @@
 
 &lt;h2&gt;Back to the Candidate&lt;/h2&gt;
 
-&lt;p&gt;We didn’t have a candidate problem. We had an interviewing problem. I worked over a few months to rebuild our interviewing rounds along the lines of I’ve mentioned above. Over time, with some measuring, we interviewed more consistently, increased our offer/hire ratio, and built stronger teams overall.&lt;/p&gt;
+&lt;p&gt;We didn’t have a candidate problem. We had an interviewing problem. I worked over a few months to rebuild our interviewing rounds along the lines of I’ve mentioned above. Over time, with some measuring, we interviewed more consistently, increased our hire/offer ratio, and built stronger teams overall.&lt;/p&gt;
 
 &lt;p&gt;Meanwhile, we had open reqs and plenty of work to do. I got back to the candidate and did a tech screen. He did well. We talked more about the company and our needs. He had the relevant experience. He talked about his goals. He was looking to get closer to execution, wanting to code as an individual contributor for a while before considering managing again. The process said he was going to be a good hire.&lt;/p&gt;
 
@@ -111,6 +111,7 @@
 &lt;/div&gt;
 </content>
     <published>2025-01-09T16:00:00-08:00</published>
+    <updated>2025-01-11T00:00:00-08:00</updated>
   </entry>
   <entry>
     <title>Synology on Rails Part VI: An Improved Docker Registry</title>
