@@ -13,17 +13,16 @@ I am an experienced senior software engineering leader with a demonstrated histo
 
 #### Director of Software Engineering
 
-- Managed different Product and Infrastructure teams of ~25 remote engineers and managers across review cycles, re-orgs, and layoffs.
-- Increased main Rails application release frequency by over 5x, reducing hotfix frequency by 6x.
-- Redesigned and planned new Data pipelines to improve data quality and reduce data risk, while decreasing costs.
-- Rebuilt, centralized, and standardized engineer hiring process: improved interviewed-to-hired ratio while raising talent bar.
+- Managed multiple Product and Infrastructure teams of ~25 remote engineers and managers across review cycles, re-orgs, and layoffs.
+- Increased primary Rails application release frequency by over 5x while reducing hotfix frequency by 6x.
+- Redesigned and planned new Data pipelines to improve data quality and reduce data compliance risk while decreasing costs.
+- Rebuilt, centralized, and standardized engineer hiring process; improved interviewed-to-hired ratio while raising talent bar.
 - Managed cost and contracts with vendors (e.g., AWS, Azure, Heroku, [CircleCI][circle], GCP/Looker, and others).
 
 ### Personal Sabbatical &amp; Product Advising <span class="duration">January 2020 - October 2021</span>
 
 - Collaborated on the software engineering simulation at [Curious Duck][duck]. Built in Ruby on Rails.
 - Advised [Bigger Bolder Baking][bake] on Wordpress vendor selection for improving their CMS.
-- Rebuilt my personal website and blogged on software engineering topics.
 
 ### Pivotal Software & Pivotal Labs <span class="duration">April 2008 - January 2020</span>
 
@@ -34,48 +33,48 @@ PKS (also known as VMware's [TKGI][tkgi]) was a jointly-developed Kubernetes dis
 - Reported to VP of Engineering as part of leadership and management team.
   - Moved engineering from Dublin, Ireland, to Palo Alto, CA, hiring a team of 12 engineers.
   - Lead summer intern round table.
-  - Managed team through VMware acquisition uncertainty.
+  - Managed team through 5-months of uncertainty due to VMware acquisition of Pivotal.
 - Defined and prioritized CI/CD work for the Release Engineering team of 10 developers.
   - Doubled the number of concurrently managed releases from 2 to 4. 
   - Reduced pull request cycle time by 70%.
-  - Team worked in Ruby and YAML across AWS, GCP, Azure, and vSphere.
+  - Team worked with [Concourse][cc], Ruby, Shell, and YAML across AWS, GCP, Azure, and vSphere.
 
 #### Senior Software Engineering Manager, Cloud Foundry <span class="duration"> April 2018 - October 2018 </span>
 
 Pivotal was the primary sponsor of the [Cloud Foundry][cf] project, a multi-cloud Platform-as-a-Service (PaaS) for deployment of web apps and services. Pivotal sold its own version of CF, Pivotal Cloud Foundry, now known as [Tanzu Application Service][tas].
 
-- Developer on Cloud API (Open source) team; Coded in Ruby in a Rails and Sinatra codebase.
+- Developer on Cloud API (Open source) team; coded in Ruby in a shared Rails + Sinatra codebase.
 - Managed 4 engineers on other teams. Facilitated weekly managers' skills coaching sessions. 
 - Rebuilt the summer intern experience in San Francisco, hosting a weekly intern round table with Pivotal leaders.
 
-#### Director of Software Engineering, Internal Application Development <span class="duration"> March 2015 - March 2018 </span>
+#### Director of Software Engineering <span class="duration"> March 2015 - March 2018 </span>
 
-I advocated for and created this team within IT to improve the development &amp; maintenance of our business-critical, internal software projects. Work in Ruby on Rails and Kotlin/Spring.
+I created a product development team within IT to improve the development &amp; maintenance of our business-critical, internal software projects. Work in Ruby on Rails and Kotlin/Spring.
 
-- Staffed team to 15 engineers, product managers, and designers in San Francisco and Toronto.
+- Staffed and managed team of 15 engineers, product managers, and designers in San Francisco and Toronto.
 - Drove budgeting and prioritization exercises with executive staff and other organization leaders.
-- Key projects included Employee Feedback app, Staff Allocations app + integrations with back office systems, Software APIs and infrastructure for sales reporting, Discovery for corporate SAP-to-Workday transition prior to IPO, Discovery for Customer Support tooling.
+- Key projects included Employee Feedback, Staff Allocations (with integrations to back office systems), Software APIs and infrastructure for sales reporting, Discovery process for Finance's SAP-to-Workday transition prior to IPO, Discovery process for Customer Support tooling.
 
 #### Associate Director, Pivotal Labs <span class="duration">February 2013 - March 2015 </span>
 
-Pivotal Labs was a consultancy that build web and mobile applications _with_ clients as a way of teaching [XP][xp] skills, using Ruby on Rails, iOS, Android, and mobile-oriented JavaScript platforms.
+Pivotal Labs was a consultancy that built web and mobile applications _with_ clients as a way of teaching [XP][xp] skills, using Ruby on Rails, iOS, Android, and mobile-oriented JavaScript platforms.
 
-- Managed staff of 40 developers and 5 managers, about one-third of the the San Francisco consulting practice.
+- Managed staff of 40 developers and 5 managers, one-third of the the San Francisco consulting practice.
 - Facilitated client scoping sessions and wrote proposals as part of pre-sales efforts.
-- Managed up to 5 concurrent client projects, including staff adjustments and extensions, keeping clients happy.
-- Scheduled “beach” time for 8 Pivotal Labs open source projects across multiple offices.
+- Managed multiple concurrent client projects, including staff adjustments and extensions, keeping clients happy.
+- Scheduled beach time for 8 Pivotal Labs open source projects across multiple offices.
 - Presented at conferences, meetups, and clients about Pivotal, Extreme Programming, and testing JavaScript.
 
 #### Software Engineering Manager, Pivotal Labs <span class="duration">February 2010 - February 2013 </span>
 
 - Founding member of the first manager cohort; established and modeled initial management practices. 
 - Managed 10 developers across consulting projects.
-- Continued to lead engagements as engineering "anchor" for client projects.
+- Continued to lead engagements as engineering anchor for client projects.
 - Presented at conferences, meetups, and clients about Pivotal, Extreme Programming, and testing JavaScript.
 
 #### Software Engineer, Pivotal Labs <span class="duration">April 2008 - February 2010 </span>
 
-- Lead engagements as engineering "anchor" for numerous client projects.
+- Lead engagements as engineering anchor for numerous client projects.
 - Taught client developers Ruby on Rails and [XP][xp] practices, including pair programming and test-driven development.
 - Co-created [Jasmine][jasmine], an innovative BDD framework for JavaScript testing to improve front-end development.
 
@@ -103,7 +102,7 @@ Handspring was acquired by PalmSource and renamed to palmOne in 2003. They renam
   - Moved In-box shared MacOS/Windows CD from weekly to daily builds.
   - Managed team of 8 engineers.
 - __Engineering Program Manager, Messaging & Photos__
-  - Led prioritization and implementation for these apps for Treo 600 and Treo 650 smartphones.
+  - Led prioritization and implementation for apps for Treo 600 and Treo 650 smartphones.
   - Managed external vendors for MMS, Imaging, and Photo driver libraries.
   - Reduced "click-to-1st-photo" time from 3.5 seconds to under 1 second.
 - __Software Engineering Manager, Tools__
@@ -128,7 +127,7 @@ B.S., Computer Science, July 1992
 
 - Mentoring Computer Science students via the [University of Georgia undergraduate mentoring program][mentor]
 - Software Projects
-  - Co-creator/co-author (emeritus) of [Jasmine][jasmine]
+  - Co-creator/co-author (emeritus) of [Jasmine][jasmine], a JavaScript testing framework
   - [Keydown][kd] a Markdown-to-HTML presentation builder (archived)
   - [Anchorman][am], a release notes generator from Git commit logs (archived)
 - Presented sessions at [RailsConf][rc] (2009), Fluent (2012), and [Golden Gate Ruby Conference][story] (2013)
