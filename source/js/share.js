@@ -1,7 +1,7 @@
 
-const enableSharing = function () {
+enableSharing = function () {
     function showIcon(e, sel) {
-        const icon = e.querySelector(sel);
+        icon = e.querySelector(sel);
         if (icon) {
             icon.style.display = "inline";
         }
