@@ -31,7 +31,7 @@ Home was inevitable, so off to Gatwick and the standard US beer aisles. I had a 
 
 This is how Anchor Steam became my favorite beer. It was pretty easy to get. It was less expensive than Sam Smith's. It was _exotic_ because it came from California. I was an oddball asking for it.
 
-![Anchor Steam beer bottle label](https://www.lawlersliquorsonline.com/wp-content/uploads/2018/09/Steam_6Pack_Label_042715-600.png)
+![Anchor Steam beer bottle label](images/anchor.jpg)
 _The Anchor Steam beer label up until the rebrand of 2021._
 
 A classmate had a t-shirt of this (now) "old" label. He never would sell it to me. And I never managed to steal that shirt from him. It took until 1995, on the one time I made it to the brewery, for me to get my own shirt. And I wore it to threads a few years ago.
