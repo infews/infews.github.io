@@ -1,0 +1,36 @@
+---
+pageable: true
+layout: layout
+---
+
+%h1 My GitHub Repositories
+
+%h2 Personal Repositories
+
+%p
+  These repos are of my personally-owned work. Some are public and open source. Some are archived. And some are private, closed source repos.
+
+%ul
+  - data.repos.nonForks.each do |repo|
+    %li= link_to repo.name, repo.url
+    %ul
+      %li= repo.description
+      %li Last commit at #{repo.pushedAt}
+      - if repo.isPrivate
+        %li.private_repo Private repository
+      - if repo.isArchived
+        %li.archived Repo archived for historical purposes. No active work.
+
+%h2  Forked Repositories
+
+These repos represent forks of other public, open source projects where I may be currently contributing code and content.
+
+%ul
+  - data.repos.forks.each do |repo|
+    %li= link_to repo.name, repo.url
+    %ul
+      %li= repo.description
+      %li Last commit at #{repo.pushedAt}
+      - if repo.isFork
+        %li.forked Forked repo for submitting pull requests.
+        %li= link_to repo.parentUrl, repo.parentUrl

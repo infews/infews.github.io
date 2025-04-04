@@ -1,0 +1,422 @@
+---
+nonForks:
+- name: workstation_repave
+  description: Mostly Ruby based MacOS setup
+  url: https://github.com/infews/workstation_repave
+  pushedAt: '2025-02-15T00:25:03Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: infews.github.io
+  description: DWF's Journal personal blog
+  url: https://github.com/infews/infews.github.io
+  pushedAt: '2025-02-03T21:01:34Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: aoc2024
+  description: Advent of Code 2024 solutions
+  url: https://github.com/infews/aoc2024
+  pushedAt: '2024-12-19T04:54:55Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: parkive
+  description: A script for moving PDFs named to a pattern to the proper archive directory
+  url: https://github.com/infews/parkive
+  pushedAt: '2024-11-20T20:00:52Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: synology_rails_deploy_tasks
+  description: Rake tasks for deploying a Rails app to a container registry
+  url: https://github.com/infews/synology_rails_deploy_tasks
+  pushedAt: '2024-09-06T21:11:06Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: meals
+  description: A meal tracking app for recipes and restaurants
+  url: https://github.com/infews/meals
+  pushedAt: '2024-09-05T19:53:06Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: true
+- name: derby
+  description: Balboa Derby Betting Window
+  url: https://github.com/infews/derby
+  pushedAt: '2024-04-29T23:05:35Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: true
+- name: flip-slack
+  description: Handspring Alumni Slack FAQ & Code of Conduct
+  url: https://github.com/infews/flip-slack
+  pushedAt: '2024-01-23T17:00:09Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: synology_on_rails
+  description: Compainion repo for the blog series
+  url: https://github.com/infews/synology_on_rails
+  pushedAt: '2023-12-15T22:40:19Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: solar_payoff
+  description: How much of my solar panels are paid off?
+  url: https://github.com/infews/solar_payoff
+  pushedAt: '2023-10-18T00:29:02Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: infews
+  description: Config files for my GitHub profile.
+  url: https://github.com/infews/infews
+  pushedAt: '2023-09-10T15:08:59Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: aoc_2022
+  description: Solutions for Advent of Code 2022
+  url: https://github.com/infews/aoc_2022
+  pushedAt: '2022-12-15T01:27:16Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: spam_filters
+  description: Build spam filters for GMail
+  url: https://github.com/infews/spam_filters
+  pushedAt: '2022-11-01T16:20:27Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: rpi_explained
+  description: Interviewer instructions
+  url: https://github.com/infews/rpi_explained
+  pushedAt: '2022-02-23T01:06:11Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: true
+- name: dukedomrb
+  description: Yet another port of the mainframe game; Used to teach Ruby, OOP, and
+    stuff
+  url: https://github.com/infews/dukedomrb
+  pushedAt: '2021-10-23T20:19:46Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: job_search_in_obsidian
+  description: An Obsidian Vault with notes & process for finding a job
+  url: https://github.com/infews/job_search_in_obsidian
+  pushedAt: '2021-09-17T23:06:17Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: balboa_archiver
+  description: Utilities to archive files according to my desired format
+  url: https://github.com/infews/balboa_archiver
+  pushedAt: '2021-04-04T22:06:04Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: ddt_ruby_springs
+  description: code & deck for tech talk
+  url: https://github.com/infews/ddt_ruby_springs
+  pushedAt: '2021-03-15T20:18:10Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: markwilliams_eulogy
+  description: Eulogy for a good friend, gone too soon.
+  url: https://github.com/infews/markwilliams_eulogy
+  pushedAt: '2020-09-08T19:08:01Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: balboa
+  description: gem for personal utils
+  url: https://github.com/infews/balboa
+  pushedAt: '2020-05-11T22:09:04Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: jasmine_example_project
+  description: Jasmine Example Project
+  url: https://github.com/infews/jasmine_example_project
+  pushedAt: '2018-08-02T04:18:31Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: bulldog
+  description: HTML5 task manager, built on todo.txt
+  url: https://github.com/infews/bulldog
+  pushedAt: '2018-07-09T00:46:23Z'
+  isFork: false
+  isArchived: true
+  parentUrl:
+  isPrivate: false
+- name: 2010.11.16.SenchaCon.Jasmine.Intro
+  description: Slides for the Jasmine presentation I gave at Sencha Con 2010
+  url: https://github.com/infews/2010.11.16.SenchaCon.Jasmine.Intro
+  pushedAt: '2018-05-28T04:09:24Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: keydown
+  description: An HTML5 presentation builder
+  url: https://github.com/infews/keydown
+  pushedAt: '2017-09-24T11:03:20Z'
+  isFork: false
+  isArchived: true
+  parentUrl:
+  isPrivate: false
+- name: bowling_kata_ruby
+  description: A version of the 10-pin bowling scoring kata, in Ruby
+  url: https://github.com/infews/bowling_kata_ruby
+  pushedAt: '2016-10-11T21:56:07Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: jasmine_text
+  description: Snippets for Issues
+  url: https://github.com/infews/jasmine_text
+  pushedAt: '2015-07-01T01:31:06Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: true
+- name: anchorman
+  description: Turn your git commit log into Markdown files, a nice start to proper
+    release notes
+  url: https://github.com/infews/anchorman
+  pushedAt: '2015-05-17T21:25:08Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: day_done
+  description: Archive FoldingText @done tasks to DayOne journal
+  url: https://github.com/infews/day_done
+  pushedAt: '2014-09-03T17:50:01Z'
+  isFork: false
+  isArchived: true
+  parentUrl:
+  isPrivate: false
+- name: infews_cookbook
+  description: Sprout (Chef) cookbook for personal recipes
+  url: https://github.com/infews/infews_cookbook
+  pushedAt: '2014-06-12T06:07:07Z'
+  isFork: false
+  isArchived: true
+  parentUrl:
+  isPrivate: false
+- name: 2013.09.05.GettingAgileWithPivotalTracker
+  description: As presented at the SpringSource Webinar
+  url: https://github.com/infews/2013.09.05.GettingAgileWithPivotalTracker
+  pushedAt: '2013-09-09T18:29:47Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: 2012.11.05.cs169
+  description: Presentation given to Berkeley cs169, 11/05/2012
+  url: https://github.com/infews/2012.11.05.cs169
+  pushedAt: '2012-11-06T18:12:38Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: 2012.05.30.JasmineIntroFluentConf
+  description: Talk as given at FluentConf 2012 SF, CA
+  url: https://github.com/infews/2012.05.30.JasmineIntroFluentConf
+  pushedAt: '2012-05-31T04:12:26Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: 2012.05.24.JasmineAtScribd
+  description: 'Keydown presentation given at Scribd, re: Jasmine'
+  url: https://github.com/infews/2012.05.24.JasmineAtScribd
+  pushedAt: '2012-05-24T22:29:56Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: 2012.03.02.JasmineA2Z
+  description: Tech talk given at Amazon's a2z Dev Center
+  url: https://github.com/infews/2012.03.02.JasmineA2Z
+  pushedAt: '2012-03-03T19:12:20Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: 2012.02.15.BackboneJSMeetup
+  description: Slides given at the SF BackboneJS Meetup
+  url: https://github.com/infews/2012.02.15.BackboneJSMeetup
+  pushedAt: '2012-02-16T02:31:04Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: 2011.12.08.Jasmine.and.Backbone
+  description: Given at Castro Street Startup Slide on 12/08/2011
+  url: https://github.com/infews/2011.12.08.Jasmine.and.Backbone
+  pushedAt: '2011-12-29T21:52:45Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: yo_dawg
+  description: An "About Keydown" presentation
+  url: https://github.com/infews/yo_dawg
+  pushedAt: '2011-06-29T16:21:43Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: 2011.04.28.PhillyETE.PracticalJasmine
+  description: 'Slides given at 2011 Philly ETE conference: "Practical Jasmine"'
+  url: https://github.com/infews/2011.04.28.PhillyETE.PracticalJasmine
+  pushedAt: '2011-05-03T05:17:30Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: bonfire
+  description: ruby scripts for Kindle authoring
+  url: https://github.com/infews/bonfire
+  pushedAt: '2011-03-07T05:41:07Z'
+  isFork: false
+  isArchived: true
+  parentUrl:
+  isPrivate: false
+- name: 2010.10.19.EastBayRubyMeetup
+  description: Introduction to Jasmine as given at the East Bay Ruby Meetup
+  url: https://github.com/infews/2010.10.19.EastBayRubyMeetup
+  pushedAt: '2010-10-23T19:42:42Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: 2010.09.29.SeleniumSF.Jasmine
+  description: 'Presentation given at SFSe on 2010.09.29: Intro to Jasmine'
+  url: https://github.com/infews/2010.09.29.SeleniumSF.Jasmine
+  pushedAt: '2010-10-01T16:52:42Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: ddt-blog-examples
+  description: supporting code for a blog post on a better way to factor your tests
+  url: https://github.com/infews/ddt-blog-examples
+  pushedAt: '2010-06-18T04:18:18Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: js-test-roundup
+  description: sample code & presentation from the SF JS Test Roundup, 5/13/2010
+  url: https://github.com/infews/js-test-roundup
+  pushedAt: '2010-05-14T02:17:19Z'
+  isFork: false
+  isArchived: false
+  parentUrl:
+  isPrivate: false
+- name: gtk9-timer
+  description: webOS Productivity timer
+  url: https://github.com/infews/gtk9-timer
+  pushedAt: '2010-04-01T05:54:20Z'
+  isFork: false
+  isArchived: true
+  parentUrl:
+  isPrivate: true
+- name: gtdog
+  description: ''
+  url: https://github.com/infews/gtdog
+  pushedAt: '2009-10-18T21:50:17Z'
+  isFork: false
+  isArchived: true
+  parentUrl:
+  isPrivate: true
+forks:
+- name: alumni-codex.github.io
+  description: Links, docs, info that Pivotal (Labs) Alumni want to keep close
+  url: https://github.com/infews/alumni-codex.github.io
+  pushedAt: '2025-04-03T17:33:31Z'
+  isFork: true
+  isArchived: false
+  parentUrl: https://github.com/alumni-codex/alumni-codex.github.io
+  isPrivate: false
+- name: nokogiri
+  description: Nokogiri (鋸) makes it easy and painless to work with XML and HTML from
+    Ruby.
+  url: https://github.com/infews/nokogiri
+  pushedAt: '2024-12-06T22:08:41Z'
+  isFork: true
+  isArchived: false
+  parentUrl: https://github.com/sparklemotion/nokogiri
+  isPrivate: false
+- name: synology-docker-registry
+  description: Private docker registry set up with corresponding UI for Synology Diskstation
+  url: https://github.com/infews/synology-docker-registry
+  pushedAt: '2024-09-20T20:26:53Z'
+  isFork: true
+  isArchived: false
+  parentUrl: https://github.com/vlastocom/synology-docker-registry
+  isPrivate: false
+- name: Tennis-Refactoring-Kata
+  description: Starting code for a Refactoring Code Kata on the Tennis rules
+  url: https://github.com/infews/Tennis-Refactoring-Kata
+  pushedAt: '2022-04-22T08:24:51Z'
+  isFork: true
+  isArchived: false
+  parentUrl: https://github.com/emilybache/Tennis-Refactoring-Kata
+  isPrivate: false
+- name: jetbrains-ide-prefs
+  description: JetBrain IDE defaults that we used at Pivotal
+  url: https://github.com/infews/jetbrains-ide-prefs
+  pushedAt: '2021-03-22T18:47:58Z'
+  isFork: true
+  isArchived: false
+  parentUrl: https://github.com/professor/jetbrains-ide-prefs
+  isPrivate: false
+- name: dukedomsbv
+  description: Old Apple II game Dukedom, version in BASIC.
+  url: https://github.com/infews/dukedomsbv
+  pushedAt: '2017-04-21T13:14:48Z'
+  isFork: true
+  isArchived: false
+  parentUrl: https://github.com/joe3k/dukedomsbv
+  isPrivate: false
+- name: git-cal
+  description: github like contributions calendar on terminal
+  url: https://github.com/infews/git-cal
+  pushedAt: '2013-10-01T00:00:14Z'
+  isFork: true
+  isArchived: false
+  parentUrl: https://github.com/k4rthik/git-cal
+  isPrivate: false
