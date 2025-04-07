@@ -5,7 +5,7 @@
   <link href="https://dwf.bigpencil.net/feed.xml" rel="self"/>
   <link href="https://dwf.bigpencil.net/"/>
   <id>urn:uuid:b7b7a839-4395-4fd8-b897-9256f2f64957</id>
-  <updated>2025-04-04T12:53:40-07:00</updated>
+  <updated>2025-04-07T16:18:59-04:00</updated>
   <author>
     <name>Davis W. Frank</name>
   </author>
@@ -110,8 +110,8 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 </content>
-    <published>2025-01-09T16:00:00-08:00</published>
-    <updated>2025-01-11T00:00:00-08:00</updated>
+    <published>2025-01-09T19:00:00-05:00</published>
+    <updated>2025-01-11T00:00:00-05:00</updated>
   </entry>
   <entry>
     <title>Synology on Rails Part VI: An Improved Docker Registry</title>
@@ -148,7 +148,7 @@
 
 &lt;p&gt;I’ve submitted a PR to the original project, but given the age, I’ll keep an eye on my fork for feedback.&lt;/p&gt;
 </content>
-    <published>2024-09-24T17:00:00-07:00</published>
+    <published>2024-09-24T20:00:00-04:00</published>
   </entry>
   <entry>
     <title>Synology on Rails Part V: Automate the Rest</title>
@@ -177,7 +177,7 @@
 
 &lt;p&gt;ps: Big thanks to Luke and Bradley!&lt;/p&gt;
 </content>
-    <published>2024-09-05T17:00:00-07:00</published>
+    <published>2024-09-05T20:00:00-04:00</published>
   </entry>
   <entry>
     <title>That Time I Interviewed Pat Gelsinger for a Bit</title>
@@ -262,8 +262,8 @@
 &lt;p&gt;We never had a chance.&lt;/p&gt;
 
 </content>
-    <published>2024-08-03T15:01:00-07:00</published>
-    <updated>2024-09-08T00:00:00-07:00</updated>
+    <published>2024-08-03T18:01:00-04:00</published>
+    <updated>2024-09-08T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Interestings for Iterators (i4i) Vol I, #7</title>
@@ -301,7 +301,7 @@
 &lt;/ul&gt;
 
 </content>
-    <published>2024-06-14T03:00:00-07:00</published>
+    <published>2024-06-14T06:00:00-04:00</published>
   </entry>
   <entry>
     <title>Interestings for Iterators (i4i) Vol I, #6</title>
@@ -334,7 +334,7 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 </content>
-    <published>2024-06-07T12:56:00-07:00</published>
+    <published>2024-06-07T15:56:00-04:00</published>
   </entry>
   <entry>
     <title>Interestings for Iterators (i4i) Vol I, #5</title>
@@ -361,8 +361,8 @@
 
 &lt;p&gt;And if you’re sending this podcast to one of those folks, here’s the referenced &lt;a href="https://xkcd.com/2347/"&gt;XKCD “Jenga” comic&lt;/a&gt;, titled, appropriately, &lt;em&gt;Dependency&lt;/em&gt;. Don’t miss the hover!&lt;/p&gt;
 </content>
-    <published>2024-05-31T12:56:00-07:00</published>
-    <updated>2025-01-10T00:00:00-08:00</updated>
+    <published>2024-05-31T15:56:00-04:00</published>
+    <updated>2025-01-10T00:00:00-05:00</updated>
   </entry>
   <entry>
     <title>Interestings for Iterators Vol I, #4</title>
@@ -401,8 +401,8 @@
 
 &lt;p&gt;Let me know if you’re enjoying these. Feedback is much appreciated. My social links are above.&lt;/p&gt;
 </content>
-    <published>2024-05-17T12:22:00-07:00</published>
-    <updated>2024-05-20T00:00:00-07:00</updated>
+    <published>2024-05-17T15:22:00-04:00</published>
+    <updated>2024-05-20T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Interestings for Iterators Vol I, #3</title>
@@ -433,8 +433,8 @@ This week, we added a &lt;a href="https://alumni-codex.github.io/agile-resources
 &lt;p&gt;&lt;a href="https://whatthedev.buzzsprout.com/673192/14978492-259-agile-anti-patterns-that-are-important-for-developers-to-recognize-with-vmware-tanzu-labs-mik-freedman"&gt;Mik Freedman on the WhatTheDev? Podcast&lt;/a&gt; Mik talks about detecting Agile anti-patterns. It’s short, and full of very familiar concepts. Hearing them again, and more of a “whole org” context, it provides a bit of that hope that John Cutler mentions.&lt;/p&gt;
 
 </content>
-    <published>2024-05-02T17:00:00-07:00</published>
-    <updated>2025-01-10T00:00:00-08:00</updated>
+    <published>2024-05-02T20:00:00-04:00</published>
+    <updated>2025-01-10T00:00:00-05:00</updated>
   </entry>
   <entry>
     <title>Synology on Rails Part IV: Simplifying Deploys</title>
@@ -540,7 +540,7 @@ services:
   &lt;/ol&gt;
 &lt;/div&gt;
 </content>
-    <published>2024-04-30T17:00:00-07:00</published>
+    <published>2024-04-30T20:00:00-04:00</published>
   </entry>
   <entry>
     <title>Synology on Rails Part III: Improve Deploying with a Local Registry</title>
@@ -622,8 +622,8 @@ services:
 
 &lt;p&gt;Next up is using this registry at deploy time.&lt;/p&gt;
 </content>
-    <published>2024-04-27T17:00:00-07:00</published>
-    <updated>2024-09-25T00:00:00-07:00</updated>
+    <published>2024-04-27T20:00:00-04:00</published>
+    <updated>2024-09-25T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Interestings for Iterators Vol I, #2</title>
@@ -661,8 +661,8 @@ services:
 &lt;p&gt;Phew, that’s two! Feedback welcome (see &lt;a href="/about_me"&gt;my about page&lt;/a&gt;)!&lt;/p&gt;
 
 </content>
-    <published>2024-04-25T17:00:00-07:00</published>
-    <updated>2024-09-06T00:00:00-07:00</updated>
+    <published>2024-04-25T20:00:00-04:00</published>
+    <updated>2024-09-06T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Interestings for Iterators Vol I, #1</title>
@@ -729,8 +729,8 @@ services:
 &lt;p&gt;Thanks for reading! And thanks to &lt;a href="https://www.simplermachines.com/"&gt;Nat Bennett&lt;/a&gt; for the inspiration. Let me know what you think about this (see &lt;a href="/about_me"&gt;my about page&lt;/a&gt;).&lt;/p&gt;
 
 </content>
-    <published>2024-04-18T17:00:00-07:00</published>
-    <updated>2024-05-20T00:00:00-07:00</updated>
+    <published>2024-04-18T20:00:00-04:00</published>
+    <updated>2024-05-20T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Why Do We Miss Pivotal Tracker?</title>
@@ -817,7 +817,7 @@ services:
   &lt;/ol&gt;
 &lt;/div&gt;
 </content>
-    <published>2024-03-05T16:00:00-08:00</published>
+    <published>2024-03-05T19:00:00-05:00</published>
   </entry>
   <entry>
     <title>Synology on Rails Part II: Deploying</title>
@@ -1082,7 +1082,7 @@ end
   &lt;/ol&gt;
 &lt;/div&gt;
 </content>
-    <published>2023-12-15T12:34:00-08:00</published>
+    <published>2023-12-15T15:34:00-05:00</published>
   </entry>
   <entry>
     <title>Synology on Rails Part I: Running</title>
@@ -1251,8 +1251,8 @@ USER rails:users
 &lt;p&gt;Next post: automating the deploy.&lt;/p&gt;
 
 </content>
-    <published>2023-12-12T12:35:00-08:00</published>
-    <updated>2024-09-26T00:00:00-07:00</updated>
+    <published>2023-12-12T15:35:00-05:00</published>
+    <updated>2024-09-26T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Dynamic Polymorphic Forms in Rails 7</title>
@@ -1448,7 +1448,7 @@ end
 &lt;/ul&gt;
 
 </content>
-    <published>2023-11-15T08:18:00-08:00</published>
+    <published>2023-11-15T11:18:00-05:00</published>
   </entry>
   <entry>
     <title>Guest on Radio Free XP Podcast</title>
@@ -1474,8 +1474,8 @@ end
   &lt;/ol&gt;
 &lt;/div&gt;
 </content>
-    <published>2023-10-28T11:15:00-07:00</published>
-    <updated>2023-10-31T00:00:00-07:00</updated>
+    <published>2023-10-28T14:15:00-04:00</published>
+    <updated>2023-10-31T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Balanced and Empowered</title>
@@ -1568,8 +1568,8 @@ end
   &lt;/ol&gt;
 &lt;/div&gt;
 </content>
-    <published>2023-10-04T17:00:00-07:00</published>
-    <updated>2023-11-15T00:00:00-08:00</updated>
+    <published>2023-10-04T20:00:00-04:00</published>
+    <updated>2023-11-15T00:00:00-05:00</updated>
   </entry>
   <entry>
     <title>The Team is the Agent of Work</title>
@@ -1633,8 +1633,8 @@ end
 &lt;p&gt;The &lt;em&gt;team&lt;/em&gt; is the agent of work.&lt;/p&gt;
 
 </content>
-    <published>2023-09-18T15:11:00-07:00</published>
-    <updated>2023-10-06T00:00:00-07:00</updated>
+    <published>2023-09-18T18:11:00-04:00</published>
+    <updated>2023-10-06T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Improved 1-1 Note Taking</title>
@@ -1694,7 +1694,7 @@ end
 
 &lt;p&gt;I hope this helps you. Five Stars. Will take notes again.&lt;/p&gt;
 </content>
-    <published>2023-09-13T10:54:00-07:00</published>
+    <published>2023-09-13T13:54:00-04:00</published>
   </entry>
   <entry>
     <title>Three Cheers for Release Engineering</title>
@@ -1715,7 +1715,7 @@ end
 
 &lt;p&gt;&lt;a href="https://youtu.be/ih2JHXBb8tY"&gt;Three Cheers for Release Engineering&lt;/a&gt;&lt;/p&gt;
 </content>
-    <published>2023-08-14T07:16:00-07:00</published>
+    <published>2023-08-14T10:16:00-04:00</published>
   </entry>
   <entry>
     <title>Curiosity and Impatience</title>
@@ -1764,8 +1764,8 @@ end
 
 &lt;p&gt;Stay impatient. Stay curious.&lt;/p&gt;
 </content>
-    <published>2023-07-17T17:00:00-07:00</published>
-    <updated>2023-07-22T00:00:00-07:00</updated>
+    <published>2023-07-17T20:00:00-04:00</published>
+    <updated>2023-07-22T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>A Little More Yak Trimming</title>
@@ -1817,8 +1817,8 @@ set :markdown,
 
 &lt;p&gt;That’s enough blog yak shaving for a while. Back to writing…&lt;/p&gt;
 </content>
-    <published>2023-07-15T14:45:00-07:00</published>
-    <updated>2023-11-15T00:00:00-08:00</updated>
+    <published>2023-07-15T17:45:00-04:00</published>
+    <updated>2023-11-15T00:00:00-05:00</updated>
   </entry>
   <entry>
     <title>Anchor's Away</title>
@@ -1871,8 +1871,8 @@ set :markdown,
   &lt;li&gt;The judges also would have accepted the title of “Anchor Finally on the Fritz”.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-    <published>2023-07-12T14:51:00-07:00</published>
-    <updated>2025-04-04T00:00:00-07:00</updated>
+    <published>2023-07-12T17:51:00-04:00</published>
+    <updated>2025-04-04T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Shaving The Blog Yak</title>
@@ -1921,8 +1921,8 @@ set :markdown,
 
 &lt;p&gt;Was this yak shaving? Absolutely. Was it fun? Also absolutely.&lt;/p&gt;
 </content>
-    <published>2023-07-11T09:43:00-07:00</published>
-    <updated>2023-11-15T00:00:00-08:00</updated>
+    <published>2023-07-11T12:43:00-04:00</published>
+    <updated>2023-11-15T00:00:00-05:00</updated>
   </entry>
   <entry>
     <title>GoGaRuCo 2013 Storytime</title>
@@ -1945,8 +1945,8 @@ uncovered the video this week. And that it had 200+ views!&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=ueeZKPGNk6I"&gt;GoGaRuCo 2013 - Afternoon Storytime - How I test-drove my Career&lt;/a&gt; (YouTube)&lt;/p&gt;
 
 </content>
-    <published>2023-06-28T08:09:00-07:00</published>
-    <updated>2023-08-14T00:00:00-07:00</updated>
+    <published>2023-06-28T11:09:00-04:00</published>
+    <updated>2023-08-14T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>3X but It's People</title>
@@ -2002,8 +2002,8 @@ uncovered the video this week. And that it had 200+ views!&lt;/p&gt;
 &lt;p&gt;Thinking about the 3X’s of people can help you staff your projects for maximum productivity and happiness. It turns out software is made of people.&lt;/p&gt;
 
 </content>
-    <published>2022-06-19T14:58:00-07:00</published>
-    <updated>2023-12-15T00:00:00-08:00</updated>
+    <published>2022-06-19T17:58:00-04:00</published>
+    <updated>2023-12-15T00:00:00-05:00</updated>
   </entry>
   <entry>
     <title>What Brown M&amp;M's Taught Me About Software</title>
@@ -2048,8 +2048,8 @@ uncovered the video this week. And that it had 200+ views!&lt;/p&gt;
 
 &lt;p&gt;Today I’d just say “Ship it!”&lt;/p&gt;
 </content>
-    <published>2022-01-16T18:51:00-08:00</published>
-    <updated>2023-07-17T00:00:00-07:00</updated>
+    <published>2022-01-16T21:51:00-05:00</published>
+    <updated>2023-07-17T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Job Search Journaling with Obsidian - updated</title>
@@ -2114,8 +2114,8 @@ uncovered the video this week. And that it had 200+ views!&lt;/p&gt;
 &lt;/ul&gt;
 
 </content>
-    <published>2021-09-17T14:36:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
+    <published>2021-09-17T17:36:00-04:00</published>
+    <updated>2023-07-12T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>What I Talk About When I Talk About Management</title>
@@ -2209,8 +2209,8 @@ uncovered the video this week. And that it had 200+ views!&lt;/p&gt;
 &lt;script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 
 </content>
-    <published>2021-06-02T07:59:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
+    <published>2021-06-02T10:59:00-04:00</published>
+    <updated>2023-07-12T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>On Pair Programming</title>
@@ -2287,8 +2287,8 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 
 &lt;p&gt;In my experience I’ve seen pair programming work in a lot of contexts. But for pairing to &lt;em&gt;last&lt;/em&gt; in a lot of contexts, you need to remember that your developers are people. And you need to take care of people first so that they can take care of the product and themselves.&lt;/p&gt;
 </content>
-    <published>2021-05-26T07:51:00-07:00</published>
-    <updated>2023-07-17T00:00:00-07:00</updated>
+    <published>2021-05-26T10:51:00-04:00</published>
+    <updated>2023-07-17T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>My Obsidian for a Job Search</title>
@@ -2332,8 +2332,8 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;p&gt;It’s also a GitHub repo. So issues welcome. Though I will be picky about PR’s. Make this your own.&lt;/p&gt;
 
 </content>
-    <published>2021-04-30T17:03:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
+    <published>2021-04-30T20:03:00-04:00</published>
+    <updated>2023-07-12T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Cmd-O is My New and Old Friend</title>
@@ -2373,8 +2373,8 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;p&gt;Just glorious.&lt;/p&gt;
 
 </content>
-    <published>2021-04-30T17:00:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
+    <published>2021-04-30T20:00:00-04:00</published>
+    <updated>2023-07-12T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>History of The Big Pencil</title>
@@ -2408,8 +2408,8 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;p&gt;That note has been in this frame ever since.&lt;/p&gt;
 
 </content>
-    <published>2021-03-21T11:22:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
+    <published>2021-03-21T14:22:00-04:00</published>
+    <updated>2023-07-12T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Don't Sleep on the Command Palette</title>
@@ -2423,8 +2423,8 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;p&gt;While I’m still learning how to use Obsidian, I find the Command Palette amazing. &lt;code&gt;Ctrl+P/Cmd+P&lt;/code&gt; brings up a searchable list of commands. I find new actions here all the time. And it’s the fastest way to put an &lt;a href="/obsidian-links"&gt;Obsidian URL&lt;/a&gt; on your clipboard.&lt;/p&gt;
 
 </content>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
+    <published>2021-03-21T12:14:00-04:00</published>
+    <updated>2023-07-12T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Obsidian URLs</title>
@@ -2446,8 +2446,8 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;p&gt;With any note open, “Copy Obsidian URL” is available via the Command Palette and the note menu.&lt;/p&gt;
 
 </content>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
+    <published>2021-03-21T12:14:00-04:00</published>
+    <updated>2023-07-12T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Community Plugin: Calendar</title>
@@ -2461,8 +2461,8 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 
 &lt;p&gt;I find this is faster for zeroing in on historical notes. And sometimes you just need another calendar right in front of you during the day.&lt;/p&gt;
 </content>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
+    <published>2021-03-21T12:14:00-04:00</published>
+    <updated>2023-07-12T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Thoughts on Vaults</title>
@@ -2481,8 +2481,8 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;p&gt;I keep the all of my vaults as subdirectories in one directory that lives online for ease of access from different computers and mobile devices. At the moment this is on Dropbox.&lt;/p&gt;
 
 </content>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
+    <published>2021-03-21T12:14:00-04:00</published>
+    <updated>2023-07-12T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Note Taking in 1-1's</title>
@@ -2578,8 +2578,8 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 
 &lt;p&gt;I will add new Topics to the Person’s note as they come up. The Linked Mentions tab becomes a great historical list of our 1-1 meetings.&lt;/p&gt;
 </content>
-    <published>2021-03-21T09:14:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
+    <published>2021-03-21T12:14:00-04:00</published>
+    <updated>2023-07-12T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Using Links</title>
@@ -2601,8 +2601,8 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;p&gt;I also like putting them at the bottom of the current note, below a Horizontal Rule, where they are out of the way. I have experimented with putting all of the references at the top of the file, but for now, I keep them at the bottom.&lt;/p&gt;
 
 </content>
-    <published>2021-03-21T09:13:00-07:00</published>
-    <updated>2023-07-17T00:00:00-07:00</updated>
+    <published>2021-03-21T12:13:00-04:00</published>
+    <updated>2023-07-17T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Using Tags</title>
@@ -2619,8 +2619,8 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;p&gt;As I type this, I realize that all of the tags I care about are types of notes and thus have templates associated with them. So each template includes the tag. I barely even think about them except when searching.&lt;/p&gt;
 
 </content>
-    <published>2021-03-21T09:13:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
+    <published>2021-03-21T12:13:00-04:00</published>
+    <updated>2023-07-12T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Core Plugin: Templates</title>
@@ -2648,8 +2648,8 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 
 &lt;p&gt;And yes, the Daily Journal plugin is fine with the daily template living in this directory.&lt;/p&gt;
 </content>
-    <published>2021-03-21T09:12:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
+    <published>2021-03-21T12:12:00-04:00</published>
+    <updated>2023-07-12T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Core Plugin: Daily Journal</title>
@@ -2697,8 +2697,8 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 
 &lt;p&gt;I talk about linking to people in &lt;a href="/one-on-one-notes"&gt;Obsidian 1-1’s&lt;/a&gt;.&lt;/p&gt;
 </content>
-    <published>2021-03-20T17:27:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
+    <published>2021-03-20T20:27:00-04:00</published>
+    <updated>2023-07-12T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Driven to Tests</title>
@@ -2778,8 +2778,8 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
   &lt;/ol&gt;
 &lt;/div&gt;
 </content>
-    <published>2021-02-02T13:53:00-08:00</published>
-    <updated>2023-10-06T00:00:00-07:00</updated>
+    <published>2021-02-02T16:53:00-05:00</published>
+    <updated>2023-10-06T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Start with Retrospectives</title>
@@ -2843,8 +2843,8 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;p&gt;Retrospectives are the foundation for any great team. They build trust. They surface issues when they are painful. And they allow a team to improve continuously as they deliver continuously.&lt;/p&gt;
 
 </content>
-    <published>2020-11-29T16:00:00-08:00</published>
-    <updated>2023-09-18T00:00:00-07:00</updated>
+    <published>2020-11-29T19:00:00-05:00</published>
+    <updated>2023-09-18T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>The Name Game</title>
@@ -2872,8 +2872,8 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 
 &lt;p&gt;&lt;strong&gt;DWF (rhymes with “woof”):&lt;/strong&gt; 12/10 💪 I have cooked for you&lt;/p&gt;
 </content>
-    <published>2020-11-21T16:20:00-08:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
+    <published>2020-11-21T19:20:00-05:00</published>
+    <updated>2023-07-12T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Introducing The Continuous Delivery Test</title>
@@ -3062,8 +3062,8 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;p&gt;The team should review the open action items at the beginning of each retro. This serves as a reminder to the owners. They are helping the team fix a problem and making everyone more productive and happy. When an action item is complete, the team should celebrate!&lt;/p&gt;
 
 </content>
-    <published>2020-11-04T16:00:00-08:00</published>
-    <updated>2023-09-18T00:00:00-07:00</updated>
+    <published>2020-11-04T19:00:00-05:00</published>
+    <updated>2023-09-18T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>COVID-19-Inspired Meal Planning</title>
@@ -3177,8 +3177,8 @@ Pivotal Labs was successful at teaching teams how to “be agile” while shippi
 &lt;p&gt;What did I learn? A spreadsheet is a great place to start with any new app that is data-related. There’s a threshold you cross where project’s complexity begs for multiple tabs, conditional logic, and &lt;em&gt;gasp&lt;/em&gt; queries. When you see that threshold, taking a look at &lt;a href="https://www.airtable.com"&gt;Airtable&lt;/a&gt;, or maybe the newly announced &lt;a href="https://tables.area120.google.com/u/0/home"&gt;Google Tables&lt;/a&gt;, is a good investment.&lt;/p&gt;
 
 </content>
-    <published>2020-09-23T17:00:00-07:00</published>
-    <updated>2021-05-15T00:00:00-07:00</updated>
+    <published>2020-09-23T20:00:00-04:00</published>
+    <updated>2021-05-15T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Improving Standups</title>
@@ -3293,8 +3293,8 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
 &lt;p&gt;This is just a starting point. It is ripe for innovation and iteration. Knock yourself out. But be careful of the yaks you choose to shave - it’s just for five minutes out of your team’s day. Do what works.&lt;/p&gt;
 
 </content>
-    <published>2020-09-21T17:00:00-07:00</published>
-    <updated>2023-07-17T00:00:00-07:00</updated>
+    <published>2020-09-21T20:00:00-04:00</published>
+    <updated>2023-07-17T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Foo Fighters 1995</title>
@@ -3335,8 +3335,8 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
   &lt;/ol&gt;
 &lt;/div&gt;
 </content>
-    <published>2020-09-14T17:00:00-07:00</published>
-    <updated>2023-09-13T00:00:00-07:00</updated>
+    <published>2020-09-14T20:00:00-04:00</published>
+    <updated>2023-09-13T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Drake Your Job</title>
@@ -3478,8 +3478,8 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
 
 &lt;p&gt;What are the components of &lt;em&gt;your&lt;/em&gt; Drake Job Equation?&lt;/p&gt;
 </content>
-    <published>2018-08-02T17:00:00-07:00</published>
-    <updated>2024-11-21T00:00:00-08:00</updated>
+    <published>2018-08-02T20:00:00-04:00</published>
+    <updated>2024-11-21T00:00:00-05:00</updated>
   </entry>
   <entry>
     <title>Goodbye Chris Cornell</title>
@@ -3520,8 +3520,8 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
 &lt;p&gt;This is what #adulting is all about.&lt;/p&gt;
 
 </content>
-    <published>2017-05-17T17:00:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
+    <published>2017-05-17T20:00:00-04:00</published>
+    <updated>2023-07-12T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Goodbye Jonathan Demme</title>
@@ -3549,8 +3549,8 @@ Now you can add one card for each team member to the Pairing Parking Lot. Your b
 
 &lt;p&gt;RIP and &lt;em&gt;Thank You&lt;/em&gt;, Mr. Demme.&lt;/p&gt;
 </content>
-    <published>2017-04-25T17:00:00-07:00</published>
-    <updated>2023-07-12T00:00:00-07:00</updated>
+    <published>2017-04-25T20:00:00-04:00</published>
+    <updated>2023-07-12T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>How One Funny Email Almost Changed My Career</title>
@@ -3600,8 +3600,8 @@ When you think yourself a fun and funny co-worker, you want that email to be &lt
 &lt;p&gt;I guess I do.&lt;/p&gt;
 
 </content>
-    <published>2016-10-05T17:00:00-07:00</published>
-    <updated>2023-07-06T00:00:00-07:00</updated>
+    <published>2016-10-05T20:00:00-04:00</published>
+    <updated>2023-07-06T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>How We XP: Develop &amp; Deploy</title>
@@ -3730,8 +3730,8 @@ When you think yourself a fun and funny co-worker, you want that email to be &lt
 
 &lt;p&gt;Code should always move towards Production. It increases the confidence in the code and keeps regressions low. When a fix is made downstream of development, then it’s harder than normal development to integrate that fix back in development.&lt;/p&gt;
 </content>
-    <published>2015-10-31T17:00:00-07:00</published>
-    <updated>2021-05-15T00:00:00-07:00</updated>
+    <published>2015-10-31T20:00:00-04:00</published>
+    <updated>2021-05-15T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Bose Customer Service</title>
@@ -3773,8 +3773,8 @@ When you think yourself a fun and funny co-worker, you want that email to be &lt
 
 &lt;p&gt;Meanwhile? Super Happy Customer.&lt;/p&gt;
 </content>
-    <published>2011-04-20T17:00:00-07:00</published>
-    <updated>2021-05-15T00:00:00-07:00</updated>
+    <published>2011-04-20T20:00:00-04:00</published>
+    <updated>2021-05-15T00:00:00-04:00</updated>
   </entry>
   <entry>
     <title>Kids &amp; Teachable Moments</title>
@@ -3831,7 +3831,7 @@ When you think yourself a fun and funny co-worker, you want that email to be &lt
 
 &lt;p&gt;The boy, “Oh, MAN!”&lt;/p&gt;
 </content>
-    <published>2011-03-23T17:00:00-07:00</published>
-    <updated>2023-07-17T00:00:00-07:00</updated>
+    <published>2011-03-23T20:00:00-04:00</published>
+    <updated>2023-07-17T00:00:00-04:00</updated>
   </entry>
 </feed>
