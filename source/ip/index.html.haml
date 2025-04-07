@@ -3,7 +3,9 @@ pageable: true
 layout: layout
 ---
 
-%h1 My GitHub Repositories
+%h1 Davis W. Frank at GitHub
+
+%p= link_to "GitHub profile for @infews", "https://github.com/infews/"
 
 %h2 Personal Repositories
 
@@ -15,6 +17,7 @@ layout: layout
     %li= link_to repo.name, repo.url
     %ul
       %li= repo.description
+      %li= repo.url
       %li Last commit at #{repo.pushedAt}
       - if repo.isPrivate
         %li.private_repo Private repository
@@ -29,6 +32,7 @@ These repos represent forks of other public, open source projects where I may be
   - data.repos.forks.each do |repo|
     %li= link_to repo.name, repo.url
     %ul
+      %li= repo.url
       %li= repo.description
       %li Last commit at #{repo.pushedAt}
       - if repo.isFork
