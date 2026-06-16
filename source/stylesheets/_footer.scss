@@ -1,0 +1,46 @@
+// @spec CHROME-UI-006 CHROME-UI-007 CHROME-UI-008 CHROME-UI-009
+
+.site-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: var(--space-footer-padding);
+  border-top: 0.5px solid var(--border-color);
+  font-family: var(--font-heading);
+  font-size: var(--type-footer-link);
+  color: var(--color-text-tertiary);
+  text-align: center;
+
+  @media (min-width: 30rem) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    gap: 0;
+  }
+
+  .footer-brand {
+    font-weight: 700;
+    color: var(--text-color);
+  }
+
+  .footer-social {
+    display: flex;
+    gap: 1rem;
+
+    a {
+      color: var(--color-text-tertiary);
+      text-decoration: none;
+      letter-spacing: 0.02em;
+
+      &:hover {
+        color: var(--link-hover-color);
+      }
+    }
+  }
+
+  .footer-copy {
+    letter-spacing: 0.02em;
+  }
+}

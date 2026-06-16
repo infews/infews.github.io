@@ -1,3 +1,4 @@
+-# Resume uses its own layout intentionally — no site nav, no footer, print-first chrome.
 !!! 5
 %html{lang: "en"}
   %head
@@ -11,24 +12,24 @@
       = config[:site_author]
     %ul.social
       %li.email
-        %a{href: "mailto:dwfrank@gmail.com"}
+        %a{href: "mailto:#{config[:email]}"}
           %span.fa-solid.fa-envelope
-          %span dwfrank@gmail.com
+          %span= config[:email]
       %li.gh
-        %a{href: "https://github.com/infews"}
+        %a{href: "https://github.com/#{config[:github_username]}"}
           %span.fa-brands.fa-github-alt
-          %span github.com/infews
+          %span= "github.com/#{config[:github_username]}"
       %li.web
-        %a{href: "https://dwf.bigpencil.net"}
+        %a{href: config[:site_url]}
           %span.fa-solid.fa-pen-fancy
-          %span dwf.bigpencil.net
+          %span= config[:site_url].sub("https://", "").chomp("/")
       %li.map
         %span.fa-solid.fa-map-marked-alt
         %span San Francisco Bay Area
       %li.linkedin
-        %a{href: "https://linkedin.com/in/daviswfrank"}
+        %a{href: "https://www.linkedin.com/in/#{config[:linkedin_username]}"}
           %span.fa-brands.fa-linkedin-in
-          %span linkedin.com/in/daviswfrank
+          %span= "linkedin.com/in/#{config[:linkedin_username]}"
       %li.resume-link.print-only
         - resume_link = "dwf.bigpencil.net#{current_resource.url}"
         %a{href: "https://#{resume_link}"}

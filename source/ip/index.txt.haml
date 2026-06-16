@@ -1,0 +1,31 @@
+= "GitHub repositories that are prior inventions and IP:"
+
+- data.repos.nonForks.each do |repo|
+  = " #{repo.name}, #{ repo.url}"
+- repo = data.repos.forks.first
+= " #{repo.name}, #{ repo.url}"
+
+-#  , #{repo.description}".html_safe"
+-#   = "    - #{repo.url}"
+-#   ="    - Last commit at #{repo.pushedAt}"
+-#   - if repo.isPrivate
+-#     = "    - Private repository"
+-#   - if repo.isArchived
+-#     = "    - Repo archived for historical purposes. No active work."
+-#
+-# = "\n"
+-# = "\n"
+-# = "## Forked Repositories"
+-# = "\n"
+-#
+-# These repos represent forks of other public, open source projects where I may be currently contributing code and content.
+-# = "\n"
+-#
+-# - data.repos.forks.each do |repo|
+-#   = "- #{repo.name}"
+-#   = "    - #{repo.description}"
+-#   = "    - #{repo.url}"
+-#   ="    - Last commit at #{repo.pushedAt}"
+-#   - if repo.isFork
+-#     = "    - Forked repo for submitting pull requests."
+-#     = "    - Parent repository: #{repo.parentUrl}"

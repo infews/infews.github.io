@@ -29,7 +29,7 @@ module LinkingDataHelpers
       elsif /^\/tags/.match?(current_page.url)
         tag = current_page.url.split("/").last
         article_list_ld_for(current_page, "DWF's Journal - Posts tagged with \"#{tag}\"", articles)
-      elsif /^\/series/.match?(current_page.url)
+      elsif /^\/series\/.+/.match?(current_page.url)
         series_page_ld_for(current_page, articles, site_data)
       elsif current_page.url == "/"
         home_page_ld(current_page, blog, sitemap, site_data)
@@ -100,14 +100,9 @@ module LinkingDataHelpers
   def home_page_ld(home_page, blog, sitemap, site_data)
     featured_articles_ld = []
     featured_articles_ld << single_article_ld_for(blog.articles.first).linking_data
-    cd = "the-cd-test"
-    featured_articles_ld << series_page_on_home_page_ld_for(cd,
-      site_data.series[cd],
-      sitemap).linking_data
-    obs = "obsidian"
-    featured_articles_ld << series_page_on_home_page_ld_for(obs,
-      site_data.series[obs],
-      sitemap).linking_data
+    site_data.series.each do |slug, series_data|
+      featured_articles_ld << series_page_on_home_page_ld_for(slug, series_data, sitemap).linking_data
+    end
     HomeLd.new do |p|
       p.url = full_url_for(home_page.url)
       p.published_at = created_date_dashed(home_page.source_file)

@@ -1,0 +1,116 @@
+// @spec CHROME-NAV-001 CHROME-NAV-002 CHROME-NAV-003 CHROME-NAV-004
+
+.site-header {
+  display: flex;
+  align-items: flex-start;    // top-align brand + hamburger on mobile
+  flex-wrap: wrap;
+  padding: var(--space-nav-padding);
+  border-bottom: 0.5px solid var(--border-color);
+
+  .brand {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    .brand-name {
+      font-family: var(--font-heading);
+      font-size: var(--type-nav-brand);
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-decoration: none;
+      color: var(--text-color);
+    }
+
+    .tagline {
+      font-family: var(--font-heading);
+      font-size: var(--type-nav-tagline);
+      color: var(--color-text-tertiary);
+      letter-spacing: 0.03em;
+    }
+  }
+
+  .nav-toggle { display: none; }
+
+  .hamburger {
+    display: block;
+    width: auto;               // reset HolidayCSS label: width 100%
+    margin-top: 0;             // reset HolidayCSS label: margin-top 1rem
+    cursor: pointer;
+    color: var(--text-color);
+    font-size: 1.25rem;
+
+    .fa-xmark { display: none; }
+  }
+
+  .nav-toggle:checked ~ .hamburger {
+    .fa-bars  { display: none; }
+    .fa-xmark { display: block; }
+  }
+
+  .site-nav {
+    // Reset HolidayCSS mobile nav: full-width positioning + SVG hamburger background
+    position: static;
+    left: auto;
+    width: 100%;
+    padding-top: 0;
+    background-image: none;
+    background-color: transparent;
+    border-bottom: none;       // border lives on .site-header, not the nav
+
+    // Mobile: collapsed by default
+    display: none;
+
+    ul {
+      // Overrides HolidayCSS mobile: nav > * { display: none }
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      padding: 0.5rem 0;
+      margin: 0;
+    }
+
+    li {
+      display: block;
+      margin: 0;
+    }
+
+    li a {
+      display: block;
+      font-family: var(--font-heading);
+      font-size: var(--type-nav-link);
+      letter-spacing: 0.03em;
+      text-decoration: none;
+      color: var(--text-color);
+      padding: 0.5rem 0;
+      white-space: normal;    // reset HolidayCSS: white-space nowrap
+
+      &:hover { color: var(--link-color); }
+    }
+  }
+
+  .nav-toggle:checked ~ .site-nav { display: block; }
+
+  // Desktop: hamburger hidden, nav always visible as flex row
+  @media (min-width: 30rem) {
+    align-items: center;       // center-align brand + links on desktop
+
+    .hamburger { display: none; }
+
+    .site-nav {
+      display: block;
+      width: auto;
+
+      ul {
+        flex-direction: row;
+        padding: 0;
+      }
+
+      li a {
+        display: inline;
+        padding: 0 0.5rem;
+        white-space: nowrap;
+      }
+    }
+  }
+}

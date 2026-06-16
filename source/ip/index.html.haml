@@ -34,6 +34,7 @@ These repos represent forks of other public, open source projects where I may be
     %ul
       %li= repo.url
       %li= repo.description
+      %li= link_to repo.url, repo.url
       %li Last commit at #{repo.pushedAt}
       - if repo.isFork
         %li.forked Forked repo for submitting pull requests.

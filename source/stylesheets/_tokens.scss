@@ -1,0 +1,74 @@
+// @spec CHROME-UI-002
+:root {
+  // Light mode — text
+  --text-color:     #333;
+  --color-text-secondary:   #666;
+  --color-text-tertiary:    #999;
+
+  // Light mode — backgrounds
+  --background-color:       #fff;
+  --highlighted-background-color:     #f5f5f5;
+
+  // Light mode — borders
+  --color-border-primary:   #333;
+  --border-color: #ccc;
+  --color-border-tertiary:  #e0e0e0;
+
+  // Light mode — links
+  --link-color:             #3273dc;
+  --link-visited-color:     rebeccapurple;
+  --link-hover-color:       #363636;
+
+  // @spec CHROME-UI-003
+  // Font families
+  --font-heading: 'Alegreya Sans SC', sans-serif;
+  --font-body:    'IBM Plex Serif', serif;
+  --font-mono:    'IBM Plex Mono', monospace;
+
+  // Type scale
+  --type-nav-brand:      1.125rem;   // 18px
+  --type-nav-link:       0.9375rem;  // 15px
+  --type-nav-tagline:    0.875rem;   // 14px
+  --type-h1:             1.75rem;    // 28px
+  --type-h2:             1.5rem;     // 24px
+  --type-h3:             1.25rem;    // 20px
+  --type-body:           0.9375rem;  // 15px
+  --type-subtitle:       1rem;       // 16px
+  // These four share the same value intentionally — each names a distinct semantic role
+  // so they can diverge independently in the future without hunting for magic numbers.
+  --type-byline:         0.6875rem;  // 11px
+  --type-series-label:   0.6875rem;  // 11px
+  --type-tag:            0.6875rem;  // 11px
+  --type-footer-link:    0.6875rem;  // 11px
+  --type-footnote-text:  0.75rem;    // 12px
+  --type-footnote-num:   0.625rem;   // 10px
+  --type-post-nav:       0.8125rem;  // 13px
+
+  // Line heights
+  --leading-tight:  1.2;
+  --leading-body:   1.85;
+  --leading-loose:  1.7;
+
+  // @spec CHROME-UI-004
+  // Spacing & layout
+  --space-nav-padding:      1rem 1.5rem;
+  --space-footer-padding:   1.5rem;
+  --max-width-content:      48rem;   // ~768px
+}
+
+// @spec CHROME-UI-005
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color:     #ccc;
+    --color-text-secondary:   #aaa;
+    --color-text-tertiary:    lightsteelblue;
+    --background-color:       #1a1a1a;
+    --highlighted-background-color:     #2a2a2a;
+    --color-border-primary:   #ccc;
+    --border-color: #555;
+    --color-border-tertiary:  #444;
+    --link-color:             #90b3ed;
+    --link-visited-color:     #cb93ff;
+    --link-hover-color:       #fff;
+  }
+}

@@ -1,0 +1,34 @@
+// @spec CUT-PROC-001
+
+html {
+  font-size: 16px; // rem basis for all v26 type-scale tokens
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--text-color);
+  background: var(--background-color);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+img.avatar {
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px var(--background-color), 0 0 0 4px var(--border-color);
+}
+
+a {
+  color: var(--link-color);
+
+  &:visited {
+    color: var(--link-visited-color);
+  }
+
+  &:hover {
+    color: var(--link-hover-color);
+  }
+}

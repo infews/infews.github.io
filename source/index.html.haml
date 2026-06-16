@@ -5,42 +5,40 @@ wrapper_class: home
 layout: layout
 ---
 
-%header
-  %h1= config[:site_title]
-  %span.tagline= config[:site_subtitle]
+-# @spec HOME-UI-003 HOME-UI-004 HOME-UI-005 HOME-UI-006
+.profile-strip
+  %img.avatar{src: url_for('/images/dwf.png'), srcset: "#{url_for '/images/dwf@2x.png'} 2x", alt: "Davis's Profile Photo"}
+  .profile-text
+    %h1 Hello, I'm Davis.
+    %p
+      You may know me from my time at Pivotal Labs, where I helped build Rails and mobile apps,
+      or from co-writing Jasmine, a JavaScript testing framework.
+      This is where I write about software engineering, leadership, and occasional digressions.
 
-%section.intro
-  .text
-    :markdown
-      Hello, there! I'm Davis.
-
-      You may know me from my time at Pivotal and Pivotal Labs, where I helped our clients build Ruby on Rails or mobile JavaScript apps. Or maybe from co-writing [Jasmine](https://jasmine.github.io), a JavaScript testing framework.  Or maybe you saw me speak at RailsConf. Or GoGaRuCo. Or some local meetup.
-
-      It's good to see you again!
-  %img.avatar{src: url_for('/images/dwf.png'), srcset: "#{url_for '/images/dwf@2x.png'} 2x", alt:"Davis's Profile Photo"}
-
-%ul.cards
-  %li.card
-    %h2 Latest
-    = component "article_teaser", {article: blog.articles.first}
+-# @spec HOME-UI-007 HOME-UI-008 HOME-UI-009 HOME-UI-010 HOME-UI-011 HOME-UI-012 RFCT-UI-001 RFCT-UI-002
+.home-grid
+  .recent-posts
+    %h2 Recent Posts
+    -# @spec RFCT-UI-006
+    - blog.articles.first(3).each do |article|
+      .post-entry
+        %h3
+          %a.title{href: article.url}= article.title
+        - if article.data.teaser
+          %p.teaser= teaser_for(article.data)
+        %p.date
+          = article.date.strftime('%-d %B %Y')
+          %span.sep ·
+          = reading_time_for article.body
     .more
-      %a{href:"/posts"}
-        See All
-        %i.fa-solid.fa-chevron-right
-  %li.card
-    %h2 The CD Test
-    %p.series A series about validating your software development team and get better at Continuous Delivery.
+      %a{href: "/posts"} All Posts →
+
+  .series-list
+    %h2 Series
+    - data.series.each do |slug, series|
+      .series-entry
+        %h3
+          %a.series-title{href: "/series/#{slug}"}= series.title
+        %p.series-teaser= series.teaser
     .more
-      %a{href:"/series/the-cd-test"}
-        Read More
-        %i.fa-solid.fa-chevron-right
-  %li.card
-    %h2 Obsidian Tips
-    %p.series
-      All the tips, configuration, and even a few tricks for using
-      = link_to("Obsidian", "https://obsidian.md")
-      for your note taking.
-    .more
-      %a{href:"/series/obsidian"}
-        Read More
-        %i.fa-solid.fa-chevron-right
+      %a{href: "/series"} All Series →

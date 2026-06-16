@@ -1,5 +1,9 @@
-%h3
+-# @spec POSTS-UI-001 POSTS-UI-002 POSTS-UI-003 RFCT-UI-004 RFCT-UI-005
+%h2
   %a{href: article.url, class: "title"}= article.title
 - if article.data.teaser
   %p.teaser= teaser_for(article.data)
-%p.date= article.date.strftime('%e %B %Y')
+%p.date
+  = article.date.strftime('%e %B %Y')
+  %span.sep ·
+  = reading_time_for article.body

@@ -1,0 +1,48 @@
+// @spec POSTS-UI-001 POSTS-UI-002 POSTS-UI-003 POSTS-UI-004
+
+ul.articles {
+  list-style: none;
+  padding: 0;
+
+  hr {
+    border: none;
+    border-top: 0.5px solid var(--color-border-tertiary);
+    margin: 0;
+  }
+
+  li {
+    padding: 0.5rem 0;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  a.title {
+    font-family: var(--font-heading);
+    font-size: var(--type-h3);
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--text-color);
+
+    &:hover {
+      color: var(--link-hover-color);
+    }
+  }
+
+  p.teaser {
+    font-family: var(--font-body);
+    font-size: var(--type-body);
+    font-style: italic;
+    color: var(--color-text-secondary);
+    margin: 0.25rem 0;
+  }
+
+  p.date {
+    font-family: var(--font-heading);
+    font-size: var(--type-footnote-text);  // bumped from byline (11px) to 12px
+    color: var(--color-text-tertiary);
+    letter-spacing: 0.02em;
+    margin: 0;
+  }
+}

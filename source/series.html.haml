@@ -1,0 +1,14 @@
+---
+sitemap_priority: 0.8
+layout: layout
+---
+
+-# @spec SERIES-PROC-001 SERIES-UI-001 SERIES-UI-002 SERIES-UI-003 RFCT-UI-003
+%h1 Series
+
+.series-list
+  - data.series.each do |slug, series|
+    .series-entry
+      %h2
+        %a.series-title{href: "/series/#{slug}"}= series.title
+      %p.series-teaser= series.teaser

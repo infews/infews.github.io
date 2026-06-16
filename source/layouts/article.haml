@@ -3,31 +3,46 @@
 
 = wrap_layout "layout" do
 
-  - if current_resource.data.unsplash
-    - unsplash = current_resource.data.unsplash
-    %picture
-      %img{src: unsplash.url, alt: unsplash.title }
-
   %article
-    %h1
-      = current_article.title
-    %section.header.with_sharing
-      .info
-        %span.date= current_article.date.strftime('%e %B %Y')
-        %span.dash &#8212;
+    -# @spec ART-UI-004 ART-UI-005 ART-UI-006
+    .article-header
+      - if current_resource.data.series
+        - series_key = current_resource.data.series
+        %p.series-label= data.series[series_key].title
+      %h1= current_article.title
+      - if current_resource.data.teaser
+        %p.subtitle= current_resource.data.teaser
+      .byline
+        %span.author= config[:site_author]
+        %span.sep ·
+        %span.date= current_article.date.strftime('%-d %B %Y')
+        %span.sep ·
         %span.duration= reading_time_for current_article.body
-      = component "sharing"
+        %span.sep ·
+        = component "sharing"
+
+    -# @spec ART-UI-007 ART-UI-008
+    - if current_resource.data.unsplash
+      - unsplash = current_resource.data.unsplash
+      %picture.hero
+        %img{src: unsplash.url, alt: unsplash.title}
 
     %section.text
       = yield
 
+    -# @spec ART-UI-009 ART-UI-010
     - if current_article.tags
-      %hr
+      %section.article-tags
+        - current_article.tags.each do |tag|
+          %a.tag{href: tag_url_for(tag)}= tag
 
-      %section.about.with_sharing
-        .tags
-          - if current_article.data.series
-            - series_name = current_article.data.series
-            - series_title = data.series[series_name].title
-          != tag_sentence_for(current_article.tags, series_name, series_title)
-        = component "sharing"
+    -# @spec ART-NAV-001 ART-NAV-002 ART-NAV-003 ART-NAV-004
+    .article-nav
+      - if current_article.article_previous
+        .prev
+          %span.nav-label ← Previous
+          %a{href: current_article.article_previous.url}= current_article.article_previous.title
+      - if current_article.article_next
+        .next
+          %span.nav-label Next →
+          %a{href: current_article.article_next.url}= current_article.article_next.title

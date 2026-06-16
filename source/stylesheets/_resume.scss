@@ -10,12 +10,12 @@
   }
 
   h2 {
-    border-bottom: #dfdfdf 1px solid;
+    border-bottom: var(--color-border-tertiary) 1px solid;
     font-size: 1.5rem;
   }
 
   h3 {
-    border-bottom: #dfdfdf 1px solid;
+    border-bottom: var(--color-border-tertiary) 1px solid;
     font-size: 1.2rem;
   }
 
@@ -71,12 +71,13 @@
     margin-top: 1rem;
     margin-bottom: 0;
     display: flex;
-    flex-flow: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
 
     li {
       font-size: 0.9rem;
-      font-family: $font-family-body;
+      font-family: var(--font-body);
       margin: 0;
     }
   }
@@ -84,7 +85,8 @@
   .tabs-panels {
     margin-top: 0.75rem;
     display: flex;
-    flex-flow: column nowrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
 
     input {
       display: none;
@@ -93,7 +95,8 @@
 
   .tabs {
     display: flex;
-    flex-flow: row nowrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
 
     label {
       margin: 0;
@@ -109,19 +112,19 @@
     .tab {
       flex: none;
       display: flex;
-      flex-flow: row;
+      flex-direction: row;
       flex-grow: 1;
       text-align: center;
       padding: 0.5rem;
       background-color: transparent;
-      color: var(--icon-tab-color);
+      color: var(--link-color);
       height: 60px;
       border: 1px solid var(--background-color);
-      border-bottom: 1px solid var(--heading-color);
+      border-bottom: 1px solid var(--text-color);
     }
 
     .tab:hover {
-      color: var(--icon-tab-hover-color);
+      color: var(--link-hover-color);
     }
   }
 
@@ -130,8 +133,8 @@
   #tab3:checked ~ .tabs #icon3,
   {
     cursor: default;
-    color: var(--heading-color);
-    border: 1px solid var(--heading-color);
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
     border-bottom: 1px solid var(--background-color);
 
     .tab-text {

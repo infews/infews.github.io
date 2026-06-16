@@ -1,12 +1,31 @@
-// About Me
+// About page styles
 
-.about {
-  .social-links {
-    ul {
-      list-style-type: none;
-      display: flex;
-      justify-content: space-evenly;
-      padding-inline-start: 0;
+.social-links {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+  }
+
+  a.social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: var(--font-heading);
+    font-size: var(--type-nav-link);
+    text-decoration: none;
+    color: var(--color-text-secondary);
+    letter-spacing: 0.02em;
+
+    &:hover {
+      color: var(--link-color);
+    }
+
+    i {
+      font-size: 1rem;
     }
   }
 }
