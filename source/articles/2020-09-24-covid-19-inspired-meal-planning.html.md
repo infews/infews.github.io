@@ -11,12 +11,11 @@ teaser: "How I experimented to make weekly meal planning work well for our famil
 ---
 
 [tweets]: https://twitter.com/dwfrank/status/1297643495897706496  
-[gt]: https://tables.area120.google.com/u/0/home
+[gt]: https://en.wikipedia.org/wiki/Tables_(Google)
 [airtable]: https://www.airtable.com
 
 _Originally published as a [tweetstorm][tweets], I expanded this one a little to make it more blog-worthy.
-<br/><br/>&mdash;dwf_
-
+<br/>&mdash;dwf_
 ---
 
 We cook a lot at our house. We see cooking as a life skill and family activity. Being at home full time means we have a little bit more time to cook things well. Excellent!
@@ -108,5 +107,6 @@ Oops. COVID-19 claimed a business. We added a “Closed/Avoid” selection field
 
 Planning is now a simple pass over the Choice Views, looking at what we like but have not done recently. Pick 4-5, iterate. Option anxiety reduced. It's also easy to answer, "DIDN'T WE JUST HAVE THAT?" 
 
-What did I learn? A spreadsheet is a great place to start with any new app that is data-related. There's a threshold you cross where project's complexity begs for multiple tabs, conditional logic, and *gasp* queries. When you see that threshold, taking a look at [Airtable][airtable], or maybe the newly announced [Google Tables][gt], is a good investment.
+What did I learn? A spreadsheet is a great place to start with any new app that is data-related. There's a threshold you cross where project's complexity begs for multiple tabs, conditional logic, and *gasp* queries. When you see that threshold, taking a look at [Airtable][airtable], or maybe the newly announced Google Tables[^1], is a good investment.
 
+[^1]: Edited 2026.06.23, [Google Tables][gt], an experimental competitor to Airtable, was shut down at the end of 2025.
