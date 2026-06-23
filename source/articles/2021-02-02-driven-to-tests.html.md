@@ -15,7 +15,7 @@ teaser: "TDD all the things!"
 ---
 
 [jasmine_tutorial]: https://jasmine.github.io/tutorials/your_first_suite
-[gphill]: https://twitter.com/geepawhill
+[gphill]: https://mastodon.social/@GeePawHill
 [steering_premise]: https://threadreaderapp.com/thread/1335623514959777795.html
 [kent_tddbe]: https://amzn.to/3sYihAu
 [tdd_docs]: https://github.com/testdouble/contributing-tests/wiki

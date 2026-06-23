@@ -11,7 +11,7 @@ Repair every external link failure found by `bundle exec rake html_proof` as of 
 ## Checklist
 
 - [x] `source/articles/2020-09-24-covid-19-inspired-meal-planning.html.md` — `https://tables.area120.google.com/u/0/home` (Google Tables shut down, 404)
-- [ ] `source/articles/2021-02-02-driven-to-tests.html.md` — `https://twitter.com/geepawhill` (404)
+- [x] `source/articles/2021-02-02-driven-to-tests.html.md` — `https://twitter.com/geepawhill` (404)
 - [ ] `source/articles/2020-09-15-foo-fighters-1995.html.md` — `https://twitter.com/dwfrank/status/1305724884052443136` (dead tweet, 404)
 - [ ] `source/articles/2017-05-18-goodbye-chris-cornell.html.md` — `https://twitter.com/dwfrank/status/865661929800335360` (dead tweet, 404)
 - [ ] `source/articles/2017-04-26-goodbye-jonathan-demme.html.md` — `https://twitter.com/dwfrank/status/857378526428667904` (dead tweet, 404)
