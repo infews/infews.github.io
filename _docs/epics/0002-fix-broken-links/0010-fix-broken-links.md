@@ -20,5 +20,5 @@ Repair every external link failure found by `bundle exec rake html_proof` as of 
 - [x] `source/ip/index.html.haml` — `https://github.com/infews/derby` (deleted repo, 404)
 - [x] `source/articles/2024-05-03-iterators-1-3.html.md` — `https://railsconf.com` (timeout, status 0)
 - [x] `source/articles/2020-11-30-start-with-retrospectives.html.md` — `https://www.pagerduty.com/blog/4-step-agile-sailboat-retrospective/` (404)
-- [ ] `source/articles/2024-03-06-why-do-we-miss-pivotal-tracker.html.md` — `https://pivotaltracker.com` (shut down, status 0)
-- [ ] `source/articles/2024-03-06-why-do-we-miss-pivotal-tracker.html.md` — `https://www.pivotaltracker.com/marketing_assets/blog/2018/Customize_Your_Tracker_experience_1-36f1155592bc77922661a6671f47e43b0ef6a910518c8b1183c678ebd95b99c2.png` (shut down, status 0)
+- [x] `source/articles/2024-03-06-why-do-we-miss-pivotal-tracker.html.md` — `https://pivotaltracker.com` (shut down, status 0)
+- [x] `source/articles/2024-03-06-why-do-we-miss-pivotal-tracker.html.md` — `https://www.pivotaltracker.com/marketing_assets/blog/2018/Customize_Your_Tracker_experience_1-36f1155592bc77922661a6671f47e43b0ef6a910518c8b1183c678ebd95b99c2.png` (shut down, status 0)

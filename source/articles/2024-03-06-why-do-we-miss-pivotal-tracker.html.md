@@ -17,7 +17,7 @@ keywords:
     - backlog
 teaser: These two key features made your project run more smoothly thanks to Pivotal Tracker.
 unsplash:
-  url: https://www.pivotaltracker.com/marketing_assets/blog/2018/Customize_Your_Tracker_experience_1-36f1155592bc77922661a6671f47e43b0ef6a910518c8b1183c678ebd95b99c2.png
+  url: /images/trackerui.png
   title: Example Pivotal Tracker UI
 ---
 
@@ -30,13 +30,13 @@ unsplash:
 [st]: https://talk.storytime.solutions/
 
 _UPDATE:_ Some folks have started [StoryTime][st], a forum to talk about the transition away from Pivotal Tracker. It's free to join.
-
+_UPDATE UPDATE:_ Pivotal Tracker is gone. Pour out a few story points for stories long gone.
 ---
 Among my favorite stories about the "early" days of Pivotal Tracker was the argument of whether or not Bugs and Chores should have (story) points. Tracker originally said no.
 
 [Parker Thompson][pt] had a different take. At the time, his client thought in terms of capacity planning - not velocity volatility - and so he wanted points, dammit. After weeks of this being a persistent breakfast and lunch topic, he escalated to Rob Mee. Which led to a semi-intense argument.
 
-[Pivotal Tracker][tracker] is about to go away for all but Broadcom Enterprise customers. Many of us who love Tracker are still using it for personal projects. A few companies are still using it for shipping products - how awesome is that? So now we pivots are being reflective about Tracker.
+Pivotal Tracker ~is about to go away for all but Broadcom Enterprise customers~ has gone away for all customers. Many of us who love Tracker ~are~ were still using it for personal projects. A few companies ~are~ were still using it for shipping products - how awesome is that? So now we pivots are being reflective about Tracker.
 
 So why do _I_ miss Pivotal Tracker so much? I boiled it down to two-ish things.
 
