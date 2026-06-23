@@ -40,17 +40,17 @@ nonForks:
   isArchived: false
   parentUrl:
   isPrivate: false
-- name: meals
+- name: meals [PRIVATE REPO]
   description: A meal tracking app for recipes and restaurants
-  url: https://github.com/infews/meals
+  url:
   pushedAt: '2024-09-05T19:53:06Z'
   isFork: false
   isArchived: false
   parentUrl:
   isPrivate: true
-- name: derby
+- name: derby [PRIVATE REPO]
   description: Balboa Derby Betting Window
-  url: https://github.com/infews/derby
+  url:
   pushedAt: '2024-04-29T23:05:35Z'
   isFork: false
   isArchived: false
@@ -80,9 +80,9 @@ nonForks:
   isArchived: false
   parentUrl:
   isPrivate: false
-- name: rpi_explained
+- name: rpi_explained [PRIVATE REPO]
   description: Interviewer instructions
-  url: https://github.com/infews/rpi_explained
+  url:
   pushedAt: '2022-02-23T01:06:11Z'
   isFork: false
   isArchived: false
