@@ -1,0 +1,19 @@
+GitHub repositories that are prior inventions and IP:
+ advent_of_code, https://github.com/infews/advent_of_code
+ infews.github.io, https://github.com/infews/infews.github.io
+ workstation_repave, https://github.com/infews/workstation_repave
+ parkive, https://github.com/infews/parkive
+ synology_rails_deploy_tasks, https://github.com/infews/synology_rails_deploy_tasks
+ meals, https://github.com/infews/meals
+ derby, https://github.com/infews/derby
+ synology_on_rails, https://github.com/infews/synology_on_rails
+ infews, https://github.com/infews/infews
+ spam_filters, https://github.com/infews/spam_filters
+ rpi_explained, https://github.com/infews/rpi_explained
+ dukedomrb, https://github.com/infews/dukedomrb
+ job_search_in_obsidian, https://github.com/infews/job_search_in_obsidian
+ keydown, https://github.com/infews/keydown
+ bowling_kata_ruby, https://github.com/infews/bowling_kata_ruby
+ anchorman, https://github.com/infews/anchorman
+ yo_dawg, https://github.com/infews/yo_dawg
+ alumni-codex.github.io, https://github.com/infews/alumni-codex.github.io

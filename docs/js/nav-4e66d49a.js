@@ -1,0 +1,1 @@
+document.addEventListener("click",function(e){var t=document.getElementById("nav-toggle");t&&t.checked&&(e.target.closest(".site-header")||(t.checked=!1))});
