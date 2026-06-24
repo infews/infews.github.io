@@ -11,11 +11,10 @@ keywords:
 teaser: "Remembering how Jonathan Demme made me a Talking Heads fan."
 ---
 
-[tweets]: https://twitter.com/dwfrank/status/857378526428667904
 [sms]: https://en.wikipedia.org/wiki/Stop_Making_Sense
 [robyn]: https://en.wikipedia.org/wiki/Storefront_Hitchcock
 
-_Originally written as a [tweetstorm][tweets] on the death of Jonathan Demme. I've expanded a bit more here.
+_Originally written as a tweetstorm on the death of Jonathan Demme. I've expanded a bit more here.
 <br/><br/>&mdash;dwf_
 
 ---

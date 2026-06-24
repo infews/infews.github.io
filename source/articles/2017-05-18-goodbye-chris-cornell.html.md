@@ -11,12 +11,11 @@ keywords:
 teaser: "Remembering my Soundgarden encounter."
 ---
 
-[tweets]: https://twitter.com/dwfrank/status/865661929800335360
 [maria]: https://www.youtube.com/watch?v=W_T5aLjJ048
 [bad]: https://www.youtube.com/watch?v=dApSggATER4
 [spoon]: https://www.youtube.com/watch?v=FbNIR6dkgNY&list=PLnif9Rfb5AdnVpmUboC3SEZFbcGu80Ea8
 
-_Originally written as a [tweetstorm][tweets] after Chris Cornell's suicide. I've expanded a bit more here.
+_Originally written as a tweetstorm after Chris Cornell's suicide. I've expanded a bit more here.
 <br/>&mdash;dwf_
 
 ---
