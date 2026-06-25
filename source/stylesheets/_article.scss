@@ -3,10 +3,6 @@
   margin-bottom: 1.5rem;
 
   h1 {
-    font-family: var(--font-heading);
-    font-size: var(--type-h1);
-    font-weight: 700;
-    line-height: var(--leading-tight);
     margin: 0.25rem 0 0.5rem;
   }
 
@@ -19,7 +15,6 @@
   }
 
   .subtitle {
-    font-family: var(--font-body);
     font-size: var(--type-subtitle);
     font-style: italic;
     color: var(--color-text-secondary);
@@ -64,26 +59,16 @@
 // @spec ART-UI-001 ART-UI-002 ART-UI-003 RFCT-HV-002 RFCT-HV-003 RFCT-HV-004
 
 article {
-  font-family: var(--font-body);
-  font-size: var(--type-body);
-  line-height: var(--leading-body);
-
   p {
     margin-bottom: 1.2em;
   }
 
   h2 {
-    font-size: var(--type-h2);
     border-bottom: 0.5px solid var(--border-color);
     padding-bottom: 0.25rem;
     margin-bottom: 1rem;
   }
 
-  h3 {
-    font-size: var(--type-h3);
-    font-weight: 700;
-    letter-spacing: 0.02em;
-  }
 }
 
 // @spec PQUOTE-UI-002
@@ -132,7 +117,7 @@ blockquote.pullquote {
 
   .nav-label {
     font-family: var(--font-heading);
-    font-size: var(--type-byline);
+    font-size: var(--type-post-nav);
     letter-spacing: 0.06em;
     color: var(--color-text-tertiary);
   }

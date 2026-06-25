@@ -35,4 +35,4 @@ None.
 
 ## Resulting Stories
 
-- [ ] [0010 — Fix all broken external links](0002-fix-broken-links/0010-fix-broken-links.md)
+- [x] [0010 — Fix all broken external links](0002-fix-broken-links/0010-fix-broken-links.md)

@@ -5,15 +5,10 @@ html {
 }
 
 body {
-  font-family: var(--font-body);
   color: var(--text-color);
   background: var(--background-color);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-heading);
 }
 
 img.avatar {

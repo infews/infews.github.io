@@ -26,14 +26,11 @@
 
   .profile-text {
     h1 {
-      font-family: var(--font-heading);
-      font-size: var(--type-h2);
+      //font-size: var(--type-h2);
       margin: 0 0 0.5rem;
     }
 
     p {
-      font-family: var(--font-body);
-      font-size: var(--type-body);
       color: var(--color-text-secondary);
       margin: 0;
     }
@@ -53,7 +50,7 @@
     }
 
     h3 {
-      font-size: var(--type-body);
+      font-size: 1.25rem;
       margin: 0 0 0.25rem;
     }
 
@@ -63,14 +60,11 @@
       text-decoration: none;
       color: var(--color-text-secondary);
 
-      &:hover {
-        color: var(--link-color);
-      }
+      &:visited { color: var(--link-visited-color); }
+      &:hover   { color: var(--link-color); }
     }
 
     .series-teaser {
-      font-family: var(--font-body);
-      font-size: var(--type-body);
       font-style: italic;
       color: var(--color-text-secondary);
       margin: 0;
@@ -106,7 +100,7 @@
       }
 
       h3 {
-        font-size: var(--type-body);
+        font-size: 1.25rem;
         margin: 0 0 0.25rem;
       }
 
@@ -115,14 +109,11 @@
         text-decoration: none;
         color: var(--text-color);
 
-        &:hover {
-          color: var(--link-color);
-        }
+        &:visited { color: var(--link-visited-color); }
+        &:hover   { color: var(--link-color); }
       }
 
       .teaser {
-        font-family: var(--font-body);
-        font-size: var(--type-body);
         font-style: italic;
         color: var(--color-text-secondary);
         margin: 0 0 0.25rem;
@@ -130,7 +121,6 @@
 
       .date {
         font-family: var(--font-heading);
-        font-size: var(--type-byline);
         color: var(--color-text-tertiary);
         letter-spacing: 0.02em;
         margin: 0;
@@ -141,7 +131,6 @@
   .more {
     margin-top: 1rem;
     font-family: var(--font-heading);
-    font-size: var(--type-byline);
     letter-spacing: 0.02em;
 
     a {

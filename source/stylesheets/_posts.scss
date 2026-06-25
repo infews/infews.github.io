@@ -11,7 +11,8 @@ ul.articles {
   }
 
   li {
-    padding: 0.5rem 0;
+    margin: 0;
+    padding: 0.5rem 0 0 0;
   }
 
   h3 {
@@ -25,14 +26,11 @@ ul.articles {
     text-decoration: none;
     color: var(--text-color);
 
-    &:hover {
-      color: var(--link-hover-color);
-    }
+    &:visited { color: var(--link-visited-color); }
+    &:hover   { color: var(--link-color); }
   }
 
   p.teaser {
-    font-family: var(--font-body);
-    font-size: var(--type-body);
     font-style: italic;
     color: var(--color-text-secondary);
     margin: 0.25rem 0;

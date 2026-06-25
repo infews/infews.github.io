@@ -26,23 +26,24 @@
   --font-mono:    'IBM Plex Mono', monospace;
 
   // Type scale
-  --type-nav-brand:      1.125rem;   // 18px
-  --type-nav-link:       0.9375rem;  // 15px
-  --type-nav-tagline:    0.875rem;   // 14px
-  --type-h1:             1.75rem;    // 28px
-  --type-h2:             1.5rem;     // 24px
-  --type-h3:             1.25rem;    // 20px
-  --type-body:           0.9375rem;  // 15px
-  --type-subtitle:       1rem;       // 16px
+  --type-nav-brand:      1.125rem;
+  --type-nav-link:       0.9375rem;
+  --type-nav-tagline:    0.875rem;
+  --type-h1:             2rem;
+  --type-h2:             1.75rem;
+  --type-h3:             1.50rem;
+  --type-body:           1rem;
+  --type-subtitle:       1rem;
   // These four share the same value intentionally — each names a distinct semantic role
   // so they can diverge independently in the future without hunting for magic numbers.
-  --type-byline:         0.6875rem;  // 11px
-  --type-series-label:   0.6875rem;  // 11px
-  --type-tag:            0.6875rem;  // 11px
-  --type-footer-link:    0.6875rem;  // 11px
-  --type-footnote-text:  0.75rem;    // 12px
-  --type-footnote-num:   0.625rem;   // 10px
-  --type-post-nav:       0.8125rem;  // 13px
+  --type-byline:         0.75rem;
+  --type-series-label:   0.75rem;
+  --type-tag:            0.75rem;
+  --type-footer-link:    1rem;
+
+  --type-footnote-text:  0.8125rem;
+  --type-footnote-num:   0.8125rem;
+  --type-post-nav:       0.8125rem;
 
   // Line heights
   --leading-tight:  1.2;

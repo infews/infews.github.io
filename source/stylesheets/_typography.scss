@@ -1,0 +1,58 @@
+// Single source of truth for font families, sizes, weights, and line-heights.
+// Edit here to iterate on type across the site.
+// Component files override only where context requires a deviation.
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--type-body);
+  line-height: var(--leading-body);
+}
+
+// article explicit to beat HolidayCSS's article{} rules
+article {
+  font-family: var(--font-body);
+  font-size: var(--type-body);
+  line-height: var(--leading-body);
+}
+
+h1 {
+  font-size: var(--type-h1);
+  font-weight: 700;
+  line-height: var(--leading-tight);
+}
+
+h2 {
+  font-size: var(--type-h2);
+  line-height: var(--leading-tight);
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: var(--type-h3);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: var(--leading-tight);
+}
+
+h4, h5, h6 {
+  line-height: var(--leading-tight);
+}
+
+code, pre {
+  font-family: var(--font-mono);
+}
+
+// Desktop overrides — same values as mobile baseline for now.
+// Edit these to iterate on sizing across breakpoints.
+@media (min-width: 30rem) {
+  body    { font-size: var(--type-body); }
+  article { font-size: var(--type-body); }
+  h1      { font-size: var(--type-h1); }
+  h2      { font-size: var(--type-h2); }
+  h3      { font-size: var(--type-h3); }
+}
