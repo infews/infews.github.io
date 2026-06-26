@@ -10,6 +10,7 @@
   font-family: var(--font-heading);
   font-size: var(--type-footer-link);
   color: var(--color-text-tertiary);
+  letter-spacing: 0.02em;
   text-align: center;
 
   @media (min-width: 30rem) {
@@ -30,17 +31,12 @@
     gap: 1rem;
 
     a {
-      color: var(--color-text-tertiary);
       text-decoration: none;
-      letter-spacing: 0.02em;
 
       &:hover {
-        color: var(--link-hover-color);
+        color: var(--link-color);
       }
     }
   }
 
-  .footer-copy {
-    letter-spacing: 0.02em;
-  }
 }

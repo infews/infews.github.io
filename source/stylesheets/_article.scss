@@ -104,13 +104,17 @@ blockquote.pullquote {
   padding-top: 1rem;
   border-top: 0.5px solid var(--border-color);
 
-  .prev, .next {
+  a.prev, a.next {
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
+    text-decoration: none;
+
+    &:hover .nav-label,
+    &:hover .nav-title { color: var(--link-color); }
   }
 
-  .next {
+  a.next {
     text-align: right;
   }
 
@@ -121,16 +125,10 @@ blockquote.pullquote {
     color: var(--color-text-tertiary);
   }
 
-  a {
-    font-family: var(--font-body);
+  .nav-title {
     font-size: var(--type-post-nav);
     font-style: italic;
     color: var(--color-text-secondary);
-    text-decoration: none;
-
-    &:hover {
-      color: var(--link-hover-color);
-    }
   }
 }
 

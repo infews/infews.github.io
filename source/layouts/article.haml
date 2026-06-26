@@ -39,10 +39,10 @@
     -# @spec ART-NAV-001 ART-NAV-002 ART-NAV-003 ART-NAV-004
     .article-nav
       - if current_article.article_previous
-        .prev
+        %a.prev{href: current_article.article_previous.url}
           %span.nav-label ← Previous
-          %a{href: current_article.article_previous.url}= current_article.article_previous.title
+          %span.nav-title= current_article.article_previous.title
       - if current_article.article_next
-        .next
+        %a.next{href: current_article.article_next.url}
           %span.nav-label Next →
-          %a{href: current_article.article_next.url}= current_article.article_next.title
+          %span.nav-title= current_article.article_next.title
