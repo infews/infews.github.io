@@ -87,7 +87,6 @@ blockquote.pullquote {
   padding: 0.1rem 0 0.1rem 1.1rem;
 
   p {
-    font-family: var(--font-body);
     font-size: var(--type-subtitle);
     font-style: italic;
     line-height: var(--leading-loose);
@@ -171,7 +170,6 @@ sup.footnote {
   }
 
   li {
-    font-family: var(--font-body);
     font-size: var(--type-footnote-text);
     color: var(--color-text-secondary);
     margin-bottom: 0.5rem;
