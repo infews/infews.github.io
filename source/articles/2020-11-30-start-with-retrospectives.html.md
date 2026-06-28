@@ -3,12 +3,6 @@ title: Start with Retrospectives
 date: 2020-11-30 00:00 UTC
 tags:
   - agile
-keywords:
-  - retrospectives
-  - software development
-  - agile
-  - continuous delivery
-  - the cd test
 series: the-cd-test
 teaser: "Every team improvement journey starts with a retro."
 ---

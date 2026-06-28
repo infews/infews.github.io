@@ -9,7 +9,6 @@ tags:
     - xp
     - pair programming
     - pivotal
-keywords:
     - career
     - agile
     - xp

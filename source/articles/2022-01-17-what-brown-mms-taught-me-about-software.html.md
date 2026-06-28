@@ -5,10 +5,6 @@ tags:
   - "software development"
   - history
   - personal
-keywords:
-  - "software development"
-  - history
-  - personal
 teaser: "Not all software experience is programming."
 ---
 

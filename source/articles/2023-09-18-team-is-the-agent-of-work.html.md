@@ -4,13 +4,6 @@ date: 2023-09-18 22:11 UTC
 tags:
   - agile
   - software development
-keywords:
-  - software development
-  - agile
-  - Pivotal
-  - Release Engineering
-  - Balanced Team
-  - Empowered Team
 teaser: "That time that somebody wanted me fired."
 ---
 [bt]: https://tanzu.vmware.com/developer/learningpaths/application-development/balanced-teams/

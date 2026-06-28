@@ -5,10 +5,6 @@ tags:
   - agile
   - software development
   - continuous delivery
-keywords:
-  - agile
-  - software development
-  - continuous delivery
 series: the-cd-test
 
 ---

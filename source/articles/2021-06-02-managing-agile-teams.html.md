@@ -5,11 +5,6 @@ tags:
   - agile
   - software development
   - management
-keywords:
-  - agile
-  - software development
-  - management
-  - coaching
 teaser: Agile teams and "management" do not have to be mutually exclusive. Management is essential the long term success of agile teams.
 ---
 

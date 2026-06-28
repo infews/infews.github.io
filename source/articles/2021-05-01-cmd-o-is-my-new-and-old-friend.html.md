@@ -4,12 +4,6 @@ date: 2021-05-01 00:00 UTC
 tags:
   - obsidian
   - productivity
-keywords:
-  - obsidian
-  - notes
-  - lifehack
-  - productivity
-  - shorcuts
 series: obsidian
 teaser: "One keystroke for Obsidian search-or-create. This. Is. Awesome."    
 ---

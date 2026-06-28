@@ -12,9 +12,9 @@ No `keywords:` key appears in any `source/articles/*.md` file.
 
 ## Checklist
 
-- [ ] Remove `keywords:` block from all `source/articles/*.md` files (~60 files)
-- [ ] Verify with `grep -r "keywords:" source/articles/` returning no output
-- [ ] Run `bundle exec rake spec` — passes
+- [x] Remove `keywords:` block from all `source/articles/*.md` files (~60 files)
+- [x] Verify with `grep -r "keywords:" source/articles/` returning no output
+- [x] Run `bundle exec rake spec` — passes
 
 ## Notes
 

@@ -7,16 +7,6 @@ tags:
   - rails
   - software engineering
   - deployment
-keywords:
-  - web development
-  - ruby
-  - rails
-  - software engineering
-  - deployment
-  - docker
-  - containers
-  - synology
-  - nas
 series: rails-docker-nas
 teaser: Manual deploy steps are maddening. Let's fix it.
 ---

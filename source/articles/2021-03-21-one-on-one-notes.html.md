@@ -4,11 +4,6 @@ date: 2021-03-21 16:14 UTC
 tags:
   - obsidian
   - productivity
-keywords:
-  - obsidian
-  - notes
-  - lifehack
-  - productivity
 series: obsidian
 teaser: "1-1s are a special type of note."
 ---

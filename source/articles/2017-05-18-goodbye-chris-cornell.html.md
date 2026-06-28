@@ -4,10 +4,7 @@ date: 2017-05-18 00:00 UTC
 tags:
   - personal
   - rock
-keywords:
-  - personal
-  - rock
-  - Soundgarden  
+  - Soundgarden
 teaser: "Remembering my Soundgarden encounter."
 ---
 

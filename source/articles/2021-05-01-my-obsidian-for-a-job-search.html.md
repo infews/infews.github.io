@@ -5,12 +5,6 @@ tags:
   - obsidian
   - productivity
   - "job search"
-keywords:
-  - obsidian
-  - notes
-  - lifehack
-  - productivity
-  - "job search"
 series: obsidian
 teaser: "How to use an Obsidian vault that tracks all of the research, interview notes, and status during a job search."    
 ---

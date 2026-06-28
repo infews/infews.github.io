@@ -6,14 +6,6 @@ tags:
   - web development
   - blog
   - software
-keywords:
-  - ruby
-  - Middleman
-  - HAML
-  - Markdown
-  - blog
-  - CSS
-  - syntax highlighting
 teaser: I did a couple more small things.
 ---
 

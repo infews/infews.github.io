@@ -4,10 +4,6 @@ date: 2023-07-12 21:51 UTC
 tags: 
   - personal
   - history
-keywords:
-  - "anchor steam"
-  - beer
-  - "san francisco"
 teaser: Saying goodbye to Anchor Brewing
 ---
 

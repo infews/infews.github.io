@@ -4,10 +4,8 @@ date: 2017-04-26 00:00 UTC
 tags:
   - personal
   - rock
-keywords:
-  - rock
   - Jonathan Demme
-  - Stop Making Sense   
+  - Stop Making Sense
 teaser: "Remembering how Jonathan Demme made me a Talking Heads fan."
 ---
 

@@ -5,10 +5,6 @@ tags:
   - history
   - career
   - personal
-keywords:
-  - career
-  - personal
-  - history
 teaser: "How to make a proto-Fortune-500 CEO the butt of a joke."
 ---
 

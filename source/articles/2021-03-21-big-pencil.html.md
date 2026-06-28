@@ -4,8 +4,6 @@ date: 2021-03-21 18:22 UTC
 tags: 
   - personal
   - history
-keywords:
-  - history   
 teaser: "Whenever someone asks me about the bigpencil.net domain, I get to tell this story."
 ---
 

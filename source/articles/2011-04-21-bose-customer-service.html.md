@@ -3,9 +3,6 @@ title: Bose Customer Service
 date: 2011-04-21 00:00 UTC
 tags:
   - personal
-keywords:
-  - personal
-  - customer service
 teaser: "SPOILER ALERT: Sometimes big companies don't suck."
 ---
 

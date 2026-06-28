@@ -3,11 +3,8 @@ title: Improving Standups
 date: 2020-09-22 00:00 UTC
 tags:
   - agile
-keywords:
-  - agile
-  - xp
-  - standups
-  - trello   
+  - XP
+  - Standups
 teaser: "One simple technique to tame your suddenly unwiedly daily standup meeting."
 ---
 

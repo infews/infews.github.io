@@ -6,11 +6,6 @@ tags:
   - release engineering
   - presentation
   - youtube
-keywords:
-  - software development
-  - release engineering
-  - presentation
-  - youtube
 teaser: "Using beer brewing to talk about Release Engineering and software complexity."
 ---
 

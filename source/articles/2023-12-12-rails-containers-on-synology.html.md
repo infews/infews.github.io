@@ -7,16 +7,6 @@ tags:
   - rails
   - software engineering
   - deployment
-keywords:
-  - web development
-  - ruby
-  - rails
-  - software engineering
-  - deployment
-  - docker
-  - containers
-  - synology
-  - nas
 series: rails-docker-nas
 teaser: "How I finally learned containers and got my Rails Meal Planning app up on running on my Synology NAS."
 ---

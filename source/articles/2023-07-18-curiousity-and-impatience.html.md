@@ -4,14 +4,6 @@ date: 2023-07-18 00:00 UTC
 tags:
   - agile
   - software development
-keywords:
-  - software development
-  - agile
-  - continuous delivery
-  - the cd test
-  - curiosity
-  - impatience
-  - Pivotal
 series: the-cd-test
 teaser: "Two under-valued behaviors that accelerate a team."
 ---

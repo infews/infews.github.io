@@ -7,16 +7,6 @@ tags:
   - rails
   - software engineering
   - deployment
-keywords:
-  - web development
-  - ruby
-  - rails
-  - software engineering
-  - deployment
-  - docker
-  - containers
-  - synology
-  - nas
 series: rails-docker-nas
 teaser: "Thanks to Luke Winikates, the rest of the deploy is now automated."
 ---

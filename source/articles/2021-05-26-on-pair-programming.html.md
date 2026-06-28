@@ -6,10 +6,6 @@ tags:
   - agile
   - xp
   - pair programming    
-keywords:
-  - pair programming
-  - agile
-  - software development
 teaser: "In which I talk about my experience and ideas on how to build a sustainable pairing environment for your team."
 ---
 

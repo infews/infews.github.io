@@ -7,12 +7,6 @@ tags:
   - management
   - productivity
   - 1-1's
-keywords:
-  - obsidian
-  - notion
-  - management
-  - productivity
-  - 1-1's
 teaser: "In which I adapt some of my note taking to Notion."
 ---
 [obs]: https://obsidian.md

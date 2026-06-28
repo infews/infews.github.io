@@ -8,7 +8,6 @@ tags:
     - pivotal tracker
     - project management
     - backlog
-keywords:
     - agile
     - xp
     - pivotal

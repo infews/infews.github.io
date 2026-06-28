@@ -7,7 +7,6 @@ tags:
     - xp
     - history
     - youtube
-keywords:
     - ruby
     - talk
     - conference

@@ -7,7 +7,6 @@ tags:
 - rails
 - software engineering
 - deployment
-keywords:
 - web development
 - ruby
 - rails

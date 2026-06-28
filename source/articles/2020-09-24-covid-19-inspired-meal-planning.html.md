@@ -3,10 +3,6 @@ title: COVID-19-Inspired Meal Planning
 date: 2020-09-24 00:00 UTC
 tags:
   - personal
-keywords:
-  - personal
-  - AirTable
-  - Meal Planning  
 teaser: "How I experimented to make weekly meal planning work well for our family."
 ---
 

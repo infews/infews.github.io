@@ -7,16 +7,6 @@ tags:
   - rails
   - software engineering
   - deployment
-keywords:
-  - web development
-  - ruby
-  - rails
-  - software engineering
-  - deployment
-  - docker
-  - containers
-  - synology
-  - nas
 series: rails-docker-nas
 teaser: "Adding UI to the Docker Registry now running on the Synology."
 ---

@@ -4,9 +4,6 @@ date: 2020-09-06 00:00 UTC
 tags:
   - personal
   - private
-keywords:
-  - Mark Williams
-  - eulogy  
 teaser: "Funeral for a friend."
 ---
 

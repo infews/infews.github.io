@@ -5,12 +5,6 @@ tags:
   - obsidian
   - productivity
   - "job search"
-keywords:
-  - obsidian
-  - notes
-  - lifehack
-  - productivity
-  - "job search"
 series: obsidian
 teaser: "A small update to my Obsidian Notebook and templates for tracking a job search"
 ---

@@ -4,9 +4,6 @@ date: 2016-10-06 00:00 UTC
 tags:
   - career
   - personal
-keywords: 
-  - career
-  - personal
   - goodbye email
 teaser: "How to write a goodbye email that people remember for years."  
 ---

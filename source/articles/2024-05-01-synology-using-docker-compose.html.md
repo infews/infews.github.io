@@ -7,16 +7,6 @@ tags:
   - rails
   - software engineering
   - deployment
-keywords:
-  - web development
-  - ruby
-  - rails
-  - software engineering
-  - deployment
-  - docker
-  - containers
-  - synology
-  - nas
 series: rails-docker-nas
 teaser: "Moving an app to Synology Container Manager Projects, which uses Docker Compose, is a huge improvement."
 ---

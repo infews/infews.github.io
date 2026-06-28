@@ -3,9 +3,7 @@ title: Drake Your Job
 date: 2018-08-03 00:00 UTC
 tags:
   - career
-keywords:
-  - career
-  - Drake's Equations  
+  - Drake's Equations
 teaser: "In which I use math to evaluate if I should switch jobs and which job I should accept."
 ---
 

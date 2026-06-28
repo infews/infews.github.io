@@ -6,13 +6,6 @@ tags:
   - web development
   - blog
   - software
-keywords:
-  - ruby
-  - Middleman
-  - HAML
-  - Markdown
-  - blog
-  - CSS
 teaser: All the details about the update and clean up this blog's code.
 ---
 [mm]: https://middlemanapp.com

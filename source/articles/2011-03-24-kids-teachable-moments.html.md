@@ -4,8 +4,6 @@ date: 2011-03-24 00:00 UTC
 tags:
   - personal
   - parenting
-keywords:
-  - parenting
 teaser: "In which my son learns about lost luggage."
 ---
 

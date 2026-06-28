@@ -4,11 +4,6 @@ date: 2021-03-21 16:13 UTC
 tags:
   - obsidian
   - productivity
-keywords:
-  - obsidian
-  - notes
-  - lifehack
-  - productivity
 series: obsidian
 teaser: "Tag it for easier search."
 ---
