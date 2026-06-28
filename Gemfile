@@ -17,7 +17,7 @@ gem "mutex_m" # added b/c of Ruby 3.4
 gem "middleman-livereload", "~> 3.4"
 gem "middleman-minify-html", "~> 3.4", ">= 3.4.1"
 
-gem "haml"
+gem "haml", "~> 5.2"
 gem "nokogiri"
 
 # For feed.xml.builder/sitemap.xml.builder
@@ -28,7 +28,7 @@ gem "kramdown-parser-gfm"
 gem "rouge"
 
 # For finding unsplash photos
-gem "unsplash"
+gem "unsplash", github: "SebouChu/unsplash_rb", branch: "ruby-4-compatibility"
 
 # For checking URLs in rendered HTML before publishing
 gem "html-proofer", "~> 5.0"
