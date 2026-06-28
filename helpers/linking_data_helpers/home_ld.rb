@@ -3,6 +3,7 @@ module LinkingDataHelpers
 
   class HomeLd
     include LinkingData
+
     def initialize
       @linking_data = {
         "@type": "Blog",

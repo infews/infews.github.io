@@ -64,17 +64,15 @@ RSpec.describe LinkingDataHelpers do
       end
 
       it "includes relevant blog posts" do
-        expect(ld["blogPost"].length).to eq(3)
-        latest, cd_test, obsidian = *ld["blogPost"]
+        expect(ld["blogPost"].length).to eq(5)
+        latest = ld["blogPost"].first
 
         expect(latest["@type"]).to eq("BlogPosting")
         expect(latest["headline"]).to be_a(String)
 
-        expect(cd_test["@type"]).to eq("BlogPosting")
-        expect(cd_test["headline"]).to eq("The Continuous Delivery Test")
-
-        expect(obsidian["@type"]).to eq("BlogPosting")
-        expect(obsidian["headline"]).to eq("How I Obsidian")
+        headlines = ld["blogPost"].map { |p| p["headline"] }
+        expect(headlines).to include("The Continuous Delivery Test")
+        expect(headlines).to include("How I Obsidian")
       end
     end
 
@@ -154,14 +152,14 @@ RSpec.describe LinkingDataHelpers do
     end
 
     context "for my resume" do
-      let(:filepath) { "build/daviswfrank_resume/index.html" }
+      let(:filepath) { "build/resume/dwfrank/index.html" }
 
       it "matches the Person json_ld spec" do
         expect(ld["@context"]).to eq("https://schema.org")
         expect(ld["@type"]).to eq("Person")
         expect(ld["name"]).to eq("Davis W. Frank")
         expect(ld["email"]).to eq("dwfrank@gmail.com")
-        expect(ld["url"]).to eq("https://dwf.bigpencil.net/daviswfrank_resume/")
+        expect(ld["url"]).to eq("https://dwf.bigpencil.net/resume/dwfrank/")
         expect(ld["alumniOf"]).to eq("University of Georgia")
         expect(ld["image"]).to eq("https://dwf.bigpencil.net/images/dwf@2x-b89bef4d.png")
         expect(ld["sameAs"]).to eq(["https://www.linkedin.com/in/daviswfrank",

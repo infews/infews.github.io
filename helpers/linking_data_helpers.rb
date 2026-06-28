@@ -33,7 +33,7 @@ module LinkingDataHelpers
         series_page_ld_for(current_page, articles, site_data)
       elsif current_page.url == "/"
         home_page_ld(current_page, blog, sitemap, site_data)
-      elsif current_page.url =~ /resume\/$/ || current_page.url =~ /about_me\/$/
+      elsif current_page.url.start_with?("/resume") || current_page.url =~ /about_me\/$/
         personal_ld_for(current_page)
         # elsif current_page.url == "/all_tags/"
       end
