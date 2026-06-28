@@ -41,5 +41,5 @@ None.
 
 ## Resulting Stories
 
-- [ ] [0010 — Update ArticleLd to use tags](0003-unify-tags-keywords/0010-update-ld-helper.md)
+- [x] [0010 — Update ArticleLd to use tags](0003-unify-tags-keywords/0010-update-ld-helper.md)
 - [ ] [0020 — Remove keywords from all article front matter](0003-unify-tags-keywords/0020-remove-keywords-frontmatter.md)

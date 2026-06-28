@@ -24,12 +24,12 @@ Feature: ArticleLd keywords come from tags
 
 ## EARS Specifications
 
-- [ ] `LD-001`: When an article is rendered, the JSON-LD `keywords` field shall be populated from the article's `tags` front matter field.
+- [x] `LD-001`: When an article is rendered, the JSON-LD `keywords` field shall be populated from the article's `tags` front matter field.
 
 ## Implementation Plan
 
-1. [ ] Update `helpers/linking_data_helpers/article_ld.rb`: change `keywords: data.keywords` to `keywords: data.tags` in `article_data=`
-2. [ ] Run `bundle exec rake spec` — expect existing spec at `linking_data_helpers_spec.rb:102` to pass unchanged (the test article "Kids & Teachable Moments" has `tags: [parenting]` which matches the current expected value)
+1. [x] Update `helpers/linking_data_helpers/article_ld.rb`: change `keywords: data.keywords` to `keywords: data.tags` in `article_data=`
+2. [x] Run `bundle exec rake spec` — expect existing spec at `linking_data_helpers_spec.rb:102` to pass unchanged (the test article "Kids & Teachable Moments" has `tags: [parenting]` which matches the current expected value)
 
 ## Notes
 

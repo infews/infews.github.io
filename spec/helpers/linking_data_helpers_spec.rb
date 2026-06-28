@@ -99,7 +99,7 @@ RSpec.describe LinkingDataHelpers do
         expect(ld["headline"]).to eq("Kids & Teachable Moments")
         expect(ld["abstract"]).to eq("In which my son learns about lost luggage.")
         expect(ld["url"]).to eq("https://dwf.bigpencil.net/kids-teachable-moments/")
-        expect(ld["keywords"]).to eq(["parenting"])
+        expect(ld["keywords"]).to eq(["personal", "parenting"])
         expect(ld["articleBody"]).to match(/^Back to Work/)
         expect(ld["articleBody"]).not_to match(/<\/?[^>]*>/)
       end
