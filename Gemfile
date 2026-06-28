@@ -8,6 +8,10 @@ source "https://rubygems.org"
 # Windows does not come with time zone data
 # gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
+# HEAD of these has HAML 7 support
+gem "padrino-helpers", github: "padrino/padrino-framework", glob: "padrino-helpers/*.gemspec"
+gem "padrino-support", github: "padrino/padrino-framework", glob: "padrino-support/*.gemspec"
+
 # Middleman Gems
 gem "middleman"
 gem "middleman-blog"
@@ -17,7 +21,7 @@ gem "mutex_m" # added b/c of Ruby 3.4
 gem "middleman-livereload", "~> 3.4"
 gem "middleman-minify-html", "~> 3.4", ">= 3.4.1"
 
-gem "haml", "~> 5.2"
+gem "haml"
 gem "nokogiri"
 
 # For feed.xml.builder/sitemap.xml.builder
